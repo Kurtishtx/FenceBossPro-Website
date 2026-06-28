@@ -131,8 +131,8 @@ export default function VsHousecallPro() {
 
       <div className="hero">
         <div className="hero-badge">Housecall Pro Alternative</div>
-        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>FenceBossPro Is Built for Spray.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
-        <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. FenceBossPro is built specifically for lawn care and pest control — with the sq ft waiting list, chemical compliance logs, lasso route selector, and recurring treatment tracking that HCP doesn&apos;t have at any price.</p>
+        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>FenceBossPro Is Built for Fencing.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
+        <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. FenceBossPro is built specifically for fence contractors — with linear-foot takeoffs, a materials & parts catalog for posts, panels, pickets, rails and gates, crew dispatch & routing, and progress billing that HCP doesn&apos;t have at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
@@ -148,7 +148,7 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Housecall Pro Pricing Reality</span>
           <h2 className="section-title">HCP Charges More Per Tier. FenceBossPro Is $129 — Unlimited.</h2>
-          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. FenceBossPro doesn&apos;t have user tiers — your whole team is included at $129/month.</p>
+          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. FenceBossPro doesn&apos;t have user tiers — your whole crew is included at $129/month.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -168,7 +168,7 @@ export default function VsHousecallPro() {
                     <div className="hcp-tier-users">Up to 5 users</div>
                   </div>
                   <div className="hcp-tier-price">$149/mo</div>
-                  <div className="hcp-tier-note">Most spray teams need this tier. Same price as SBP — far fewer spray features.</div>
+                  <div className="hcp-tier-note">Most fence crews need this tier. Same price as SBP — far fewer fencing features.</div>
                 </div>
                 <div className="hcp-tier">
                   <div className="hcp-tier-header">
@@ -176,25 +176,25 @@ export default function VsHousecallPro() {
                     <div className="hcp-tier-users">Up to 8 users</div>
                   </div>
                   <div className="hcp-tier-price">$299/mo</div>
-                  <div className="hcp-tier-note">Still no sq ft waiting list, lasso, or chemical compliance logs.</div>
+                  <div className="hcp-tier-note">Still no linear-foot takeoffs, fence materials catalog, or progress billing.</div>
                 </div>
               </div>
               <div className="sbp-contrast">
                 <div className="sbp-contrast-label">FenceBossPro — $129/month</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users</span><span className="sbp-contrast-row-val">Unlimited — no caps</span></div>
-                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Sq Ft Waiting List</span><span className="sbp-contrast-row-val">✓ Included</span></div>
-                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Chemical Compliance Logs</span><span className="sbp-contrast-row-val">✓ Included</span></div>
+                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Linear-Foot Takeoffs</span><span className="sbp-contrast-row-val">✓ Included</span></div>
+                <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Fence Materials Catalog</span><span className="sbp-contrast-row-val">✓ Included</span></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Math</span>
               <h2>At the Same Price as HCP Essentials, FenceBossPro Has Features HCP Doesn&apos;t Have at Any Price.</h2>
-              <p>HCP Essentials is $149/month and covers up to 5 users. FenceBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have a sq ft waiting list, a lasso circle route selector, or dedicated chemical compliance logs. These aren&apos;t premium add-ons in FenceBossPro — they&apos;re in the base price.</p>
+              <p>HCP Essentials is $149/month and covers up to 5 users. FenceBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have linear-foot takeoffs, a fence materials & parts catalog, or deposits & progress billing. These aren&apos;t premium add-ons in FenceBossPro — they&apos;re in the base price.</p>
               <ul className="check-list">
-                <li>Sq ft waiting list by service type — doesn&apos;t exist in HCP</li>
-                <li>Lasso circle map selector — doesn&apos;t exist in HCP</li>
-                <li>Chemical compliance logs — doesn&apos;t exist in HCP</li>
-                <li>Recurring treatment waiting list — doesn&apos;t exist in HCP</li>
+                <li>Linear-foot takeoffs by fence type — doesn&apos;t exist in HCP</li>
+                <li>Materials & parts catalog for posts, panels & gates — doesn&apos;t exist in HCP</li>
+                <li>Deposits & progress billing — doesn&apos;t exist in HCP</li>
+                <li>Line-item estimates & bids for fence projects — doesn&apos;t exist in HCP</li>
                 <li>Unlimited users at $129 — HCP needs MAX ($299) for 8 users</li>
               </ul>
             </div>
@@ -203,14 +203,14 @@ export default function VsHousecallPro() {
       </section>
 
       <div className="premium-band">
-        <h2>Housecall Pro Was Designed for Cleaning Companies and Plumbers.<br /><span>Not for Spray Routes.</span></h2>
-        <p>Housecall Pro is a capable general home service platform. But when your business runs on recurring spray routes with square footage tracking, chemical application logs, and dense geographic scheduling, "general home service" isn&apos;t what you need. FenceBossPro was built around the specific operational model of lawn care and pest control — and it shows in every feature.</p>
+        <h2>Housecall Pro Was Designed for Cleaning Companies and Plumbers.<br /><span>Not for Fence Projects.</span></h2>
+        <p>Housecall Pro is a capable general home service platform. But when your business runs on multi-day fence builds with linear-foot takeoffs, materials & parts ordering, and crew dispatch across job sites, "general home service" isn&apos;t what you need. FenceBossPro was built around the specific operational model of fence contractors — and it shows in every feature.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>Before scheduling, FenceBossPro shows you exactly how much sq ft is waiting per service type. Know your Lawn Care 4, Mosquito, and Insect Control backlog. Build routes around what&apos;s due. HCP doesn&apos;t have this model at any tier.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Route Selector</h4><p>Draw a circle on your map, instantly see every property inside with a service due. Stops, sq ft, service type — all shown before you schedule. HCP has basic job scheduling. Not the same as a geographic lasso built for spray route density.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance Logs</h4><p>Log product, mix rate, area, weather, and tech license automatically on every application. Pull compliance reports on demand. HCP has job notes — not a dedicated pesticide compliance system built for applicator licensing requirements.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $129</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. FenceBossPro covers your entire team at $129 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th employee at no extra cost.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Treatment Model</h4><p>FenceBossPro is built around recurring service programs — waiting lists, treatment cycles, package renewals, due-date flags. HCP handles recurring jobs for general trades. The spray-specific workflow is different, and HCP wasn&apos;t built for it.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Linear-Foot Takeoffs</h4><p>Measure the run, pick the fence type, and FenceBossPro turns linear feet into posts, panels, pickets, rails, concrete and gates automatically. Bid wood, vinyl, chain link, aluminum and ornamental jobs in minutes. HCP doesn&apos;t have this model at any tier.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Crew Dispatch & Routing</h4><p>Assign crews to fence jobs, map the day&apos;s stops, and route installers efficiently across job sites. See who&apos;s on which build and what&apos;s next. HCP has basic job scheduling. Not the same as dispatch & routing built for fence crews.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🪵</div><h4>Materials & Parts Catalog</h4><p>A full catalog of posts, panels, pickets, rails, concrete, gates and hardware with your costs and markups. Drop parts onto any estimate and order the right quantities for the run. HCP has job notes — not a fence materials & parts system.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $129</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. FenceBossPro covers your entire crew at $129 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th installer at no extra cost.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Deposits & Progress Billing</h4><p>FenceBossPro is built around how fence jobs actually get paid — deposits up front, progress billing through the build, card-on-file for the balance. HCP handles invoicing for general trades. The fence project workflow is different, and HCP wasn&apos;t built for it.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $129, not locked behind a premium tier.</p></div>
         </div>
       </div>
@@ -219,7 +219,7 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'960px', margin:'0 auto'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">FenceBossPro vs Housecall Pro</h2>
-          <p className="section-sub">The features that matter for spray businesses — not general home service.</p>
+          <p className="section-sub">The features that matter for fence contractors — not general home service.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -231,17 +231,17 @@ export default function VsHousecallPro() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Built Specifically for Lawn Care &amp; Pest Control</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs &amp; Reports</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
-              <tr><td className="feature-name">Chemical Product Catalog &amp; Mix Recipes</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Built Specifically for Fence Contractors</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Linear-Foot Takeoffs by Fence Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Crew Dispatch &amp; Routing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Deposits &amp; Progress Billing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Line-Item Estimates &amp; Bids for Fence Jobs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Job Board &amp; Project Scheduling</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Parts Catalog (Posts, Panels, Gates)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Essentials+</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Capped by tier</span></td></tr>
               <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
@@ -254,39 +254,39 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Right Tool</span>
           <h2 className="section-title">When You Need a Tool Built for Your Business — Not Every Business</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Housecall Pro does many things well for general home service companies. FenceBossPro does fewer things — but all of them are the exact things a spray business needs, built deeper and better than any general platform.</p>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Housecall Pro does many things well for general home service companies. FenceBossPro does fewer things — but all of them are the exact things a fence contractor needs, built deeper and better than any general platform.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Sq Ft Is the Unit That Matters</h3><p>FenceBossPro tracks everything in square feet — waiting lists, route totals, property breakdowns, billing. Lawn care and pest control pricing is sq ft based. Your software should be too. HCP tracks job duration and billing, not sq ft.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>The Spray Route Model Is Different</h3><p>Spray businesses run recurring treatment schedules across hundreds of properties. That&apos;s a different operating model than one-off plumbing calls or cleaning visits. FenceBossPro was built around the spray model from day one.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Chemical Compliance Isn&apos;t Optional</h3><p>Pesticide applicators are subject to state compliance requirements. Chemical application logs, product records, license tracking — these need to be built into the software. HCP has job notes. FenceBossPro has compliance logs.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>FenceBossPro is $129/month with unlimited users, unlimited routes, chemical logs, lasso, sq ft waiting list, and SMS. HCP Essentials is $149 with a 5-user cap and none of those spray-specific features. Less money. More spray.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Linear Feet Is the Unit That Matters</h3><p>FenceBossPro tracks everything in linear feet — takeoffs, materials, estimates, billing. Fence pricing is driven by the run and the fence type. Your software should be too. HCP tracks job duration and billing, not linear-foot fence takeoffs.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>The Fence Project Model Is Different</h3><p>Fence contractors run multi-day builds with materials ordering, crew dispatch, and deposits before the first post goes in. That&apos;s a different operating model than one-off plumbing calls or cleaning visits. FenceBossPro was built around the fence project model from day one.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Materials &amp; Parts Aren&apos;t Optional</h3><p>Every fence bid lives or dies on the materials — posts, panels, pickets, rails, concrete, gates and hardware. A real parts catalog with your costs and markups needs to be built into the software. HCP has job notes. FenceBossPro has a fence materials catalog.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>FenceBossPro is $129/month with unlimited users, linear-foot takeoffs, a materials & parts catalog, crew dispatch, progress billing, and SMS. HCP Essentials is $149 with a 5-user cap and none of those fence-specific features. Less money. More fencing.</p></div>
         </div>
       </section>
 
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">Less Than HCP Essentials — More Spray Features</h2>
-          <p className="section-sub">$129/month. Unlimited users. Every spray-specific feature included.</p>
+          <h2 className="section-title">Less Than HCP Essentials — More Fencing Features</h2>
+          <p className="section-sub">$129/month. Unlimited users. Every fence-specific feature included.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
-            <div className="featured-badge">Less Than HCP Essentials — More Spray Features</div>
-            <div className="price-tier">One Plan. Built for Spray. Start Today.</div>
+            <div className="featured-badge">Less Than HCP Essentials — More Fencing Features</div>
+            <div className="price-tier">One Plan. Built for Fencing. Start Today.</div>
             <div className="price-amount"><sup>$</sup>129</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
-              <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
+              <li>Linear-Foot Takeoffs by Fence Type</li>
+              <li>Materials &amp; Parts Catalog (Posts, Panels, Gates)</li>
+              <li>Deposits &amp; Progress Billing</li>
+              <li>Full Scheduling, Crew Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
-              <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Job Board &amp; Project Scheduling</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
               <li>14-day free trial — no credit card required</li>
             </ul>
@@ -297,7 +297,7 @@ export default function VsHousecallPro() {
       </section>
 
       <div className="cta-band">
-        <h2>Done Paying for General Home Service Software<span>That Doesn&apos;t Know What a Spray Business Needs?</span></h2>
+        <h2>Done Paying for General Home Service Software<span>That Doesn&apos;t Know What a Fence Contractor Needs?</span></h2>
         <p>Try FenceBossPro free for 14 days. No credit card required. Set up in an afternoon.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -318,7 +318,7 @@ export default function VsHousecallPro() {
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>First Name</label><input id={`sbp${n}-first`} type="text" placeholder="John" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Last Name</label><input id={`sbp${n}-last`} type="text" placeholder="Smith" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             </div>
-            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn Care" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
+            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Fence Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#2b6ca3', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>

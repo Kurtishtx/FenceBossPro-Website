@@ -143,8 +143,8 @@ export default function Features() {
       {/* HERO */}
       <div className="hero">
         <div className="hero-badge">Full Feature List</div>
-        <h1>Everything You Need to Run<br /><span>Your Spray Business</span></h1>
-        <p>FenceBossPro is built specifically for lawn care and pest control. Every feature listed here is included in your $129/month — nothing locked, nothing extra.</p>
+        <h1>Everything You Need to Run<br /><span>Your Fence Business</span></h1>
+        <p>FenceBossPro is built specifically for fence contractors. Every feature listed here is included in your $129/month — nothing locked, nothing extra.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
         </div>
@@ -156,19 +156,19 @@ export default function Features() {
           <div className="spotlight-text">
             <div className="spotlight-label">Only in FenceBossPro</div>
             <div className="spotlight-title">Circle an Area on the Map.<br /><span>Instantly Know Everything Inside It.</span></div>
-            <div className="spotlight-desc">On the waiting list map, draw a circle around any geographic area. FenceBossPro instantly shows you the total sq ft, linear ft, stop count, number of services, and a breakdown of every service type inside that circle — before you schedule a single stop.</div>
+            <div className="spotlight-desc">On the job board map, draw a circle around any geographic area. FenceBossPro instantly shows you the total linear feet, job count, number of jobs by type, and a breakdown of every fence type inside that circle — before you dispatch a single crew.</div>
             <ul className="spotlight-checks">
               <li>Draw a lasso around any area on the map</li>
-              <li>See total sq ft and linear ft for everything inside</li>
-              <li>Total stops and total services in the selected area</li>
-              <li>Breakdown by service type with totals for each</li>
-              <li>Schedule all circled stops with one click</li>
+              <li>See total linear feet for every job inside</li>
+              <li>Total jobs and total work in the selected area</li>
+              <li>Breakdown by fence type with totals for each</li>
+              <li>Dispatch all circled jobs with one click</li>
               <li>They drop straight onto the dispatch board with a full route map</li>
-              <li>No other lawn care or pest control software does this</li>
+              <li>No other fencing software does this</li>
             </ul>
           </div>
           <div className="spotlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)',fontSize:'11px',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'12px'}}>Waiting List Map — Circle Selection</div>
+            <div style={{color:'rgba(255,255,255,.5)',fontSize:'11px',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'12px'}}>Job Board Map — Circle Selection</div>
             <div className="mock-map">
               <div className="mock-lasso"></div>
               <div className="mock-pins">
@@ -178,14 +178,14 @@ export default function Features() {
               </div>
             </div>
             <div className="stat-row">
-              <div className="stat-box"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
-              <div className="stat-box"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-box"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
-              <div className="stat-box"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft</div></div>
-              <div className="stat-box wide"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Services by Type</div></div>
+              <div className="stat-box"><div className="stat-val">14</div><div className="stat-lbl">Jobs Selected</div></div>
+              <div className="stat-box"><div className="stat-val">19</div><div className="stat-lbl">Total Jobs</div></div>
+              <div className="stat-box"><div className="stat-val">8,600</div><div className="stat-lbl">Linear Ft</div></div>
+              <div className="stat-box"><div className="stat-val">22</div><div className="stat-lbl">Gates</div></div>
+              <div className="stat-box wide"><div className="stat-val">Wood · 8 &nbsp;|&nbsp; Vinyl · 6 &nbsp;|&nbsp; Chain Link · 5</div><div className="stat-lbl">Jobs by Fence Type</div></div>
             </div>
             <button style={{width:'100%',marginTop:'14px',background:'var(--orange)',color:'#fff',border:'none',borderRadius:'8px',padding:'13px',fontSize:'14px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}
-              onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Schedule These 14 Stops →</button>
+              onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Dispatch These 14 Jobs →</button>
           </div>
         </div>
       </div>
@@ -195,18 +195,18 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">📅</span>
-            <div><div className="cat-title">Scheduling &amp; Dispatch</div><div className="cat-desc">Build routes, assign stops, and manage your full day from one board</div></div>
+            <div><div className="cat-title">Scheduling &amp; Dispatch</div><div className="cat-desc">Build routes, assign jobs, and manage your full day from one board</div></div>
           </div>
           <div className="feat-grid">
             {[
-              {t:'Sq Ft Waiting List by Service Type',d:'See total square footage waiting for each service type before you build a route. Know what you have before you make a call.'},
-              {t:'Circle-to-Schedule Map Tool',d:'Draw a circle on the waiting list map. Get instant totals — sq ft, linear ft, stops, services by type — then schedule them all at once.'},
-              {t:'One-Click Schedule from Waiting List',d:'Click any property and assign a date, tech, and truck in seconds. No extra screens, no copy-paste.'},
-              {t:'Daily Dispatch Board',d:'All scheduled stops for any day in one view. Filter by tech, truck, or service. Print dispatch sheets for drivers.'},
-              {t:'Technician & Truck Assignment',d:'Assign a tech and truck to every stop at scheduling time. Track who handled what and with which vehicle.'},
-              {t:'Mark Complete, Skip, or Reschedule',d:'Update stop status from the board or mobile app. Skipped stops return to the waiting list automatically.'},
-              {t:'Day Summary Bar',d:'Total stops, total sq ft, and total revenue for the day shown at the top of the dispatch board at a glance.'},
-              {t:'Full Service History per Property',d:'Every completed stop logged to the property record with date, tech, notes, and chemicals used.'},
+              {t:'Linear-Foot Job Board by Fence Type',d:'See total linear feet waiting for each fence type before you build a route. Know what you have before you make a call.'},
+              {t:'Circle-to-Dispatch Map Tool',d:'Draw a circle on the job board map. Get instant totals — linear feet, jobs, fence types — then dispatch them all at once.'},
+              {t:'One-Click Schedule from Job Board',d:'Click any job and assign a date, crew, and truck in seconds. No extra screens, no copy-paste.'},
+              {t:'Daily Dispatch Board',d:'All scheduled jobs for any day in one view. Filter by crew, truck, or fence type. Print dispatch sheets for drivers.'},
+              {t:'Crew & Truck Assignment',d:'Assign a crew and truck to every job at scheduling time. Track who handled what and with which vehicle.'},
+              {t:'Mark Complete, Skip, or Reschedule',d:'Update job status from the board or mobile app. Skipped jobs return to the job board automatically.'},
+              {t:'Day Summary Bar',d:'Total jobs, total linear feet, and total revenue for the day shown at the top of the dispatch board at a glance.'},
+              {t:'Full Job History per Property',d:'Every completed job logged to the property record with date, crew, notes, and materials used.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -223,10 +223,10 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Live Route Map',d:'Every scheduled stop for the day pinned on an interactive map. See your full route before anyone leaves the shop.'},
-              {t:'Drag-and-Drop Stop Reordering',d:'Reorder stops on the map or dispatch board. Build tight geographic clusters to cut windshield time.'},
+              {t:'Live Route Map',d:'Every scheduled job for the day pinned on an interactive map. See your full route before any crew leaves the shop.'},
+              {t:'Drag-and-Drop Job Reordering',d:'Reorder jobs on the map or dispatch board. Build tight geographic clusters to cut windshield time.'},
               {t:'GPS Coordinates per Property',d:'Every property stores GPS coordinates for accurate map pinning and turn-by-turn navigation links.'},
-              {t:'Color-Coded Status Pins',d:"Map pins update color as stops are completed or skipped — see your crew's progress in real time from the office."},
+              {t:'Color-Coded Status Pins',d:"Map pins update color as jobs are completed or skipped — see your crews' progress in real time from the office."},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -234,21 +234,21 @@ export default function Features() {
         </div>
       </section>
 
-      {/* CHEMICAL TRACKING */}
+      {/* MATERIALS & TAKEOFFS */}
       <div className="dark-cat">
         <div className="cat-block" style={{maxWidth:'1200px',margin:'0 auto'}}>
           <div className="cat-header">
-            <span className="cat-icon">🧪</span>
-            <div><div className="cat-title">Chemical Tracking &amp; Compliance</div><div className="cat-desc">Every application logged automatically — print a compliance report in under 30 seconds</div></div>
+            <span className="cat-icon">🪵</span>
+            <div><div className="cat-title">Materials, Parts &amp; Takeoffs</div><div className="cat-desc">Price every job by the linear foot with posts, panels, pickets, rails, concrete, gates, and hardware built in</div></div>
           </div>
           <div className="feat-grid">
             {[
-              {t:'Application Log per Stop',d:'Product, mix rate, gallons, area treated, and weather logged on every completed job — automatically.'},
-              {t:'Technician & License Tracking',d:'Record which tech made the application and their license number — required for most state compliance records.'},
-              {t:'Product Catalog with Mix Recipes',d:'Build your product library once. Techs select from your catalog in the field — no free-typing product names.'},
-              {t:'Area Type Logging',d:'Log treatment area — lawn, shrubs, flower beds, perimeter, interior — per application for detailed records.'},
-              {t:'Filter by Product, Property, Tech, or Date',d:'Pull any slice of your chemical history instantly. Find every application of a specific product across all properties.'},
-              {t:'Print-Ready Compliance Reports',d:'Generate a formatted pesticide application report for any date range or property. Ready for any state inspector.'},
+              {t:'Linear-Foot Takeoffs',d:'Enter the run length and FenceBossPro calculates posts, panels, pickets, rails, and concrete for the job — automatically.'},
+              {t:'Materials & Parts Catalog',d:'Build your library of posts, panels, pickets, rails, concrete, gates, and hardware once. Pull from it on every bid.'},
+              {t:'Per-Fence-Type Material Lists',d:'Wood, vinyl, chain link, aluminum, or ornamental — each fence type pulls its own material list and pricing.'},
+              {t:'Gate & Hardware Line Items',d:'Add walk gates, drive gates, hinges, latches, and post caps as their own line items on any estimate.'},
+              {t:'Markup & Cost Tracking',d:'Set your cost and markup per material. FenceBossPro tracks margin on every job so you never bid below cost.'},
+              {t:'Material Summary per Job',d:'Generate a full materials pull-list for any job — ready for the supply yard before your crew loads the truck.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -261,16 +261,16 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">💰</span>
-            <div><div className="cat-title">Estimates</div><div className="cat-desc">Build, send, and close estimates without leaving FenceBossPro</div></div>
+            <div><div className="cat-title">Estimates &amp; Bids</div><div className="cat-desc">Build, send, and close line-item fence bids without leaving FenceBossPro</div></div>
           </div>
           <div className="feat-grid">
             {[
-              {t:'Service Catalog for Line Items',d:'Build your service catalog once. Add line items to any estimate by selecting from your list — no retyping prices.'},
-              {t:'Email Estimate Directly',d:'Send a branded estimate to the client in one click. No downloading, no copy-paste into Gmail.'},
+              {t:'Line-Item Bid Builder',d:'Build your materials and labor catalog once. Add line items to any bid by selecting from your list — no retyping prices.'},
+              {t:'Email Estimate Directly',d:'Send a branded fence bid to the client in one click. No downloading, no copy-paste into Gmail.'},
               {t:'Online Accept Link',d:'Clients click a link to view and accept. Accepted status updates in your dashboard immediately.'},
               {t:'3-Step Automated Follow-Up',d:"3 follow-up texts go out automatically if a client doesn't respond. FenceBossPro chases the deal so you don't have to."},
-              {t:'Discount Codes & Sales Tax',d:'Apply percentage or flat discounts. Set tax rates and FenceBossPro calculates tax on every estimate automatically.'},
-              {t:'Estimate Status Tracking',d:'Track every estimate as Draft, Sent, Accepted, or Declined with full history and timestamps.'},
+              {t:'Discount Codes & Sales Tax',d:'Apply percentage or flat discounts. Set tax rates and FenceBossPro calculates tax on every bid automatically.'},
+              {t:'Estimate Status Tracking',d:'Track every bid as Draft, Sent, Accepted, or Declined with full history and timestamps.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -287,10 +287,10 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Convert Estimate to Invoice',d:'Turn any accepted estimate into an invoice in one click. Line items, discounts, and tax carry over automatically.'},
-              {t:'Stripe Card-on-File',d:'Store customer cards securely via Stripe. Charge after service without the customer needing to do anything.'},
+              {t:'Convert Bid to Invoice',d:'Turn any accepted bid into an invoice in one click. Line items, discounts, and tax carry over automatically.'},
+              {t:'Deposits & Progress Billing',d:'Collect a deposit up front, then bill progress payments as the fence goes up. Track what is paid and what remains.'},
+              {t:'Stripe Card-on-File',d:'Store customer cards securely via Stripe. Charge on completion without the customer needing to do anything.'},
               {t:'Invoice Status Dashboard',d:'Filter all invoices by Unpaid, Partial, Paid, or Overdue. See your total outstanding balance at a glance.'},
-              {t:'Partial Payments',d:'Log partial payments against any invoice. Track remaining balance and full payment history per account.'},
               {t:'3-Step Payment Reminder Sequence',d:'Unpaid invoices trigger 3 automated text reminders. Stop making uncomfortable collection calls.'},
               {t:'Full Payment History',d:'Every payment logged with amount, method, and date. Full audit trail per invoice and per customer.'},
             ].map((f,i) => (
@@ -310,12 +310,12 @@ export default function Features() {
           <div className="feat-grid">
             {[
               {t:'Two-Way SMS Inbox',d:'Send and receive texts with customers inside FenceBossPro. Full conversation history organized by contact.'},
-              {t:'Service Scheduled Alert',d:'Customer gets a text the moment a service is added to the schedule. Fully customizable message.'},
-              {t:'Tech On the Way Alert',d:'Notify customers automatically when your technician is heading to their property.'},
-              {t:'Service Completed Alert',d:'Text the customer when the job is marked done — what was done, no phone call needed.'},
-              {t:'Service Skipped Alert',d:"If a stop is skipped, an alert goes out automatically so the customer isn't left in the dark."},
-              {t:'Estimate Sent & Accepted Alerts',d:'Notify clients when their estimate is on the way, and get notified yourself when they accept.'},
-              {t:'Google Review Request',d:'Automatically sent after every completed service. More 5-star reviews with zero extra effort.'},
+              {t:'Job Scheduled Alert',d:'Customer gets a text the moment their fence job is added to the schedule. Fully customizable message.'},
+              {t:'Crew On the Way Alert',d:'Notify customers automatically when your crew is heading to their property.'},
+              {t:'Job Completed Alert',d:'Text the customer when the fence is marked done — what was installed, no phone call needed.'},
+              {t:'Job Skipped Alert',d:"If a job is skipped, an alert goes out automatically so the customer isn't left in the dark."},
+              {t:'Bid Sent & Accepted Alerts',d:'Notify clients when their fence bid is on the way, and get notified yourself when they accept.'},
+              {t:'Google Review Request',d:'Automatically sent after every completed job. More 5-star reviews with zero extra effort.'},
               {t:'Payment & Estimate Follow-Up Sequences',d:'3-step automated sequences for both unpaid invoices and unanswered estimates — fully customizable timing and copy.'},
               {t:'500 SMS/Month Included',d:'500 outbound SMS messages included in the $129/month. Add more in blocks of 500 for $15 each.'},
               {t:'Customizable Alert Templates',d:'Edit the message for every alert type. Use your own voice and include details that matter to your customers.'},
@@ -331,15 +331,15 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">🏠</span>
-            <div><div className="cat-title">Clients, Leads &amp; Properties</div><div className="cat-desc">Full CRM built for spray businesses — everything tied to the address, not just the name</div></div>
+            <div><div className="cat-title">Clients, Leads &amp; Properties</div><div className="cat-desc">Full CRM built for fence contractors — everything tied to the address, not just the name</div></div>
           </div>
           <div className="feat-grid">
             {[
-              {t:'Client Database',d:'Full searchable database of every customer — contact info, notes, service history, invoices, and estimates in one place.'},
-              {t:'Lead Management',d:'Track open prospects separately from active clients. Manage estimates, follow-ups, and conversion all in one view.'},
-              {t:'Property Profiles',d:'Every address has its own record — sq footage, GPS, photos, service history, chemical log, and notes.'},
-              {t:'Multiple Properties per Client',d:'One client can own multiple service addresses. Each property is tracked independently with its own full history.'},
-              {t:'Property Photos & Notes',d:'Attach photos and field notes to any property. Tech notes from the field show up in the office view instantly.'},
+              {t:'Client Database',d:'Full searchable database of every customer — contact info, notes, job history, invoices, and bids in one place.'},
+              {t:'Lead Management',d:'Track open prospects separately from active clients. Manage bids, follow-ups, and conversion all in one view.'},
+              {t:'Property Profiles',d:'Every address has its own record — fence linear footage, GPS, photos, job history, and notes.'},
+              {t:'Multiple Properties per Client',d:'One client can own multiple job addresses. Each property is tracked independently with its own full history.'},
+              {t:'Property Photos & Notes',d:'Attach photos and field notes to any property. Crew notes from the field show up in the office view instantly.'},
               {t:'Unlimited Clients & Properties',d:'No caps. 50 accounts or 5,000 — same flat price, no tiers.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -353,14 +353,14 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">📦</span>
-            <div><div className="cat-title">Package Programs &amp; Renewals</div><div className="cat-desc">Manage recurring treatment packages and never miss a renewal</div></div>
+            <div><div className="cat-title">Multi-Phase Projects &amp; Warranties</div><div className="cat-desc">Manage staged fence builds and never miss a warranty callback</div></div>
           </div>
           <div className="feat-grid">
             {[
-              {t:'Custom Package Plans',d:'Create any package — 6-app lawn care, quarterly pest, annual mosquito. Fully custom service types and counts.'},
-              {t:'Assign Clients to Packages',d:'Link any client to any package. Track start date, treatments used, and treatments remaining automatically.'},
-              {t:'Renewal Alerts',d:'Get alerted before a package expires so you can reach out before the client looks elsewhere.'},
-              {t:'Treatment Count Tracking',d:'FenceBossPro counts down remaining applications automatically each time a service is marked complete.'},
+              {t:'Custom Project Phases',d:'Break any fence build into phases — demo, post-setting, panel install, gates, final walk. Fully custom phase types and counts.'},
+              {t:'Assign Clients to Projects',d:'Link any client to any project. Track start date, phases completed, and phases remaining automatically.'},
+              {t:'Warranty Callback Alerts',d:'Get alerted before a fence warranty window closes so you can follow up before the client looks elsewhere.'},
+              {t:'Phase Count Tracking',d:'FenceBossPro counts down remaining phases automatically each time a stage is marked complete.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
             ))}
@@ -377,10 +377,10 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Unlimited Users',d:'Add every employee — techs, office staff, managers — at no extra cost. No per-user fees, ever.'},
-              {t:'Role-Based Permissions',d:'Owner, Manager, Office, Technician, and Mobile roles — each with different access levels built in.'},
-              {t:'Mobile Role for Field Techs',d:'Techs on the Mobile role only see their assigned stops — no billing, client info, or business settings.'},
-              {t:'Truck Management',d:'Create vehicle profiles, assign trucks to routes, and track which vehicle handled each stop.'},
+              {t:'Unlimited Users',d:'Add every employee — installers, office staff, managers — at no extra cost. No per-user fees, ever.'},
+              {t:'Role-Based Permissions',d:'Owner, Manager, Office, Installer, and Mobile roles — each with different access levels built in.'},
+              {t:'Mobile Role for Field Crews',d:'Crews on the Mobile role only see their assigned jobs — no billing, client info, or business settings.'},
+              {t:'Truck Management',d:'Create vehicle profiles, assign trucks to routes, and track which vehicle handled each job.'},
               {t:'Employee Hour Tracking',d:'Log hours per job per employee. Generate payroll-ready reports without a separate system.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -394,14 +394,14 @@ export default function Features() {
         <div className="cat-block">
           <div className="cat-header">
             <span className="cat-icon">📱</span>
-            <div><div className="cat-title">Mobile App for Technicians</div><div className="cat-desc">Field-optimized for your techs — no office calls, no app store required</div></div>
+            <div><div className="cat-title">Mobile App for Crews</div><div className="cat-desc">Field-optimized for your installers — no office calls, no app store required</div></div>
           </div>
           <div className="feat-grid">
             {[
-              {t:'Daily Stop List',d:'Techs see only their assigned stops for the day — optimized for mobile with clear status and large tap targets.'},
+              {t:'Daily Job List',d:'Crews see only their assigned jobs for the day — optimized for mobile with clear status and large tap targets.'},
               {t:'Mark Complete from the Field',d:'Tap to mark complete, skip, or reschedule — all without calling the office. Syncs in real time.'},
-              {t:'Chemical Log Entry',d:'Techs log the product, rate, gallons, and weather at each stop from their phone. Records are automatic.'},
-              {t:'Property Notes & Photos',d:'Techs can add field notes and photos to any property from their device. Office sees them instantly.'},
+              {t:'Material Log Entry',d:'Crews log the posts, panels, and hardware used at each job from their phone. Records are automatic.'},
+              {t:'Property Notes & Photos',d:'Crews can add field notes and photos to any property from their device. Office sees them instantly.'},
               {t:'No App Download Required',d:"FenceBossPro's mobile experience runs in any browser. No app store, no install, no update prompts."},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -419,10 +419,10 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Custom Dashboard Stat Cards',d:"Today's revenue, stops completed, properties served, money owed — all on your dashboard when you log in."},
+              {t:'Custom Dashboard Stat Cards',d:"Today's revenue, jobs completed, properties served, money owed — all on your dashboard when you log in."},
               {t:'Revenue Tracking',d:"Track revenue by day, week, or month. See what's been collected vs. what's still outstanding at any time."},
               {t:'Outstanding Balance View',d:'Total amount owed across all open invoices at a glance — drill into individual accounts in one click.'},
-              {t:'Chemical Compliance Reports',d:'Pull a print-ready pesticide application report for any date range, product, property, or technician in seconds.'},
+              {t:'Materials & Job Reports',d:'Pull a print-ready materials and job report for any date range, fence type, property, or crew in seconds.'},
               {t:'Payroll Hour Reports',d:'Employee hour totals by date range — export-ready for your payroll process without a separate system.'},
             ].map((f,i) => (
               <div key={i} className="feat-item"><div className="feat-item-title">{f.t}</div><p>{f.d}</p></div>
@@ -456,7 +456,7 @@ export default function Features() {
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>First Name</label><input id="sbp1-first" type="text" placeholder="John" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Last Name</label><input id="sbp1-last" type="text" placeholder="Smith" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           </div>
-          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp1-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
+          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp1-company" type="text" placeholder="Smith Fence Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp1-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <button onClick={() => sbpStep2(1)} style={{width:'100%',background:'#2b6ca3',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>
@@ -494,7 +494,7 @@ export default function Features() {
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>First Name</label><input id="sbp2-first" type="text" placeholder="John" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
             <div style={{flex:1}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Last Name</label><input id="sbp2-last" type="text" placeholder="Smith" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           </div>
-          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp2-company" type="text" placeholder="Smith Lawn & Spray Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
+          <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Company Name</label><input id="sbp2-company" type="text" placeholder="Smith Fence Co." style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Email Address</label><input id="sbp2-email" type="email" placeholder="you@yourcompany.com" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <button onClick={() => sbpStep2(2)} style={{width:'100%',background:'#2b6ca3',color:'#fff',border:'none',borderRadius:'6px',padding:'13px',fontSize:'15px',fontWeight:700,cursor:'pointer',fontFamily:'inherit'}}>Next: Create Password →</button>
         </div>

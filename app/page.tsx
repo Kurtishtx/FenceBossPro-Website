@@ -100,6 +100,9 @@ export default function Home() {
         .feature-icon { font-size: 32px; margin-bottom: 14px; display: block; }
         .feature-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
         .feature-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
+        .hub-card { display: block; text-decoration: none; }
+        .hub-card h3 { color: var(--text); }
+        .hub-card .hub-go { color: var(--orange); font-size: 13px; font-weight: 700; margin-top: 14px; display: inline-block; }
         .dark-section { background: linear-gradient(135deg, var(--purple-dark) 0%, var(--purple-deep) 100%); color: #fff; }
         .dark-section .section-title { color: #fff; }
         .dark-section .section-sub { color: rgba(255,255,255,.65); }
@@ -182,12 +185,6 @@ export default function Home() {
         .premium-card-icon { font-size: 28px; margin-bottom: 14px; }
         .premium-card h4 { color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 8px; }
         .premium-card p { color: rgba(255,255,255,.52); font-size: 13px; line-height: 1.6; }
-        .lasso-map { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.1); border-radius: 10px; padding: 20px; margin-bottom: 14px; position: relative; min-height: 130px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
-        .lasso-ring { position: absolute; top: 14px; left: 18px; right: 18px; bottom: 14px; border: 2.5px dashed var(--orange); border-radius: 50%; opacity: .7; }
-        .lasso-pins { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; position: relative; z-index: 1; }
-        .lpin { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
-        .lpin.s { background: var(--orange); box-shadow: 0 0 0 3px rgba(43,108,163,.3); }
-        .lpin.u { background: rgba(255,255,255,.2); }
         .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         .stat-cell { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 12px 14px; }
         .stat-val { color: var(--orange); font-size: 18px; font-weight: 800; }
@@ -213,15 +210,15 @@ export default function Home() {
       {/* ═══ MOCKUP IMAGE ═══ */}
       <div style={{background:'linear-gradient(135deg,#0f1720 0%,#16202b 60%,#1f2d3d 100%)', padding:'80px 40px 0', textAlign:'center'}}>
         <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="FenceBossPro spray business software showing the circle-map route builder, waiting list, and mobile app for lawn care and pest control technicians" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
+          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="FenceBossPro fence business software showing line-item estimates, the materials and parts list, the job board, and crew dispatch for fence installers" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
         </div>
       </div>
 
       {/* ═══ HERO ═══ */}
       <div className="hero" style={{paddingTop:'60px'}}>
-        <div className="hero-badge">Built for Lawn Care &amp; Pest Control</div>
-        <h1>Run Your Entire Operation<br /><span>From One Dashboard</span></h1>
-        <p>FenceBossPro is the all-in-one field management platform built specifically for lawn care and pest control businesses. Schedule jobs, send estimates, collect payments, and keep your team coordinated — all in one place.</p>
+        <div className="hero-badge">Built for Fence &amp; Gate Contractors</div>
+        <h1>Run Your Whole Fence Business<br /><span>From One Dashboard</span></h1>
+        <p>FenceBossPro is the all-in-one platform built specifically for fence and gate contractors. Build line-item estimates, track materials and parts, schedule installs, dispatch your crews, and collect payments &mdash; all in one place.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
         </div>
@@ -236,56 +233,83 @@ export default function Home() {
       {/* ═══ PREMIUM BAND ═══ */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Software.</span></h2>
-        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still doesn&apos;t do what your business actually needs. FenceBossPro does everything the enterprise platforms do — route mapping, chemical compliance, automated SMS, Stripe payments, role-based access, mobile app — built specifically for spray businesses, and priced for the real world. $129 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can — and because their customers don&apos;t have a better option. Now you do.</p>
+        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean fence bid. FenceBossPro does everything the big platforms do &mdash; line-item estimates, materials and parts tracking, project scheduling, crew dispatch, Stripe payments, role-based access, and a mobile app &mdash; built specifically for fence contractors, and priced for the real world. $129 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Enterprise Route Intelligence</h4><p>Live route maps, drag-and-drop stop ordering, and circle-to-schedule map selection — tools that cost thousands per month at other platforms are standard in FenceBossPro at every plan level.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Full Chemical Compliance Engine</h4><p>Pesticide application logs, technician license tracking, weather conditions per application, print-ready compliance reports — built to hold up to any state inspector, at no extra charge.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated Communication Suite</h4><p>10+ automated SMS alert types, a two-way texting inbox, 3-step estimate follow-up sequences, 3-step payment follow-up sequences — all running without you every single day.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payment Processing</h4><p>Card-on-file storage, post-service billing, partial payments, automated payment reminders, and full payment history. The same billing infrastructure the big guys use — included in your $129.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, Technician, and Mobile roles — the same granular permission system as platforms charging 5× more per month. Your office staff sees what they need. Your techs see only their stops.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Field Techs</h4><p>Your technicians manage their stops, log chemicals, mark complete, add notes, and skip stops from their phone — all in a mobile-optimized view purpose-built for someone in a truck.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📐</div><h4>Line-Item Estimating &amp; Bids</h4><p>Build detailed fence bids from saved line items &mdash; posts, panels, pickets, rails, concrete, gates, and hardware &mdash; with linear-foot takeoffs that price a job in minutes instead of an hour at the kitchen table.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🧱</div><h4>Materials &amp; Parts Tracking</h4><p>A full parts catalog with your real costs and margins. Every estimate rolls up the exact materials list for the job, so you know what to order and what to load before the crew rolls out.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated Customer Texts</h4><p>Estimate-sent alerts, follow-up sequences, install reminders, and a two-way texting inbox &mdash; all running on their own so your fence customers always know what&apos;s happening.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payments &amp; Deposits</h4><p>Card-on-file storage, collect deposits up front, progress billing on multi-day builds, partial payments, and full payment history. The same billing the big guys use &mdash; included in your $129.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, Crew Lead, and Mobile roles &mdash; the same granular permissions as platforms charging 5&times; more. Your office sees the books; your crews see only their jobs.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Crews</h4><p>Your crews pull up the job, see the materials list, mark phases complete, add photos and notes, and capture sign-off &mdash; all in a mobile view built for someone standing at the fence line.</p></div>
         </div>
       </div>
 
-      {/* ═══ LASSO FEATURE ═══ */}
-      <section id="lasso">
+      {/* ═══ EIGHT HUBS ═══ */}
+      <section id="hubs">
+        <div className="centered" style={{maxWidth:'1200px', margin:'0 auto'}}>
+          <span className="section-label">Explore the Platform</span>
+          <h2 className="section-title">Everything a Fence Company Needs, in One Place</h2>
+          <p className="section-sub">From the first on-site bid to the final invoice, FenceBossPro covers every part of running a fence and gate business. Dig into each area below.</p>
+        </div>
+        <div className="feature-grid">
+          <a href="/fencing-software" className="feature-card hub-card"><span className="feature-icon">🛠️</span><h3>Fencing Software</h3><p>The complete all-in-one platform for fence companies &mdash; estimates, materials, scheduling, dispatch, and billing under one roof.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-estimating-software" className="feature-card hub-card"><span className="feature-icon">📐</span><h3>Fence Estimating Software</h3><p>Build line-item bids with linear-foot takeoffs, posts, panels, pickets, rails, concrete, gates, and hardware priced in minutes.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-scheduling-software" className="feature-card hub-card"><span className="feature-icon">📅</span><h3>Fence Scheduling Software</h3><p>Schedule installs and multi-day builds around material delivery, keep the calendar full, and never double-book a crew.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-dispatch-software" className="feature-card hub-card"><span className="feature-icon">🚚</span><h3>Fence Crew &amp; Dispatch Software</h3><p>Dispatch crews, build tight routes between jobs, and give every lead a clear day on the job board from their phone.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-invoicing-software" className="feature-card hub-card"><span className="feature-icon">💳</span><h3>Fence Invoicing &amp; Billing</h3><p>Turn accepted bids into invoices, collect deposits and progress payments, and store cards on file with Stripe.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-business-software" className="feature-card hub-card"><span className="feature-icon">📊</span><h3>Fence Business Software</h3><p>Run the whole operation &mdash; clients, properties, pipeline, reporting, and team management &mdash; from one dashboard.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-contractor-software" className="feature-card hub-card"><span className="feature-icon">👷</span><h3>Fence Contractor Software</h3><p>Built for the way fence contractors actually work &mdash; on-site bids, supplier orders, change orders, and crew coordination.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-installation-software" className="feature-card hub-card"><span className="feature-icon">🧱</span><h3>Fence Installation Software</h3><p>Take a job from estimate to scheduled install to final walk &mdash; with the materials list, job board, and customer texts all connected.</p><span className="hub-go">Explore &rarr;</span></a>
+        </div>
+      </section>
+
+      {/* ═══ ESTIMATING FEATURE ═══ */}
+      <section id="estimating" style={{background:'var(--light-bg)'}}>
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">Only in FenceBossPro</span>
-            <h2>Circle Any Area on the Map.<br />Instantly Know Everything Inside It.</h2>
-            <p>No other lawn care or pest control software has this. On the waiting list map, draw a circle around any geographic area — a neighborhood, a ZIP code, a corridor — and FenceBossPro instantly calculates every detail of what&apos;s inside before you schedule a single stop or mix a single gallon.</p>
-            <p style={{marginTop:'12px'}}>This isn&apos;t just a map feature. It&apos;s a business intelligence tool. You can look at a section of your service area and know in seconds whether it&apos;s worth building a route around, how many trucks to send, what to load, and how much chemical to mix. No calls. No guesses. No wasted time.</p>
+            <h2>Build a Tight Fence Bid<br />Before You Leave the Driveway.</h2>
+            <p>Stop pricing fence jobs on a notepad and hoping you didn&apos;t forget the gate hardware. On site, drop in your linear-foot takeoff, pick the fence type, and FenceBossPro pulls every material &mdash; posts, panels, pickets, rails, concrete, gates, and hardware &mdash; into a clean line-item bid with your real costs and margins built in.</p>
+            <p style={{marginTop:'12px'}}>This isn&apos;t just a quote tool. It&apos;s a profit tool. You can see exactly what a 180-foot wood privacy run will cost in materials and labor before you ever quote a price &mdash; so you stop underbidding, stop eating cost overruns, and win the job at a number that actually pays.</p>
             <ul className="check-list">
-              <li>Total sq ft and linear ft for all properties inside the circle</li>
-              <li>Total stop count and total number of services across all types</li>
-              <li>Breakdown by service type — Lawn Care 4 · 8, Mosquito · 6, Insect · 5, etc.</li>
-              <li>Per-service sq ft totals so you know exactly how much chemical to mix before loading</li>
-              <li>Schedule all circled stops at once — they drop straight to the dispatch board with a full route map</li>
-              <li>All service types are fully customizable to match exactly how your operation runs</li>
-              <li>The system calculates how much to do per day and how many gallons to mix per service</li>
-              <li>Know before you load the truck. Know before you mix a gallon. Stop wasting both.</li>
+              <li>Linear-foot takeoffs by fence type &mdash; wood, vinyl, chain link, aluminum, ornamental</li>
+              <li>Auto-calculated post counts and concrete footings from the run length</li>
+              <li>Saved line items for posts, panels, pickets, rails, gates, and hardware</li>
+              <li>Good / Better / Best options on a single bid so customers choose up</li>
+              <li>Material cost and margin shown on every line before you send the price</li>
+              <li>Every fence type and part is fully customizable to match how you build</li>
+              <li>Accepted bids drop straight onto the job board with a full materials list</li>
+              <li>Know your number before you quote. Stop guessing. Stop losing margin.</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Waiting List Map — Circle Selection</div>
-            <div className="lasso-map">
-              <div className="lasso-ring"></div>
-              <div className="lasso-pins">
-                <div className="lpin s"></div><div className="lpin s"></div><div className="lpin u"></div>
-                <div className="lpin s"></div><div className="lpin s"></div><div className="lpin u"></div>
-                <div className="lpin s"></div><div className="lpin s"></div><div className="lpin s"></div>
-                <div className="lpin u"></div><div className="lpin s"></div><div className="lpin s"></div>
+            <div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Estimate Builder &mdash; Wood Privacy Fence</div>
+            <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', marginBottom:'10px'}}>
+              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginBottom:'6px'}}>Line Items &mdash; 180 linear ft</div>
+              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
+                <span>4&times;4 Posts (24)</span><span>$648.00</span>
+              </div>
+              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
+                <span>6 ft Pickets (300)</span><span>$1,050.00</span>
+              </div>
+              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
+                <span>Concrete (24 bags)</span><span>$144.00</span>
+              </div>
+              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
+                <span>4 ft Gate + Hardware</span><span>$385.00</span>
+              </div>
+              <div style={{display:'flex', justifyContent:'space-between', color:'#fff', fontSize:'14px', fontWeight:700, paddingTop:'8px', marginTop:'4px'}}>
+                <span>Materials + Labor</span><span style={{color:'var(--orange)'}}>$6,240.00</span>
               </div>
             </div>
             <div className="stat-grid">
-              <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
-              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
-              <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
+              <div className="stat-cell"><div className="stat-val">180 ft</div><div className="stat-lbl">Run Length</div></div>
+              <div className="stat-cell"><div className="stat-val">24</div><div className="stat-lbl">Posts &amp; Footings</div></div>
+              <div className="stat-cell"><div className="stat-val">38%</div><div className="stat-lbl">Gross Margin</div></div>
+              <div className="stat-cell"><div className="stat-val">1</div><div className="stat-lbl">Gate</div></div>
             </div>
-            <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Schedule These 14 Stops →</button>
-            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Drops to dispatch board with full route map</div>
+            <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Send Bid to Customer →</button>
+            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Accepted bids drop to the job board with a full materials list</div>
           </div>
         </div>
       </section>
@@ -295,13 +319,13 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Built Different</span>
           <h2 className="section-title">Powerful Doesn&apos;t Have to Mean Complicated.</h2>
-          <p className="section-sub">The big enterprise platforms take weeks to learn, months to set up, and require a dedicated person just to manage them. FenceBossPro is designed so any owner or office manager can be running real routes on day one — without training, without a consultant, without an IT department.</p>
+          <p className="section-sub">The big enterprise platforms take weeks to learn, months to set up, and require a dedicated person just to manage them. FenceBossPro is designed so any owner or office manager can be building real bids on day one &mdash; without training, without a consultant, without an IT department.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your service types, import your clients and properties, set up your chemical mixes, and configure your SMS alert templates. Most businesses are scheduling real routes the same day they sign up. No implementation fee. No onboarding consultant. No 6-hour kickoff call.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The dispatch board shows your waiting list, your scheduled stops, your route map, your day summary, and your chemical needs all in one place. Your crew gets their stops on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Your Techs Learn It in Minutes</h3><p>The mobile tech view is built for people in trucks, not office managers at desks. Big buttons, clear status, one tap to mark complete, log chemicals, skip a stop, or add a note. We&apos;ve had technicians learn the system while sitting in the parking lot before their first stop.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>Automation Runs Without You</h3><p>Set your alert templates once — scheduled, completed, skipped, estimate follow-ups, payment follow-ups, review requests. After that, FenceBossPro handles customer communication automatically on every single job, every single day, without you having to think about it again.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your fence types, load your material and parts catalog with your real costs, import your clients and properties, and set up your text templates. Most fence companies are sending real bids the same day they sign up. No implementation fee. No onboarding consultant.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The job board shows your open bids, your scheduled installs, your crew assignments, and the materials needed for each job all in one place. Your crews get their jobs on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Your Crews Learn It in Minutes</h3><p>The mobile crew view is built for people at the fence line, not office managers at desks. Big buttons, clear job phases, one tap to mark a section complete, add a photo, or capture customer sign-off. Crews learn it in the truck before the first post hole.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>Automation Runs Without You</h3><p>Set your text templates once &mdash; bid sent, bid follow-ups, install reminders, payment follow-ups, review requests. After that, FenceBossPro keeps your fence customers updated automatically on every job, every day, without you having to think about it.</p></div>
         </div>
       </section>
 
@@ -310,21 +334,21 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1200px', margin:'0 auto'}}>
           <span className="section-label">Everything You Need</span>
           <h2 className="section-title">Stop Juggling 5 Different Apps</h2>
-          <p className="section-sub">FenceBossPro replaces your scheduling app, your billing software, your texting tool, and your route planner — all under one roof.</p>
+          <p className="section-sub">FenceBossPro replaces your estimating spreadsheet, your billing software, your texting tool, and your scheduling board &mdash; all under one roof.</p>
         </div>
         <div className="feature-grid">
-          <div className="feature-card"><span className="feature-icon">📋</span><h3>Smart Scheduling</h3><p>FenceBossPro is smart enough to know exactly how much work is waiting. For every service type on your waiting list, it automatically totals the square footage or linear footage so you know precisely how much you can fit in a day before you ever make a single call. No more guessing, no more overbooking — just look at your waiting list, see the ft² or linear ft for each service, and schedule with confidence.</p></div>
-          <div className="feature-card"><span className="feature-icon">🗺️</span><h3>Live Route Map</h3><p>See all your stops pinned on an interactive map. Build efficient routes, drag to reorder, and give your drivers a clear path every single day.</p></div>
-          <div className="feature-card"><span className="feature-icon">💰</span><h3>Estimates &amp; Invoices</h3><p>Create professional estimates in seconds, email them to clients, and convert accepted estimates directly to invoices. Track every dollar owed.</p></div>
-          <div className="feature-card"><span className="feature-icon">💳</span><h3>Stripe Payments</h3><p>Accept credit cards directly through the platform. Store cards on file, charge after service, and track payment history all in one place.</p></div>
-          <div className="feature-card"><span className="feature-icon">💬</span><h3>Two-Way SMS</h3><p>Send and receive text messages from customers right inside the app. Full conversation history organized by contact — no more switching to your phone.</p></div>
-          <div className="feature-card"><span className="feature-icon">🔔</span><h3>Automated Alerts</h3><p>Auto-text and email customers when a service is scheduled, completed, or rescheduled. Set it once and let FenceBossPro handle the communication.</p></div>
-          <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing clients and active leads side by side. Track estimates, service history, properties, and notes all tied to each contact.</p></div>
-          <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every service address gets its own profile with coordinates, notes, service history, and the ability to map it instantly.</p></div>
-          <div className="feature-card"><span className="feature-icon">🧪</span><h3>Chemical Tracking</h3><p>Log every chemical application with mix used, area treated, gallons applied, weather, and technician. Generate compliance reports in one click.</p></div>
-          <div className="feature-card"><span className="feature-icon">📦</span><h3>Package Plans</h3><p>Create recurring service packages, assign clients, and manage renewals. FenceBossPro reminds you when package renewals are due.</p></div>
-          <div className="feature-card"><span className="feature-icon">🚛</span><h3>Team &amp; Truck Management</h3><p>Manage employees, assign trucks, track hours, and control who sees what with role-based access for office staff, technicians, and drivers.</p></div>
-          <div className="feature-card"><span className="feature-icon">📊</span><h3>Dashboard &amp; Reports</h3><p>Custom stat cards show today&apos;s revenue, services completed, properties served, money owed, and more — all at a glance the moment you log in.</p></div>
+          <div className="feature-card"><span className="feature-icon">📐</span><h3>Line-Item Estimating</h3><p>Build professional fence bids from saved line items &mdash; posts, panels, pickets, rails, concrete, gates, and hardware. Linear-foot takeoffs price a run in minutes, and Good / Better / Best options help you close at a higher number.</p></div>
+          <div className="feature-card"><span className="feature-icon">🧱</span><h3>Materials &amp; Parts List</h3><p>A full parts catalog with your costs and margins. Every accepted bid rolls up the exact materials needed for the job, so you know what to order from your supplier and what to load on the truck.</p></div>
+          <div className="feature-card"><span className="feature-icon">📅</span><h3>Project Scheduling</h3><p>Schedule single-day repairs and multi-day fence builds around material delivery. See your whole calendar, assign crews, and keep every install on track.</p></div>
+          <div className="feature-card"><span className="feature-icon">🚚</span><h3>Crew Dispatch &amp; Routing</h3><p>Assign jobs to crews, order stops to cut drive time, and give every crew lead a clear route and job list for the day &mdash; right on their phone.</p></div>
+          <div className="feature-card"><span className="feature-icon">📋</span><h3>The Job Board</h3><p>Every fence project lives on one board, moving from bid to scheduled to in-progress to complete. Nothing slips through the cracks between the sale and the final walk.</p></div>
+          <div className="feature-card"><span className="feature-icon">💳</span><h3>Invoicing &amp; Stripe Payments</h3><p>Convert accepted bids to invoices, store cards on file, and collect payment through the platform. Track unpaid, partial, paid, and overdue at a glance.</p></div>
+          <div className="feature-card"><span className="feature-icon">💰</span><h3>Deposits &amp; Progress Billing</h3><p>Collect a deposit before you order materials, bill in stages on big multi-day builds, and take the balance at the final walk &mdash; all tracked automatically.</p></div>
+          <div className="feature-card"><span className="feature-icon">💬</span><h3>Customer Texts</h3><p>Send and receive texts from fence customers right inside the app. Full conversation history by contact, plus automated bid and install updates &mdash; no more using your personal phone.</p></div>
+          <div className="feature-card"><span className="feature-icon">🔔</span><h3>Automated Alerts</h3><p>Auto-text and email customers when a bid is sent, an install is scheduled, or a job is complete. Set it once and let FenceBossPro handle the follow-up.</p></div>
+          <div className="feature-card"><span className="feature-icon">👥</span><h3>Client &amp; Lead Management</h3><p>Manage existing fence clients and active leads side by side. Track bids, job history, and notes all tied to each contact, with a clear pipeline of who to follow up with next.</p></div>
+          <div className="feature-card"><span className="feature-icon">🏠</span><h3>Property Profiles</h3><p>Every fence-line address gets its own profile with measurements, gate locations, access notes, photos, and full job history &mdash; so the next crew knows the property before they arrive.</p></div>
+          <div className="feature-card"><span className="feature-icon">📊</span><h3>Dashboard &amp; Reports</h3><p>Custom stat cards show this month&apos;s booked revenue, jobs completed, bids out, and money owed &mdash; all at a glance the moment you log in.</p></div>
         </div>
       </section>
 
@@ -333,11 +357,11 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Simple Pricing</span>
           <h2 className="section-title">We Got Tired of Getting Ripped Off.<br />So We Fixed It.</h2>
-          <p className="section-sub">Over the past 20 years we have tried just about every field service software out there — and for 10+ years we were paying $500–$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
+          <p className="section-sub">Over the years we tried just about every contractor software out there &mdash; and for a long time we were paying $500&ndash;$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended — and none of those people had ever run a spray route in their life.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended &mdash; and none of those people had ever set a fence post in their life.</p>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built FenceBossPro with one flat price that includes everything. <strong>$129 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple — they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re operators just like you, and we built the pricing we always wished existed.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple &mdash; they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re fence contractors just like you, and we built the pricing we always wished existed.</p>
           </div>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
@@ -346,99 +370,99 @@ export default function Home() {
             <div className="price-tier">One Plan. No Surprises.</div>
             <div className="price-amount"><sup>$</sup>129</div>
             <div className="price-period">per month</div>
-            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div className="price-desc">Every feature. Unlimited clients, properties, crews, and users. No tiers, no locked features, no per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
-              <li>Unlimited Employees &amp; Users</li>
-              <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Smart Maps &amp; Property Mapping</li>
-              <li>Estimates, Invoices &amp; Stripe Payments</li>
-              <li>Two-Way SMS &amp; Automated Alerts</li>
-              <li>Chemical Tracking &amp; Compliance Reports</li>
-              <li>Package Plans &amp; Renewals</li>
-              <li>Mobile App for Technicians</li>
+              <li>Unlimited Crews &amp; Users</li>
+              <li>Line-Item Estimating &amp; Linear-Foot Takeoffs</li>
+              <li>Materials &amp; Parts Catalog</li>
+              <li>Project Scheduling &amp; Job Board</li>
+              <li>Crew Dispatch &amp; Routing</li>
+              <li>Invoicing, Deposits &amp; Stripe Payments</li>
+              <li>Two-Way Customer Texts &amp; Automated Alerts</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
               <li>+$15 per additional 500 SMS after that</li>
             </ul>
             <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</a>
           </div>
         </div>
-        <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees — ever.</p>
+        <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees &mdash; ever.</p>
       </section>
 
       {/* ═══ SCHEDULING DEEP DIVE ═══ */}
       <section id="scheduling">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">Scheduling</span>
-            <h2>From Waiting List to Dispatched in Seconds</h2>
-            <p>FenceBossPro gives you a waiting list of everything not yet scheduled, a full dispatch board for scheduled jobs, and a live map so you can build tight, efficient routes every morning.</p>
+            <span className="section-label">Scheduling &amp; Dispatch</span>
+            <h2>From Accepted Bid to Crew on Site</h2>
+            <p>FenceBossPro gives you a job board of every project not yet scheduled, a full calendar for booked installs, and crew dispatch so you can build tight days and keep every fence job moving from sale to final walk.</p>
             <ul className="check-list">
-              <li>Waiting list with sq ft totals and service counts per type</li>
-              <li>One-click scheduling with date picker and tech assignment</li>
-              <li>Drag-and-drop route ordering</li>
-              <li>Interactive map showing all stops with stop detail panel</li>
-              <li>Filter by employee, date range, or service status</li>
-              <li>Summary bar: total stops, revenue, sq ft, jobs completed</li>
-              <li>Print dispatch sheets for drivers in the field</li>
-              <li>Mark jobs complete, skipped, or rescheduled with one click</li>
+              <li>Job board with every project from bid to complete</li>
+              <li>One-click scheduling with date picker and crew assignment</li>
+              <li>Schedule multi-day builds around material delivery dates</li>
+              <li>Drag-and-drop route ordering between jobs to cut drive time</li>
+              <li>Filter by crew, date range, or project status</li>
+              <li>Summary bar: booked jobs, revenue, linear ft, jobs complete</li>
+              <li>Print dispatch sheets and materials lists for the crew</li>
+              <li>Mark phases complete, on hold, or rescheduled with one click</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Today&apos;s Route — 12 Stops</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Today&apos;s Schedule &mdash; Crew A</div>
             <div className="mock-item">
               <div className="mock-dot green"></div>
-              <div><div className="mock-label">123 Oak St — Smith, J.</div><div className="mock-sub">Lawn Care 4 · 8,200 ft²</div></div>
+              <div><div className="mock-label">123 Oak St &mdash; Smith, J.</div><div className="mock-sub">Wood Privacy &middot; 180 linear ft</div></div>
               <div className="mock-badge green-badge">Done</div>
             </div>
             <div className="mock-item">
-              <div className="mock-dot green"></div>
-              <div><div className="mock-label">456 Elm Ave — Torres, M.</div><div className="mock-sub">Lawn Insect 3 · 12,000 ft²</div></div>
-              <div className="mock-badge green-badge">Done</div>
+              <div className="mock-dot orange"></div>
+              <div><div className="mock-label">456 Elm Ave &mdash; Torres, M.</div><div className="mock-sub">Chain Link &middot; 240 linear ft</div></div>
+              <div className="mock-badge">In Progress</div>
             </div>
             <div className="mock-item" style={{borderColor:'rgba(43,108,163,.5)'}}>
-              <div className="mock-dot orange"></div>
-              <div><div className="mock-label">789 Pine Rd — Johnson, K.</div><div className="mock-sub">Mosquito 3 · 5,000 ft²</div></div>
-              <div className="mock-badge">In Progress</div>
+              <div className="mock-dot blue"></div>
+              <div><div className="mock-label">789 Pine Rd &mdash; Johnson, K.</div><div className="mock-sub">Aluminum Ornamental &middot; 95 linear ft</div></div>
+              <div className="mock-badge blue-badge">Up Next</div>
             </div>
             <div className="mock-item">
               <div className="mock-dot blue"></div>
-              <div><div className="mock-label">321 Maple Dr — Garcia, L.</div><div className="mock-sub">Flower Beds 4 · 3,400 ft²</div></div>
-              <div className="mock-badge blue-badge">Up Next</div>
+              <div><div className="mock-label">321 Maple Dr &mdash; Garcia, L.</div><div className="mock-sub">Gate Repair &middot; 1 double gate</div></div>
+              <div className="mock-badge blue-badge">Scheduled</div>
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'6px', padding:'12px 14px'}}>
               <div style={{display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'10px', paddingBottom:'8px', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px'}}>4 Properties · 8 Services</span>
-                <span style={{color:'#fff', fontSize:'14px', fontWeight:700}}>$427.00</span>
+                <span style={{color:'rgba(255,255,255,.45)', fontSize:'10px', textTransform:'uppercase', letterSpacing:'.8px'}}>4 Jobs &middot; Crew A Today</span>
+                <span style={{color:'#fff', fontSize:'14px', fontWeight:700}}>$18,940.00</span>
               </div>
               <div style={{display:'flex', flexDirection:'column', gap:'7px'}}>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>4</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Lawn Care 4</span>
+                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Wood Privacy</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>23,168 ft²</span>
-                </div>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-                  <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
-                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>2</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Lawn Insect 3</span>
-                  </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>13,289 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>180 ft</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
                     <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Flower Beds 4</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Chain Link</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>5,043 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>240 ft</span>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
                   <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
                     <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
-                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Mosquito 3</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Aluminum Ornamental</span>
                   </div>
-                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>3,200 ft²</span>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>95 ft</span>
+                </div>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
+                  <div style={{display:'flex', alignItems:'center', gap:'7px'}}>
+                    <span style={{background:'var(--orange)', color:'#fff', fontSize:'10px', fontWeight:800, padding:'1px 7px', borderRadius:'10px', lineHeight:'16px'}}>1</span>
+                    <span style={{color:'rgba(255,255,255,.8)', fontSize:'12px'}}>Gate Repair</span>
+                  </div>
+                  <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>1 gate</span>
                 </div>
               </div>
             </div>
@@ -450,36 +474,39 @@ export default function Home() {
       <section id="billing" style={{background:'var(--light-bg)'}}>
         <div className="highlight-row reverse">
           <div className="highlight-text">
-            <span className="section-label">Billing</span>
+            <span className="section-label">Invoicing &amp; Billing</span>
             <h2>Get Paid Faster. Chase Less.</h2>
-            <p>Build an estimate in minutes, email it directly from the platform, and let clients accept it with a single click. The moment they accept, convert it to an invoice and collect payment — all without leaving FenceBossPro.</p>
+            <p>Build a bid in minutes, text or email it straight from the platform, and let customers accept with a single tap. The moment they accept, collect a deposit, schedule the install, and convert the bid to an invoice &mdash; all without leaving FenceBossPro.</p>
             <ul className="check-list">
-              <li>Estimate builder with your service catalog and line items</li>
-              <li>Email estimates via Resend with custom branded templates</li>
-              <li>Client-facing estimate page with Accept / Decline buttons</li>
-              <li>Automatic status tracking: Draft → Sent → Accepted → Invoiced</li>
-              <li>Invoice management with unpaid, partial, paid, and overdue filters</li>
-              <li>Stripe card-on-file for quick payment collection</li>
+              <li>Estimate builder with your full fence material catalog and line items</li>
+              <li>Email and text bids with custom branded templates</li>
+              <li>Customer-facing bid page with Accept / Decline buttons</li>
+              <li>Collect deposits up front before you order materials</li>
+              <li>Progress billing in stages on multi-day fence builds</li>
+              <li>Automatic status tracking: Draft &rarr; Sent &rarr; Accepted &rarr; Invoiced</li>
+              <li>Stripe card-on-file for fast, secure payment collection</li>
               <li>Sales tax management by jurisdiction with tax reports</li>
-              <li>Discount codes — percentage or fixed dollar amount</li>
               <li>Full payment history with method, date, and reference tracking</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Estimate #0042 — Pending Acceptance</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Bid #0042 &mdash; Pending Acceptance</div>
             <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', marginBottom:'10px'}}>
               <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginBottom:'6px'}}>Line Items</div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Lawn Care 4 (8,200 sq ft)</span><span>$95.00</span>
+                <span>Vinyl Privacy (120 linear ft)</span><span>$5,400.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Lawn Insect 3 (8,200 sq ft)</span><span>$75.00</span>
+                <span>4 ft Walk Gate + Hardware</span><span>$420.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Mosquito Treatment</span><span>$55.00</span>
+                <span>Old Fence Tear-Out</span><span>$600.00</span>
               </div>
               <div style={{display:'flex', justifyContent:'space-between', color:'#fff', fontSize:'14px', fontWeight:700, paddingTop:'8px', marginTop:'4px'}}>
-                <span>Total</span><span style={{color:'var(--orange)'}}>$225.00</span>
+                <span>Total</span><span style={{color:'var(--orange)'}}>$6,420.00</span>
+              </div>
+              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.6)', fontSize:'12px', paddingTop:'6px'}}>
+                <span>Deposit Due (30%)</span><span>$1,926.00</span>
               </div>
             </div>
             <div style={{display:'flex', gap:'8px', marginTop:'4px'}}>
@@ -495,30 +522,30 @@ export default function Home() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Automated Alerts</span>
           <h2 className="section-title">Communicate Like a Big Company.<br />Run Like a Small One.</h2>
-          <p className="section-sub">Set up automated SMS and email alerts once. FenceBossPro sends them automatically — keeping your customers informed without any extra work from you.</p>
+          <p className="section-sub">Set up automated text and email alerts once. FenceBossPro sends them automatically &mdash; keeping your fence customers informed without any extra work from you.</p>
         </div>
         <div className="alert-grid">
-          <div className="alert-pill"><span className="ap-icon">📅</span><div><div className="ap-label">Service Scheduled</div><div className="ap-sub">Auto-text when a job is booked</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">✅</span><div><div className="ap-label">Service Completed</div><div className="ap-sub">Notify customer when tech finishes</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">📄</span><div><div className="ap-label">Bid Sent</div><div className="ap-sub">Text when an estimate hits their inbox</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">🔁</span><div><div className="ap-label">Bid Follow-Ups</div><div className="ap-sub">3 automated follow-ups if not accepted</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">🎉</span><div><div className="ap-label">Bid Accepted</div><div className="ap-sub">Confirm and collect the deposit</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">📅</span><div><div className="ap-label">Install Scheduled</div><div className="ap-sub">Auto-text when a job is booked</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">🚚</span><div><div className="ap-label">Crew On The Way</div><div className="ap-sub">Let customers know the crew is heading out</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">✅</span><div><div className="ap-label">Job Completed</div><div className="ap-sub">Notify customer when the fence is done</div></div></div>
           <div className="alert-pill"><span className="ap-icon">🔄</span><div><div className="ap-label">Rescheduled Alert</div><div className="ap-sub">Instantly notify on date changes</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">⏭️</span><div><div className="ap-label">Service Skipped</div><div className="ap-sub">Let customers know before you skip</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">📄</span><div><div className="ap-label">Estimate Sent</div><div className="ap-sub">SMS when estimate hits their inbox</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">🔁</span><div><div className="ap-label">Estimate Follow-Ups</div><div className="ap-sub">3 automated follow-ups if not accepted</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">🎉</span><div><div className="ap-label">Estimate Accepted</div><div className="ap-sub">Celebrate (and get ready to roll)</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">⭐</span><div><div className="ap-label">Review Request</div><div className="ap-sub">Auto-ask for Google reviews after service</div></div></div>
-          <div className="alert-pill"><span className="ap-icon">💳</span><div><div className="ap-label">Payment Declined</div><div className="ap-sub">Notify and follow up automatically</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">💳</span><div><div className="ap-label">Balance Due</div><div className="ap-sub">Follow up on final payment automatically</div></div></div>
+          <div className="alert-pill"><span className="ap-icon">⭐</span><div><div className="ap-label">Review Request</div><div className="ap-sub">Auto-ask for Google reviews after install</div></div></div>
           <div className="alert-pill"><span className="ap-icon">💬</span><div><div className="ap-label">Inbound Text Alert</div><div className="ap-sub">Get notified when a customer texts you</div></div></div>
         </div>
-        <p style={{textAlign:'center', color:'rgba(255,255,255,.45)', fontSize:'13px', marginTop:'32px'}}>Toggle SMS and Email independently for each alert type — you&apos;re in full control.</p>
+        <p style={{textAlign:'center', color:'rgba(255,255,255,.45)', fontSize:'13px', marginTop:'32px'}}>Toggle SMS and Email independently for each alert type &mdash; you&apos;re in full control.</p>
       </section>
 
       {/* ═══ STATS BAND ═══ */}
       <div className="stats-band">
         <div className="stats-band-inner">
           <div className="stat-item"><div className="val">10+</div><div className="lbl">Automated Alert Types</div></div>
-          <div className="stat-item"><div className="val">3</div><div className="lbl">Estimate Follow-Up Sequences</div></div>
+          <div className="stat-item"><div className="val">3</div><div className="lbl">Bid Follow-Up Sequences</div></div>
           <div className="stat-item"><div className="val">3</div><div className="lbl">Payment Follow-Up Sequences</div></div>
-          <div className="stat-item"><div className="val">∞</div><div className="lbl">Custom SMS Templates</div></div>
+          <div className="stat-item"><div className="val">∞</div><div className="lbl">Custom Text Templates</div></div>
         </div>
       </div>
 
@@ -527,54 +554,54 @@ export default function Home() {
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">Your Team</span>
-            <h2>Office, Field, and Mobile — All Connected</h2>
-            <p>FenceBossPro isn&apos;t just for the office. Your technicians get a mobile-optimized version built for the truck. Roles control exactly what each person can see and do.</p>
+            <h2>Office, Field, and Mobile &mdash; All Connected</h2>
+            <p>FenceBossPro isn&apos;t just for the office. Your crews get a mobile-optimized version built for the job site. Roles control exactly what each person can see and do.</p>
             <ul className="check-list">
-              <li>Role-based access: Owner, Manager, Office, Technician, Mobile</li>
-              <li>Mobile technicians see their jobs, mark complete, and skip</li>
+              <li>Role-based access: Owner, Manager, Office, Crew Lead, Mobile</li>
+              <li>Mobile crews see their jobs, materials list, and mark phases complete</li>
               <li>Office staff manages scheduling, billing, and messaging</li>
               <li>Employee hour tracking and payroll-ready reports</li>
-              <li>Truck management — assign vehicles to services</li>
+              <li>Crew and truck management &mdash; assign jobs to the right team</li>
               <li>Admin controls for adding, deactivating, and managing users</li>
             </ul>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Team Access Levels</div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>👑</span><div><div className="mock-label">Owner</div><div className="mock-sub">Full access — all features, billing, users</div></div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>🏢</span><div><div className="mock-label">Manager</div><div className="mock-sub">Scheduling, clients, estimates, reports</div></div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>👑</span><div><div className="mock-label">Owner</div><div className="mock-sub">Full access &mdash; all features, billing, users</div></div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>🏢</span><div><div className="mock-label">Manager</div><div className="mock-sub">Scheduling, clients, bids, reports</div></div></div>
             <div className="mock-item"><span style={{fontSize:'20px'}}>📋</span><div><div className="mock-label">Office Staff</div><div className="mock-sub">Billing, messaging, client management</div></div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>📱</span><div><div className="mock-label">Technician (Mobile)</div><div className="mock-sub">Today&apos;s jobs only — mark complete or skip</div></div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>📱</span><div><div className="mock-label">Crew Lead (Mobile)</div><div className="mock-sub">Today&apos;s jobs only &mdash; materials &amp; sign-off</div></div></div>
           </div>
         </div>
       </section>
 
-      {/* ═══ CHEMICAL TRACKING ═══ */}
+      {/* ═══ MATERIALS TRACKING ═══ */}
       <section style={{background:'var(--light-bg)'}}>
         <div className="highlight-row reverse">
           <div className="highlight-text">
-            <span className="section-label">Compliance</span>
-            <h2>Chemical Tracking Built Right In</h2>
-            <p>Every application logged. Every mix recorded. Every technician tracked. FenceBossPro gives you a complete chemical application history you can filter, print, and take to any inspection.</p>
+            <span className="section-label">Materials &amp; Parts</span>
+            <h2>Know Exactly What to Order and Load</h2>
+            <p>Every bid you accept rolls up the exact materials for the job &mdash; posts, panels, pickets, rails, concrete, gates, and hardware. FenceBossPro gives you a clean parts list you can send to your supplier and hand to the crew, so you stop over-ordering and stop showing up a gate short.</p>
             <ul className="check-list">
-              <li>Log product mixes, area treated, and gallons applied per job</li>
-              <li>Track weather conditions at time of application</li>
-              <li>Filter reports by client, mix, technician, or date range</li>
-              <li>Summary cards: total applications, properties, sq ft, gallons</li>
-              <li>Full product catalog with mix recipes</li>
-              <li>Print-ready chemical reports for compliance</li>
-              <li>Area treated types (lawn, shrubs, beds, etc.) tracked separately</li>
+              <li>Full parts catalog with your real costs and margins</li>
+              <li>Auto-generated materials list from every accepted bid</li>
+              <li>Post counts and concrete bags calculated from the run length</li>
+              <li>Gate and hardware add-ons tracked as their own line items</li>
+              <li>Purchase-order-ready lists to send straight to your supplier</li>
+              <li>Material cost rolled into every estimate to protect your margin</li>
+              <li>Track parts by fence type &mdash; wood, vinyl, chain link, aluminum</li>
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Chemical Report — This Month</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Materials List &mdash; 456 Elm Ave</div>
             <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'8px', marginBottom:'12px'}}>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>142</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Applications</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>87</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Properties</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>751K</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Sq Ft Treated</div></div>
-              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>284</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Gallons Applied</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>32</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Terminal &amp; Line Posts</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'#fff', fontSize:'20px', fontWeight:700}}>240 ft</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Chain Link Fabric</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>40</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Concrete Bags</div></div>
+              <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'12px', textAlign:'center'}}><div style={{color:'var(--orange)', fontSize:'20px', fontWeight:700}}>2</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px'}}>Gates + Hardware</div></div>
             </div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Lawn Care Mix A</div><div className="mock-sub">Applied by J. Smith · 6/14/2026</div></div><div className="mock-badge green-badge">12 gal</div></div>
-            <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">Insect Control Mix</div><div className="mock-sub">Applied by M. Torres · 6/14/2026</div></div><div className="mock-badge">8.5 gal</div></div>
+            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Top Rail &amp; Tension Wire</div><div className="mock-sub">On supplier PO &middot; 6/14/2026</div></div><div className="mock-badge green-badge">Ordered</div></div>
+            <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">Post Caps &amp; Tension Bands</div><div className="mock-sub">Pull from shop stock</div></div><div className="mock-badge">In Stock</div></div>
           </div>
         </div>
       </section>
@@ -583,31 +610,31 @@ export default function Home() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Who We Are</span>
-          <h2 className="section-title">Built by an Operator. Owned by an Operator.</h2>
-          <p className="section-sub">We&apos;re not a big corporation. We&apos;re not a venture-backed tech startup. We&apos;re a privately owned company built by someone who has been in the field since 2006.</p>
+          <h2 className="section-title">Built by a Contractor. Owned by a Contractor.</h2>
+          <p className="section-sub">We&apos;re not a big corporation. We&apos;re not a venture-backed tech startup. We&apos;re a privately owned company built by someone who has been setting posts and hanging gates for years.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate a spray business. We&apos;ve been in this industry since <strong>2006</strong> — which means when we built FenceBossPro, we didn&apos;t have to guess what operators need. We already knew. We lived it every day.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never driven a spray truck, never managed a waiting list of hundreds or thousands of properties, never had to chase down a payment while also trying to dispatch a full crew. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>FenceBossPro is <strong>privately owned</strong> — no corporate board, no outside investors, no decisions made by people who have never touched a sprayer. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We own and operate a fence business. We&apos;ve been in this trade for years &mdash; which means when we built FenceBossPro, we didn&apos;t have to guess what fence contractors need. We already knew. We lived it on every bid and every install.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We built this software because everything else out there was built by people who have never priced a fence run, never managed a materials order from a supplier, never had to chase a final payment while also trying to dispatch a crew. They build features they <em>think</em> you need. We build features we <em>know</em> you need.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>FenceBossPro is <strong>privately owned</strong> &mdash; no corporate board, no outside investors, no decisions made by people who have never dug a post hole. When you call or message us, you&apos;re talking to the owner. That&apos;s the way we like it, and that&apos;s never going to change.</p>
           </div>
         </div>
         <div className="testimonial-grid" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;Before FenceBossPro I was using 3 different apps and still falling through the cracks on follow-ups. Now everything is in one place and my close rate on estimates is way up because the follow-up texts go out automatically.&rdquo;</p>
-            <div className="testimonial-author">Lawn Care Owner</div>
+            <p className="testimonial-body">&ldquo;Before FenceBossPro I was bidding fence jobs on a legal pad and forgetting gate hardware half the time. Now my bids are line-item, my margins are protected, and my close rate is way up because the follow-up texts go out automatically.&rdquo;</p>
+            <div className="testimonial-author">Fence Company Owner</div>
             <div className="testimonial-role">Nashville, TN</div>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;The chemical tracking alone is worth it. I used to keep a spreadsheet and it was always behind. Now every application is logged right when the job is done and I can pull a report for any inspector in 30 seconds.&rdquo;</p>
-            <div className="testimonial-author">Pest Control Operator</div>
+            <p className="testimonial-body">&ldquo;The materials list alone is worth it. Every accepted bid spits out exactly what to order &mdash; posts, panels, concrete, gates. I stopped over-ordering and I never show up to an install a section short anymore.&rdquo;</p>
+            <div className="testimonial-author">Vinyl &amp; Aluminum Fence Installer</div>
             <div className="testimonial-role">Phoenix, AZ</div>
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;The route map changed how I schedule. I can look at where all my jobs are, drag them into order, and cut drive time in half. My guys are doing more stops per day with less fuel.&rdquo;</p>
-            <div className="testimonial-author">Spray Tech Business Owner</div>
+            <p className="testimonial-body">&ldquo;The job board changed how I run my crews. I can see every project from bid to final walk, dispatch the right crew, and collect the deposit before we ever order materials. Nothing falls through the cracks now.&rdquo;</p>
+            <div className="testimonial-author">Fence &amp; Gate Contractor</div>
             <div className="testimonial-role">Charlotte, NC</div>
           </div>
         </div>
@@ -619,17 +646,17 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label">Built on Modern Technology</span>
             <h2>Fast. Reliable. No Delays.</h2>
-            <p>FenceBossPro runs on the latest and greatest infrastructure available today. That means your texts and emails go out in seconds — not hours. No queues backing up, no alerts firing late, no wondering if your customer got the message. Everything happens in real time, the way it&apos;s supposed to.</p>
-            <p style={{marginTop:'12px'}}>We built on a modern stack specifically to eliminate the performance issues and outages that plague older field service platforms. Less downtime. Fewer bugs. A faster experience every time you log in.</p>
+            <p>FenceBossPro runs on the latest and greatest infrastructure available today. That means your bids, texts, and emails go out in seconds &mdash; not hours. No queues backing up, no alerts firing late, no wondering if your customer got the estimate. Everything happens in real time, the way it&apos;s supposed to.</p>
+            <p style={{marginTop:'12px'}}>We built on a modern stack specifically to eliminate the performance issues and outages that plague older contractor platforms. Less downtime. Fewer bugs. A faster experience every time you log in.</p>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Alert Delivery</div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Service Completed SMS</div><div className="mock-sub">Sent to customer · 0.4 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Estimate Email</div><div className="mock-sub">Sent to customer · 0.9 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
-            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Review Request SMS</div><div className="mock-sub">Sent to customer · 0.6 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
+            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Bid Sent Text</div><div className="mock-sub">Sent to customer &middot; 0.4 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
+            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Estimate Email</div><div className="mock-sub">Sent to customer &middot; 0.9 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
+            <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Review Request Text</div><div className="mock-sub">Sent to customer &middot; 0.6 seconds</div></div><div className="mock-badge green-badge">Delivered</div></div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', textAlign:'center'}}>
               <div style={{color:'var(--orange)', fontSize:'22px', fontWeight:800}}>No Hours-Long Delays.</div>
-              <div style={{color:'rgba(255,255,255,.55)', fontSize:'13px', marginTop:'4px'}}>Your customers hear from you instantly — every time.</div>
+              <div style={{color:'rgba(255,255,255,.55)', fontSize:'13px', marginTop:'4px'}}>Your customers hear from you instantly &mdash; every time.</div>
             </div>
           </div>
         </div>
@@ -641,15 +668,15 @@ export default function Home() {
           <div className="highlight-text">
             <span className="section-label" style={{color:'var(--orange)'}}>We Actually Listen</span>
             <h2 style={{color:'#fff'}}>Have an Idea? We&apos;ll Build It.</h2>
-            <p style={{color:'rgba(255,255,255,.7)'}}>Most software companies put your feature request in a queue and get back to you six months later — if ever. That&apos;s not us. When you have a suggestion or need something built for your workflow, we listen. We respond. And we build it fast.</p>
-            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Custom features for our clients typically ship in 1–2 weeks, not months. FenceBossPro is built by someone who runs a field service business, and we know that when you need something, you need it now — not on the next quarterly release cycle.</p>
-            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Our goal is simple: be the best field management software available. And the only way to get there is by building it with our clients — not just for them.</p>
+            <p style={{color:'rgba(255,255,255,.7)'}}>Most software companies put your feature request in a queue and get back to you six months later &mdash; if ever. That&apos;s not us. When you have a suggestion or need something built for the way your fence business runs, we listen. We respond. And we build it fast.</p>
+            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Custom features for our clients typically ship in 1&ndash;2 weeks, not months. FenceBossPro is built by someone who runs a fence business, and we know that when you need something, you need it now &mdash; not on the next quarterly release cycle.</p>
+            <p style={{color:'rgba(255,255,255,.7)', marginTop:'12px'}}>Our goal is simple: be the best fence business software available. And the only way to get there is by building it with our clients &mdash; not just for them.</p>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Feature Request Timeline</div>
             <div className="mock-item"><span style={{fontSize:'20px'}}>💬</span><div><div className="mock-label">You submit a request</div><div className="mock-sub">Tell us what you need and why</div></div><div className="mock-badge blue-badge">Day 1</div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>⚡</span><div><div className="mock-label">We start building</div><div className="mock-sub">No committees. No approval queues.</div></div><div className="mock-badge blue-badge">Day 2–3</div></div>
-            <div className="mock-item"><span style={{fontSize:'20px'}}>✅</span><div><div className="mock-label">Feature is live</div><div className="mock-sub">In your account, ready to use</div></div><div className="mock-badge green-badge">Week 1–2</div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>⚡</span><div><div className="mock-label">We start building</div><div className="mock-sub">No committees. No approval queues.</div></div><div className="mock-badge blue-badge">Day 2&ndash;3</div></div>
+            <div className="mock-item"><span style={{fontSize:'20px'}}>✅</span><div><div className="mock-label">Feature is live</div><div className="mock-sub">In your account, ready to use</div></div><div className="mock-badge green-badge">Week 1&ndash;2</div></div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', textAlign:'center'}}>
               <div style={{color:'var(--orange)', fontSize:'16px', fontWeight:700}}>Not months. Weeks.</div>
               <div style={{color:'rgba(255,255,255,.45)', fontSize:'12px', marginTop:'4px'}}>Your input shapes the software you use every day.</div>
@@ -661,7 +688,7 @@ export default function Home() {
       {/* ═══ CTA ═══ */}
       <div className="cta-band">
         <h2>Your Competition Is Already<br />Using Software Like This.</h2>
-        <p>Stop running your business out of a notepad and a group text. Get organized, get paid faster, and give your customers an experience that wins referrals.</p>
+        <p>Stop running your fence business out of a notepad and a group text. Get organized, bid faster, get paid sooner, and give your customers an experience that wins referrals.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
         </div>
@@ -682,7 +709,7 @@ export default function Home() {
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>First Name</label><input id={`sbp${n}-first`} type="text" placeholder="John" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Last Name</label><input id={`sbp${n}-last`} type="text" placeholder="Smith" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             </div>
-            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn &amp; Spray Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
+            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Fence &amp; Gate Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#2b6ca3', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>

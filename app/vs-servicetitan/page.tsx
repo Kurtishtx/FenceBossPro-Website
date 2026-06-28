@@ -138,15 +138,15 @@ export default function VsServiceTitan() {
 
       <div className="hero">
         <div className="hero-badge">ServiceTitan Alternative</div>
-        <h1>ServiceTitan Is Built for HVAC and Plumbing.<br /><span>FenceBossPro Is Built for Lawn Care.</span></h1>
-        <p>ServiceTitan is an enterprise platform designed for large HVAC, plumbing, and electrical companies. It&apos;s powerful — and it&apos;s priced and scoped for that world. If you run a lawn care or pest control operation, you don&apos;t need ServiceTitan. You need software that was built around the way spray businesses actually work.</p>
+        <h1>ServiceTitan Is Built for HVAC and Plumbing.<br /><span>FenceBossPro Is Built for Fencing.</span></h1>
+        <p>ServiceTitan is an enterprise platform designed for large HVAC, plumbing, and electrical companies. It&apos;s powerful — and it&apos;s priced and scoped for that world. If you run a fence install and repair operation, you don&apos;t need ServiceTitan. You need software that was built around the way fencing businesses actually work.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly — No Enterprise Pricing</div></div>
           <div><div className="hero-stat-val">1 Day</div><div className="hero-stat-lbl">To Set Up — Not Months</div></div>
-          <div><div className="hero-stat-val">Built</div><div className="hero-stat-lbl">For Spray Routes — Not HVAC</div></div>
+          <div><div className="hero-stat-val">Built</div><div className="hero-stat-lbl">For Fence Crews — Not HVAC</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
       </div>
@@ -155,7 +155,7 @@ export default function VsServiceTitan() {
         <div className="centered" style={{maxWidth:'900px', margin:'0 auto'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">FenceBossPro vs ServiceTitan</h2>
-          <p className="section-sub">ServiceTitan is built for enterprise HVAC. FenceBossPro is built for lawn care and pest control.</p>
+          <p className="section-sub">ServiceTitan is built for enterprise HVAC. FenceBossPro is built for fence contractors.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -167,17 +167,17 @@ export default function VsServiceTitan() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Built Specifically for Lawn Care &amp; Pest Control</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Lasso Circle Map Route Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Built Specifically for Fence Contractors</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Linear-Foot Takeoffs by Fence Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Lasso Circle Map Job Selector</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Parts Lists (Posts, Panels, Gates)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Published, Transparent Pricing</td><td className="sbp-col"><span className="chk">✓ $129/mo</span></td><td><span className="crs">✗ Must call sales</span></td></tr>
               <tr><td className="feature-name">Set Up in a Day — No Implementation Team</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ 60–90 days typical</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Add-on cost</span></td></tr>
-              <tr><td className="feature-name">Package Plan Renewals</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Generic contracts</span></td></tr>
+              <tr><td className="feature-name">Deposits &amp; Progress Billing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Generic contracts</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated SMS Alerts</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Affordable for Small-Mid Operations</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Enterprise only</span></td></tr>
               <tr><td className="feature-name">No Annual Contract Required</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Annual contracts</span></td></tr>
@@ -188,14 +188,14 @@ export default function VsServiceTitan() {
       </section>
 
       <div className="premium-band">
-        <h2>ServiceTitan Was Built for $5M+ HVAC Companies.<br /><span>FenceBossPro Was Built for Spray Routes.</span></h2>
-        <p>ServiceTitan is one of the most powerful field service platforms in the world. It&apos;s also one of the most expensive, most complex, and most overkill tools you could choose for a lawn care or pest control business. You&apos;d spend 90 days implementing it, pay $300–$500+/month, and still be missing features built specifically for spray businesses. FenceBossPro is $129, set up in an afternoon, and built around how your routes actually work.</p>
+        <h2>ServiceTitan Was Built for $5M+ HVAC Companies.<br /><span>FenceBossPro Was Built for Fence Crews.</span></h2>
+        <p>ServiceTitan is one of the most powerful field service platforms in the world. It&apos;s also one of the most expensive, most complex, and most overkill tools you could choose for a fence install and repair business. You&apos;d spend 90 days implementing it, pay $300–$500+/month, and still be missing features built specifically for fencing contractors. FenceBossPro is $129, set up in an afternoon, and built around how your fence jobs actually work.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Spray-Specific Features</h4><p>Sq ft waiting lists, chemical compliance logs, lasso route selector, recurring treatment tracking — features built around how lawn care and pest control actually runs. ServiceTitan doesn&apos;t have any of these.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Fence-Specific Features</h4><p>Linear-foot takeoffs, materials &amp; parts lists for posts, panels, pickets, rails and gates, lasso job selector, line-item bids — features built around how fence install and repair actually runs. ServiceTitan doesn&apos;t have any of these.</p></div>
           <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>Up in a Day, Not 90</h4><p>ServiceTitan implementations take months. You&apos;ll need an onboarding team, configuration calls, and a lot of patience. FenceBossPro is designed for owners who want to be operational today — not next quarter.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$129 vs $300–500+</h4><p>ServiceTitan pricing is custom, but independent estimates consistently put it at $300–$500+ per month for small operations — before add-ons. FenceBossPro is $129/month. No negotiation, no annual contract, no surprise invoices.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Route Selector</h4><p>Draw a circle on the map, instantly see every stop inside with a service due — sq ft, service type, all calculated. ServiceTitan has route optimization but nothing like the Lasso geographic selector built for spray route density.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance</h4><p>Log every application with product, mix rate, weather, and tech license. Pull compliance reports any time. ServiceTitan tracks jobs. That&apos;s not the same as a pesticide compliance log built for lawn and pest operations.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Job Selector</h4><p>Draw a circle on the map, instantly see every job inside — linear feet, fence type, all calculated. ServiceTitan has route optimization but nothing like the Lasso geographic selector built for tightening up fence crew routes.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🧱</div><h4>Materials &amp; Takeoffs</h4><p>Build a linear-foot takeoff and FenceBossPro lays out every post, panel, picket, rail, bag of concrete, gate, and piece of hardware you need. ServiceTitan tracks jobs. That&apos;s not the same as a fence materials list built for installers.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included</h4><p>Two-way SMS inbox, automated appointment alerts, estimate follow-ups, review requests — all built in at $129/month. ServiceTitan charges extra for messaging features and requires separate configuration for automation.</p></div>
         </div>
       </div>
@@ -204,23 +204,23 @@ export default function VsServiceTitan() {
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">The Real Difference</span>
-            <h2>ServiceTitan Is an Enterprise Platform. You&apos;re a Spray Business.</h2>
-            <p>ServiceTitan serves thousands of companies, but its core use case is large residential service businesses — HVAC, plumbing, electrical. Lawn care and pest control aren&apos;t really in the design. You&apos;d be paying for a tool built for a completely different operation.</p>
+            <h2>ServiceTitan Is an Enterprise Platform. You&apos;re a Fence Business.</h2>
+            <p>ServiceTitan serves thousands of companies, but its core use case is large residential service businesses — HVAC, plumbing, electrical. Fence install and repair aren&apos;t really in the design. You&apos;d be paying for a tool built for a completely different operation.</p>
             <ul className="check-list">
-              <li>No sq ft waiting list — ServiceTitan doesn&apos;t understand the spray model</li>
+              <li>No linear-foot takeoffs — ServiceTitan doesn&apos;t understand the fencing model</li>
               <li>No lasso selector — geographic circle scheduling doesn&apos;t exist in ST</li>
-              <li>No chemical compliance logs built for pesticide applicators</li>
+              <li>No materials &amp; parts lists built for posts, panels, and gates</li>
               <li>Pricing starts at $300–500+/month before add-ons</li>
               <li>Months to implement — you need an onboarding team</li>
               <li>Annual contracts — you&apos;re locked in from day one</li>
-              <li>Built for HVAC, plumbing, electrical — not spray routes</li>
+              <li>Built for HVAC, plumbing, electrical — not fence crews</li>
             </ul>
           </div>
           <div className="highlight-visual">
             <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>What You Actually Pay</div>
             <div className="mock-item">
               <div className="mock-dot orange"></div>
-              <div><div className="mock-label">FenceBossPro</div><div className="mock-sub">Every feature — built for spray routes</div></div>
+              <div><div className="mock-label">FenceBossPro</div><div className="mock-sub">Every feature — built for fence crews</div></div>
               <div className="mock-badge">$129/mo</div>
             </div>
             <div className="mock-item">
@@ -230,7 +230,7 @@ export default function VsServiceTitan() {
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px'}}>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700, marginBottom:'8px'}}>FenceBossPro also includes things ST doesn&apos;t:</div>
-              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Sq Ft Waiting List by Service Type<br />✓ Lasso Circle Map Route Selector<br />✓ Chemical Compliance Logs &amp; Reports<br />✓ Package Plan Renewal Tracking<br />✓ Set up in one afternoon — no consultants</div>
+              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Linear-Foot Takeoffs by Fence Type<br />✓ Lasso Circle Map Job Selector<br />✓ Materials &amp; Parts Lists (Posts, Panels, Gates)<br />✓ Deposits &amp; Progress Billing<br />✓ Set up in one afternoon — no consultants</div>
             </div>
           </div>
         </div>
@@ -241,13 +241,13 @@ export default function VsServiceTitan() {
           <div className="highlight-text">
             <span className="section-label">Lasso — Circle Map Scheduling</span>
             <h2 style={{color:'#fff'}}>A Feature Class ServiceTitan Doesn&apos;t Have.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Draw a circle on your map and FenceBossPro shows you every property inside with a service due — total stops, sq ft, service types — before you schedule a single stop. No comparable feature exists in ServiceTitan. It&apos;s not route optimization. It&apos;s a geographic spray route builder built specifically for recurring treatment schedules.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Draw a circle on your map and FenceBossPro shows you every fence job inside — total stops, linear feet, fence types — before you dispatch a single crew. No comparable feature exists in ServiceTitan. It&apos;s not route optimization. It&apos;s a geographic fence job builder built specifically for keeping your crews tight on the map.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle — instantly see all properties with services due inside</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Breaks down stops, sq ft, and service types in real time</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>One click to schedule all selected stops to a date and truck</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Tighten routes geographically — stop wasting fuel on scattered stops</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Built specifically for recurring spray route scheduling</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle — instantly see all jobs inside</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Breaks down stops, linear feet, and fence types in real time</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>One click to schedule all selected jobs to a date and crew</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Tighten routes geographically — stop wasting fuel on scattered jobs</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Built specifically for scheduling fence install and repair crews</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>ServiceTitan has route optimization. Not the same thing as Lasso.</li>
             </ul>
           </div>
@@ -263,11 +263,11 @@ export default function VsServiceTitan() {
               </div>
             </div>
             <div className="stat-grid">
-              <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
-              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
-              <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft (Beds)</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
+              <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Jobs Selected</div></div>
+              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Jobs</div></div>
+              <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft of Fence</div></div>
+              <div className="stat-cell"><div className="stat-val">38</div><div className="stat-lbl">Gates</div></div>
+              <div className="stat-cell full"><div className="stat-val">Wood · 8 &nbsp;|&nbsp; Vinyl · 6 &nbsp;|&nbsp; Chain Link · 5</div><div className="stat-lbl">Breakdown by Fence Type</div></div>
             </div>
           </div>
         </div>
@@ -277,12 +277,12 @@ export default function VsServiceTitan() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Simplicity</span>
           <h2 className="section-title">Set Up in an Afternoon. Not 90 Days.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>ServiceTitan implementations take months, require training, and need ongoing support. FenceBossPro is designed for spray business owners who want to be running today — not next quarter after a paid onboarding engagement.</p>
+          <p className="section-sub" style={{maxWidth:'720px'}}>ServiceTitan implementations take months, require training, and need ongoing support. FenceBossPro is designed for fence business owners who want to be running today — not next quarter after a paid onboarding engagement.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>No Onboarding Team Required</h3><p>FenceBossPro is designed to be self-serve from day one. Add your services, import your clients and properties, connect your payment processor, and you&apos;re scheduling. No implementation consultant, no 90-day setup timeline.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>No Onboarding Team Required</h3><p>FenceBossPro is designed to be self-serve from day one. Add your fence types, import your clients and properties, connect your payment processor, and you&apos;re scheduling. No implementation consultant, no 90-day setup timeline.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>Pricing You Can Plan Around</h3><p>$129/month. No custom quotes, no sales calls, no contract negotiations. ServiceTitan won&apos;t even give you pricing without a demo — because their pricing is based on your revenue. FenceBossPro is $129. Always.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Techs Learn It Fast</h3><p>Your crew picks up the mobile app in minutes. No training program, no certification, no thick manual. The tech app shows today&apos;s stops, property notes, and a complete button. That&apos;s it.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Crews Learn It Fast</h3><p>Your crew picks up the mobile app in minutes. No training program, no certification, no thick manual. The crew app shows today&apos;s jobs, property notes, and a complete button. That&apos;s it.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Cancel Anytime — No Lock-In</h3><p>No annual contract required. Month to month from day one. ServiceTitan requires annual agreements that lock you in regardless of how the software performs. FenceBossPro earns your business every month.</p></div>
         </div>
       </section>
@@ -302,14 +302,14 @@ export default function VsServiceTitan() {
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
-              <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Linear-Foot Takeoffs by Fence Type</li>
+              <li>Lasso Circle Map Job Selector</li>
+              <li>Materials &amp; Parts Lists (Posts, Panels, Gates)</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
-              <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Deposits &amp; Progress Billing</li>
+              <li>Mobile App for Crews</li>
               <li>500 Outbound SMS/month included</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -319,7 +319,7 @@ export default function VsServiceTitan() {
       </section>
 
       <div className="cta-band">
-        <h2>You Don&apos;t Need an Enterprise Platform.<br />You Need Software Built for Spray Routes.</h2>
+        <h2>You Don&apos;t Need an Enterprise Platform.<br />You Need Software Built for Fence Crews.</h2>
         <p>Try FenceBossPro free for 14 days. Set up in an afternoon. $129/month — no sales call required.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -340,7 +340,7 @@ export default function VsServiceTitan() {
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>First Name</label><input id={`sbp${n}-first`} type="text" placeholder="John" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Last Name</label><input id={`sbp${n}-last`} type="text" placeholder="Smith" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             </div>
-            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn Care" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
+            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Fence Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#2b6ca3', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>

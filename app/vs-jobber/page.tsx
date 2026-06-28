@@ -142,14 +142,14 @@ export default function VsJobber() {
       <div className="hero">
         <div className="hero-badge">Jobber Alternative</div>
         <h1>Jobber Is Built for Every Industry.<br /><span>FenceBossPro Is Built for Yours.</span></h1>
-        <p>Jobber is a solid general-purpose field service tool. But "general purpose" means it wasn't designed around square footage waiting lists, chemical compliance logs, the lasso route selector, or the way lawn care and pest control businesses actually schedule recurring spray routes. FenceBossPro was.</p>
+        <p>Jobber is a solid general-purpose field service tool. But "general purpose" means it wasn't designed around linear-foot takeoffs, materials &amp; parts lists, the lasso job-board selector, or the way fence contractors actually estimate, schedule, and dispatch install and repair jobs. FenceBossPro was.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly vs Jobber&apos;s Per-Tier Pricing</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
-          <div><div className="hero-stat-val">Sq Ft</div><div className="hero-stat-lbl">Waiting List — Jobber Doesn&apos;t Have This</div></div>
+          <div><div className="hero-stat-val">Linear Ft</div><div className="hero-stat-lbl">Takeoffs &amp; Job Board — Jobber Doesn&apos;t Have This</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
       </div>
@@ -158,7 +158,7 @@ export default function VsJobber() {
         <div className="centered" style={{maxWidth:'900px', margin:'0 auto'}}>
           <span className="section-label">Side by Side</span>
           <h2 className="section-title">FenceBossPro vs Jobber</h2>
-          <p className="section-sub">The features that matter most for lawn care and pest control — not general field service.</p>
+          <p className="section-sub">The features that matter most for fence contractors — not general field service.</p>
         </div>
         <div className="compare-wrap">
           <table className="compare-table">
@@ -170,17 +170,17 @@ export default function VsJobber() {
               </tr>
             </thead>
             <tbody>
-              <tr><td className="feature-name">Sq Ft Waiting List by Service Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Chemical Application Compliance Logs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Lasso — Draw a Circle on Any Area of the Map, Instantly See Every Stop, Sq Ft &amp; Service Due Inside</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
-              <tr><td className="feature-name">Built Specifically for Lawn Care &amp; Pest Control</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Linear-Foot Takeoffs by Fence Type</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Parts List (Posts, Panels, Pickets, Gates)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Lasso — Draw a Circle on Any Area of the Map, Instantly See Every Job, Linear Ft &amp; Work Due Inside</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
+              <tr><td className="feature-name">Built Specifically for Fence Contractors</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">True Two-Way SMS Inbox (Included)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Grow plan only ($299/mo)</span></td></tr>
-              <tr><td className="feature-name">Recurring Treatment Waiting List</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Package Plans &amp; Renewal Tracking</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
-              <tr><td className="feature-name">Product Mix &amp; Chemical Catalog</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Job Board &amp; Crew Dispatch</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Deposits &amp; Progress Billing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Materials &amp; Parts Catalog (Posts, Rails, Hardware)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Line-Item Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
-              <tr><td className="feature-name">Mobile App for Technicians</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
+              <tr><td className="feature-name">Mobile App for Crews &amp; Installers</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Estimate Follow-Ups</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
@@ -196,12 +196,12 @@ export default function VsJobber() {
         <h2>Jobber Charges More as You Grow.<br /><span>FenceBossPro Charges $129. Period.</span></h2>
         <p>The moment you add your 6th employee on Jobber, you&apos;re bumped to a higher tier. Add more features, pay more. Add more users, pay more. FenceBossPro has one price — $129/month — that covers your entire team, every feature, forever. No tiers. No per-seat math. No surprises on your invoice.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Sq Ft Waiting List</h4><p>Before you schedule a single stop, FenceBossPro shows you the total square footage waiting per service type. Know exactly how much Lawn Care 4, Mosquito, or Insect Control you can fit before you call anyone. Jobber has no concept of this.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧪</div><h4>Chemical Compliance Logs</h4><p>Every application logged automatically with product, mix rate, gallons, area, weather, and tech license. Pull a print-ready compliance report in 30 seconds. Jobber has job notes. That&apos;s not the same thing as a pesticide compliance log.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Map Route Selector</h4><p>Draw a circle on the map, instantly see every property inside with a service due. Stops, service types, sq ft — all calculated before you schedule anything. Jobber has basic route optimization. Not the same as Lasso.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Linear-Foot Takeoffs</h4><p>Before you send a single bid, FenceBossPro turns your linear-foot measurements into posts, panels, pickets, rails, concrete, gates, and hardware. Know exactly what a wood, vinyl, chain link, or aluminum run takes before you quote it. Jobber has no concept of this.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🧱</div><h4>Materials &amp; Parts Lists</h4><p>Every job builds its own materials list automatically — posts, panels, rails, concrete, gates, hardware, by quantity. Hand the crew an exact pull sheet in 30 seconds. Jobber has job notes. That&apos;s not the same thing as a fence materials takeoff.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Map Job Selector</h4><p>Draw a circle on the map, instantly see every job inside with work due. Jobs, fence types, linear ft — all calculated before you schedule anything. Jobber has basic route optimization. Not the same as Lasso.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>True Two-Way SMS Inbox</h4><p>Send and receive text messages inside FenceBossPro with full conversation history per contact. Jobber has limited client messaging — not a full SMS inbox with inbound/outbound history organized by customer.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Recurring Treatment Tracking</h4><p>Set recurring schedules per property, track what&apos;s due, and build waiting lists by service type. Jobber handles recurring jobs, but not the lawn care waiting list model that shows you all your due work before you build a route.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users, One Price</h4><p>Every employee — techs, office staff, managers — included at $129/month. Jobber charges per tier based on user count. Add your 6th employee and your bill goes up. Ours doesn&apos;t.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Job Board &amp; Dispatch</h4><p>Track every install and repair on the Job Board, see what&apos;s due, and dispatch crews by area. Jobber handles jobs, but not the fence job-board model that shows you all your pending work before you build a crew route.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users, One Price</h4><p>Every employee — crews, installers, office staff, managers — included at $129/month. Jobber charges per tier based on user count. Add your 6th employee and your bill goes up. Ours doesn&apos;t.</p></div>
         </div>
       </div>
 
@@ -209,15 +209,15 @@ export default function VsJobber() {
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">The Real Difference</span>
-            <h2>Jobber Is a Great Tool for Many Industries.<br />Lawn Care and Pest Control Aren&apos;t Really One of Them.</h2>
-            <p>Jobber does a lot of things well. But it was designed to work for cleaning companies, landscapers, HVAC techs, plumbers, and dozens of other trades. When you build software for everyone, you can&apos;t build the deep features that spray businesses actually need. FenceBossPro was built by people who ran spray routes — and it shows.</p>
+            <h2>Jobber Is a Great Tool for Many Industries.<br />Fence Contracting Isn&apos;t Really One of Them.</h2>
+            <p>Jobber does a lot of things well. But it was designed to work for cleaning companies, landscapers, HVAC techs, plumbers, and dozens of other trades. When you build software for everyone, you can&apos;t build the deep features that fence contractors actually need. FenceBossPro was built by people who ran fence crews — and it shows.</p>
             <ul className="check-list">
-              <li>Sq ft waiting list grouped by service type — know what&apos;s due before you schedule</li>
-              <li>Chemical compliance logs that hold up to any state inspector</li>
-              <li>Product mix catalog with mix recipes stored and logged per job</li>
-              <li>Lasso circle map selector — build tight geographic routes fast</li>
-              <li>Recurring treatment tracking with automatic due-date flags</li>
-              <li>Package program renewals tracked per property automatically</li>
+              <li>Linear-foot takeoffs by fence type — know what a run takes before you bid</li>
+              <li>Materials &amp; parts lists that hand the crew an exact pull sheet</li>
+              <li>Materials catalog — posts, panels, pickets, rails, gates, hardware priced per job</li>
+              <li>Lasso circle map selector — build tight geographic crew routes fast</li>
+              <li>Job Board tracking with automatic work-due flags</li>
+              <li>Deposits and progress billing tracked per job automatically</li>
               <li>True inbound/outbound SMS inbox organized by customer</li>
               <li>$129/month flat — add 20 employees, price doesn&apos;t change</li>
             </ul>
@@ -246,7 +246,7 @@ export default function VsJobber() {
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px'}}>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700, marginBottom:'8px'}}>FenceBossPro also includes things Jobber doesn&apos;t:</div>
-              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Sq Ft Waiting List by Service Type<br />✓ Chemical Compliance Logs &amp; Reports<br />✓ Lasso Circle Map Route Selector<br />✓ Recurring Treatment Waiting List<br />✓ Package Plan Renewal Tracking</div>
+              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Linear-Foot Takeoffs by Fence Type<br />✓ Materials &amp; Parts Lists<br />✓ Lasso Circle Map Job Selector<br />✓ Job Board &amp; Crew Dispatch<br />✓ Deposits &amp; Progress Billing</div>
             </div>
           </div>
         </div>
@@ -257,14 +257,14 @@ export default function VsJobber() {
           <div className="highlight-text">
             <span className="section-label">Lasso — Circle Map Scheduling</span>
             <h2 style={{color:'#fff'}}>One Feature Jobber Can&apos;t Match.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>Draw a circle on your service area map and FenceBossPro instantly shows every property inside that radius with a service due — total stops, service types, sq ft, all calculated before you schedule a single stop. Jobber has route optimization. That&apos;s completely different from Lasso. No competitor has built anything like this.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>Draw a circle on your service area map and FenceBossPro instantly shows every job inside that radius with work due — total jobs, fence types, linear ft, all calculated before you dispatch a single crew. Jobber has route optimization. That&apos;s completely different from Lasso. No competitor has built anything like this.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle — instantly see all properties with services due inside</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Breaks down stops, sq ft, and service types in real time</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>One click to schedule all selected stops to a date and truck</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Tighten routes geographically — stop wasting fuel on scattered stops</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Draw any size circle — instantly see all jobs with work due inside</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Breaks down jobs, linear ft, and fence types in real time</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>One click to schedule all selected jobs to a date and crew</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Tighten routes geographically — stop wasting fuel on scattered jobs</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Cuts route-building from an hour to under 5 minutes</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Works across all service types simultaneously</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Works across all fence types simultaneously</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Jobber doesn&apos;t have this. FieldRoutes doesn&apos;t have this. Nobody does.</li>
             </ul>
           </div>
@@ -280,11 +280,11 @@ export default function VsJobber() {
               </div>
             </div>
             <div className="stat-grid">
-              <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Stops Selected</div></div>
-              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Services</div></div>
-              <div className="stat-cell"><div className="stat-val">118,400</div><div className="stat-lbl">Sq Ft</div></div>
-              <div className="stat-cell"><div className="stat-val">4,200</div><div className="stat-lbl">Linear Ft (Beds)</div></div>
-              <div className="stat-cell full"><div className="stat-val">Lawn Care 4 · 8 &nbsp;|&nbsp; Mosquito · 6 &nbsp;|&nbsp; Insect · 5</div><div className="stat-lbl">Breakdown by Service Type</div></div>
+              <div className="stat-cell"><div className="stat-val">14</div><div className="stat-lbl">Jobs Selected</div></div>
+              <div className="stat-cell"><div className="stat-val">19</div><div className="stat-lbl">Total Jobs</div></div>
+              <div className="stat-cell"><div className="stat-val">8,640</div><div className="stat-lbl">Linear Ft</div></div>
+              <div className="stat-cell"><div className="stat-val">22</div><div className="stat-lbl">Gates</div></div>
+              <div className="stat-cell full"><div className="stat-val">Wood · 8 &nbsp;|&nbsp; Vinyl · 6 &nbsp;|&nbsp; Chain Link · 5</div><div className="stat-lbl">Breakdown by Fence Type</div></div>
             </div>
           </div>
         </div>
@@ -293,13 +293,13 @@ export default function VsJobber() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 56px'}}>
           <span className="section-label">Simplicity</span>
-          <h2 className="section-title">Easier to Learn Than Jobber. More Powerful for Spray Routes.</h2>
-          <p className="section-sub" style={{maxWidth:'720px'}}>Jobber has been around for years and has a solid UI. But FenceBossPro was designed specifically for the way spray businesses work — which means less configuration, less hunting through menus, and a dispatch board that actually makes sense for recurring service routes.</p>
+          <h2 className="section-title">Easier to Learn Than Jobber. More Powerful for Fence Jobs.</h2>
+          <p className="section-sub" style={{maxWidth:'720px'}}>Jobber has been around for years and has a solid UI. But FenceBossPro was designed specifically for the way fence contractors work — which means less configuration, less hunting through menus, and a dispatch board that actually makes sense for install and repair jobs.</p>
         </div>
         <div className="simple-grid">
-          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your services, import clients and properties, connect payments, set up your SMS alerts — most owners are fully operational the same day. No onboarding call, no implementation consultant, no 90-day timeline to get started.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Built Around the Dispatch Board</h3><p>Everything flows through the dispatch board — waiting list, scheduling, map, dispatch, chemical log. It&apos;s designed the way a spray business thinks about its day. Not the way a plumber or cleaning company would.</p></div>
-          <div className="simple-card"><div className="simple-num">03</div><h3>Techs Are Up and Running Fast</h3><p>The mobile app shows your techs exactly what they need — today&apos;s stops, the property notes, the complete button. No training videos, no IT ticket, no confused crew. They&apos;re using it on day one.</p></div>
+          <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your fence types and materials, import clients and properties, connect payments, set up your SMS alerts — most owners are fully operational the same day. No onboarding call, no implementation consultant, no 90-day timeline to get started.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Built Around the Dispatch Board</h3><p>Everything flows through the dispatch board — Job Board, scheduling, map, dispatch, materials list. It&apos;s designed the way a fence business thinks about its day. Not the way a plumber or cleaning company would.</p></div>
+          <div className="simple-card"><div className="simple-num">03</div><h3>Crews Are Up and Running Fast</h3><p>The mobile app shows your crews exactly what they need — today&apos;s jobs, the property notes, the materials list, the complete button. No training videos, no IT ticket, no confused crew. They&apos;re using it on day one.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Automation That Actually Runs</h3><p>SMS alerts, estimate follow-ups, payment reminders, review requests — set them up once and FenceBossPro runs them every time, automatically. You&apos;re not babysitting automations or configuring Zapier workflows.</p></div>
         </div>
       </section>
@@ -320,14 +320,14 @@ export default function VsJobber() {
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
-              <li>Sq Ft Waiting List by Service Type</li>
-              <li>Lasso Circle Map Route Selector</li>
-              <li>Chemical Compliance Logs &amp; Reports</li>
+              <li>Linear-Foot Takeoffs by Fence Type</li>
+              <li>Lasso Circle Map Job Selector</li>
+              <li>Materials &amp; Parts Lists (Posts, Panels, Gates)</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
-              <li>Package Plans &amp; Renewal Tracking</li>
-              <li>Mobile App for Technicians</li>
+              <li>Deposits &amp; Progress Billing</li>
+              <li>Mobile App for Crews &amp; Installers</li>
               <li>500 Outbound SMS/month included</li>
             </ul>
             <button className="price-btn price-btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(2, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -337,7 +337,7 @@ export default function VsJobber() {
       </section>
 
       <div className="cta-band">
-        <h2>Ready to Switch from Jobber to Software<br />Actually Built for Spray Routes?</h2>
+        <h2>Ready to Switch from Jobber to Software<br />Actually Built for Fence Contractors?</h2>
         <p>Try FenceBossPro free for 14 days. No credit card required. Set up in an afternoon.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -359,7 +359,7 @@ export default function VsJobber() {
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>First Name</label><input id={`sbp${n}-first`} type="text" placeholder="John" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
               <div style={{flex:1}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Last Name</label><input id={`sbp${n}-last`} type="text" placeholder="Smith" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             </div>
-            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Lawn Care" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
+            <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Company Name</label><input id={`sbp${n}-company`} type="text" placeholder="Smith Fence Co." style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <div style={{marginBottom:'20px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Email Address</label><input id={`sbp${n}-email`} type="email" placeholder="you@yourcompany.com" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>
             <button onClick={() => sbpStep2(n)} style={{width:'100%', background:'#2b6ca3', color:'#fff', border:'none', borderRadius:'6px', padding:'13px', fontSize:'15px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Next: Create Password →</button>
           </div>
