@@ -207,15 +207,8 @@ export default function Home() {
 
       <Navbar onTrialClick={(el) => openSignupModal(1, el)} />
 
-      {/* ═══ MOCKUP IMAGE ═══ */}
-      <div style={{background:'linear-gradient(135deg,#0f1720 0%,#16202b 60%,#1f2d3d 100%)', padding:'80px 40px 0', textAlign:'center'}}>
-        <div style={{maxWidth:'1000px', margin:'0 auto'}}>
-          <img src="/dashboard-mockup.webp" width={1200} height={800} fetchPriority="high" decoding="async" alt="FenceBossPro fence business software showing line-item estimates, the materials and parts list, the job board, and crew dispatch for fence installers" style={{width:'100%', height:'auto', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block'}} />
-        </div>
-      </div>
-
       {/* ═══ HERO ═══ */}
-      <div className="hero" style={{paddingTop:'60px'}}>
+      <div className="hero" style={{paddingTop:'110px'}}>
         <div className="hero-badge">Built for Fence &amp; Gate Contractors</div>
         <h1>Run Your Whole Fence Business<br /><span>From One Dashboard</span></h1>
         <p>FenceBossPro is the all-in-one platform built specifically for fence and gate contractors. Build line-item estimates, track materials and parts, schedule installs, dispatch your crews, and collect payments &mdash; all in one place.</p>
