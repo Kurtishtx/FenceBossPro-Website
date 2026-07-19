@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Get paid the day the gate hangs with FenceBossPro</h3>
           <p>FenceBossPro stores customer cards, builds line-item fence estimates, tracks materials, schedules crews, and charges the balance the moment the job is done&mdash;all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence invoicing software, card-on-file payments, fence estimate software, fence deposit and progress billing, fence business software, get paid fence jobs</div>

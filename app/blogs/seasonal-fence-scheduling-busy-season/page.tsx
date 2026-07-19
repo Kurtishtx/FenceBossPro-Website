@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Run your spring and fall fence rush on one calendar with FenceBossPro</h3>
           <p>FenceBossPro batches your signed estimates into tight crew routes, ties materials and deposits to every job, and keeps customers updated so peak season runs smooth.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, seasonal fence scheduling, fence crew routing, fence job board, fence install calendar, fence project scheduling</div>
       </article>

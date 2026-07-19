@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Get Paid the Day the Fence Is Done</h3>
           <p>FenceBossPro turns your approved bids into invoices and collects deposits and final balances with secure card-on-file payments &mdash; so your cash flow keeps pace with your crews.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence contractor invoicing software, card-on-file payments, fence job deposits, progress billing for fencing, fence estimating software, fence business payment software</div>

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Stop rebuilding the schedule from scratch every week.</h3>
           <p>FenceBossPro runs your estimates, materials, Job Board, crew dispatch, deposits, and customer texts in one place so your office spends half the time scheduling fence jobs.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

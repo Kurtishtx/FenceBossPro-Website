@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Take a fence job from bid to paid in one place</h3>
           <p>FenceBossPro carries your line-item estimate through scheduling, dispatch, and invoicing &mdash; with deposits, progress billing, and card-on-file payments built in.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence contractor software, fence estimate to invoice software, fence estimating software, fence job scheduling software, fence invoicing and payments, fence dispatch software</div>
       </article>

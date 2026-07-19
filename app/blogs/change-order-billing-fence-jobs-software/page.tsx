@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop installing fence changes for free</h3>
           <p>FenceBossPro turns every mid-project change into a priced, approved line item so added footage, gates, and upgrades always make it onto the invoice.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence change order software, fence invoicing and billing, fence estimate line items, progress billing fencing, card-on-file fence payments, fence job materials tracking</div>
       </article>

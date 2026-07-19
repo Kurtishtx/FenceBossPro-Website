@@ -107,6 +107,7 @@ export default function Page() {
             dispatch, and deposit-to-final billing &mdash; all in one platform.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence business software, fence estimating software, fence job scheduling, fence crew dispatch software, linear-foot takeoff, fence deposits and progress billing</div>

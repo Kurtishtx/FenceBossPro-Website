@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Turn Dropped Jobs Into an Extra Install Every Week</h3>
           <p>FenceBossPro speeds up bids, tightens your schedule and routing, and collects faster &mdash; so the work you were losing turns into real revenue.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence crew dispatch software, fence dispatch software ROI, fence scheduling software, fence estimating software, fence job board, fence invoicing software</div>
       </article>

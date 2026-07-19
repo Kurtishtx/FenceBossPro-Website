@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Bid chain link right with FenceBossPro</h3>
           <p>FenceBossPro counts terminal posts, line posts, fabric, and hardware into one itemized bid, then turns approvals into deposits, scheduled jobs, and paid invoices.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: chain link fence estimate software, fence bid software, linear-foot takeoff, fence materials list, terminal post count, line-item fence quotes</div>
       </article>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Get paid the day the gate closes, not the month after.</h3>
           <p>FenceBossPro captures a card at the bid and charges deposits, progress draws, and final balances automatically &mdash; so fence contractors collect on completion instead of chasing checks.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

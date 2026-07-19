@@ -101,6 +101,7 @@ export default function Page() {
           <h3>Schedule Smarter With Full Job History</h3>
           <p>FenceBossPro keeps a client and property profile for every yard &mdash; fence type, materials, site notes, and bid history &mdash; so you dispatch the right crew on the right day, every time.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, fence crew dispatch, client property profiles, fence job scheduling, fence crew routing, fence job history</div>
       </article>

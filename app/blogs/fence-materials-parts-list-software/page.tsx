@@ -96,6 +96,7 @@ export default function Page() {
           <h3>Build the Parts List Once, Use It Everywhere</h3>
           <p>FenceBossPro turns your fence estimates into accurate materials lists, scheduled jobs, and paid invoices &mdash; all from one record.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence materials list software, fence estimating software, fence takeoff software, gate hardware tracking, fence job scheduling software, fence installation software</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Your Fence Crews Out the Door Faster</h3>
           <p>FenceBossPro builds your daily board, packs materials off the bid, routes every crew, and bills the job &mdash; so dispatch takes minutes, not the whole morning.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence crew dispatch software, fence job scheduling software, fence crew routing, fence materials takeoff software, fence estimate and invoicing software, fence company job board</div>
       </article>

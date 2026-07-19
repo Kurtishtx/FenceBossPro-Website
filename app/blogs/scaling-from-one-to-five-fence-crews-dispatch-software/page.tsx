@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Scale Your Fence Company on FenceBossPro</h3>
           <p>FenceBossPro runs every crew, bid, material list, and customer text from one Job Board so you can grow from one crew to five without losing control.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence crew dispatch software, fence dispatch and routing, fence job board, fence company scheduling software, fence estimate software, fence crew management</div>
       </article>

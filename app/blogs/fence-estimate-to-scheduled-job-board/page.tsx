@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Turn approved fence bids into scheduled jobs instantly</h3>
           <p>FenceBossPro moves an approved line-item estimate straight onto the Job Board with materials, deposit, and crew dispatch already attached.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, approved estimate to scheduled job, fence job board, crew dispatch and routing, fence deposit and progress billing, fence materials list</div>
       </article>

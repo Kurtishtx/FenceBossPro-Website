@@ -103,6 +103,7 @@ export default function Page() {
             install &mdash; all before you leave the driveway.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence estimating software, on-site fence estimates, linear-foot takeoff, fence materials list, fence bidding app, fence job scheduling</div>

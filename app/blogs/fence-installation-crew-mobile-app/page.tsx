@@ -88,6 +88,7 @@ export default function Page() {
           <h3>Put the Whole Job in Your Crew&apos;s Pocket with FenceBossPro</h3>
           <p>FenceBossPro gives your fence crews the estimate, materials, schedule, customer, and invoice on their phones&mdash;so the field and the office finally work off one record.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence installation software, fence crew mobile app, fence field service software, fence job board, fence material list software, fence invoicing software</div>
       </article>

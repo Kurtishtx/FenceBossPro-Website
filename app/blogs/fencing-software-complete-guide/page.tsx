@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Your Fence Business on One Platform</h3>
           <p>FenceBossPro turns linear-foot takeoffs into bids, material lists, schedules, and paid invoices &mdash; all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, fence estimating software, fence material takeoff, fence business scheduling, fence invoicing software, fence crew dispatch</div>
       </article>

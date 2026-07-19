@@ -103,6 +103,7 @@ export default function Page() {
           <h3>Quote Fence Jobs in Minutes With FenceBossPro</h3>
           <p>FenceBossPro builds line-item fence bids from a linear-foot takeoff, schedules the crew, and collects deposits &mdash; all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence bid turnaround, linear-foot takeoff, fence materials list, fence job scheduling, fence installation software</div>
       </article>

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Stop billing fence jobs from memory</h3>
           <p>FenceBossPro turns your accepted line-item estimate into an accurate invoice automatically &mdash; posts, panels, gates, deposits, and all &mdash; so you bill what you built and get paid faster.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, fence billing software, linear-foot fence estimates, fence deposit and progress billing, card-on-file fence payments, fence change order billing</div>
       </article>

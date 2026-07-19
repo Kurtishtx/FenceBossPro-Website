@@ -88,6 +88,7 @@ export default function Page() {
           <h3>Run Multi-Day Fence Projects Without the Chaos</h3>
           <p>FenceBossPro splits big installs into scheduled phases, assigns each to the right crew, and keeps materials, billing, and customers in sync.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence crew dispatch software, multi-day fence project scheduling, fence install phases, fencing job board, fence crew routing, fence progress billing software</div>
       </article>

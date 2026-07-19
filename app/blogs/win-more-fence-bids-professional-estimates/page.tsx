@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Win More Fence Bids With FenceBossPro</h3>
           <p>FenceBossPro builds fast, line-item fence estimates with materials, posts, and gates priced right &mdash; then turns the winning bid into a scheduled, invoiced job.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence bidding software, fence quoting software, line-item fence estimates, fence business software, fence contractor estimates</div>
       </article>

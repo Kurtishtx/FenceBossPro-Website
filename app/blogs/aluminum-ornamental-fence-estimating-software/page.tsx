@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bid Aluminum and Ornamental Fence With Confidence</h3>
           <p>FenceBossPro builds line-item estimates that count every panel, post, bracket, and gate &mdash; then turns the winning bid into a scheduled, invoiced job.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: aluminum fence estimating software, ornamental fence bidding, fence takeoff software, fence materials list, gate estimating, fence quoting software</div>
       </article>

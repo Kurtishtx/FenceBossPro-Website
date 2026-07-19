@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Order the right fence materials every time with FenceBossPro</h3>
           <p>FenceBossPro turns your line-item fence estimates into accurate purchase orders, job costs, and invoices so nothing gets over-ordered or left behind.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, fence estimating software, fence material purchase orders, linear-foot takeoff software, fence job costing, fence project scheduling software</div>
       </article>

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Move a Fence Job Without Moving an Inch</h3>
           <p>FenceBossPro lets your crews reschedule installs and repairs in one tap, auto-text the homeowner, and reshuffle the route &mdash; all from the truck.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, reschedule fence job, fence crew dispatch, fence Job Board, fence install scheduling app, fence contractor customer texts</div>
       </article>

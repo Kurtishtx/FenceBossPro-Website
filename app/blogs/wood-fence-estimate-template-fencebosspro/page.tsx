@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Quote Wood Fence in Five Minutes, Not Thirty</h3>
           <p>FenceBossPro turns a reusable template and a linear-foot takeoff into a priced, itemized estimate you can send and collect a deposit on from the truck.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: wood fence estimate template, fence estimating software, linear-foot takeoff, fence materials list, fence bidding software, fence estimate app</div>
       </article>

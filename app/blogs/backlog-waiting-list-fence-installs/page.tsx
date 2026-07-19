@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Turn your fence backlog into a waiting list that books itself</h3>
           <p>FenceBossPro keeps every approved, deposit-paid fence job ready to drop onto open days, with materials, crews, and customer texts attached.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence install backlog, fence waiting list software, fence scheduling software, fill cancellations fence schedule, fence job board, fence deposit scheduling</div>
       </article>

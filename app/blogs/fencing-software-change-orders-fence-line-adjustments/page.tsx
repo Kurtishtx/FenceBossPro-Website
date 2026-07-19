@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Stop giving away change-order work with FenceBossPro</h3>
           <p>FenceBossPro re-quotes fence-line changes, gets fast customer approval, and rolls the added materials into your invoicing and schedule automatically.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence change order software, fencing estimate software, fence-line adjustment, fence material re-billing, fence progress billing, fence job scheduling software</div>
       </article>

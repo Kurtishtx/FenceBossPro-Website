@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Price Every Gate and Latch With FenceBossPro</h3>
           <p>FenceBossPro builds gates, hardware, and add-ons into line-item fence estimates that flow straight into scheduling, dispatch, and invoicing.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, gate hardware quoting, fence materials takeoff, linear-foot fence bids, fencing invoicing software, fence add-on upsells</div>
       </article>

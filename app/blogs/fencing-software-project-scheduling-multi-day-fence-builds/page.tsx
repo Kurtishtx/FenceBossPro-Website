@@ -105,6 +105,7 @@ export default function Page() {
           <h3>Run Every Fence Build on FenceBossPro</h3>
           <p>FenceBossPro schedules phased jobs, dispatches crews, times materials, and bills in steps so multi-day builds stay on track and paid.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence project scheduling software, multi-day fence build scheduling, fencing crew dispatch software, fence job board, fencing materials scheduling, fence progress billing software</div>
       </article>

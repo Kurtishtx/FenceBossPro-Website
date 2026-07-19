@@ -37,6 +37,7 @@ export default function Page() {
           <h3>See every crew&apos;s whole day on one Job Board</h3>
           <p>FenceBossPro puts your installs, repairs, and gate jobs &mdash; with materials, notes, and stops in order &mdash; on a single live board so you can run the day instead of chasing it.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

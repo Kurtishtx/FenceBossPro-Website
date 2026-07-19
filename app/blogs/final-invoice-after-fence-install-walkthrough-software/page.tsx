@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Turn the walkthrough into a paid invoice with FenceBossPro</h3>
           <p>FenceBossPro carries your fence estimate, materials, and change orders straight into a clean final invoice your customer can sign and pay on the spot.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, fence final invoice, fence estimate to invoice, fence deposit and progress billing, card-on-file fence payments, fence job sign-off software</div>
       </article>

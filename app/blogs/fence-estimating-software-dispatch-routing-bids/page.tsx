@@ -90,6 +90,7 @@ export default function Page() {
           <h3>Turn Approved Fence Bids Into Dispatched Jobs</h3>
           <p>FenceBossPro takes your signed estimate straight to a scheduled, routed crew with the right materials loaded.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence crew dispatch, fence job scheduling, fence project routing, fence bid to invoice, fence materials takeoff</div>
       </article>

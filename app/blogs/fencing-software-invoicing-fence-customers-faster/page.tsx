@@ -100,6 +100,7 @@ export default function Page() {
             payments, and gets your fence and gate work paid faster.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fencing software invoicing, fence billing software, fence deposit and progress billing, card-on-file payments for fence companies, fence estimate to invoice, fence job invoicing app</div>

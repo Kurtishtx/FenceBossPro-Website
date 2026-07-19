@@ -47,6 +47,7 @@ export default function Page() {
           <h3>Price every fence the same way, every time.</h3>
           <p>FenceBossPro builds per-linear-foot rate tables by material and height, turns your takeoff into a line-item bid, and carries it through to scheduling, dispatch, and card-on-file invoicing.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

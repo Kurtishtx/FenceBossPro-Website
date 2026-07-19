@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run ornamental and aluminum fence jobs on detailed specs</h3>
           <p>FenceBossPro turns precise material specs into itemized bids, schedules your crews, and collects deposits and final payments &mdash; all on one project record.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: ornamental aluminum fence software, fence material specs, line-item fence estimates, fence panel and post takeoff, fence gate hardware estimating, fence deposit and progress billing</div>
       </article>

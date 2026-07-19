@@ -96,6 +96,7 @@ export default function Page() {
           <h3>Bill commercial fence jobs the way AP expects</h3>
           <p>FenceBossPro handles PO numbers, net-30 terms, itemized invoices, and progress billing so your commercial fence work clears accounts payable the first time.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: commercial fence invoicing software, net-30 fence billing, PO number invoicing, fence progress billing, fence contractor invoicing software, fence invoicing &amp; billing</div>

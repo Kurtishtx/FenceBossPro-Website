@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Your Whole Fence Business in One Place</h3>
           <p>FenceBossPro handles line-item estimates, materials, scheduling, dispatch, invoicing, and deposits so your crews stay busy and you get paid faster.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence contractor software, fence estimating software, fence business management software, fence scheduling software, fence invoicing software, fencing materials takeoff software</div>
       </article>

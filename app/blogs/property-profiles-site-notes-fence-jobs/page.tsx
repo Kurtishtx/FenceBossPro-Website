@@ -46,6 +46,7 @@ export default function Page() {
           <h3>Every gate, every run, every site note &mdash; on the job before the crew arrives</h3>
           <p>FenceBossPro stores property profiles, gate locations, and site notes so your fence crews show up knowing the layout, the access, and exactly what to build.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

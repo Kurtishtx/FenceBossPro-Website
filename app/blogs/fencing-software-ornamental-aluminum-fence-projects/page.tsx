@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Quote and run ornamental aluminum fence jobs the easy way</h3>
           <p>FenceBossPro turns linear-foot takeoffs into itemized estimates, schedules your crews, and collects deposits and final payments &mdash; all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: ornamental aluminum fence estimating software, fence materials takeoff, fencing bid software, fence gate hardware estimates, fence project scheduling, fence deposit and progress billing</div>
       </article>

@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Build line-item fence estimates that win bids in minutes</h3>
           <p>FenceBossPro turns linear-foot takeoffs, materials, and labor into clean itemized estimates that convert to deposits, schedules, and invoices automatically.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

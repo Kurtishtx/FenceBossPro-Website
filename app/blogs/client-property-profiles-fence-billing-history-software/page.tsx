@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Give every fence customer a clean billing history</h3>
           <p>FenceBossPro ties every estimate, invoice, deposit, and payment to client and property profiles so you always know what you installed and what you charged.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence invoicing software, client and property profiles, fence customer billing history, fence contractor software, fence invoicing &amp; billing, card-on-file payments for fence jobs</div>

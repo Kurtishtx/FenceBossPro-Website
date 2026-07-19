@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run gate and add-on work without losing the fence schedule</h3>
           <p>FenceBossPro turns gates, repairs, and add-ons into priced, scheduled, routed jobs that invoice themselves &mdash; so small work boosts margin instead of derailing your day.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence crew dispatch software, gate install scheduling, fence add-on job board, fence repair dispatch, line-item gate estimates, fence routing software</div>

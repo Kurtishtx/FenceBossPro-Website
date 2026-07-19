@@ -97,6 +97,7 @@ export default function Page() {
             final card-on-file payment &mdash; without the spreadsheets.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence business software, fence estimating software, fence job scheduling, fence invoicing and payments, fence materials tracking, fence project management</div>
       </article>

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Bid every fence with the parts already counted</h3>
           <p>FenceBossPro builds a priced materials and parts list into every estimate so your bids, buy lists, and invoices all come from the same numbers.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence materials list software, fence bid software, linear-foot takeoff, fence parts and materials, fence invoicing software</div>
       </article>

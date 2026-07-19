@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Collect deposits the moment a fence bid is approved</h3>
           <p>FenceBossPro lets customers approve your estimate, pay a deposit, and leave a card on file in one tap &mdash; then drops the job on your schedule.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence deposit collection, card-on-file payments, fence invoicing software, progress billing fence jobs, online fence estimate approval</div>
       </article>

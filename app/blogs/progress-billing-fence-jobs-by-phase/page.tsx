@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Bill every fence phase as your crew completes it</h3>
           <p>FenceBossPro ties progress draws to your Job Board, releasing each invoice against a card on file the moment a scheduled phase is done.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, progress billing fence jobs, multi-day fence install scheduling, fence job board, card-on-file payments, fence phase billing</div>
       </article>

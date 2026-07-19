@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stage every post, panel, and gate before the truck rolls</h3>
           <p>FenceBossPro ties materials to each job from the estimate forward, so your yard stages the right parts and dispatch confirms the load before any crew leaves the lot.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

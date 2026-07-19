@@ -89,6 +89,7 @@ export default function Page() {
           <h3>Put Estimates and Installs on One Schedule with FenceBossPro</h3>
           <p>FenceBossPro keeps your bids, materials, crews, and installs on a single shared calendar so no crew is ever booked twice.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, fence crew dispatch, fence estimate software, fence install scheduling, fencing job board, fence company routing software</div>
       </article>

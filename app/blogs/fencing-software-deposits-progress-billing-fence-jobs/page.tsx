@@ -103,6 +103,7 @@ export default function Page() {
           <h3>Get paid for every phase of the fence</h3>
           <p>FenceBossPro builds deposits and progress billing right into your estimates, charges card on file, and keeps every payment tied to the job.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, fence deposits, progress billing, fence invoicing, card on file payments, fence estimating software</div>
       </article>

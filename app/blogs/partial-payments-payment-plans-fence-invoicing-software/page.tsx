@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Offer deposits, progress billing, and payment plans &mdash; and still collect every dollar.</h3>
           <p>FenceBossPro splits any accepted fence estimate into scheduled partial payments with card-on-file collection, so big jobs stay funded from deposit to final balance.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

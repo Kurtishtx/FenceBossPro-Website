@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Quote Vinyl Fence Without the Guesswork</h3>
           <p>FenceBossPro turns your linear-foot measurements into accurate panel-and-post estimates, then carries them straight into scheduling, dispatch, and getting paid.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: vinyl fence installation software, fence estimating software, fence quoting software, linear-foot fence takeoff, fence materials and parts list, fence invoicing and deposits</div>
       </article>

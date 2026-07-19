@@ -225,6 +225,7 @@ export default function FenceInvoicingSoftware() {
         <p>Most invoicing software is built for one-off service calls. Fencing isn&apos;t like that. You&apos;re pricing jobs by the linear foot, ordering posts, panels, and gates, collecting a deposit before the auger ever hits dirt, and billing the balance when the last picket goes up. FenceBossPro is built for that exact workflow &mdash; line-item estimates, material takeoffs, deposits, and card-on-file payments all in one place.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Linear Ft</div><div className="hero-stat-lbl">Takeoffs Priced Automatically</div></div>
@@ -553,6 +554,7 @@ export default function FenceInvoicingSoftware() {
         <p>FenceBossPro is the only fence billing software built by someone who has actually set a post and chased a final invoice. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
       </div>
 

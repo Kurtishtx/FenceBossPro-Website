@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Schedule fence jobs by real duration, not a guess</h3>
           <p>FenceBossPro turns your linear-foot takeoff into accurate crew-days so every job lands on the board sized for the work it actually is.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, linear-foot takeoffs, crew-day estimating, fence job board, multi-day fence build scheduling, fence crew dispatch and routing</div>
       </article>

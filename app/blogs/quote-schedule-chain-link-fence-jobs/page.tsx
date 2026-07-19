@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bid Chain Link That Actually Pays</h3>
           <p>FenceBossPro builds linear-foot, line-item chain link estimates that count every post and fitting, then schedules and invoices the job from one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: chain link fence estimating software, linear-foot fence takeoffs, fence materials and parts list, fence job scheduling software, fence crew dispatch, card-on-file fence payments</div>
       </article>

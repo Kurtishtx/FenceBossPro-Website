@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Turn Every Fence Bid Into a Bulletproof Materials List</h3>
           <p>FenceBossPro builds your takeoff, pull sheet, schedule, and invoice from one estimate so your crews never make a second trip.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence materials list software, linear-foot takeoff software, fence business software, fence invoicing software, fence crew scheduling software</div>
       </article>

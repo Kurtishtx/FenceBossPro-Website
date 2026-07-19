@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Run three crews on the workflow most owners think requires an office manager.</h3>
           <p>FenceBossPro handles your estimates, material lists, scheduling, dispatch, customer texts, and invoicing in one platform &mdash; so you can grow your fence company without growing your office payroll.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

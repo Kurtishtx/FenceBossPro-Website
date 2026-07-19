@@ -40,6 +40,7 @@ export default function Page() {
           <h3>Set up fence invoicing once, bill every job in minutes</h3>
           <p>FenceBossPro gives fence contractors line-item estimates, a materials catalog, deposits and progress billing, and card-on-file payments in one purpose-built system.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

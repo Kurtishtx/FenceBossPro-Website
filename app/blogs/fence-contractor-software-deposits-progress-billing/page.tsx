@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get paid faster on every fence job</h3>
           <p>FenceBossPro turns your approved estimates into deposits, progress invoices, and card-on-file final payments &mdash; all tied to your materials and schedule.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence deposit software, progress billing for fence jobs, fence contractor invoicing, card on file fence payments, fence estimate to invoice, fence job material billing</div>
       </article>

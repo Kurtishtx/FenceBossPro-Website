@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Quote and schedule gate builds without the guesswork</h3>
           <p>FenceBossPro itemizes every gate, tracks the hardware, schedules the crew, and collects the deposit &mdash; all in one tool built for fence contractors.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence software, gate build estimating, line-item fence quotes, fence job scheduling, fence materials tracking, fence contractor invoicing</div>
       </article>

@@ -106,6 +106,7 @@ export default function Page() {
           <h3>Keep every fence client in the loop with FenceBossPro</h3>
           <p>FenceBossPro automatically texts your customers from quote to final walk &mdash; estimates, schedules, day-of updates, and invoices &mdash; so you cut callbacks and get paid faster.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fencing software customer texts, fence client communication, fence job scheduling software, fence estimate text approval, fence invoicing software, fence contractor software</div>

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Bid Faster, Win More, Keep Your Margin</h3>
           <p>FenceBossPro turns linear-foot takeoffs and live material costs into itemized quotes you can send and get paid on before the lumber yard closes.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence bidding software, fence estimate software, linear-foot takeoff, fence material costs, fence installation software, fence invoicing and deposits</div>
       </article>

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Get paid the day the fence is finished &mdash; not weeks later.</h3>
           <p>FenceBossPro stores customer cards securely so you can charge deposits, progress draws, and final balances on every fence job straight from the project record.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

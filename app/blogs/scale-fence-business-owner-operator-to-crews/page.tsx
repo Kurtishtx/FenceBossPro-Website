@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Run Two, Three, or Five Crews Without Losing the Details</h3>
           <p>FenceBossPro gives every crew the estimates, materials, schedule, dispatch, and invoicing they need&mdash;so you can grow your fence business without becoming the bottleneck.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence business software, fence estimating software, fence company scheduling, fence crew dispatch software, fence materials takeoff, fence invoicing software</div>
       </article>

@@ -99,6 +99,7 @@ export default function Page() {
           <h3>Bill Every Fence Job Before You Leave the Site</h3>
           <p>FenceBossPro turns your estimate into an invoice and collects card-on-file payment from the field, so jobs get paid the day they&apos;re finished.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, fence billing app, card on file payments, fence estimate to invoice, progress billing for fence crews, fence deposit tracking</div>
       </article>

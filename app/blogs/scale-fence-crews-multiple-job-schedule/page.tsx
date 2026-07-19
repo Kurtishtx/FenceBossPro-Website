@@ -99,6 +99,7 @@ export default function Page() {
             routed, supplied, and billed &mdash; so adding crews grows revenue, not chaos.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">
           Keywords: fence scheduling software, scaling a fence company, fence crew dispatch, multi-crew fence

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Turn footage into accurate fence bids with FenceBossPro</h3>
           <p>FenceBossPro converts your linear-foot takeoffs into line-item estimates, material lists, schedules, and invoices &mdash; all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, linear-foot takeoff, fence estimating software, fence material list, fence bid software, fence job scheduling</div>
       </article>

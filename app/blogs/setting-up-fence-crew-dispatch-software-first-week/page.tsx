@@ -93,6 +93,7 @@ export default function Page() {
             Board &mdash; with customer texts and card-on-file payments built in.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">
           Keywords: fence crew dispatch software, fence dispatch setup, fence install routing, fence job board, fence

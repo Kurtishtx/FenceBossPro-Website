@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Get paid the day the fence goes in</h3>
           <p>FenceBossPro adds pay links, card-on-file, deposits, and progress billing to every fence invoice so customers actually pay online &mdash; fast.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: online payment options for fence customers, card-on-file fence payments, fence invoice payment link, fence deposit and progress billing, fencing contractor billing software, fence invoicing software</div>
       </article>

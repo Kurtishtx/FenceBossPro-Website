@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bid Aluminum and Ornamental Fence Without the Guesswork</h3>
           <p>FenceBossPro counts every section, post, custom cut, and gate, then turns the winning bid into a scheduled, invoiced job your crew can run from the field.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: aluminum fence bidding software, ornamental fence estimating, fence section takeoff, fence post counting software, gate assembly estimating, fence installation software</div>
       </article>

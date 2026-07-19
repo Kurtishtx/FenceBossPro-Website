@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Bid it once. Invoice it in a click. Charge the card on file.</h3>
           <p>FenceBossPro turns your line-item fence estimates into invoices, handles deposits and progress draws, and takes card-on-file payments so you get paid the day the job is done.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

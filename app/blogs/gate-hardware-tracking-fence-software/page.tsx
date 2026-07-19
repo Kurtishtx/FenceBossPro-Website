@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Stop losing parts and profit on every gate</h3>
           <p>FenceBossPro attaches hardware to every gate from the first estimate so nothing falls through the cracks &mdash; or off the invoice.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence software, gate hardware tracking, fence estimating software, fence materials list, fence installation software, fence job scheduling</div>
       </article>

@@ -109,6 +109,7 @@ export default function Page() {
           <h3>Route Your Fence Crews Like a Pro</h3>
           <p>FenceBossPro turns approved bids into mapped, dispatched, and invoiced jobs so every crew hits more fence installs and repairs per day.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence crew dispatch software, fence job routing, fence scheduling software, fence business software, fence job board, fence crew management</div>
       </article>

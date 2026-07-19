@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Bill Every Fence Phase Without the Spreadsheet Juggle</h3>
           <p>FenceBossPro turns your line-item bid into a phased billing schedule and collects deposits and progress payments by card, so your cash keeps pace with the build.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence progress billing software, fence invoicing software, phased fence project billing, fence deposit and milestone payments, line-item fence estimates, card-on-file fence payments</div>

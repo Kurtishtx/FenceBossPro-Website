@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Bid Faster, Win More Fence Jobs</h3>
           <p>FenceBossPro turns your measurements into line-item estimates with full materials takeoffs, then schedules, dispatches, and bills the job from one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence bidding software, linear-foot takeoff, fence materials list, fence contractor software, fence invoicing and payments</div>
       </article>

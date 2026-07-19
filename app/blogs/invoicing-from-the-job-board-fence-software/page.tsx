@@ -95,6 +95,7 @@ export default function Page() {
           <h3>Bill Every Fence Job the Day It&apos;s Done</h3>
           <p>FenceBossPro turns a completed Job Board card into an itemized, card-on-file invoice in seconds &mdash; so you get paid while the customer is still smiling at their new fence.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, job board invoicing, fence billing software, card on file fence payments, fence project scheduling software, fence estimating software</div>
       </article>

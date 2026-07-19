@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Make every fence invoice look as good as your work</h3>
           <p>FenceBossPro turns line-item fence estimates into branded invoices with deposits, progress billing, and card-on-file payments &mdash; all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, branded fence invoices, fence estimate software, card-on-file fence payments, fence deposit and progress billing, fencing contractor billing app</div>
       </article>

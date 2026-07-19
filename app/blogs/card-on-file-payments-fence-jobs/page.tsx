@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Paid the Day the Fence Goes Up</h3>
           <p>FenceBossPro saves a card on file, charges deposits and progress draws, and auto-collects the final balance so you stop chasing checks.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: card-on-file payments for fence jobs, fence invoicing software, fence deposit and progress billing, fence estimate software, fence contractor payment collection, fence business software</div>
       </article>

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Present good-better-best fence quotes with FenceBossPro</h3>
           <p>FenceBossPro builds tiered, itemized fence estimates from one takeoff and turns the customer&apos;s pick into a deposit, a scheduled job, and a paid invoice.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: good-better-best fence quotes, fence estimate software, tiered fence pricing, fence bid options, fence materials catalog, fence company estimating software</div>
       </article>

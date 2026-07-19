@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Bill big fence jobs in stages, not all at the end</h3>
           <p>FenceBossPro turns your line-item bid into scheduled milestone draws that charge a card on file as each phase of the install gets done.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence business software, progress billing large fence installs, milestone draws fence jobs, fence job board scheduling, card-on-file payments, line-item fence estimates</div>
       </article>

@@ -98,6 +98,7 @@ export default function Page() {
           <h3>See the Return on Your Own Numbers</h3>
           <p>FenceBossPro turns takeoffs, line-item bids, scheduling, and card-on-file payments into one system so your fence business keeps more of every job.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence installation software, fence estimating software, fence material takeoff software, fence scheduling and dispatch software, fence invoicing software, fence contractor software ROI</div>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Let FenceBossPro Count It for You</h3>
           <p>FenceBossPro turns your field measurements into instant chain link takeoffs, full material lists, and priced bids &mdash; then carries them through scheduling, dispatch, and payment.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: chain link fence takeoff software, fence material count software, linear-foot fence estimates, fence bidding software, fence contractor software, fence job scheduling software</div>
       </article>

@@ -96,6 +96,7 @@ export default function Page() {
             installs, repairs, and gate work &mdash; then bill it the moment it&apos;s done.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">
           Keywords: fence scheduling software, fence crew dispatch, fence job revenue tracking, fence crew

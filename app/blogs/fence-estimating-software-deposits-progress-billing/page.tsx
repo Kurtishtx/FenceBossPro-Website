@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Get paid across every multi-day fence install</h3>
           <p>FenceBossPro collects deposits at approval and bills progress draws against a card on file, so cash flows in step with the work your crew is doing.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence deposit billing, progress billing fence jobs, card-on-file payments, fence invoicing software, multi-day fence install payments</div>
       </article>

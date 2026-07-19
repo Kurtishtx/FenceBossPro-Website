@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Run your whole fence company from one Job Board</h3>
           <p>FenceBossPro turns line-item bids into scheduled jobs, dispatched crews, and paid invoices &mdash; all tied to your clients and their properties.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence business software, fence estimating software, fence company job board, fence crew scheduling software, fence invoicing software, fence contractor CRM</div>
       </article>

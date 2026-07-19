@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Every Estimator on the Same Page</h3>
           <p>FenceBossPro puts your materials, labor, and assemblies into one shared catalog so every team member bids fence jobs the same way &mdash; accurate, consistent, and protected on margin.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, standardized fence pricing, fence material catalog, fence takeoff software, fence quoting software, fence bidding software</div>
       </article>

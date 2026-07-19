@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Schedule signed fence jobs in a single tap</h3>
           <p>FenceBossPro turns a signed estimate into a scheduled job with materials, deposit, crew dispatch, and customer texts already attached.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, signed estimate to scheduled job, fence job board, crew dispatch and routing, fence deposit and progress billing, fence customer texts</div>
       </article>

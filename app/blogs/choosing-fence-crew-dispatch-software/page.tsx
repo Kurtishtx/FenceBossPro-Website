@@ -85,6 +85,7 @@ export default function Page() {
           <h3>Run Your Whole Fence Business From One Dashboard</h3>
           <p>FenceBossPro turns linear-foot estimates into material lists, schedules and dispatches your crews, and gets you paid &mdash; all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence crew dispatch software, fence estimating software, fence scheduling software, fence invoicing software, fence material takeoff software, fence contractor software</div>
       </article>

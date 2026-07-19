@@ -42,6 +42,7 @@ export default function Page() {
           <h3>Stop Sending Crews to Jobs That Aren&apos;t Ready</h3>
           <p>FenceBossPro ties your schedule to real post, panel, and concrete delivery dates so crews only roll when the materials are on site.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, fence job scheduling, material delivery scheduling, fence crew dispatch, fence project management software, fence installation scheduling</div>
       </article>

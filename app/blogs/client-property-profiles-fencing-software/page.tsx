@@ -100,6 +100,7 @@ export default function Page() {
           <h3>Remember Every Fence You&apos;ve Built</h3>
           <p>FenceBossPro keeps a permanent client and property profile for every yard &mdash; specs, materials, photos, and bid history &mdash; so estimating, scheduling, and follow-up are always one click away.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, client property profiles, fence estimating software, fence material tracking, fence job history, fence CRM</div>
       </article>

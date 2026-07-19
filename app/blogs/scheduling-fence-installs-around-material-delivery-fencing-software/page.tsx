@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Build, Stock, and Schedule Every Fence in One Place</h3>
           <p>FenceBossPro links your takeoffs, materials, job board, dispatch, and invoicing so installs line up with deliveries and nothing stalls in the yard.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, fence scheduling software, fence material tracking, fence job board, fence crew dispatch software, fence estimating software</div>
       </article>

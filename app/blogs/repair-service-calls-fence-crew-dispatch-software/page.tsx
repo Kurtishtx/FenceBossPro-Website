@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Fit More Repairs Into Your Install Week</h3>
           <p>FenceBossPro puts installs and service calls on one Job Board so you can slot, dispatch, part-out, and invoice every repair without slowing down your big jobs.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence dispatch software, fence repair scheduling, fence service call software, fence crew job board, fence crew routing, fence invoicing software</div>
       </article>

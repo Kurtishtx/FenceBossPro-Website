@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Close Out Fence Jobs the Day They&apos;re Done</h3>
           <p>FenceBossPro keeps a card on file from signing through closeout, so you collect the balance the moment the crew finishes &mdash; no chasing checks, no net-30.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: card-on-file fence payments, fence invoicing software, fence crew dispatch software, fence job closeout, fence progress billing, fence deposit collection</div>
       </article>

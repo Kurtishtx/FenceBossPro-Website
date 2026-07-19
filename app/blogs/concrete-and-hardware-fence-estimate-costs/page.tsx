@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop Eating the Cost of Concrete and Hardware</h3>
           <p>FenceBossPro builds line-item fence estimates that count every bag of concrete, fastener, and gate kit automatically &mdash; then turns them into scheduled jobs and paid invoices.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence material takeoff, gate hardware estimating, fence bidding software, fence materials catalog, linear-foot fence estimates</div>
       </article>

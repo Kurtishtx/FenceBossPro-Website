@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Build line-item fence bids that protect your margin</h3>
           <p>FenceBossPro breaks every fence job into posts, panels, pickets, and gates &mdash; then turns that bid into a scheduled, invoiced job in one system.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, line-item fence bids, fence bid software, fence material takeoff, fencing software, fence quote software</div>
       </article>

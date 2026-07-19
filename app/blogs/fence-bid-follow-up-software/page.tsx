@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Close More Fence Bids With FenceBossPro</h3>
           <p>FenceBossPro tracks every open estimate, sends automatic follow-up texts, and turns a customer&apos;s yes into a scheduled, deposit-paid fence job.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence bid follow-up software, fence estimating software, fence contractor software, fence quote tracking, automatic follow-up texts, fence sales pipeline</div>
       </article>

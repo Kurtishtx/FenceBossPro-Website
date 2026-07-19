@@ -100,6 +100,7 @@ export default function Page() {
             card-on-file payments so cash flows from the first post to the final gate.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence estimating software, fence deposit billing, progress billing for fence jobs, fence invoicing software, card-on-file payments, fence installation software</div>

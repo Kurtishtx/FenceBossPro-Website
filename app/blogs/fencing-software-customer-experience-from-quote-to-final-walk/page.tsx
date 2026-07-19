@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Give Every Fence Customer a Five-Star Experience</h3>
           <p>FenceBossPro handles your line-item bids, materials, scheduling texts, dispatch, and card-on-file payments so every job feels effortless from quote to final walkthrough.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, fence estimating software, fence company scheduling software, fence invoicing and payments, fence crew dispatch software, fence business management software</div>
       </article>

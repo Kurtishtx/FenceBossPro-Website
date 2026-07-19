@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Make Your First Month Pay for the Year</h3>
           <p>FenceBossPro bids, schedules, dispatches, and bills your fence jobs in one place so you win more work and collect faster.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence business software, fence estimating software, fence material takeoff software, fence company invoicing, fence job scheduling software, fence crew dispatch</div>
       </article>

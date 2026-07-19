@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Stop Losing Gate and Hardware Jobs on the Schedule</h3>
           <p>FenceBossPro schedules gate installs and hardware swaps as their own line-item visits &mdash; tracked on the Job Board, routed to the right tech, and invoiced on site.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, gate installation scheduling, fence job board, fence crew dispatch, hardware job invoicing, gate install line items</div>
       </article>

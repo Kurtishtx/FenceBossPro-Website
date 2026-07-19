@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Send every fence crew a complete route in one click</h3>
           <p>FenceBossPro dispatches each crew their sequenced route, job scope, materials list, and property notes from a single action, then shows you live job status all day long.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: dispatch fence crews software, fence crew routing software, fence installation dispatch software, fence job board software, fence crew management software, fence materials list dispatch</div>

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Run Repairs and Installs Off One Calendar</h3>
           <p>FenceBossPro puts every fence repair and new install on a single crew calendar, then dispatches, texts, and invoices each one from the same scheduled job.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, fence crew calendar, fence job board, fence repair scheduling, crew dispatch software, fence install scheduling</div>
       </article>

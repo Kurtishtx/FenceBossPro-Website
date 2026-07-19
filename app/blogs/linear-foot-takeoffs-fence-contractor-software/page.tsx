@@ -60,6 +60,7 @@ export default function Page() {
           <h3>Build Faster Fence Bids With FenceBossPro</h3>
           <p>FenceBossPro turns linear-foot measurements into complete, line-item fence estimates with posts, panels, concrete, gates, and hardware counted automatically.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence contractor software, linear-foot takeoff software, fence estimating software, fence bid materials list, fence gate hardware estimating, fence project scheduling software</div>

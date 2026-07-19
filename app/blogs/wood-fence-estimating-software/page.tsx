@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bid Wood Fence Right the First Time</h3>
           <p>FenceBossPro turns a linear-foot takeoff into a line-item estimate &mdash; pickets, rails, posts, concrete, and gates priced accurately &mdash; then carries it straight through scheduling, invoicing, and card-on-file payments.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: wood fence estimating software, fence bid software, linear-foot fence takeoff, fence materials pricing, fence installation software, picket and post estimating</div>
       </article>

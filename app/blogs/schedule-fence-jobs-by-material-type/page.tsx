@@ -103,6 +103,7 @@ export default function Page() {
           <h3>Schedule every fence job by the crew that builds it best</h3>
           <p>FenceBossPro matches wood, vinyl, chain link and aluminum jobs to the right crew, loads the right materials, and bills from estimate to paid in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, fence crew dispatch, fence job scheduling, fence estimating software, fence materials takeoff, fence business software</div>
       </article>

@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Never Dig Before the Site Is Cleared</h3>
           <p>FenceBossPro back-dates utility locates and permits from every dig date, keeps materials and estimates attached, and dispatches only the jobs that are truly ready.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, utility locate scheduling, fence permit tracking, fence crew dispatch, fence job board, dig date scheduling</div>
       </article>

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Bid every fence job down to the last hinge</h3>
           <p>FenceBossPro builds line-item estimates from your linear-foot takeoff so no post, panel, gate, or bag of concrete ever gets left off the bid.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence bidding software, linear-foot takeoff, fence material takeoff, fence invoicing software, fence project scheduling</div>
       </article>

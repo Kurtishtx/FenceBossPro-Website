@@ -103,6 +103,7 @@ export default function Page() {
           <h3>Stop losing crew hours to fence no-shows</h3>
           <p>FenceBossPro automatically confirms and reminds your customers before every install &mdash; booking texts, night-before reminders, and day-of updates &mdash; so your crews show up to ready jobs.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence scheduling software, fence install reminders, fence appointment text reminders, reduce fence no-shows, fence crew dispatch software, fence customer texts</div>

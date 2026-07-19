@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Turn Backorders Into a Two-Click Reschedule</h3>
           <p>FenceBossPro flags jobs waiting on materials and lets you swap in ready work, so a backordered post or panel never costs you a crew day.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, reschedule fence jobs, fence material backorder, fence job board, fence crew dispatch, fence project scheduling software</div>
       </article>

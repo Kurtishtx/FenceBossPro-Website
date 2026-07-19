@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Send fence quotes that close with FenceBossPro</h3>
           <p>FenceBossPro builds itemized, linear-foot estimates and turns approvals into deposits, scheduled jobs, and paid invoices &mdash; all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, professional fence quotes, fence bid software, linear-foot takeoff, fence materials list, fence quote approvals</div>
       </article>

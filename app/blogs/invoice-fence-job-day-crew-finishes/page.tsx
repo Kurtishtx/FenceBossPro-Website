@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Invoice every fence job the same day with FenceBossPro</h3>
           <p>FenceBossPro turns a finished fence into a clean, itemized invoice your customer can pay by card the moment the crew rolls out.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, same-day fence invoice, fence estimate to invoice, card-on-file fence payments, fence deposit and progress billing, fence job board invoicing</div>
       </article>

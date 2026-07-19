@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Turn Measurements Into Money With FenceBossPro</h3>
           <p>FenceBossPro converts your linear-foot takeoffs into accurate, line-item fence bids with the posts, panels, concrete, and gate hardware counted for you.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence takeoff software, linear-foot fence estimating, fence bidding software, fence materials calculator, line-item fence bids, fence installation software</div>

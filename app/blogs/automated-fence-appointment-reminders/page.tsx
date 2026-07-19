@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Stop Driving to Empty Yards</h3>
           <p>FenceBossPro automatically confirms estimates and install dates by text, so your crews show up to ready jobs and your office stops chasing the calendar.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence appointment reminder software, automated fence estimate confirmations, fence install scheduling software, fence business software, fence crew dispatch, fence customer text reminders</div>
       </article>

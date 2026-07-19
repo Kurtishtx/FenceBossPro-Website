@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Build Faster, Tighter Fence Bids with FenceBossPro</h3>
           <p>FenceBossPro turns linear-foot measurements into itemized estimates &mdash; posts, panels, gates, concrete, and hardware all priced &mdash; then carries them straight into scheduling, invoicing, and card-on-file payments.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence bidding software, linear-foot takeoff, fence material estimate, fence install scheduling, fence invoicing software</div>
       </article>

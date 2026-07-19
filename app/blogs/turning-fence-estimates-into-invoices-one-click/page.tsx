@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bill Every Fence Job in One Click</h3>
           <p>FenceBossPro turns your won line-item estimate into a finished invoice instantly, then collects the balance with a card on file &mdash; no retyping, no dropped lines.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, estimate to invoice, fence billing software, fence deposit and progress billing, card on file payments, fence estimating software</div>
       </article>

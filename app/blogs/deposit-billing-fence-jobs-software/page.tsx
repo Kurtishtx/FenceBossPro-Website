@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Lock in deposits before you order a single post</h3>
           <p>FenceBossPro collects fence-job deposits at signing with card-on-file payments and progress billing, then turns your line-item estimates into invoices automatically.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence deposit software, fence job progress billing, card-on-file fence payments, fence estimate to invoice, fence invoicing software, fence crew scheduling</div>
       </article>

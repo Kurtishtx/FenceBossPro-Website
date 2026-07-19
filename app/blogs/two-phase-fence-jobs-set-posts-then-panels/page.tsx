@@ -103,6 +103,7 @@ export default function Page() {
           <h3>Run two-phase fence jobs without the guesswork</h3>
           <p>FenceBossPro links your post-set and panel-hang visits, builds in the cure window, and keeps materials, crews, texts, and payments tied to one fence project.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, two-phase fence jobs, fence crew dispatch, fence project scheduling, fence job board, fence progress billing</div>
       </article>

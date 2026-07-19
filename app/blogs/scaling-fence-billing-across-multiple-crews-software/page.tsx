@@ -99,6 +99,7 @@ export default function Page() {
           <h3>Bill every crew without drowning the office</h3>
           <p>FenceBossPro turns approved fence estimates into invoices, deposits, and card-on-file payments so you can scale crews without scaling paperwork.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, multi-crew fence billing, fence estimate to invoice, fence deposit and progress billing, card-on-file fence payments, fence job board software</div>
       </article>

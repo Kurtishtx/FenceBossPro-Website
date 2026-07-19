@@ -93,6 +93,7 @@ export default function Page() {
           <h3>Bill every post, panel, and gate with FenceBossPro</h3>
           <p>FenceBossPro turns your fence estimates into itemized invoices with materials, deposits, progress billing, and card-on-file payments built in.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence invoicing software, itemized fence invoices, fence materials billing, fence estimating software, progress billing for fence jobs, fence contractor invoicing</div>

@@ -39,6 +39,7 @@ export default function Page() {
           <h3>Bid chain link, vinyl, wood, and aluminum from purpose-built templates</h3>
           <p>FenceBossPro gives fence contractors material-specific estimate templates, linear-foot takeoffs, a priced parts catalog, and one-click conversion to scheduled, invoiced jobs.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

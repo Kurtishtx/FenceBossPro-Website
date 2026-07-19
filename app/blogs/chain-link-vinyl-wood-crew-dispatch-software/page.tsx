@@ -62,6 +62,7 @@ export default function Page() {
           <h3>Dispatch every fence crew from one board</h3>
           <p>FenceBossPro puts your chain link, vinyl, and wood crews, materials, routing, and invoicing on a single screen so nothing falls through the cracks.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence crew dispatch software, fence job board, fence scheduling software, fence estimate software, fence materials takeoff, fence invoicing software</div>

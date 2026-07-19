@@ -96,6 +96,7 @@ export default function Page() {
           <h3>Ditch the Morning Roll Call with FenceBossPro</h3>
           <p>FenceBossPro pushes each fence crew their full day&mdash;jobs, routes, materials, gate notes, and invoicing&mdash;straight to the mobile app.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence crew mobile app, fence crew dispatch software, fence job board, fence install scheduling, fence crew routing, fence company field app</div>
       </article>

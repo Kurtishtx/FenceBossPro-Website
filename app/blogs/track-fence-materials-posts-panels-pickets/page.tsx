@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Bid every fence with the parts already counted</h3>
           <p>FenceBossPro turns your linear-foot takeoffs into exact material lists, line-item bids, and ready-to-order parts &mdash; so what you quote is what you install.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence material takeoff, linear-foot fence bids, fence materials tracking, fence business software, fence project management</div>
       </article>

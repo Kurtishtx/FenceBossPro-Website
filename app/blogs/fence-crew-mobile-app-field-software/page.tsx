@@ -56,6 +56,7 @@ export default function Page() {
           <h3>Put FenceBossPro in Every Truck</h3>
           <p>FenceBossPro gives your fence crews a mobile app with line-item jobs, materials lists, live scheduling, and one-tap invoicing &mdash; all synced to the office.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence crew mobile app, fence contractor software, fence job scheduling software, fence dispatch and routing, fence materials and takeoff software, fence estimating and invoicing app</div>

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Fence Repairs Like Real Jobs, Not Afterthoughts</h3>
           <p>FenceBossPro gives fence pros quick line-item estimates, a live Job Board, smart dispatch, parts tracking, and card-on-file invoicing in one simple platform.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence repair software, fence service call software, fence repair estimating software, fence Job Board software, fence crew dispatch software, fence invoicing software</div>
       </article>

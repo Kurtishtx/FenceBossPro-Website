@@ -97,6 +97,7 @@ export default function Page() {
           <h3>Run every fence crew from one schedule</h3>
           <p>FenceBossPro puts all your crews, jobs, materials, and invoices on one Job Board so installs, repairs, and gates stay on track as you grow.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: manage multiple fence crews, fence crew scheduling software, fence job board, fence crew dispatch, fence business software, multi-crew fence scheduling</div>
       </article>

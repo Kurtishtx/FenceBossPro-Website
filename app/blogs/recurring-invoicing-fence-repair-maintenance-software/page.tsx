@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Put Your Fence Maintenance Accounts on Autopilot</h3>
           <p>FenceBossPro builds recurring invoices, schedules the work, and collects payment automatically so your repair and maintenance revenue runs itself.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: recurring invoices fence software, fence maintenance billing, fence repair invoicing, card on file fence payments, fence job scheduling software, fence invoicing &amp; billing</div>
       </article>

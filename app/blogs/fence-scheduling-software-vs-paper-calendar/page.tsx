@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Trade the whiteboard for a live fence Job Board</h3>
           <p>FenceBossPro schedules your fence jobs with materials, crews, dispatch, and customer texts attached to every one.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, fence job board, crew dispatch and routing, multi-day fence build scheduling, fence materials list, fence customer texts</div>
       </article>

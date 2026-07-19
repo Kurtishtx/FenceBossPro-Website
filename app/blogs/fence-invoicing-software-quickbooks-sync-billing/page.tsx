@@ -103,6 +103,7 @@ export default function Page() {
             final bill straight to QuickBooks &mdash; no double entry, no drifting numbers.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence invoicing software, QuickBooks sync for fence contractors, fence estimating and billing, deposit and progress billing, card-on-file fence payments, fence job invoicing</div>

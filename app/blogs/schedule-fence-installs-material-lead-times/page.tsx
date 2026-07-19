@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Schedule Smarter With FenceBossPro</h3>
           <p>FenceBossPro lines up your material lead times, crews, and customer updates so every install starts on a day the parts are actually ready.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence install scheduling software, fence job board, material lead time tracking, crew dispatch and routing, fence linear-foot takeoff, fence business software</div>
       </article>

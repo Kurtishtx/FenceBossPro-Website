@@ -53,6 +53,7 @@ export default function Page() {
           <h3>Get Paid as Your Fence Crews Build</h3>
           <p>FenceBossPro collects deposits up front and fires progress billing as crews hit each milestone&mdash;so your jobs fund themselves from dig day to final gate.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence deposit software, progress billing for fencing, fence crew dispatch software, milestone invoicing, card-on-file payments, fence estimate software</div>
       </article>

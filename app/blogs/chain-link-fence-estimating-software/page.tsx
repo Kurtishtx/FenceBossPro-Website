@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Bid Chain Link Fence Down to the Last Tension Band</h3>
           <p>FenceBossPro builds line-item chain link estimates from a linear-foot takeoff &mdash; counting terminals, line posts, fabric, and gates &mdash; then turns the winning bid into a scheduled, invoiced job.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: chain link fence estimating software, fence takeoff software, linear foot fence bidding, fence materials list, terminal post estimating, fence quoting software</div>
       </article>

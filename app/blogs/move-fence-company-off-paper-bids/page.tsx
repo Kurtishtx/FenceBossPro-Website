@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Trade the Clipboard for FenceBossPro</h3>
           <p>FenceBossPro turns your fence bids into line-item estimates with materials, scheduling, dispatch, deposits, and card payments &mdash; all in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, fence bid software, fence business software, linear-foot takeoff, fence job scheduling, fence invoicing and deposits</div>
       </article>

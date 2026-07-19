@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Your Fence Crews on Real Numbers</h3>
           <p>FenceBossPro tracks crew hours, dispatch status, materials, and billing in one place so every fence job stays accountable from bid to final invoice.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence dispatch software, fence crew time tracking, fence crew accountability, fence job scheduling software, fence dispatch board, fence labor cost tracking</div>
       </article>

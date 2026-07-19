@@ -41,6 +41,7 @@ export default function Page() {
           <h3>Get Paid Faster on Every Fence Job</h3>
           <p>FenceBossPro turns your line-item bids into same-day invoices with card-on-file payments, deposits, and progress billing &mdash; so your cash comes back as fast as your crew builds.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, fence billing software, card-on-file payments, fence deposit and progress billing, fence estimating software, fence contractor payment automation</div>
       </article>

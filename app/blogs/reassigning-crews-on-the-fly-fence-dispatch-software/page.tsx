@@ -91,6 +91,7 @@ export default function Page() {
           <h3>Reassign crews in seconds, not phone calls</h3>
           <p>FenceBossPro keeps your estimates, materials, schedule, crew dispatch, and customer texts in one place so a mid-day surprise never costs you the day.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: fence crew dispatch software, reassigning fence crews, fence job board, fence scheduling software, fence crew routing, fence installation software</div>

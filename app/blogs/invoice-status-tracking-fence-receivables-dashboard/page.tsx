@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Know exactly what every fence customer owes you</h3>
           <p>FenceBossPro gives fence contractors a live receivables dashboard that tracks invoice status, deposits, and overdue balances in one place.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence receivables dashboard, fence invoice tracking software, fence invoicing software, overdue fence invoice reminders, fence deposit and progress billing, fencing contractor cash flow software</div>
       </article>

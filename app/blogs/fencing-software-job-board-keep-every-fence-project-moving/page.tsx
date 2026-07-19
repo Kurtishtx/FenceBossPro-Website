@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop letting fence projects stall between approval and payment</h3>
           <p>FenceBossPro gives you a Job Board that carries every fence project from line-item estimate through materials, scheduling, install, and card-on-file payment without anything slipping through the cracks.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

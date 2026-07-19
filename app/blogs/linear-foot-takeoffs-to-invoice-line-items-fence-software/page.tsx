@@ -99,6 +99,7 @@ export default function Page() {
             post, panel, or gate ever gets billed wrong &mdash; or forgotten.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">Keywords: linear-foot takeoff fence software, fence line-item estimates, fence invoicing software, fence material takeoff billing, fence job change orders, fence deposit and progress billing</div>

@@ -38,6 +38,7 @@ export default function Page() {
           <h3>Price gates that actually make you money</h3>
           <p>FenceBossPro builds gates, hardware, posts, and labor into clean line-item estimates that flow straight to scheduling, invoicing, and card-on-file payments.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, gate hardware estimate, fence materials takeoff, fencing bid templates, fence invoicing software, fence job scheduling</div>
       </article>

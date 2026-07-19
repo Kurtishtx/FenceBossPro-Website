@@ -103,6 +103,7 @@ export default function Page() {
           <h3>Put your fence crews on smarter routes</h3>
           <p>FenceBossPro builds tight crew routes, stages materials by job, and keeps customers texted so your installers spend the day setting posts &mdash; not driving.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence dispatch software, fence crew routing, fence job board, fence scheduling software, fence crew dispatch, fence install routing software</div>
       </article>

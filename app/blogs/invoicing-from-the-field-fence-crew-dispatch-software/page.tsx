@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Close out every fence job the day it&apos;s done</h3>
           <p>FenceBossPro turns your approved estimate into a field-ready invoice your crew can send and collect on before they leave the property.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence invoicing software, field invoicing for fence crews, fence crew &amp; dispatch software, linear-foot fence estimates, fence deposit and progress billing, card-on-file fence payments</div>
       </article>

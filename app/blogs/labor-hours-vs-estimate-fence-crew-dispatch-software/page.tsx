@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Know What Every Fence Job Really Costs in Labor</h3>
           <p>FenceBossPro tracks crew hours against your estimate on every job, so you catch overruns early and bid the next one from real numbers.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence crew labor tracking software, fence dispatch software, fence job time tracking, fence crew scheduling, fence estimating software, fence project management</div>
       </article>

@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Price Every Fence by the Hole with FenceBossPro</h3>
           <p>FenceBossPro turns your linear-foot measurements into exact post, concrete, and hardware counts so your bids and material orders match the job you actually dig.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence estimating software, post-setting takeoff, fence material takeoff, fence installation software, linear-foot fence bidding, fence job scheduling software</div>
       </article>

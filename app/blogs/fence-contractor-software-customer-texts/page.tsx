@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Keep Every Fence Customer in the Loop</h3>
           <p>FenceBossPro sends automatic job texts at every stage &mdash; estimate, deposit, install, and invoice &mdash; so your customers stay informed and your office stops fielding status calls.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence customer text software, automatic fence job updates, fence project status texts, fence contractor software, fence install scheduling software, fence invoicing and payment texts</div>
       </article>

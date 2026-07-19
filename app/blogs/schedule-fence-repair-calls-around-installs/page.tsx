@@ -90,6 +90,7 @@ export default function Page() {
           <h3>Run Repairs and Installs on One Schedule</h3>
           <p>FenceBossPro gives fence contractors estimates, materials, the Job Board, crew dispatch, and card-on-file payments so repair calls fit in&mdash;without blowing up your installs.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fence scheduling software, fence repair scheduling, fence job board software, fence crew dispatch, fence estimating software, fence invoicing software</div>
       </article>

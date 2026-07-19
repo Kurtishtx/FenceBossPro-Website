@@ -37,6 +37,7 @@ export default function Page() {
           <h3>Stop doing fence sales tax in your head</h3>
           <p>FenceBossPro applies the right tax rate to materials and labor on every fence invoice automatically, tracks exempt accounts, and keeps your billing audit-ready.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">

@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Run Your Fence Repair &amp; Gate Calls the Easy Way</h3>
           <p>FenceBossPro gives fencing crews line-item estimates, material tracking, smart dispatch, and card-on-file invoicing in one simple platform.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, fence repair software, gate service call software, fence estimating software, fence crew dispatch software, fence invoicing software</div>
       </article>

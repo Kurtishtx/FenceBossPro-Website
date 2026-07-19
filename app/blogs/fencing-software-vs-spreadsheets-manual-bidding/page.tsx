@@ -50,6 +50,7 @@ export default function Page() {
           <h3>Stop bidding fence in a spreadsheet</h3>
           <p>FenceBossPro turns linear-foot takeoffs into accurate, line-item bids and carries them straight through scheduling, dispatch, and payment.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: fencing software, fence bidding software, fence estimating software, linear-foot takeoff software, fence materials tracking, fence contractor software</div>
       </article>

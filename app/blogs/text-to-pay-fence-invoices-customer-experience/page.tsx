@@ -36,6 +36,7 @@ export default function Page() {
           <h3>Get Your Fence Invoices Paid With a Text</h3>
           <p>FenceBossPro texts every fence invoice with a tap-to-pay link and keeps a card on file, so balances clear the day the crew finishes &mdash; no chasing, no waiting on the mail.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
         </div>
         <div className="blog-keywords">Keywords: text to pay fence invoices, fence invoicing software, card on file payments, fence deposit and progress billing, fence billing software, customer text invoices</div>
       </article>
