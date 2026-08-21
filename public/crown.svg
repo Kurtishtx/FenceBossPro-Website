@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="BossPro">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1a18"/><stop offset="1" stop-color="#000000"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ecf0f5"/><stop offset="1" stop-color="#b0b5bb"/></linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cbd1d8"/><stop offset="1" stop-color="#83878b"/></linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#bg)"/>
+  <rect x="2.5" y="2.5" width="95" height="95" rx="21.5" fill="none" stroke="#64748b" stroke-width="5"/>
+  <path d="M19 50 L34 63 L50 39 L66 63 L81 50 L81 74 L19 74 Z" fill="url(#metal)"/>
+  <rect x="17" y="74" width="66" height="10" rx="3" fill="url(#band)"/>
+  <circle cx="19" cy="46.4" r="4" fill="#fffaf0"/>
+  <circle cx="50" cy="35.4" r="4.6" fill="#fffaf0"/>
+  <circle cx="81" cy="46.4" r="4" fill="#fffaf0"/>
+  <circle cx="50" cy="56" r="6" fill="#e11d48"/>
+  <circle cx="31" cy="63.5" r="4" fill="#22c55e"/>
+  <circle cx="69" cy="63.5" r="4" fill="#38bdf8"/>
+</svg>

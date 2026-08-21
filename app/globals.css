@@ -41,7 +41,7 @@ html { scroll-behavior: smooth; }
   gap: 10px;
   text-decoration: none;
 }
-.navbar-icon { font-size: 26px; line-height: 1; }
+.navbar-icon { width: 30px; height: 30px; display: block; border-radius: 7px; }
 .navbar-name {
   color: #fff;
   font-size: 18px;
@@ -445,7 +445,7 @@ section { padding: 96px 40px; }
 @media (max-width: 400px) {
   .nav-demo-mobile { padding: 6px 10px; font-size: 12px; gap: 5px; }
   .navbar-name { font-size: 15px; }
-  .navbar-icon { font-size: 22px; }
+  .navbar-icon { width: 26px; height: 26px; }
 }
 
 @media (max-width: 340px) {

@@ -4,7 +4,8 @@ export default function Footer() {
       <div className="site-footer-inner">
         <div className="site-footer-top">
           <a href="/" className="site-footer-brand">
-            <span>🌿</span>
+            {/* Same crown as the navbar, so the mark is consistent top and bottom. */}
+            <img src="/crown.svg" alt="" width={26} height={26} style={{borderRadius:"6px", display:"block"}} />
             <span>FenceBossPro</span>
           </a>
           <div className="site-footer-cols">
