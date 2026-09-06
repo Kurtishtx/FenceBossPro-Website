@@ -10,6 +10,11 @@ const hubPages = [
   '/fence-contractor-software',
   '/fence-installation-software',
 ];
+/* Canada landing pages — CAD customer invoicing is native, so these target
+   "fence contractor software canada" style searches with real substance. */
+const canadaPages = [
+  '/fence-contractor-software-canada',
+];
 const vsPages = [
   '/vs-jobber',
   '/vs-servicetitan',
@@ -256,6 +261,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   entries.push({ url: BASE, lastModified: lm, changeFrequency: 'weekly', priority: 1 });
   for (const p of ['/features','/pricing','/blogs']) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.9 });
   for (const p of hubPages) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.9 });
+  for (const p of canadaPages) entries.push({ url: `${BASE}${p}`, lastModified: new Date('2026-09-06'), changeFrequency: 'monthly', priority: 0.9 });
   for (const p of vsPages) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.8 });
   for (const s of blogSlugs) entries.push({ url: `${BASE}/blogs/${s}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.7 });
   return entries;
