@@ -522,7 +522,7 @@ export default function FenceSchedulingSoftware() {
               <li>Two-Way SMS &amp; Automated Alerts</li>
               <li>Progress Billing &amp; Card-on-File</li>
               <li>Mobile App for Crews</li>
-              <li>500 Outbound SMS/month included</li>
+              <li>500 texts/month included (sent + received)</li>
               <li>+$15 per additional 500 SMS after that</li>
             </ul>
             <button onClick={(e) => openSignupModal(2, e.currentTarget as HTMLElement)} className="price-btn price-btn-primary">Start Your 14-Day Free Trial</button>

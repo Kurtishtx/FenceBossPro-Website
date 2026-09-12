@@ -370,7 +370,7 @@ export default function FenceContractorSoftwareCanada() {
               <li>Crew App &amp; Customer App</li>
               <li>Automated Alerts &amp; Two-Way Texting</li>
               <li>Unlimited Users &mdash; no per-seat fees</li>
-              <li>500 Outbound SMS/month included, +$15 per extra 500</li>
+              <li>500 texts/month included (sent + received), +extra5 per extra 500</li>
             </ul>
             <a href="#" onClick={(e) => { e.preventDefault(); openTrial(e.currentTarget as HTMLElement); }} className="price-btn price-btn-primary" style={{display:'block'}}>Start Your 14-Day Free Trial</a>
           </div>
