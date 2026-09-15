@@ -150,12 +150,12 @@ export default function VsServiceAutopilot() {
       <div className="hero">
         <div className="hero-badge">Service Autopilot Alternative</div>
         <h1>SA Costs $500+/Month to Get Close to What FenceBossPro Offers.<br /><span>And Even Then, It Still Doesn&apos;t Have Everything.</span></h1>
-        <p>Service Autopilot has tiers. Route optimization is $199/month. Automations are $499/month. Two-way texting costs even more. FenceBossPro is $129/month with everything included — plus linear-foot takeoffs, line-item estimates, and a materials &amp; parts catalog built for fence contractors that SA doesn&apos;t have at any price.</p>
+        <p>Service Autopilot has tiers. Route optimization is $199/month. Automations are $499/month. Two-way texting costs even more. FenceBossPro is from $59/month with everything included — plus linear-foot takeoffs, line-item estimates, and a materials &amp; parts catalog built for fence contractors that SA doesn&apos;t have at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">FenceBossPro — Everything Included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">FenceBossPro — Everything Included</div></div>
           <div><div className="hero-stat-val">$0</div><div className="hero-stat-lbl">Sign-Up Fee for FenceBossPro</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
           <div><div className="hero-stat-val">Accurate</div><div className="hero-stat-lbl">Linear-Foot Takeoffs — SA Has None</div></div>
@@ -193,9 +193,9 @@ export default function VsServiceAutopilot() {
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">No Annual Contract</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Varies by tier</span></td></tr>
-              <tr><td className="feature-name">Entry Price (basic features)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$49/month (very limited)</td></tr>
-              <tr><td className="feature-name">Price with Dispatch &amp; Routing</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$199/month (Pro)</td></tr>
-              <tr><td className="feature-name">Price with Automations + SMS</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$499+/month (Pro Plus / Elite)</td></tr>
+              <tr><td className="feature-name">Entry Price (basic features)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$49/month (very limited)</td></tr>
+              <tr><td className="feature-name">Price with Dispatch &amp; Routing</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$199/month (Pro)</td></tr>
+              <tr><td className="feature-name">Price with Automations + SMS</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$499+/month (Pro Plus / Elite)</td></tr>
             </tbody>
           </table>
         </div>
@@ -212,7 +212,7 @@ export default function VsServiceAutopilot() {
               <li style={{color:'rgba(255,255,255,.75)'}}>Accurate parts counts — know exactly how many posts and panels to order</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Materials and labor shown separately on every line-item bid</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>Accurate takeoffs mean accurate pricing and material ordering</li>
-              <li style={{color:'rgba(255,255,255,.75)'}}>Available at $129/month — not locked behind SA&apos;s $199 Pro tier</li>
+              <li style={{color:'rgba(255,255,255,.75)'}}>Available at from $59/month — not locked behind SA&apos;s $199 Pro tier</li>
             </ul>
           </div>
           <div className="highlight-visual-dark">
@@ -240,7 +240,7 @@ export default function VsServiceAutopilot() {
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">The Real SA Pricing Ladder</span>
-          <h2 className="section-title">SA Starts at $49. But You&apos;ll Need $499+ to Get What FenceBossPro Gives You at $129.</h2>
+          <h2 className="section-title">SA Starts at $49. But You&apos;ll Need $499+ to Get What FenceBossPro Gives You at $59.</h2>
           <p className="section-sub" style={{maxWidth:'720px', marginLeft:'auto', marginRight:'auto'}}>Service Autopilot&apos;s pricing looks affordable at the Startup tier — but that tier has very limited functionality. Every major feature that makes SA worth using is locked behind a higher tier.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
@@ -273,18 +273,18 @@ export default function VsServiceAutopilot() {
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Crew Dispatch &amp; Routing</div><div className="mock-sub">SA Pro tier required</div></div><div className="mock-badge red-badge">$199/mo</div></div>
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Automations</div><div className="mock-sub">SA Pro Plus tier required</div></div><div className="mock-badge red-badge">$499/mo</div></div>
                 <div className="mock-item"><div className="mock-dot red"></div><div><div className="mock-label">Two-Way Texting</div><div className="mock-sub">SA Elite tier required</div></div><div className="mock-badge red-badge">Call</div></div>
-                <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">FenceBossPro</div><div className="mock-sub">Everything included — plus takeoffs &amp; materials catalog</div></div><div className="mock-badge">$129/mo</div></div>
+                <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">FenceBossPro</div><div className="mock-sub">Everything included — plus takeoffs &amp; materials catalog</div></div><div className="mock-badge">from $59/mo</div></div>
               </div>
             </div>
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Real Cost</span>
-              <h2>$499+/Month at SA Still Doesn&apos;t Get You Everything FenceBossPro Includes at $129.</h2>
-              <p>Even at SA&apos;s top published tier ($499/month for Pro Plus), you&apos;re still missing linear-foot takeoffs, line-item estimates, and a materials &amp; parts catalog built for fence work. Those don&apos;t exist in SA at any price. FenceBossPro includes everything at $129/month with no sign-up fee.</p>
+              <h2>$499+/Month at SA Still Doesn&apos;t Get You Everything FenceBossPro Includes at $59.</h2>
+              <p>Even at SA&apos;s top published tier ($499/month for Pro Plus), you&apos;re still missing linear-foot takeoffs, line-item estimates, and a materials &amp; parts catalog built for fence work. Those don&apos;t exist in SA at any price. FenceBossPro includes everything at from $59/month with no sign-up fee.</p>
               <ul className="check-list">
                 <li>Linear-foot takeoffs — SA has no fence measurement tool</li>
                 <li>Materials &amp; parts catalog (posts, panels, pickets, gates) — not in SA</li>
                 <li>Line-item estimates with material breakdown — not in SA at any tier</li>
-                <li>Automations included at $129 — SA charges $499 for these</li>
+                <li>Automations included at $59 — SA charges $499 for these</li>
                 <li>Two-way SMS included — SA charges Elite pricing (custom quote)</li>
                 <li>No sign-up fee at FenceBossPro — SA charges one</li>
               </ul>
@@ -300,9 +300,9 @@ export default function VsServiceAutopilot() {
           <div className="premium-card"><div className="premium-card-icon">📐</div><h4>Linear-Foot Takeoffs</h4><p>FenceBossPro takes off the fence run in linear feet and pulls the exact posts, panels, pickets, and concrete onto the bid. SA has no takeoff tool — so you&apos;re eyeballing material counts by hand. That&apos;s a real problem when you&apos;re ordering for a 400-foot run.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Materials &amp; Parts Catalog</h4><p>Price posts, panels, pickets, rails, concrete, gates, and hardware straight from a catalog built for fence work — wood, vinyl, chain link, aluminum, and ornamental. This workflow doesn&apos;t exist in Service Autopilot at any tier.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📝</div><h4>Line-Item Estimates &amp; Bids</h4><p>Build a clean bid with materials and labor broken out line by line, then let the customer accept it online. SA writes generic line items. That&apos;s not the same as a fence estimate that knows your gate, post, and panel costs.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$129 — Not $499+</h4><p>Getting dispatch &amp; routing, automations, and SMS at SA costs $499+/month. FenceBossPro includes all of these at $129/month — plus the fence-specific features SA doesn&apos;t have. It&apos;s not even close on value.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💰</div><h4>$59 — Not $499+</h4><p>Getting dispatch &amp; routing, automations, and SMS at SA costs $499+/month. FenceBossPro includes all of these at from $59/month — plus the fence-specific features SA doesn&apos;t have. It&apos;s not even close on value.</p></div>
           <div className="premium-card"><div className="premium-card-icon">⚡</div><h4>No Sign-Up Fee</h4><p>SA charges a sign-up fee to get started. FenceBossPro charges $0 to sign up and offers a 14-day free trial with no credit card required. You can start today and be dispatching crews this afternoon.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included at $129</h4><p>Two-way SMS inbox, automated alerts, estimate follow-ups — all included at $129/month. SA locks two-way texting behind their Elite tier. At SA, SMS alone costs more than FenceBossPro&apos;s entire platform.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>SMS Included at $59</h4><p>Two-way SMS inbox, automated alerts, estimate follow-ups — all included at from $59/month. SA locks two-way texting behind their Elite tier. At SA, SMS alone costs more than FenceBossPro&apos;s entire platform.</p></div>
         </div>
       </div>
 
@@ -314,7 +314,7 @@ export default function VsServiceAutopilot() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Linear Feet Is the Right Unit</h3><p>FenceBossPro takes off jobs in linear feet and converts that straight into posts, panels, pickets, and concrete. SA tracks job durations and stop counts. For fence contractors, linear footage is the unit that drives pricing, material orders, and crew planning.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>No Tier-Climbing Required</h3><p>FenceBossPro gives you crew dispatch, automations, two-way SMS, and a materials catalog at $129/month. SA starts at $49 and charges you more for each major feature until you&apos;re at $499+/month before you have what FenceBossPro includes at the entry level.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>No Tier-Climbing Required</h3><p>FenceBossPro gives you crew dispatch, automations, two-way SMS, and a materials catalog at from $59/month. SA starts at $49 and charges you more for each major feature until you&apos;re at $499+/month before you have what FenceBossPro includes at the entry level.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>No Sign-Up Fee. No Lock-In.</h3><p>Start a free trial right now — no credit card required, no sign-up fee. SA charges to get started and has an onboarding process. FenceBossPro is self-serve and you can be fully operational today.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Accurate Takeoffs for Accurate Bids</h3><p>When FenceBossPro tells you a 412-foot run needs 52 posts and 51 panels, that&apos;s pulled from the takeoff. SA has no fence measurement at all, so you&apos;re guessing material counts. You can&apos;t order material or quote jobs accurately on a guess.</p></div>
         </div>
@@ -323,8 +323,8 @@ export default function VsServiceAutopilot() {
       <section>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
-          <h2 className="section-title">$129/Month. Everything Included. No Tiers.</h2>
-          <p className="section-sub">No sign-up fee. No tier-climbing. No add-ons. Just $129/month for your entire operation.</p>
+          <h2 className="section-title">$59/Month. Everything Included. No Tiers.</h2>
+          <p className="section-sub">No sign-up fee. No tier-climbing. No add-ons. Just from $59/month for your entire operation.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -353,7 +353,7 @@ export default function VsServiceAutopilot() {
       </section>
 
       <div className="cta-band">
-        <h2>SA at $500+/Month Still Doesn&apos;t Have Everything FenceBossPro Does at $129.<span>Linear-Foot Takeoffs. Materials Catalog. Line-Item Bids. All Included.</span></h2>
+        <h2>SA at $500+/Month Still Doesn&apos;t Have Everything FenceBossPro Does at $59.<span>Linear-Foot Takeoffs. Materials Catalog. Line-Item Bids. All Included.</span></h2>
         <p>Try FenceBossPro free for 14 days. No credit card required. No sign-up fee.</p>
         <div className="hero-btns">
           <button className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}} onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
@@ -365,7 +365,7 @@ export default function VsServiceAutopilot() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #2b6ca3', boxShadow:'0 0 0 4px rgba(43,108,163,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#0f1720,#1f2d3d)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -382,7 +382,7 @@ export default function VsServiceAutopilot() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

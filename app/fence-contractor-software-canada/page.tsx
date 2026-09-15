@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: 'Is the subscription itself billed in CAD?',
-    a: "No — we're upfront about this one. The $129/month subscription is billed in US dollars, and your bank converts it at its exchange rate. Your customer-facing billing is fully CAD; the one USD charge is the software subscription itself.",
+    a: "No — we're upfront about this one. The from $59/month subscription is billed in US dollars, and your bank converts it at its exchange rate. Your customer-facing billing is fully CAD; the one USD charge is the software subscription itself.",
   },
   {
     q: 'Does automated texting work in Canada?',
@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: 'How does the free trial work?',
-    a: "14 days, full access to every feature, no credit card required to start. If you decide it's not for you, your account simply stops — no charges and no cancellation call. If you keep it, it's $129/month flat with every feature included and unlimited users.",
+    a: "14 days, full access to every feature, no credit card required to start. If you decide it's not for you, your account simply stops — no charges and no cancellation call. If you keep it, it's from $59/month flat with every feature included and unlimited users.",
   },
   {
     q: 'Is there a contract or a setup fee?',
@@ -85,7 +85,7 @@ export default function FenceContractorSoftwareCanada() {
       <div style={{background:'linear-gradient(135deg, #0f1720 0%, #16202b 60%, #1f2d3d 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
         <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
           <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
-            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$129<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
             <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'var(--orange)'}}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime &middot; Your customers pay in CAD</div>
@@ -101,11 +101,11 @@ export default function FenceContractorSoftwareCanada() {
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openTrial(e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
           <a href="https://my.fencebosspro.com/demo.html" className="btn-demo"><span className="btn-demo-dot" />Try the Live Demo</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">CAD</div><div className="hero-stat-lbl">Native Customer Billing</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat &mdash; Every Feature Included</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat &mdash; Every Feature Included</div></div>
           <div><div className="hero-stat-val">0</div><div className="hero-stat-lbl">Per-User Fees</div></div>
           <div><div className="hero-stat-val">14</div><div className="hero-stat-lbl">Days Free, No Card</div></div>
         </div>
@@ -151,7 +151,7 @@ export default function FenceContractorSoftwareCanada() {
               </thead>
               <tbody>
                 <tr><td>Try the software before talking to anyone</td><td className="sbp-col">Live demo, right on this page</td><td className="other-col">Book a sales call</td></tr>
-                <tr><td>Price published on the website</td><td className="sbp-col">$129/mo, flat</td><td className="other-col">&ldquo;Request a quote&rdquo;</td></tr>
+                <tr><td>Price published on the website</td><td className="sbp-col">from $59/mo, flat</td><td className="other-col">&ldquo;Request a quote&rdquo;</td></tr>
                 <tr><td>Customer invoicing in Canadian dollars</td><td className="sbp-col">Native &mdash; set country once</td><td className="other-col">Varies / ask sales</td></tr>
                 <tr><td>Per-user fees</td><td className="sbp-col">None &mdash; unlimited users</td><td className="other-col">Often per seat</td></tr>
                 <tr><td>Features locked behind higher tiers</td><td className="sbp-col">None &mdash; one plan has it all</td><td className="other-col">Tiered plans</td></tr>
@@ -401,7 +401,7 @@ export default function FenceContractorSoftwareCanada() {
         <p>Start the trial today, load your fence types and parts, and send your first CAD-billed estimate before the week is out. 14 days free, no credit card, no sales call.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openTrial(e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 

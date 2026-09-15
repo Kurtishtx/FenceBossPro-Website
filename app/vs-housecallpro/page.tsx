@@ -131,24 +131,24 @@ export default function VsHousecallPro() {
 
       <div className="hero">
         <div className="hero-badge">Housecall Pro Alternative</div>
-        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>FenceBossPro Is Built for Fencing.</span><br />$129 vs $149 — and No Comparison on Features.</h1>
+        <h1>Housecall Pro Is Built for Plumbers and HVAC.<br /><span>FenceBossPro Is Built for Fencing.</span><br />$59 vs $149 — and No Comparison on Features.</h1>
         <p>Housecall Pro serves cleaning companies, plumbers, HVAC techs, and dozens of other trades. FenceBossPro is built specifically for fence contractors — with linear-foot takeoffs, a materials & parts catalog for posts, panels, pickets, rails and gates, crew dispatch & routing, and progress billing that HCP doesn&apos;t have at any price.</p>
         <div className="hero-btns">
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">1</div><div className="hero-stat-lbl">User on HCP Basic ($59/mo)</div></div>
-          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users on FenceBossPro ($129/mo)</div></div>
+          <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users on FenceBossPro (from $59/mo)</div></div>
           <div><div className="hero-stat-val">$149</div><div className="hero-stat-lbl">HCP Essentials — 5-User Cap</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">FenceBossPro — Unlimited Users</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">FenceBossPro — Unlimited Users</div></div>
         </div>
       </div>
 
       <section style={{background:'var(--light-bg)'}}>
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto 48px'}}>
           <span className="section-label">Housecall Pro Pricing Reality</span>
-          <h2 className="section-title">HCP Charges More Per Tier. FenceBossPro Is $129 — Unlimited.</h2>
-          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. FenceBossPro doesn&apos;t have user tiers — your whole crew is included at $129/month.</p>
+          <h2 className="section-title">HCP Charges More Per Tier. FenceBossPro Is $59 — Unlimited.</h2>
+          <p className="section-sub" style={{marginLeft:'auto', marginRight:'auto'}}>Housecall Pro structures pricing around user count. The moment you need more than one user, your price jumps. FenceBossPro doesn&apos;t have user tiers — your whole crew is included at from $59/month.</p>
         </div>
         <div style={{maxWidth:'1100px', margin:'0 auto'}}>
           <div className="highlight-row">
@@ -180,7 +180,7 @@ export default function VsHousecallPro() {
                 </div>
               </div>
               <div className="sbp-contrast">
-                <div className="sbp-contrast-label">FenceBossPro — $129/month</div>
+                <div className="sbp-contrast-label">FenceBossPro — from $59/month</div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Users</span><span className="sbp-contrast-row-val">Unlimited — no caps</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Linear-Foot Takeoffs</span><span className="sbp-contrast-row-val">✓ Included</span></div>
                 <div className="sbp-contrast-row"><span className="sbp-contrast-row-label">Fence Materials Catalog</span><span className="sbp-contrast-row-val">✓ Included</span></div>
@@ -189,13 +189,13 @@ export default function VsHousecallPro() {
             <div className="highlight-text" style={{flex:1, minWidth:'280px'}}>
               <span className="section-label">The Math</span>
               <h2>At the Same Price as HCP Essentials, FenceBossPro Has Features HCP Doesn&apos;t Have at Any Price.</h2>
-              <p>HCP Essentials is $149/month and covers up to 5 users. FenceBossPro is $129/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have linear-foot takeoffs, a fence materials & parts catalog, or deposits & progress billing. These aren&apos;t premium add-ons in FenceBossPro — they&apos;re in the base price.</p>
+              <p>HCP Essentials is $149/month and covers up to 5 users. FenceBossPro is from $59/month with unlimited users. But the bigger gap isn&apos;t price — it&apos;s features. HCP doesn&apos;t have linear-foot takeoffs, a fence materials & parts catalog, or deposits & progress billing. These aren&apos;t premium add-ons in FenceBossPro — they&apos;re in the base price.</p>
               <ul className="check-list">
                 <li>Linear-foot takeoffs by fence type — doesn&apos;t exist in HCP</li>
                 <li>Materials & parts catalog for posts, panels & gates — doesn&apos;t exist in HCP</li>
                 <li>Deposits & progress billing — doesn&apos;t exist in HCP</li>
                 <li>Line-item estimates & bids for fence projects — doesn&apos;t exist in HCP</li>
-                <li>Unlimited users at $129 — HCP needs MAX ($299) for 8 users</li>
+                <li>Unlimited users at $59 — HCP needs MAX ($299) for 8 users</li>
               </ul>
             </div>
           </div>
@@ -209,9 +209,9 @@ export default function VsHousecallPro() {
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Linear-Foot Takeoffs</h4><p>Measure the run, pick the fence type, and FenceBossPro turns linear feet into posts, panels, pickets, rails, concrete and gates automatically. Bid wood, vinyl, chain link, aluminum and ornamental jobs in minutes. HCP doesn&apos;t have this model at any tier.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Crew Dispatch & Routing</h4><p>Assign crews to fence jobs, map the day&apos;s stops, and route installers efficiently across job sites. See who&apos;s on which build and what&apos;s next. HCP has basic job scheduling. Not the same as dispatch & routing built for fence crews.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🪵</div><h4>Materials & Parts Catalog</h4><p>A full catalog of posts, panels, pickets, rails, concrete, gates and hardware with your costs and markups. Drop parts onto any estimate and order the right quantities for the run. HCP has job notes — not a fence materials & parts system.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $129</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. FenceBossPro covers your entire crew at $129 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th installer at no extra cost.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users at $59</h4><p>HCP Basic is 1 user. HCP Essentials caps at 5 users for $149. FenceBossPro covers your entire crew at $59 — no user caps, no tier jumps, no per-seat math as you hire. Add your 10th installer at no extra cost.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Deposits & Progress Billing</h4><p>FenceBossPro is built around how fence jobs actually get paid — deposits up front, progress billing through the build, card-on-file for the balance. HCP handles invoicing for general trades. The fence project workflow is different, and HCP wasn&apos;t built for it.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $129, not locked behind a premium tier.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Two-Way SMS Inbox</h4><p>Full inbound/outbound SMS conversation history per contact, organized by customer. Automated appointment alerts, estimate follow-ups, payment reminders — all built in. Included at $59, not locked behind a premium tier.</p></div>
         </div>
       </div>
 
@@ -244,7 +244,7 @@ export default function VsHousecallPro() {
               <tr><td className="feature-name">Mobile App for Crews</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Capped by tier</span></td></tr>
-              <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
+              <tr><td className="feature-name">Price for a 5-Person Team</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59/month</td><td style={{color:'var(--muted)'}}>$149/month (Essentials)</td></tr>
             </tbody>
           </table>
         </div>
@@ -260,7 +260,7 @@ export default function VsHousecallPro() {
           <div className="simple-card"><div className="simple-num">01</div><h3>Linear Feet Is the Unit That Matters</h3><p>FenceBossPro tracks everything in linear feet — takeoffs, materials, estimates, billing. Fence pricing is driven by the run and the fence type. Your software should be too. HCP tracks job duration and billing, not linear-foot fence takeoffs.</p></div>
           <div className="simple-card"><div className="simple-num">02</div><h3>The Fence Project Model Is Different</h3><p>Fence contractors run multi-day builds with materials ordering, crew dispatch, and deposits before the first post goes in. That&apos;s a different operating model than one-off plumbing calls or cleaning visits. FenceBossPro was built around the fence project model from day one.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Materials &amp; Parts Aren&apos;t Optional</h3><p>Every fence bid lives or dies on the materials — posts, panels, pickets, rails, concrete, gates and hardware. A real parts catalog with your costs and markups needs to be built into the software. HCP has job notes. FenceBossPro has a fence materials catalog.</p></div>
-          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>FenceBossPro is $129/month with unlimited users, linear-foot takeoffs, a materials & parts catalog, crew dispatch, progress billing, and SMS. HCP Essentials is $149 with a 5-user cap and none of those fence-specific features. Less money. More fencing.</p></div>
+          <div className="simple-card"><div className="simple-num">04</div><h3>$20 Less — And More Included</h3><p>FenceBossPro is from $59/month with unlimited users, linear-foot takeoffs, a materials & parts catalog, crew dispatch, progress billing, and SMS. HCP Essentials is $149 with a 5-user cap and none of those fence-specific features. Less money. More fencing.</p></div>
         </div>
       </section>
 
@@ -268,7 +268,7 @@ export default function VsHousecallPro() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">Less Than HCP Essentials — More Fencing Features</h2>
-          <p className="section-sub">$129/month. Unlimited users. Every fence-specific feature included.</p>
+          <p className="section-sub">from $59/month. Unlimited users. Every fence-specific feature included.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -309,7 +309,7 @@ export default function VsHousecallPro() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #2b6ca3', boxShadow:'0 0 0 4px rgba(43,108,163,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#0f1720,#1f2d3d)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -326,7 +326,7 @@ export default function VsHousecallPro() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

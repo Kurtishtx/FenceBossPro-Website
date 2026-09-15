@@ -43,7 +43,7 @@ async function sbpCreateAccount(n: number) {
     const trialEnd = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString();
     await sb.from('user_profiles').upsert({ id: uid, email, role: 'full_access', is_primary_owner: true, tenant_id: null, trial_ends_at: trialEnd, product: 'fencebosspro' }, { onConflict: 'id' });
     await sb.from('company_info').insert({ user_id: uid, company_name: comp, display_name: comp });
-    await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', monthly_amount: 129, trial_ends_at: trialEnd, active: false });
+    await sb.from('platform_accounts').insert({ user_id: uid, email, plan: 'Monthly Subscription', plan_key: 'start', monthly_amount: 59, trial_ends_at: trialEnd, active: false });
     const reasons = ['Cancel Maintaining Self','Cancel Sold House','Cancel Too Expensive','Cancel Unknown','Dropping Customer','Sold House'].map(nm => ({ name: nm, active: true, user_id: uid }));
     await sb.from('cancellation_reasons').insert(reasons);
     document.getElementById('sbp' + n + '-step2')!.style.display = 'none'; document.getElementById('sbp' + n + '-success')!.style.display = 'block';
@@ -216,7 +216,7 @@ export default function Home() {
         {/* Price up top, above the demo — same order sprayboss-website uses. */}
         <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
           <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
-            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$129<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
             <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'var(--orange)'}}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
@@ -234,7 +234,7 @@ export default function Home() {
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
           <a href="https://my.fencebosspro.com/demo.html" className="btn-demo"><span className="btn-demo-dot" />Try the Live Demo</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">100+</div><div className="hero-stat-lbl">Features Built In</div></div>
@@ -248,12 +248,12 @@ export default function Home() {
       {/* ═══ PREMIUM BAND ═══ */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Software.</span></h2>
-        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean fence bid. FenceBossPro does everything the big platforms do &mdash; line-item estimates, materials and parts tracking, project scheduling, crew dispatch, Stripe payments, role-based access, and a mobile app &mdash; built specifically for fence contractors, and priced for the real world. $129 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
+        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean fence bid. FenceBossPro does everything the big platforms do &mdash; line-item estimates, materials and parts tracking, project scheduling, crew dispatch, Stripe payments, role-based access, and a mobile app &mdash; built specifically for fence contractors, and priced for the real world. $59 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📐</div><h4>Line-Item Estimating &amp; Bids</h4><p>Build detailed fence bids from saved line items &mdash; posts, panels, pickets, rails, concrete, gates, and hardware &mdash; with linear-foot takeoffs that price a job in minutes instead of an hour at the kitchen table.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧱</div><h4>Materials &amp; Parts Tracking</h4><p>A full parts catalog with your real costs and margins. Every estimate rolls up the exact materials list for the job, so you know what to order and what to load before the crew rolls out.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated Customer Texts</h4><p>Estimate-sent alerts, follow-up sequences, install reminders, and a two-way texting inbox &mdash; all running on their own so your fence customers always know what&apos;s happening.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payments &amp; Deposits</h4><p>Card-on-file storage, collect deposits up front, progress billing on multi-day builds, partial payments, and full payment history. The same billing the big guys use &mdash; included in your $129.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payments &amp; Deposits</h4><p>Card-on-file storage, collect deposits up front, progress billing on multi-day builds, partial payments, and full payment history. The same billing the big guys use &mdash; included in your $59.</p></div>
           <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, Crew Lead, and Mobile roles &mdash; the same granular permissions as platforms charging 5&times; more. Your office sees the books; your crews see only their jobs.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Crews</h4><p>Your crews pull up the job, see the materials list, mark phases complete, add photos and notes, and capture sign-off &mdash; all in a mobile view built for someone standing at the fence line.</p></div>
         </div>
@@ -399,7 +399,7 @@ export default function Home() {
           <p className="section-sub">Over the years we tried just about every contractor software out there &mdash; and for a long time we were paying $500&ndash;$700 a month. Every feature was an add-on. Every user cost more. Every upgrade was another invoice.</p>
           <div style={{background:'#fff', border:'1.5px solid var(--border)', borderRadius:'14px', padding:'36px 40px', maxWidth:'800px', margin:'0 auto 56px', textAlign:'left', borderLeft:'5px solid var(--orange)'}}>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>We were paying <strong>$500 to $700 a month</strong> for software that nickel-and-dimed us at every turn. Want texting? That&apos;s an add-on. Want more users? Pay per user. Want the reporting module? Upgrade your plan. It never ended &mdash; and none of those people had ever set a fence post in their life.</p>
-            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built FenceBossPro with one flat price that includes everything. <strong>$129 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
+            <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8', marginBottom:'16px'}}>That&apos;s exactly why we built FenceBossPro with one flat price that includes everything. <strong>$59 a month.</strong> No add-ons. No user fees. No locked features. We include it all because that&apos;s how it should have been from day one.</p>
             <p style={{fontSize:'17px', color:'var(--text)', lineHeight:'1.8'}}>The only reason we charge a small fee for outbound text messages is simple &mdash; they cost us money to send. We&apos;re not marking them up to make a profit off you. 500 outbound messages are included every month, and if you go over, it&apos;s just $15 per additional 500. That&apos;s it. No gotchas. No surprises. We&apos;re fence contractors just like you, and we built the pricing we always wished existed.</p>
           </div>
         </div>
@@ -730,7 +730,7 @@ export default function Home() {
         <p>Stop running your fence business out of a notepad and a group text. Get organized, bid faster, get paid sooner, and give your customers an experience that wins referrals.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 
@@ -740,7 +740,7 @@ export default function Home() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #2b6ca3', boxShadow:'0 0 0 4px rgba(43,108,163,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#0f1720,#1f2d3d)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -757,7 +757,7 @@ export default function Home() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

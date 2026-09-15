@@ -147,7 +147,7 @@ export default function VsJobber() {
           <button className="btn-primary" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }}>Start Your 14-Day Free Trial</button>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly vs Jobber&apos;s Per-Tier Pricing</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly vs Jobber&apos;s Per-Tier Pricing</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
           <div><div className="hero-stat-val">Linear Ft</div><div className="hero-stat-lbl">Takeoffs &amp; Job Board — Jobber Doesn&apos;t Have This</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
@@ -184,24 +184,24 @@ export default function VsJobber() {
               <tr><td className="feature-name">Automated Review Requests</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Automated Estimate Follow-Ups</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Starting Price (Annual Billing)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800, fontSize:'15px'}}>$129 / month</td><td style={{color:'var(--muted)'}}>$29/mo (1 user only)</td></tr>
-              <tr><td className="feature-name">Price for a 5-Person Team (Annual)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129 / month</td><td style={{color:'var(--muted)'}}>$149/mo (Connect — no SMS)</td></tr>
-              <tr><td className="feature-name">Price with Two-Way SMS (Annual)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>$129 / month</td><td style={{color:'var(--muted)'}}>$299/mo (Grow — up to 10 users)</td></tr>
+              <tr><td className="feature-name">Starting Price (Annual Billing)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800, fontSize:'15px'}}>from $59 / month</td><td style={{color:'var(--muted)'}}>$29/mo (1 user only)</td></tr>
+              <tr><td className="feature-name">Price for a 5-Person Team (Annual)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59 / month</td><td style={{color:'var(--muted)'}}>$149/mo (Connect — no SMS)</td></tr>
+              <tr><td className="feature-name">Price with Two-Way SMS (Annual)</td><td className="sbp-col" style={{color:'var(--orange)', fontWeight:800}}>from $59 / month</td><td style={{color:'var(--muted)'}}>$299/mo (Grow — up to 10 users)</td></tr>
             </tbody>
           </table>
         </div>
       </section>
 
       <div className="premium-band">
-        <h2>Jobber Charges More as You Grow.<br /><span>FenceBossPro Charges $129. Period.</span></h2>
-        <p>The moment you add your 6th employee on Jobber, you&apos;re bumped to a higher tier. Add more features, pay more. Add more users, pay more. FenceBossPro has one price — $129/month — that covers your entire team, every feature, forever. No tiers. No per-seat math. No surprises on your invoice.</p>
+        <h2>Jobber Charges More as You Grow.<br /><span>FenceBossPro Charges $59. Period.</span></h2>
+        <p>The moment you add your 6th employee on Jobber, you&apos;re bumped to a higher tier. Add more features, pay more. Add more users, pay more. FenceBossPro has one price — from $59/month — that covers your entire team, every feature, forever. No tiers. No per-seat math. No surprises on your invoice.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📋</div><h4>Linear-Foot Takeoffs</h4><p>Before you send a single bid, FenceBossPro turns your linear-foot measurements into posts, panels, pickets, rails, concrete, gates, and hardware. Know exactly what a wood, vinyl, chain link, or aluminum run takes before you quote it. Jobber has no concept of this.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🧱</div><h4>Materials &amp; Parts Lists</h4><p>Every job builds its own materials list automatically — posts, panels, rails, concrete, gates, hardware, by quantity. Hand the crew an exact pull sheet in 30 seconds. Jobber has job notes. That&apos;s not the same thing as a fence materials takeoff.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Map Job Selector</h4><p>Draw a circle on the map, instantly see every job inside with work due. Jobs, fence types, linear ft — all calculated before you schedule anything. Jobber has basic route optimization. Not the same as Lasso.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>True Two-Way SMS Inbox</h4><p>Send and receive text messages inside FenceBossPro with full conversation history per contact. Jobber has limited client messaging — not a full SMS inbox with inbound/outbound history organized by customer.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Job Board &amp; Dispatch</h4><p>Track every install and repair on the Job Board, see what&apos;s due, and dispatch crews by area. Jobber handles jobs, but not the fence job-board model that shows you all your pending work before you build a crew route.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users, One Price</h4><p>Every employee — crews, installers, office staff, managers — included at $129/month. Jobber charges per tier based on user count. Add your 6th employee and your bill goes up. Ours doesn&apos;t.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users, One Price</h4><p>Every employee — crews, installers, office staff, managers — included at from $59/month. Jobber charges per tier based on user count. Add your 6th employee and your bill goes up. Ours doesn&apos;t.</p></div>
         </div>
       </div>
 
@@ -219,7 +219,7 @@ export default function VsJobber() {
               <li>Job Board tracking with automatic work-due flags</li>
               <li>Deposits and progress billing tracked per job automatically</li>
               <li>True inbound/outbound SMS inbox organized by customer</li>
-              <li>$129/month flat — add 20 employees, price doesn&apos;t change</li>
+              <li>from $59/month flat — add 20 employees, price doesn&apos;t change</li>
             </ul>
           </div>
           <div className="highlight-visual">
@@ -227,7 +227,7 @@ export default function VsJobber() {
             <div className="mock-item">
               <div className="mock-dot orange"></div>
               <div><div className="mock-label">FenceBossPro</div><div className="mock-sub">Unlimited users — every feature — SMS included</div></div>
-              <div className="mock-badge">$129/mo</div>
+              <div className="mock-badge">from $59/mo</div>
             </div>
             <div className="mock-item">
               <div className="mock-dot blue"></div>
@@ -308,7 +308,7 @@ export default function VsJobber() {
         <div className="centered" style={{maxWidth:'1100px', margin:'0 auto'}}>
           <span className="section-label">Pricing</span>
           <h2 className="section-title">One Price. Every Feature. Unlimited Users.</h2>
-          <p className="section-sub">No tiers. No per-seat fees. No upgrade prompts. Just $129/month for your entire operation.</p>
+          <p className="section-sub">No tiers. No per-seat fees. No upgrade prompts. Just from $59/month for your entire operation.</p>
         </div>
         <div style={{maxWidth:'520px', margin:'0 auto'}}>
           <div className="price-card featured" style={{width:'100%'}}>
@@ -350,7 +350,7 @@ export default function VsJobber() {
         <div key={n} id={`sbp-form-${n}`} style={{display:'none', position:'fixed', zIndex:99999, width:'420px', maxWidth:'calc(100vw - 24px)', background:'#fff', borderRadius:'14px', border:'3px solid #2b6ca3', boxShadow:'0 0 0 4px rgba(43,108,163,.35), 0 16px 60px rgba(0,0,0,.45)', maxHeight:'calc(100vh - 40px)', overflowY:'auto'}}>
           <div style={{background:'linear-gradient(135deg,#0f1720,#1f2d3d)', padding:'28px 28px 22px', position:'relative'}}>
             <div style={{color:'#fff', fontSize:'20px', fontWeight:800, paddingRight:'36px'}}>Start Your 14-Day Free Trial</div>
-            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · $129/mo after your 14-day trial</div>
+            <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', marginTop:'5px'}}>No credit card required · Full access · from $59/mo after your 14-day trial</div>
             <button onClick={() => closeSignupModal(n)} style={{position:'absolute', top:'16px', right:'16px', background:'rgba(255,255,255,.12)', border:'none', color:'#fff', width:'32px', height:'32px', borderRadius:'50%', cursor:'pointer', fontSize:'20px', display:'flex', alignItems:'center', justifyContent:'center'}}>×</button>
           </div>
           <div id={`sbp${n}-step1`} style={{padding:'24px 28px'}}>
@@ -367,7 +367,7 @@ export default function VsJobber() {
             <div id={`sbp${n}-err2`} style={{background:'#fff0f0', border:'1px solid #f5c6c6', color:'#c0392b', borderRadius:'6px', padding:'10px 12px', fontSize:'13px', marginBottom:'14px', display:'none'}}></div>
             <div style={{background:'#f0fdf4', border:'1px solid #bbf7d0', borderRadius:'6px', padding:'10px 14px', marginBottom:'16px'}}>
               <div style={{fontSize:'12px', color:'#16a34a', fontWeight:700}}>14-Day Free Trial — No Credit Card Required</div>
-              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. $129/month after trial.</div>
+              <div style={{fontSize:'12px', color:'#555', marginTop:'2px'}}>Full access to every feature. from $59/month after trial.</div>
             </div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Login Email</label><input id={`sbp${n}-login-email`} type="email" readOnly style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', background:'#f8f8f8', color:'#333'}} /></div>
             <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px', fontWeight:700, color:'#555', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:'5px'}}>Password</label><input id={`sbp${n}-password`} type="password" placeholder="At least 8 characters" style={{width:'100%', border:'1px solid #ddd', borderRadius:'6px', padding:'10px 12px', fontSize:'14px', fontFamily:'inherit', color:'#333'}} /></div>

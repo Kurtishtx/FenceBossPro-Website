@@ -133,7 +133,7 @@ function SignupForm({ n }: { n: number }) {
     <div id={`sbp-form-${n}`} className="sbp-form">
       <div className="sbp-form-header">
         <div className="sbp-form-title">Start Your 14-Day Free Trial</div>
-        <div className="sbp-form-subtitle">No credit card required · Full access · $129/mo after your 14-day trial</div>
+        <div className="sbp-form-subtitle">No credit card required · Full access · from $59/mo after your 14-day trial</div>
         <button className="sbp-form-close" onClick={() => closeSignupModal(n)}>×</button>
       </div>
       <div id={`sbp${n}-step1`} className="sbp-form-body">
@@ -164,7 +164,7 @@ function SignupForm({ n }: { n: number }) {
         <div id={`sbp${n}-err2`} className="sbp-err"></div>
         <div className="sbp-trial-note">
           <div className="sbp-trial-note-title">14-Day Free Trial — No Credit Card Required</div>
-          <div className="sbp-trial-note-sub">Full access to every feature. $129/month after trial.</div>
+          <div className="sbp-trial-note-sub">Full access to every feature. from $59/month after trial.</div>
         </div>
         <div className="sbp-field">
           <label className="sbp-label">Login Email</label>
@@ -225,11 +225,11 @@ export default function FenceDispatchSoftware() {
         <p>Most field service software is built for plumbers and HVAC techs. FenceBossPro is built from the ground up for fence companies &mdash; the way you bid linear-foot jobs, track posts, panels, pickets, rails, concrete, gates, and hardware, schedule installs, and dispatch crews is completely different, and your software should be too.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="btn-primary">Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
           <div><div className="hero-stat-val">Lin Ft</div><div className="hero-stat-lbl">Job Board Totals Per Material</div></div>
-          <div><div className="hero-stat-val">$129</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
+          <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
           <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">SMS Alerts Included Monthly</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Trades Since</div></div>
         </div>
@@ -251,7 +251,7 @@ export default function FenceDispatchSoftware() {
       {/* PREMIUM BAND */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Fence Software.</span></h2>
-        <p>$129/month sounds modest. But what you&apos;re getting isn&apos;t modest at all. FenceBossPro is built to the same standard as software that costs 10 times more &mdash; the difference is we built it ourselves, for ourselves, and we don&apos;t have a sales team, investor overhead, or a $500/month add-on for every feature you actually need.</p>
+        <p>from $59/month sounds modest. But what you&apos;re getting isn&apos;t modest at all. FenceBossPro is built to the same standard as software that costs 10 times more &mdash; the difference is we built it ourselves, for ourselves, and we don&apos;t have a sales team, investor overhead, or a $500/month add-on for every feature you actually need.</p>
         <div className="premium-grid">
           <div className="premium-card"><div className="premium-card-icon">📐</div><h4>Line-Item Estimates</h4><p>Build a fence bid by the linear foot &mdash; wood, vinyl, chain link, aluminum, or ornamental &mdash; with posts, panels, pickets, rails, concrete, gates, and hardware itemized. Email it, let the customer accept with one click, and convert it straight to a scheduled job.</p></div>
           <div className="premium-card"><div className="premium-card-icon">📦</div><h4>Materials &amp; Parts Tracking</h4><p>Every job carries its own takeoff: post count, panel or picket count, rails, bags of concrete, gate kits, and hardware. Know exactly what to load on the trailer before the crew rolls out and what to reorder before you run short.</p></div>
@@ -386,7 +386,7 @@ export default function FenceDispatchSoftware() {
             {icon:'🚛', title:'Truck &amp; Trailer Management', body:'Create truck and trailer profiles, assign them to crews, and track which rig handled each install. Know exactly what\'s on the road every day.'},
             {icon:'⏱️', title:'Employee Hour Tracking', body:'Track crew hours per job and generate payroll-ready reports. Know exactly what you owe before payday without running a separate system.'},
             {icon:'🔔', title:'10+ Automated Alert Types', body:'Job scheduled, completed, rescheduled, estimate sent, estimate accepted, deposit received, review request, payment declined, inbound text — all automated, all customizable.'},
-            {icon:'👥', title:'Unlimited Users', body:'Add every crew member, office staff member, and lead at no extra cost. No per-seat fees. Unlimited users are included in the flat $129/month rate.'},
+            {icon:'👥', title:'Unlimited Users', body:'Add every crew member, office staff member, and lead at no extra cost. No per-seat fees. Unlimited users are included in the flat from $59/month rate.'},
             {icon:'🏢', title:'Unlimited Clients &amp; Jobs', body:'No caps on clients, properties, or jobs. Whether you have 50 accounts or 5,000 — FenceBossPro handles it all at the same flat price.'},
           ].map(({icon, title, body}) => (
             <div key={title} className="feature-card">
@@ -541,7 +541,7 @@ export default function FenceDispatchSoftware() {
             {q:'How does crew dispatch work for fence jobs?', a:'You open the circle-map lasso tool, draw a circle around an area, and every open install, repair, and gate job inside is selected and added to a crew\'s day. Linear-foot totals, stop count, and contract value update in real time. Crew planning that takes 30 minutes in a spreadsheet takes 5 minutes on the map.'},
             {q:'Does FenceBossPro track materials and parts?', a:'Yes. Every job carries a full takeoff — posts, panels, pickets, rails, concrete, gate kits, and hardware — generated from the linear-foot estimate. You can mark items ordered, received, and loaded, and print a load sheet for each crew and trailer.'},
             {q:'Can I collect deposits and bill in stages?', a:'Yes. Collect a deposit before you order materials, bill progress draws on larger jobs, and charge the balance the day the fence is finished. The full Stripe integration stores cards on file and tracks what\'s collected and owed on every contract.'},
-            {q:'How much does FenceBossPro cost?', a:'$129/month, all features included. No per-user fees, no add-ons for SMS or dispatch tools, no setup fees. 14-day free trial with no credit card required.'},
+            {q:'How much does FenceBossPro cost?', a:'from $59/month, all features included. No hidden fees, no add-ons for SMS or dispatch tools, no setup fees. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>
@@ -558,7 +558,7 @@ export default function FenceDispatchSoftware() {
         <p>FenceBossPro is the only fence crew and dispatch software built by someone who has actually set posts and hung gates. Try it free for 14 days.</p>
         <div className="hero-btns">
           <a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(3, e.currentTarget as HTMLElement); }} className="btn-primary" style={{fontSize:'17px', padding:'18px 44px'}}>Start Your 14-Day Free Trial</a>
-          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>$129/mo</b> after</div>
+          <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
       </div>
 
