@@ -65,21 +65,7 @@ export default function HeroDemo() {
   useEffect(() => {
     const nt = readNoTrack();
     setNoTrk(nt);
-    try {
-      fetch('https://knjdbgroiyhvqwrpqzcx.supabase.co/functions/v1/demo-session', {
-        method: 'POST', keepalive: true,
-        headers: { 'Content-Type': 'application/json', apikey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g' },
-        // landing_url carries ?fbclid= / ?utm_* — a click from the Facebook or Instagram APP sends
-        // no referrer at all, so without this those visits are indistinguishable from "direct".
-        body: JSON.stringify({
-          product: 'fencebosspro',
-          event: 'pageview',
-          referrer: (typeof document !== 'undefined' ? document.referrer : '') || 'direct',
-          landing_url: (typeof window !== 'undefined' ? window.location.href : ''),
-          notrack: nt,
-        }),
-      });
-    } catch (e) { /* analytics only — never block the page */ }
+    // The pageview beacon now lives in PageBeacon (root layout) so every page is tracked, not just this one.
 
     /* Tell Meta this visitor opened the demo, not merely landed. */
     if (!nt) pixelDemoStarted();

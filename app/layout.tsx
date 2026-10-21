@@ -3,6 +3,7 @@ import Script from "next/script";
 import Footer from "./components/Footer";
 import "./globals.css";
 import MetaPixel from './components/MetaPixel';
+import PageBeacon from './components/PageBeacon';
 
 export const metadata: Metadata = {
   /* Every route resolves its own canonical against this base, so a page reached as www vs
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"
           strategy="afterInteractive"
         />
+        <PageBeacon />
       </body>
     </html>
   );
