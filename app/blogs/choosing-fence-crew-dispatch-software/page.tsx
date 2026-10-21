@@ -32,10 +32,10 @@ export default function Page() {
           concrete, and how many pickets to load.
         </p>
 
-        <h2>Make Sure Scheduling and the Job Board Match How Crews Work</h2>
+        <h2>Make Sure Scheduling and the Pending Jobs board Match How Crews Work</h2>
         <p>
           Fence work is project-heavy, and a single job can stretch across multiple days &mdash; dig and set posts one day, hang panels the next.
-          Your software needs a Job Board that shows every project, what stage it is in, and which crew owns it, not just a simple appointment book.
+          Your software needs a Pending Jobs Board that shows every project, what stage it is in, and which crew owns it, not just a simple appointment book.
           When you evaluate options, drag a multi-day install across the calendar and see what happens. Does the tool keep the materials, the notes,
           and the customer attached to that job? Can a crew lead open it on a phone in the truck and see the site address, the gate locations, and
           the property profile? If the answer is no, you will end up re-explaining the same job five times a week. Good job scheduling keeps the whole

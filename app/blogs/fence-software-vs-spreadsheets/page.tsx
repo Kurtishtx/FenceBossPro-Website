@@ -50,7 +50,7 @@ export default function Page() {
           On a spreadsheet, an approved bid is a dead end. Someone re-keys the customer, the scope,
           and the price into a calendar, then again into a job folder. Move one job and every
           downstream cell is wrong. In FenceBossPro the bid is the job. When the homeowner approves
-          it, that same estimate flows onto the Job Board and gets scheduled with its line items,
+          it, that same estimate flows onto the Pending Jobs board and gets scheduled with its line items,
           materials, and notes attached. Multi-day installs, set-posts-then-panels jobs, and repair
           calls all live on one board you can drag and re-sequence. Push a job for a material delay or
           weather and nobody has to rebuild a grid by hand. Reliable scheduling is also what makes
@@ -63,7 +63,7 @@ export default function Page() {
         <p>
           A spreadsheet has no way to get the day&apos;s work into a crew&apos;s hands. So it turns
           into a flurry of texts, screenshots, and phone calls &mdash; and the addresses, scope, and
-          gate codes get garbled along the way. FenceBossPro dispatches the Job Board straight to the
+          gate codes get garbled along the way. FenceBossPro dispatches the Pending Jobs board straight to the
           crew. Each crew sees their stops in route order, with the property address, the line items
           they are building, materials staged for the job, and any site notes. Your dispatcher can
           route a day to cut windshield time, reassign a job when a truck goes down, and know what

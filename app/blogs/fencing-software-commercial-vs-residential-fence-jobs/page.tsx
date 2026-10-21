@@ -64,7 +64,7 @@ export default function Page() {
           posts, hang fence, hang gates, done. Commercial jobs run in phases that may
           stretch across weeks and depend on other trades finishing grading, paving,
           or building first. Your job scheduling needs to handle both rhythms. On the
-          Job Board, a residential install is a single block you can drag onto an
+          Pending Jobs Board, a residential install is a single block you can drag onto an
           open crew day. A commercial job becomes a sequence: layout and post-setting
           this week, concrete cure time, then fabric and gates once the slab is in.
           Being able to schedule a job in stages&mdash;and reschedule the back half
@@ -120,7 +120,7 @@ export default function Page() {
           update to a commercial PM. When all of it sits inside one purpose-built{' '}
           <a href="/fencing-software">fencing software</a> system, you stop running
           your residential work in one tool and your commercial bids in a spreadsheet.
-          You get one Job Board, one materials list, one invoicing flow, and one place
+          You get one Pending Jobs Board, one materials list, one invoicing flow, and one place
           to see whether the business is actually making money on both sides of the
           fence.
         </p>

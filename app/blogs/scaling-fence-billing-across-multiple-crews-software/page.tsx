@@ -38,7 +38,7 @@ export default function Page() {
         <p>
           The lag between &quot;fence is finished&quot; and &quot;invoice is sent&quot; is where
           cash flow goes to die. With three crews running, that lag multiplies. FenceBossPro closes
-          it by letting the crew lead mark the job complete from the Job Board on their phone the
+          it by letting the crew lead mark the job complete from the Pending Jobs board on their phone the
           moment the last picket is hung. They can flag a change &mdash; an extra gate, ten more
           feet of fence than the takeoff called for, a swap from standard to heavy-duty hardware
           &mdash; and that adjustment flows back to the office instantly. Nobody waits for a paper
@@ -101,7 +101,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence invoicing software, multi-crew fence billing, fence estimate to invoice, fence deposit and progress billing, card-on-file fence payments, fence job board software</div>
+        <div className="blog-keywords">Keywords: fence invoicing software, multi-crew fence billing, fence estimate to invoice, fence deposit and progress billing, card-on-file fence payments, fence Pending Jobs board software</div>
       </article>
     </BlogShell>
   );

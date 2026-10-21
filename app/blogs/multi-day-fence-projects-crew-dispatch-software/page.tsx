@@ -26,7 +26,7 @@ export default function Page() {
           The first mistake is treating a multi-day install as one giant block on the calendar. It is not one job&mdash;it is a
           sequence. Day one is the dig-and-set phase. Day two, after concrete cures, is panels and rails. Day three is gates and
           hardware. In FenceBossPro you build the project once and split the work into phases, each with its own window, its own
-          crew, and its own slice of the material list. The Job Board then shows each phase as its own assignment, so dispatch can
+          crew, and its own slice of the material list. The Pending Jobs board then shows each phase as its own assignment, so dispatch can
           see at a glance that the cedar privacy job is &quot;waiting on cure&quot; today and ready for panels tomorrow. You stop
           guessing where a project stands because the schedule tells you which step is next.
         </p>
@@ -90,7 +90,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence crew dispatch software, multi-day fence project scheduling, fence install phases, fencing job board, fence crew routing, fence progress billing software</div>
+        <div className="blog-keywords">Keywords: fence crew dispatch software, multi-day fence project scheduling, fence install phases, fencing Pending Jobs board, fence crew routing, fence progress billing software</div>
       </article>
     </BlogShell>
   );

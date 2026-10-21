@@ -75,7 +75,7 @@ export default function Page() {
           A winning estimate is only the first step. Once the customer approves, FenceBossPro turns that
           same line-item bid into a real project without re-keying anything. You can collect a deposit with
           card-on-file payments the moment they say yes, set up progress billing for larger installs, and
-          drop the job onto the Job Board so it&apos;s ready to schedule. From there you assign a crew,
+          drop the job onto the Pending Jobs board so it&apos;s ready to schedule. From there you assign a crew,
           route them to the property, and send the customer a text confirming the install date. When the
           fence is finished, the approved line items become the invoice, so the number you billed matches
           the number you quoted &mdash; no awkward conversations about surprise charges. Every detail ties

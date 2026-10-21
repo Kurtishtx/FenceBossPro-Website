@@ -58,7 +58,7 @@ export default function Page() {
 
         <h2>Dispatch and Routing With Context Built In</h2>
         <p>
-          When the office assigns work from the Job Board, the dispatcher is not just dropping an
+          When the office assigns work from the Pending Jobs board, the dispatcher is not just dropping an
           address on a map &mdash; they are sending the whole profile. The crew lead opens the job and
           sees the client, the property, the scope, the materials, and the access notes in one place,
           which makes routing the day far simpler because each stop is fully spec&apos;d before anyone

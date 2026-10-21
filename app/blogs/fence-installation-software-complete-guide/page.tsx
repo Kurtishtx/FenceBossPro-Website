@@ -47,10 +47,10 @@ export default function Page() {
           priced correctly every time.
         </p>
 
-        <h2>Scheduling, the Job Board, and Crew Dispatch</h2>
+        <h2>Scheduling, the Pending Jobs board, and Crew Dispatch</h2>
         <p>
           Once a quote is approved, it needs to land on the calendar without double-booking your crews. Fence
-          installation software turns accepted estimates into scheduled jobs you can drag across a visual Job Board,
+          installation software turns accepted estimates into scheduled jobs you can drag across a visual Pending Jobs Board,
           so every install, repair, and gate replacement has a date, a crew, and a status. Dispatch and routing tools
           group nearby jobs together so your trucks are not crisscrossing the county burning fuel and daylight.
           Crews see their day on their phones&mdash;addresses, materials, gate counts, and job notes&mdash;so they
@@ -87,7 +87,7 @@ export default function Page() {
         <p>
           The real payoff of fence installation software is not any single feature&mdash;it is the way estimates,
           materials, scheduling, dispatch, invoicing, and customer communication finally talk to each other. A quote
-          you build in the field flows straight onto the Job Board, out to the crew, and back as a paid invoice
+          you build in the field flows straight onto the Pending Jobs board, out to the crew, and back as a paid invoice
           without anyone re-typing it three times. That is the whole point of purpose-built{' '}
           <a href="/fence-installation-software">fence installation software</a>: fewer dropped balls, tighter
           margins, faster pay, and more hours back in your week to actually sell and build fence. Whatever mix of

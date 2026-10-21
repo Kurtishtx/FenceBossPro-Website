@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Schedules and Dispatch That Actually Reach the Field</h2>
         <p>
-          A printed weekly schedule is out of date by Tuesday. The mobile app gives each crew a live look at the Job Board: today&apos;s installs, tomorrow&apos;s, and what is staged behind them. When a dig gets rained out or an inspection slips, the office reshuffles the board and the crew&apos;s phone updates &mdash; no morning phone tree. Dispatch and routing are built in, so a crew finishing a chain link repair early can be sent to the next job with the address, gate codes, and customer notes already loaded. The result is fewer idle hours and tighter days, because the people in the trucks always know where they are headed next and what waits when they arrive.
+          A printed weekly schedule is out of date by Tuesday. The mobile app gives each crew a live look at the Pending Jobs board: today&apos;s installs, tomorrow&apos;s, and what is staged behind them. When a dig gets rained out or an inspection slips, the office reshuffles the board and the crew&apos;s phone updates &mdash; no morning phone tree. Dispatch and routing are built in, so a crew finishing a chain link repair early can be sent to the next job with the address, gate codes, and customer notes already loaded. The result is fewer idle hours and tighter days, because the people in the trucks always know where they are headed next and what waits when they arrive.
         </p>
 
         <h2>Photos, Notes, and Property Profiles</h2>

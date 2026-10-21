@@ -19,11 +19,11 @@ export default function Page() {
         <p>The root problem is that the shortage isn&apos;t connected to the schedule. In FenceBossPro, every project carries its own materials list &mdash; posts, panels, pickets, rails, concrete, gates, and hardware &mdash; and each line can hold an expected delivery or ready date. When a line goes backordered, you update that date on the job itself. That single change is what the scheduler reads from, so the install can&apos;t stay booked on a day the parts won&apos;t be there.</p>
 
         <h2>See Which Jobs Are Actually Ready</h2>
-        <p>The first move when a backorder hits is figuring out what you <em>can</em> run. FenceBossPro&apos;s Job Board flags any project whose materials aren&apos;t confirmed yet, so the jobs waiting on a truck stand out from the jobs that are truly ready to dig. Instead of scrolling through a paper calendar guessing which installs have parts on site, you see at a glance: this wood fence is ready, this aluminum ornamental run is still waiting on rails, this chain-link job has fabric and terminal posts confirmed.</p>
+        <p>The first move when a backorder hits is figuring out what you <em>can</em> run. FenceBossPro&apos;s Pending Jobs Board flags any project whose materials aren&apos;t confirmed yet, so the jobs waiting on a truck stand out from the jobs that are truly ready to dig. Instead of scrolling through a paper calendar guessing which installs have parts on site, you see at a glance: this wood fence is ready, this aluminum ornamental run is still waiting on rails, this chain-link job has fabric and terminal posts confirmed.</p>
         <p>That visibility turns a panic into a swap. When the backordered job comes off Tuesday, you already know which ready job can slide into that slot &mdash; one whose linear-foot takeoff has been turned into confirmed line items sitting in your shop or due before the crew rolls.</p>
 
         <h2>Reschedule in One Move, Then Backfill the Gap</h2>
-        <p>Here&apos;s where connected scheduling earns its keep. When a delivery slips, you update that line on the materials list and FenceBossPro flags the affected job so your dispatcher can drag it to a new day on the Job Board. The bumped install opens a hole on the calendar &mdash; and because every job shows whether its materials are confirmed, you pull a ready job into that hole instead of losing the day. The crew still works a full day; it&apos;s just a different fence.</p>
+        <p>Here&apos;s where connected scheduling earns its keep. When a delivery slips, you update that line on the materials list and FenceBossPro flags the affected job so your dispatcher can drag it to a new day on the Pending Jobs board. The bumped install opens a hole on the calendar &mdash; and because every job shows whether its materials are confirmed, you pull a ready job into that hole instead of losing the day. The crew still works a full day; it&apos;s just a different fence.</p>
         <p>Because crews are dispatched and routed off that same board, the swap doesn&apos;t blow up your driving day either. A last-minute substitution lands on a tight route instead of sending a truck 90 minutes across town and back. The reschedule, the backfill, and the routing all happen in one place, so one phone call from a supplier turns into a few clicks rather than an afternoon of rebuilding your week.</p>
 
         <h2>Split the Job So a Backorder Only Stalls One Phase</h2>
@@ -43,7 +43,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, reschedule fence jobs, fence material backorder, fence job board, fence crew dispatch, fence project scheduling software</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, reschedule fence jobs, fence material backorder, fence Pending Jobs board, fence crew dispatch, fence project scheduling software</div>
       </article>
     </BlogShell>
   );

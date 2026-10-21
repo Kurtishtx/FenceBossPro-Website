@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Rescheduling Rained-Out Fence Crews Without Losing the Whole Week | FenceBossPro',
-  description: 'See how FenceBossPro reschedules rained-out fence crews fast&mdash;drag-and-drop the Job Board, re-dispatch crews, and text customers so a wet day stays one day.',
+  description: 'See how FenceBossPro reschedules rained-out fence crews fast&mdash;drag-and-drop the Pending Jobs board, re-dispatch crews, and text customers so a wet day stays one day.',
 };
 
 export default function Page() {
@@ -30,9 +30,9 @@ export default function Page() {
           and customer lives in one connected system instead of scattered across texts and sticky notes.
         </p>
 
-        <h2>Drag-and-Drop the Job Board Instead of Rebuilding It</h2>
+        <h2>Drag-and-Drop the Pending Jobs board Instead of Rebuilding It</h2>
         <p>
-          When a job rains out, you open the Job Board, grab the affected job card, and drop it onto the next open slot. The
+          When a job rains out, you open the Pending Jobs board, grab the affected job card, and drop it onto the next open slot. The
           line-item estimate, the materials list, the linear-foot takeoff, the property profile, and the assigned crew all travel
           with the card&mdash;you never re-key a single post, panel, or rail. If Monday&apos;s cedar job needs to slide to Thursday, you
           drag it there and the board instantly shows the new sequence. Jobs that can still run in light rain, like setting vinyl
@@ -74,7 +74,7 @@ export default function Page() {
 
         <h2>Build a Weather Buffer Into Every Week</h2>
         <p>
-          The crews that survive rainy seasons don&apos;t just react&mdash;they plan for slippage. Use the Job Board to leave a half-day
+          The crews that survive rainy seasons don&apos;t just react&mdash;they plan for slippage. Use the Pending Jobs board to leave a half-day
           buffer late in the week so makeup work has somewhere to land before it touches the next week. Tag weather-sensitive tasks
           like post-setting and concrete pours so you know at a glance what can move and what can&apos;t. Keep a short list of
           rain-friendly jobs&mdash;panel hanging on already-set posts, chain link tension work, hardware and gate adjustments&mdash;that you
@@ -91,7 +91,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
-        <div className="blog-keywords">Keywords: fence crew dispatch software, fence scheduling software, fence job board, rescheduling fence crews, fence installation software, fence business management software</div>
+        <div className="blog-keywords">Keywords: fence crew dispatch software, fence scheduling software, fence Pending Jobs board, rescheduling fence crews, fence installation software, fence business management software</div>
       </article>
     </BlogShell>
   );

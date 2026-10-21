@@ -40,9 +40,9 @@ export default function Page() {
           the real job &mdash; not a round number someone eyeballed at seven on a Tuesday morning.
         </p>
 
-        <h2>The Job Board Shows What Is Staged and What Is Short</h2>
+        <h2>The Pending Jobs board Shows What Is Staged and What Is Short</h2>
         <p>
-          The Job Board is where scheduling and materials finally talk to each other. Each card on the board
+          The Pending Jobs board is where scheduling and materials finally talk to each other. Each card on the board
           carries that job&apos;s parts list, so the day before a crew rolls out you can see at a glance whether
           a job is fully staged or waiting on a back-ordered gate. Instead of a calendar that only shows
           names and times, you get a calendar that shows readiness. A job that is missing hardware can be

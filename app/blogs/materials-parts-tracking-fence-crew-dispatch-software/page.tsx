@@ -56,7 +56,7 @@ export default function Page() {
 
         <h2>Materials Stay Attached Through Scheduling</h2>
         <p>
-          When you drop a fence job onto the calendar or the Job Board, its materials ride along with it. That matters
+          When you drop a fence job onto the calendar or the Pending Jobs board, its materials ride along with it. That matters
           because fencing is project work, not single-visit work. A 300-foot ornamental aluminum run might be a dig-and-set
           day followed by a panel-and-gate day, and the post-setting concrete belongs to day one while the gate hardware
           belongs to day two. FenceBossPro lets the materials live with the job so that when you stage a multi-day install,

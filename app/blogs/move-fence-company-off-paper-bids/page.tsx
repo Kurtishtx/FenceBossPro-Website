@@ -33,7 +33,7 @@ export default function Page() {
 
         <h2>From Won Bid to Scheduled Crew</h2>
         <p>
-          On paper, a signed bid sits in a folder until somebody calls the customer back. In software, an accepted estimate flows straight onto the Job Board and the schedule. You drop the install on a day, assign a crew, and the software handles dispatch and routing so trucks roll in the right order instead of crisscrossing town. Property profiles store the gate codes, dog warnings, slope notes, and the photos your estimator took on the walk, so the install crew shows up knowing the site. The customer gets an automatic text confirming the date and a heads-up the morning the crew is on the way &mdash; the kind of communication that turns a one-time job into a referral.
+          On paper, a signed bid sits in a folder until somebody calls the customer back. In software, an accepted estimate flows straight onto the Pending Jobs board and the schedule. You drop the install on a day, assign a crew, and the software handles dispatch and routing so trucks roll in the right order instead of crisscrossing town. Property profiles store the gate codes, dog warnings, slope notes, and the photos your estimator took on the walk, so the install crew shows up knowing the site. The customer gets an automatic text confirming the date and a heads-up the morning the crew is on the way &mdash; the kind of communication that turns a one-time job into a referral.
         </p>
 
         <h2>Get Paid Without Chasing Checks</h2>
@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Making the Switch Without the Pain</h2>
         <p>
-          You do not have to flip everything overnight. Start by building your three or four most common fence estimates as templates &amp; pricing them right. Load your client and property profiles as you book the next round of bids. Move the Job Board over for one crew first, then the rest once everyone trusts it. Within a few weeks the clipboard becomes a backup, not the system of record. If you want a deeper look at why a fence-specific tool beats a one-size-fits-all platform, read <a href="/blogs/fence-software-vs-generic-field-service">Fence Business Software vs. Generic Field Service Tools: What Fencing Needs That They Miss</a>, and when you are ready to compare the full toolset, our overview of <a href="/fence-business-software">fence business software</a> walks through everything from takeoffs to card-on-file payments.
+          You do not have to flip everything overnight. Start by building your three or four most common fence estimates as templates &amp; pricing them right. Load your client and property profiles as you book the next round of bids. Move the Pending Jobs board over for one crew first, then the rest once everyone trusts it. Within a few weeks the clipboard becomes a backup, not the system of record. If you want a deeper look at why a fence-specific tool beats a one-size-fits-all platform, read <a href="/blogs/fence-software-vs-generic-field-service">Fence Business Software vs. Generic Field Service Tools: What Fencing Needs That They Miss</a>, and when you are ready to compare the full toolset, our overview of <a href="/fence-business-software">fence business software</a> walks through everything from takeoffs to card-on-file payments.
         </p>
 
         <div className="blog-cta-box">

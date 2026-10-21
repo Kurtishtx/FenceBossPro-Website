@@ -1,8 +1,8 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How the Job Board Runs Your Fence Company\'s Daily Schedule | FenceBossPro',
-  description: 'See how the FenceBossPro job board turns estimates into a dispatched daily schedule, routing crews to fence installs, repairs, and gate jobs with ease.',
+  title: 'How the Pending Jobs board Runs Your Fence Company\'s Daily Schedule | FenceBossPro',
+  description: 'See how the FenceBossPro Pending Jobs board turns estimates into a dispatched daily schedule, routing crews to fence installs, repairs, and gate jobs with ease.',
 };
 
 export default function Page() {
@@ -11,19 +11,19 @@ export default function Page() {
       <article className="blog-article">
         <p className="blog-meta">FenceBossPro Blog &mdash; Fence Scheduling Software</p>
         <p className="blog-silo-pill" style={{margin:"2px 0 22px"}}><a href="/fence-scheduling-software" style={{display:"inline-block",background:"#e7eef5",color:"#1f5680",fontWeight:700,fontSize:"13.5px",padding:"8px 16px",borderRadius:"20px",textDecoration:"none",border:"1px solid #c3d4e3"}}>&#128203; More Fence Scheduling Software guides &rarr;</a></p>
-        <h1>How the Job Board Runs Your Fence Company&apos;s Daily Schedule</h1>
+        <h1>How the Pending Jobs board Runs Your Fence Company&apos;s Daily Schedule</h1>
         <p>
           Most fence companies don&apos;t lose money on the day they pour concrete &mdash; they lose it on the
           drive-around days, the double-booked crews, and the gate job that nobody remembered until the
           customer called. A fence operation juggles wood privacy installs, chain link runs, vinyl panels,
           aluminum ornamental sections, and a steady stream of repairs and gate calls, all with different
-          material lead times and crew sizes. The job board in FenceBossPro is the single screen that pulls
+          material lead times and crew sizes. The Pending Jobs board in FenceBossPro is the single screen that pulls
           all of that into one place and turns it into a daily schedule your crews can actually follow.
         </p>
 
         <h2>From Approved Estimate Straight to the Board</h2>
         <p>
-          The job board starts working the moment a customer approves a bid. When a line-item estimate &mdash;
+          The Pending Jobs board starts working the moment a customer approves a bid. When a line-item estimate &mdash;
           posts, panels, pickets, rails, concrete, gates, and hardware all priced out by the linear foot &mdash;
           gets signed off, it drops onto the board as a schedulable job instead of sitting in a notebook. The
           material takeoff travels with it, so the crew lead can see they need 42 posts, 168 feet of
@@ -55,7 +55,7 @@ export default function Page() {
         <h2>Keeping Materials and Schedule in Sync</h2>
         <p>
           Scheduling a fence job you can&apos;t supply is how you end up with a crew standing around at a job site.
-          Because the job board is tied to each estimate&apos;s material list, you can schedule installs around when
+          Because the Pending Jobs board is tied to each estimate&apos;s material list, you can schedule installs around when
           the posts, panels, and concrete will actually be on the truck. If a vinyl order is back-ordered, you
           push that job to a later day on the board and pull a wood install forward to keep the crew productive.
           The board becomes a planning tool, not just a calendar &mdash; you&apos;re sequencing work against real parts
@@ -68,7 +68,7 @@ export default function Page() {
 
         <h2>Customers Stay in the Loop Automatically</h2>
         <p>
-          A big chunk of the phone calls a fence office fields are just &quot;when are you coming?&quot; The job board
+          A big chunk of the phone calls a fence office fields are just &quot;when are you coming?&quot; The Pending Jobs board
           answers that for you. When a job is scheduled or a crew is dispatched, FenceBossPro can fire off a
           customer text confirming the date and an on-the-way message the morning of the install. Each job ties
           back to the client and property profile, so the office can see the full history &mdash; the original bid,
@@ -79,7 +79,7 @@ export default function Page() {
 
         <h2>Closing the Loop on Billing</h2>
         <p>
-          The schedule and the money belong together, and the job board keeps them connected. When a crew
+          The schedule and the money belong together, and the Pending Jobs board keeps them connected. When a crew
           marks an install complete on the board, that job is ready to invoice on the spot &mdash; the line items
           from the original estimate carry straight into the invoice, the deposit gets applied, and the
           remaining balance is billed with a card on file or a fresh card-on-file payment. For larger jobs
@@ -100,7 +100,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="blog-keywords">
-          Keywords: fence job board software, fence crew dispatch, fence scheduling software, fence install
+          Keywords: fence Pending Jobs board software, fence crew dispatch, fence scheduling software, fence install
           routing, fence company scheduling app, fence project scheduling
         </div>
       </article>

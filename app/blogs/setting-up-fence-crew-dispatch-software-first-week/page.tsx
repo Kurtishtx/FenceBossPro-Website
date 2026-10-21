@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Setting Up Fence Crew and Dispatch Software in Your First Week | FenceBossPro',
-  description: 'A practical first-week plan to set up fence crew and dispatch software: load crews, materials, estimates, and the Job Board so your installs route clean.',
+  description: 'A practical first-week plan to set up fence crew and dispatch software: load crews, materials, estimates, and the Pending Jobs board so your installs route clean.',
 };
 
 export default function Page() {
@@ -55,9 +55,9 @@ export default function Page() {
           this week&apos;s real installs sitting in the system, each with its own takeoff and materials.
         </p>
 
-        <h2>Day 4: Set Up the Job Board and Dispatch</h2>
+        <h2>Day 4: Set Up the Pending Jobs board and Dispatch</h2>
         <p>
-          With crews and jobs in place, day four is where it all connects. Open the Job Board and you will see every approved
+          With crews and jobs in place, day four is where it all connects. Open the Pending Jobs board and you will see every approved
           project as a card you can drag onto a crew and a day. Stack your two big vinyl installs on the heavy crew, line up
           the chain-link repairs for the smaller crew, and let map-based routing show you the drive time between stops so you
           are not crossing town twice. Sequence each crew so they set posts early, then move to tear-out or repair work while
@@ -96,7 +96,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="blog-keywords">
-          Keywords: fence crew dispatch software, fence dispatch setup, fence install routing, fence job board, fence
+          Keywords: fence crew dispatch software, fence dispatch setup, fence install routing, fence Pending Jobs board, fence
           estimating software, fence scheduling software
         </div>
       </article>

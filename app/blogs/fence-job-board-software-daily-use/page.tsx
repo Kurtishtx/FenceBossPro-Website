@@ -1,8 +1,8 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'Using the Job Board to Run Your Fence Shop Every Morning | FenceBossPro',
-  description: 'Start every fence shop morning on the FenceBossPro job board: see crews, materials, installs, repairs, and gate jobs on one screen and dispatch in minutes.',
+  title: 'Using the Pending Jobs board to Run Your Fence Shop Every Morning | FenceBossPro',
+  description: 'Start every fence shop morning on the FenceBossPro Pending Jobs board: see crews, materials, installs, repairs, and gate jobs on one screen and dispatch in minutes.',
 };
 
 export default function Page() {
@@ -11,19 +11,19 @@ export default function Page() {
       <article className="blog-article">
         <p className="blog-meta">FenceBossPro Blog &mdash; Fence Contractor Software</p>
         <p className="blog-silo-pill" style={{margin:"2px 0 22px"}}><a href="/fence-contractor-software" style={{display:"inline-block",background:"#e7eef5",color:"#1f5680",fontWeight:700,fontSize:"13.5px",padding:"8px 16px",borderRadius:"20px",textDecoration:"none",border:"1px solid #c3d4e3"}}>&#128203; More Fence Contractor Software guides &rarr;</a></p>
-        <h1>Using the Job Board to Run Your Fence Shop Every Morning</h1>
+        <h1>Using the Pending Jobs board to Run Your Fence Shop Every Morning</h1>
         <p>
           The first hour of the day sets the tone for every fence crew you run. If you spend it shuffling
           sticky notes, calling crew leads to figure out who&apos;s where, and digging through a notebook to
           remember which vinyl order finally came in, you&apos;ve already lost momentum before the first post
-          hole is dug. The job board in FenceBossPro is built to be the one screen you open with your coffee.
+          hole is dug. The Pending Jobs board in FenceBossPro is built to be the one screen you open with your coffee.
           It shows every install, repair, and gate job lined up against your crews and your materials, so the
           morning becomes a quick review instead of a scramble. Here&apos;s how to actually use it to run the shop.
         </p>
 
         <h2>Open the Board and See the Whole Day at a Glance</h2>
         <p>
-          When you log in, the job board lays out today&apos;s work as cards across your crews. A 280-foot cedar
+          When you log in, the Pending Jobs board lays out today&apos;s work as cards across your crews. A 280-foot cedar
           privacy install sits next to a chain link repair next to a gate swap &mdash; each card showing the job
           type, the property address, the estimated hours, and the materials staged for it. In ten seconds you
           can read your true load for the day: which crew is stacked, which has a gap, and whether that
@@ -90,14 +90,14 @@ export default function Page() {
         <div className="blog-cta-box">
           <h3>Start Every Morning on One Screen</h3>
           <p>
-            FenceBossPro puts your crews, materials, installs, repairs, and gate jobs on a single job board so
+            FenceBossPro puts your crews, materials, installs, repairs, and gate jobs on a single Pending Jobs board so
             you can confirm, dispatch, and invoice before the trucks roll out.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="blog-keywords">
-          Keywords: fence job board software, fence crew dispatch, fence shop scheduling, fence material
+          Keywords: fence Pending Jobs board software, fence crew dispatch, fence shop scheduling, fence material
           takeoffs, fence install routing, fence invoicing software
         </div>
       </article>

@@ -69,10 +69,10 @@ export default function Page() {
           paid on finished work.
         </p>
 
-        <h2>Day 5: Turn On the Job Board, Scheduling, and Crew Dispatch</h2>
+        <h2>Day 5: Turn On the Pending Jobs board, Scheduling, and Crew Dispatch</h2>
         <p>
           Now connect the bid to the field. When an estimate is approved, it should become a job on your
-          Job Board automatically, ready to schedule. Lay out next week on the calendar, accounting for
+          Pending Jobs Board automatically, ready to schedule. Lay out next week on the calendar, accounting for
           digging time, concrete cure days, and gate installs that need a second visit. Assign each job to a
           crew and use dispatch and routing so your trucks hit nearby properties in order instead of
           crisscrossing the county burning fuel. Set up automatic customer texts for confirmations and

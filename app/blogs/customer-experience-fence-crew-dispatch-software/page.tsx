@@ -27,7 +27,7 @@ export default function Page() {
           The fastest way to wreck a customer&apos;s experience is to forget them. When a deposit
           clears and the install date is set, that job needs to live somewhere everyone can see it
           &mdash; not on a sticky note on the foreman&apos;s dash. FenceBossPro pushes accepted
-          estimates straight onto a shared Job Board, with the linear-foot takeoff, the gate count,
+          estimates straight onto a shared Pending Jobs Board, with the linear-foot takeoff, the gate count,
           the fence type, and the material list attached. Dispatch can see at a glance which crews
           are loaded for chain link, which are set for ornamental aluminum, and where the open slots
           are. Nothing falls through the cracks, because every booked fence project is visible in one

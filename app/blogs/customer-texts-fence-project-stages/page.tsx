@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Confirm the Install Date and Crew</h2>
         <p>
-          Once materials are in and the job hits your schedule, the next text confirms the install window. Pull the date straight from your job board so the message and the dispatch never disagree. A good install-day heads-up sets expectations the crew cannot always explain in the moment: gates may be temporarily down, trucks will need driveway access, and old fence removal happens first. You can also remind the homeowner to mark utility locates, move patio furniture, or keep pets indoors during the work window. When the crew is dispatched and routed for the day, FenceBossPro can send an &quot;on our way&quot; text with a rough arrival time so the customer is home and the yard is ready.
+          Once materials are in and the job hits your schedule, the next text confirms the install window. Pull the date straight from your Pending Jobs board so the message and the dispatch never disagree. A good install-day heads-up sets expectations the crew cannot always explain in the moment: gates may be temporarily down, trucks will need driveway access, and old fence removal happens first. You can also remind the homeowner to mark utility locates, move patio furniture, or keep pets indoors during the work window. When the crew is dispatched and routed for the day, FenceBossPro can send an &quot;on our way&quot; text with a rough arrival time so the customer is home and the yard is ready.
         </p>
 
         <h2>Update Through Multi-Day Builds</h2>
@@ -54,7 +54,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence project customer texts, fence business software, fence scheduling software, fence invoicing software, automated customer updates, fence job board</div>
+        <div className="blog-keywords">Keywords: fence project customer texts, fence business software, fence scheduling software, fence invoicing software, automated customer updates, fence Pending Jobs board</div>
       </article>
     </BlogShell>
   );

@@ -20,9 +20,9 @@ export default function Page() {
           typical day looks like for a fence business owner who runs the whole operation from one place.
         </p>
 
-        <h2>6:30 AM &mdash; Dispatch the Crews From the Job Board</h2>
+        <h2>6:30 AM &mdash; Dispatch the Crews From the Pending Jobs board</h2>
         <p>
-          The day starts with coffee and the Job Board. Every approved project sits on the board as a card, already loaded
+          The day starts with coffee and the Pending Jobs board. Every approved project sits on the board as a card, already loaded
           with the line-item estimate that won the bid: the linear-foot run, the post count, the panels or pickets, the bags
           of concrete, and any gates with their hinges and latches. You drag today&apos;s work onto each crew, sequence the
           stops so the privacy install gets posts set early while the concrete cures, and slot the chain-link repairs around
@@ -68,7 +68,7 @@ export default function Page() {
         <h2>3:30 PM &mdash; Handle a Repair Call and Reroute</h2>
         <p>
           A storm last night knocked a section of chain link loose across town, and the customer wants it fixed today. You
-          drop a new repair card on the Job Board, build a quick line-item estimate for the bent top rail and a replacement
+          drop a new repair card on the Pending Jobs board, build a quick line-item estimate for the bent top rail and a replacement
           tension wire, and assign it to the crew finishing nearby. Map-based routing shows you the drive time, so you slot the
           repair as their last stop instead of sending them backtracking. The foreman gets the updated route on their phone,
           the customer gets a text with the arrival window, and you never left the truck. Dispatch, the board, and the route

@@ -38,7 +38,7 @@ export default function Page() {
 
         <h2>Texts, Reminders, and Fewer Awkward Calls</h2>
         <p>
-          When a deposit isn&apos;t paid on the spot, FenceBossPro handles the follow-up so you don&apos;t have to. Automated customer texts go out with a secure payment link, and reminders fire on a schedule you set until the deposit clears. The customer taps the link, pays from their phone, and the job flips to confirmed in your Job Board automatically. That means no more uncomfortable phone calls asking for money, and no more jobs sitting in limbo because nobody followed up. Your office staff stops playing collections and the deposit lands while the customer is still excited about their new fence.
+          When a deposit isn&apos;t paid on the spot, FenceBossPro handles the follow-up so you don&apos;t have to. Automated customer texts go out with a secure payment link, and reminders fire on a schedule you set until the deposit clears. The customer taps the link, pays from their phone, and the job flips to confirmed in your Pending Jobs Board automatically. That means no more uncomfortable phone calls asking for money, and no more jobs sitting in limbo because nobody followed up. Your office staff stops playing collections and the deposit lands while the customer is still excited about their new fence.
         </p>
 
         <h2>Cleaner Scheduling and Dispatch</h2>

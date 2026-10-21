@@ -46,7 +46,7 @@ export default function Page() {
 
         <h2>From Accepted Bid to Scheduled Crew</h2>
         <p>
-          A fast takeoff only pays off if the job moves. Because the materials list is already attached to the project, FenceBossPro can push the accepted bid straight onto the Job Board, where you schedule the dig, the set, and the finish work and dispatch the right crew with routing that keeps trucks off needless backtracking. Crews open the job on their phones, see the same line-item materials you quoted, and confirm what got loaded before they leave the yard. Automated customer texts let the homeowner know when the crew is on the way, and when the fence is done you invoice from the same project &mdash; no re-keying the takeoff into a separate billing tool.
+          A fast takeoff only pays off if the job moves. Because the materials list is already attached to the project, FenceBossPro can push the accepted bid straight onto the Pending Jobs board, where you schedule the dig, the set, and the finish work and dispatch the right crew with routing that keeps trucks off needless backtracking. Crews open the job on their phones, see the same line-item materials you quoted, and confirm what got loaded before they leave the yard. Automated customer texts let the homeowner know when the crew is on the way, and when the fence is done you invoice from the same project &mdash; no re-keying the takeoff into a separate billing tool.
         </p>
 
         <h2>Why Fast Takeoffs Win More Fence Jobs</h2>

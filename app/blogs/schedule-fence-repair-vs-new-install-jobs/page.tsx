@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Scheduling Fence Repairs and New Installs on the Same Crew Calendar | FenceBossPro',
-  description: 'See how FenceBossPro schedules quick fence repairs and multi-day new installs on one crew calendar so the Job Board, dispatch, and invoicing all stay in sync.',
+  description: 'See how FenceBossPro schedules quick fence repairs and multi-day new installs on one crew calendar so the Pending Jobs board, dispatch, and invoicing all stay in sync.',
 };
 
 export default function Page() {
@@ -14,8 +14,8 @@ export default function Page() {
         <h1>Scheduling Fence Repairs and New Installs on the Same Crew Calendar</h1>
         <p>Most fence companies run two very different kinds of work off the same crews. A new install is a planned, multi-day project &mdash; dig the posts, set them in concrete, let them cure, then hang panels and gates. A repair is a fast, reactive job &mdash; a leaning section after a storm, a busted gate hinge, two cracked vinyl panels a homeowner wants gone before a party. Trying to juggle both on a paper calendar or a whiteboard is where fence businesses lose money: a repair gets jammed into the middle of an install, the crew burns half a day driving back and forth, and a customer who was promised &quot;Tuesday&quot; never hears from anyone. FenceBossPro puts repairs and installs on one shared crew calendar so the office can see the whole week at a glance and slot work where it actually fits.</p>
 
-        <h2>One Job Board, Two Kinds of Work</h2>
-        <p>In FenceBossPro every job &mdash; whether it is a 300-foot wood privacy install or a one-hour gate latch fix &mdash; lives on the same Job Board. You tag each one by type, so the schedule shows at a glance which days are committed to big install projects and which have room for a quick repair. A new install can span multiple days on the calendar with a built-in gap for the concrete to cure between setting posts and hanging panels. A repair drops in as a short block. Because both sit side by side, your dispatcher is never guessing whether Thursday&apos;s crew has two hours free &mdash; the calendar already shows the install wrapping at noon and an open afternoon ready for a repair nearby.</p>
+        <h2>One Pending Jobs Board, Two Kinds of Work</h2>
+        <p>In FenceBossPro every job &mdash; whether it is a 300-foot wood privacy install or a one-hour gate latch fix &mdash; lives on the same Pending Jobs Board. You tag each one by type, so the schedule shows at a glance which days are committed to big install projects and which have room for a quick repair. A new install can span multiple days on the calendar with a built-in gap for the concrete to cure between setting posts and hanging panels. A repair drops in as a short block. Because both sit side by side, your dispatcher is never guessing whether Thursday&apos;s crew has two hours free &mdash; the calendar already shows the install wrapping at noon and an open afternoon ready for a repair nearby.</p>
 
         <h2>Letting the Estimate Set the Duration</h2>
         <p>The hardest part of scheduling fence work is knowing how long a job will actually take. A new install&apos;s duration comes straight from the bid &mdash; the linear-foot count, the number of post holes, the gate openings, and the material type all drive how many crew-days it eats. FenceBossPro carries that line-item estimate into the scheduled job so the calendar block reflects real scope instead of a hopeful guess. If you want the deeper logic on this, our piece on <a href="/blogs/linear-foot-takeoff-feeds-fence-schedule">How Linear-Foot Takeoffs Tell You How Long a Fence Job Really Takes to Schedule</a> walks through how the takeoff translates into calendar time. Repairs work the same way at a smaller scale: a saved repair type with a typical duration means the office can book it without re-deriving the hours every time.</p>
@@ -41,7 +41,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, fence crew calendar, fence job board, fence repair scheduling, crew dispatch software, fence install scheduling</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, fence crew calendar, fence Pending Jobs board, fence repair scheduling, crew dispatch software, fence install scheduling</div>
       </article>
     </BlogShell>
   );

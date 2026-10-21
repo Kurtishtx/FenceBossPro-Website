@@ -71,7 +71,7 @@ export default function Page() {
         <p>
           A quick estimate only helps if the rest of the work keeps moving, and that is where the saved-item approach
           pays off again. When a customer accepts, the same line items roll straight into the job &mdash; so your
-          material list, schedule, and invoice all share one source of truth. You can post the work to the Job Board,
+          material list, schedule, and invoice all share one source of truth. You can post the work to the Pending Jobs board,
           dispatch and route the crew, collect a deposit with card-on-file, and send the customer a confirmation text
           without re-entering a thing. Progress billing on a larger fence project draws from the same numbers, so the
           deposit, the mid-job draw, and the final invoice all line up. The estimate you built in minutes becomes the

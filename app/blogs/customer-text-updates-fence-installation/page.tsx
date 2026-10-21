@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Scheduling and Crew Dispatch Updates</h2>
         <p>
-          Once your materials arrive and the job hits the schedule, the homeowner needs a heads-up &mdash; especially if your crew has to get into a back yard, move a vehicle, or work around a gate. FenceBossPro can send an automated &quot;your install is set for Tuesday&quot; text the moment the job is slotted on the Job Board, then a reminder the day before. When you dispatch and route the crew that morning, an &quot;on the way&quot; text goes out so nobody is surprised by a truck full of posts and a post-hole auger in the driveway at 7 a.m. These messages pull the customer&apos;s name, address, and job details straight from the record, so they&apos;re accurate every time without anyone typing them.
+          Once your materials arrive and the job hits the schedule, the homeowner needs a heads-up &mdash; especially if your crew has to get into a back yard, move a vehicle, or work around a gate. FenceBossPro can send an automated &quot;your install is set for Tuesday&quot; text the moment the job is slotted on the Pending Jobs board, then a reminder the day before. When you dispatch and route the crew that morning, an &quot;on the way&quot; text goes out so nobody is surprised by a truck full of posts and a post-hole auger in the driveway at 7 a.m. These messages pull the customer&apos;s name, address, and job details straight from the record, so they&apos;re accurate every time without anyone typing them.
         </p>
 
         <h2>Build Day and Beyond</h2>

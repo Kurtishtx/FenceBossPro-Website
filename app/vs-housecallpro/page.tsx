@@ -236,7 +236,7 @@ export default function VsHousecallPro() {
               <tr><td className="feature-name">Crew Dispatch &amp; Routing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Deposits &amp; Progress Billing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Line-Item Estimates &amp; Bids for Fence Jobs</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
-              <tr><td className="feature-name">Job Board &amp; Project Scheduling</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
+              <tr><td className="feature-name">Pending Jobs Board &amp; Project Scheduling</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
               <tr><td className="feature-name">Materials &amp; Parts Catalog (Posts, Panels, Gates)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Two-Way SMS Inbox Included</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Essentials+</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
@@ -274,7 +274,7 @@ export default function VsHousecallPro() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Less Than HCP Essentials — More Fencing Features</div>
             <div className="price-tier">One Plan. Built for Fencing. Start Today.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>59</div>
             <div className="price-period">per month — cancel anytime</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
@@ -285,7 +285,7 @@ export default function VsHousecallPro() {
               <li>Full Scheduling, Crew Dispatch &amp; Route Map</li>
               <li>Estimates, Invoices &amp; Card-on-File Payments</li>
               <li>Two-Way SMS &amp; 10+ Automated Alerts</li>
-              <li>Job Board &amp; Project Scheduling</li>
+              <li>Pending Jobs Board &amp; Project Scheduling</li>
               <li>Mobile App for Crews</li>
               <li>500 texts/month included (sent + received, US &amp; Canada)</li>
               <li>14-day free trial — no credit card required</li>

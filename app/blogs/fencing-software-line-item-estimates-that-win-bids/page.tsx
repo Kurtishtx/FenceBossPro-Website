@@ -38,7 +38,7 @@ export default function Page() {
 
         <h2>Collect a Deposit and Lock the Schedule</h2>
         <p>
-          An approved estimate should flow straight into money and a calendar slot. The moment a customer accepts, fencing software can request a deposit and capture a card on file, so material orders are funded and the job is secured. For larger projects, you set progress billing &mdash; deposit, a draw when posts are set, balance at completion &mdash; and the system invoices each stage automatically. The accepted bid also becomes a scheduled job, ready to push onto the Job Board, assign to a crew, and route into the day&apos;s dispatch. No retyping, no lost paperwork, no gap between &quot;yes&quot; and dirt moving. The same line items that won the bid drive the install list your crew works from on site.
+          An approved estimate should flow straight into money and a calendar slot. The moment a customer accepts, fencing software can request a deposit and capture a card on file, so material orders are funded and the job is secured. For larger projects, you set progress billing &mdash; deposit, a draw when posts are set, balance at completion &mdash; and the system invoices each stage automatically. The accepted bid also becomes a scheduled job, ready to push onto the Pending Jobs board, assign to a crew, and route into the day&apos;s dispatch. No retyping, no lost paperwork, no gap between &quot;yes&quot; and dirt moving. The same line items that won the bid drive the install list your crew works from on site.
         </p>
 
         <h2>Build Faster the Second Time &mdash; and Every Time After</h2>

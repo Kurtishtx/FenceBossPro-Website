@@ -47,7 +47,7 @@ export default function Page() {
         <p>
           A color-coded calendar tab works until weather, a backordered vinyl shipment, or a permit delay forces you to
           slide four jobs. Then you are retyping dates and hoping you did not double-book a crew. Real software gives you
-          a Job Board where every fence job lives as a card you can move, assign, and reschedule. You see which jobs are
+          a Pending Jobs Board where every fence job lives as a card you can move, assign, and reschedule. You see which jobs are
           ready to install, which are waiting on materials, and which are tear-out versus new build. Crew dispatch and
           routing group nearby jobs so your installers are not crossing town between a backyard chain link repair and a
           front-yard ornamental install. The board updates for everyone at once &mdash; no emailing a new version of the

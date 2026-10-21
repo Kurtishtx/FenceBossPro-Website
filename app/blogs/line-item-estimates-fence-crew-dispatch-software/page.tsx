@@ -45,7 +45,7 @@ export default function Page() {
         <h2>Accepted Bids Become Scheduled, Dispatchable Jobs</h2>
         <p>
           The hand-off from sales to production is where most fence shops lose a day. In FenceBossPro, an approved
-          estimate converts into a job on the Job Board with one click &mdash; the address, the scope, the material list,
+          estimate converts into a job on the Pending Jobs board with one click &mdash; the address, the scope, the material list,
           and the line-item detail all travel with it. From the board you drag the job onto a crew and a date, and the
           system uses the linear footage and gate count to suggest how long the install should take so you are not
           stacking a 300-foot ornamental run on top of two repairs in the same afternoon. Dig-only days, set-and-pour

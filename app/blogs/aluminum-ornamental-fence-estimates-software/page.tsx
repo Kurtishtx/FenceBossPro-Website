@@ -76,7 +76,7 @@ export default function Page() {
           A sharp estimate only helps if the customer can act on it. Once your line items are set, FenceBossPro
           produces a clean, branded estimate you can text or email straight from the job record. The homeowner opens
           it on their phone, sees the itemized scope&mdash;footage, panel style, gate count, and price&mdash;and
-          approves it without playing phone tag. Approved estimates flow right into a scheduled job on the Job Board,
+          approves it without playing phone tag. Approved estimates flow right into a scheduled job on the Pending Jobs board,
           so the bid you built in minutes becomes a project on the calendar without re-entering anything. You can
           collect a deposit at approval and keep a card on file for the progress and final payments, which matters on
           ornamental jobs where the panels often have to be ordered before the crew ever shows up.

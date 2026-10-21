@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Capacity Planning: How Many Fence Jobs Can Your Crews Actually Handle | FenceBossPro',
-  description: 'FenceBossPro turns linear-foot takeoffs, crew hours, and the Job Board into real capacity numbers so you stop overbooking and underbooking fence crews.',
+  description: 'FenceBossPro turns linear-foot takeoffs, crew hours, and the Pending Jobs board into real capacity numbers so you stop overbooking and underbooking fence crews.',
 };
 
 export default function Page() {
@@ -31,13 +31,13 @@ export default function Page() {
           faster, you can finally answer the only question that matters: do we have the days to build what we&apos;ve sold?
         </p>
 
-        <h2>Your Job Board Is Your Real Backlog</h2>
+        <h2>Your Pending Jobs Board Is Your Real Backlog</h2>
         <p>
-          Capacity planning starts with seeing everything you&apos;ve committed to. The Job Board in FenceBossPro
+          Capacity planning starts with seeing everything you&apos;ve committed to. The Pending Jobs board in FenceBossPro
           shows every signed job, deposit collected, and scheduled start in one view, sorted by date and crew.
           That backlog is your true workload &mdash; not the vague pile of &quot;jobs we should get to.&quot; When you can
           see that your install crew is booked solid for eleven days with aluminum and ornamental work, you stop
-          promising a new customer a start date you can&apos;t hit. Just as important, the Job Board surfaces the
+          promising a new customer a start date you can&apos;t hit. Just as important, the Pending Jobs board surfaces the
           gaps: a crew with a half-day open between two small gate jobs is wasted capacity you can sell. Reading
           the board honestly is the difference between a packed schedule and an overbooked one.
         </p>
@@ -91,11 +91,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Plan capacity with real fence numbers, not guesses</h3>
-          <p>FenceBossPro turns your estimates, takeoffs, and crew hours into a Job Board that shows exactly how much work your crews can take on.</p>
+          <p>FenceBossPro turns your estimates, takeoffs, and crew hours into a Pending Jobs Board that shows exactly how much work your crews can take on.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence crew dispatch software, fence job scheduling, linear-foot takeoff software, fence estimating software, fence Job Board, fence capacity planning</div>
+        <div className="blog-keywords">Keywords: fence crew dispatch software, fence job scheduling, linear-foot takeoff software, fence estimating software, fence Pending Jobs Board, fence capacity planning</div>
       </article>
     </BlogShell>
   );

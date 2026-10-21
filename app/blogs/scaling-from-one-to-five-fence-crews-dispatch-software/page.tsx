@@ -32,9 +32,9 @@ export default function Page() {
           <a href="/blogs/whiteboard-vs-fence-crew-dispatch-software">The Whiteboard Versus Fence Crew and Dispatch Software: Why Paper Falls Apart</a>.
         </p>
 
-        <h2>A Job Board That Holds Every Crew at Once</h2>
+        <h2>A Pending Jobs Board That Holds Every Crew at Once</h2>
         <p>
-          Scaling starts with one shared view of all your crews on the same screen. In FenceBossPro, the Job Board shows every crew
+          Scaling starts with one shared view of all your crews on the same screen. In FenceBossPro, the Pending Jobs board shows every crew
           as its own column or lane, with each install, estimate, and repair sitting in a time block tied to a named crew. You see at
           a glance that Crew A is setting posts on a 200-foot cedar privacy run all morning, Crew B has two ornamental aluminum
           sections plus a gate, and Crew C is open after lunch for the chain link add-on that just got approved. When a new job comes
@@ -93,11 +93,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Scale Your Fence Company on FenceBossPro</h3>
-          <p>FenceBossPro runs every crew, bid, material list, and customer text from one Job Board so you can grow from one crew to five without losing control.</p>
+          <p>FenceBossPro runs every crew, bid, material list, and customer text from one Pending Jobs Board so you can grow from one crew to five without losing control.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence crew dispatch software, fence dispatch and routing, fence job board, fence company scheduling software, fence estimate software, fence crew management</div>
+        <div className="blog-keywords">Keywords: fence crew dispatch software, fence dispatch and routing, fence Pending Jobs board, fence company scheduling software, fence estimate software, fence crew management</div>
       </article>
     </BlogShell>
   );

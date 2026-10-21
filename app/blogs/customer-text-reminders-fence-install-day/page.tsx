@@ -44,7 +44,7 @@ export default function Page() {
           night before, and an &quot;on our way&quot; text the morning of. You never type a thing. And
           because the reminder reads from the live schedule, it&apos;s always right &mdash; if you slide
           the job two days because the cedar privacy panels are back-ordered, the customer gets the new
-          date the same minute your Job Board does. No stale reminder for a day that no longer exists.
+          date the same minute your Pending Jobs Board does. No stale reminder for a day that no longer exists.
         </p>
 
         <h2>The Three Texts That Cut the Most No-Shows</h2>
@@ -95,7 +95,7 @@ export default function Page() {
           confirmation, and payment lands in the customer&apos;s property profile, so anyone in the
           office can see the job was confirmed and what the homeowner was told. That history cuts
           arguments and makes the next job easier to book. To see how reminders fit alongside dispatch,
-          the Job Board, and project scheduling, explore the full{' '}
+          the Pending Jobs board, and project scheduling, explore the full{' '}
           <a href="/fence-scheduling-software">fence scheduling software</a> built for fence companies.
         </p>
 

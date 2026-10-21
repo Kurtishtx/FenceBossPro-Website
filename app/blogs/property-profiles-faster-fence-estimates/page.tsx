@@ -72,7 +72,7 @@ export default function Page() {
         <h2>From Approved Estimate Straight Into Scheduling and Billing</h2>
         <p>
           A profile that speeds up the bid also speeds up everything after it. When a repeat customer
-          approves the new estimate, you push it straight onto the Job Board, assign a crew, and slot
+          approves the new estimate, you push it straight onto the Pending Jobs board, assign a crew, and slot
           it into the schedule with dispatch and routing handled in the same system. Their
           card-on-file and billing preferences carry over too, so you can collect a deposit up front,
           set up progress billing for a larger run, and send the final invoice the moment the last

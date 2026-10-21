@@ -38,7 +38,7 @@ export default function Page() {
 
         <h2>One Record From Estimate to Final Invoice</h2>
         <p>
-          With a paper system, the estimate, the deposit, the change orders, and the final bill live on four different scraps of paper that rarely agree. In FenceBossPro it&apos;s one connected record. The line-item bid becomes the work order, the work order feeds the Job Board and crew dispatch, and the same numbers roll into the invoice. Every client and property profile carries its full history &mdash; what was quoted, what materials went in, what&apos;s been paid, and the card on file for next time. Anyone in the office can pull up a customer and see exactly where the job stands, instead of digging through a binder. When a customer calls about last year&apos;s fence, you find the answer in seconds.
+          With a paper system, the estimate, the deposit, the change orders, and the final bill live on four different scraps of paper that rarely agree. In FenceBossPro it&apos;s one connected record. The line-item bid becomes the work order, the work order feeds the Pending Jobs board and crew dispatch, and the same numbers roll into the invoice. Every client and property profile carries its full history &mdash; what was quoted, what materials went in, what&apos;s been paid, and the card on file for next time. Anyone in the office can pull up a customer and see exactly where the job stands, instead of digging through a binder. When a customer calls about last year&apos;s fence, you find the answer in seconds.
         </p>
 
         <h2>Fewer Errors, Less Office Time, a More Professional Look</h2>

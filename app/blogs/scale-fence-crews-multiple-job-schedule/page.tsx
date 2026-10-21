@@ -22,12 +22,12 @@ export default function Page() {
           instead of chaos.
         </p>
 
-        <h2>One Job Board Everyone Works From</h2>
+        <h2>One Pending Jobs Board Everyone Works From</h2>
         <p>
           The first thing that breaks at scale is the single source of truth. With one crew, the calendar
           on your phone is enough. With four, you need every approved bid landing in the same place. In
           FenceBossPro, the moment a line-item estimate &mdash; posts, panels, pickets, rails, concrete,
-          gates, and hardware &mdash; gets approved, it drops onto the job board as a schedulable job. Every
+          gates, and hardware &mdash; gets approved, it drops onto the Pending Jobs board as a schedulable job. Every
           crew lead, your office, and you are looking at the same board, so there is no version of the
           schedule living in someone&apos;s truck. When you have eleven installs and six repairs in a week
           across four crews, that shared board is the only way to see your true load at a glance.
@@ -103,7 +103,7 @@ export default function Page() {
         </div>
         <div className="blog-keywords">
           Keywords: fence scheduling software, scaling a fence company, fence crew dispatch, multi-crew fence
-          scheduling, fence job board, fence install routing software
+          scheduling, fence Pending Jobs board, fence install routing software
         </div>
       </article>
     </BlogShell>

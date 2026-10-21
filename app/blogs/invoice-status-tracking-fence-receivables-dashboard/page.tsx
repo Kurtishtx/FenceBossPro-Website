@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Deposits and Progress Billing You Can See</h2>
         <p>
-          Fencing lives on money up front. You collect a deposit to buy materials, then bill the balance on completion, and on larger projects you stage payments across post-setting, panel installation, and final gate hang. Without a dashboard, those partial balances are the easiest dollars in the business to lose track of. FenceBossPro shows the running balance on every project &mdash; what was deposited, what has been billed, and what is still outstanding. When a crew marks a job complete on the Job Board, the remaining balance is right there waiting to be charged or sent, so the work and the money stay in lockstep instead of drifting apart.
+          Fencing lives on money up front. You collect a deposit to buy materials, then bill the balance on completion, and on larger projects you stage payments across post-setting, panel installation, and final gate hang. Without a dashboard, those partial balances are the easiest dollars in the business to lose track of. FenceBossPro shows the running balance on every project &mdash; what was deposited, what has been billed, and what is still outstanding. When a crew marks a job complete on the Pending Jobs board, the remaining balance is right there waiting to be charged or sent, so the work and the money stay in lockstep instead of drifting apart.
         </p>
 
         <h2>Catch Overdue Balances Before They Age</h2>

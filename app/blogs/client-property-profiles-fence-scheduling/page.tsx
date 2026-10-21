@@ -39,7 +39,7 @@ export default function Page() {
           Not every crew is the same. One team is fast on chain link and fabric, another does your
           cleanest vinyl privacy, and your senior installer is the one you trust on ornamental
           aluminum and custom gates. Because the property profile records what kind of fence the job
-          is, you can dispatch by skill, not by whoever happens to be free. From the Job Board you
+          is, you can dispatch by skill, not by whoever happens to be free. From the Pending Jobs board you
           see the fence type on every card, so when you assign and route the day&apos;s work, the
           gate-heavy ornamental job goes to the crew who hangs gates all day, and the long straight
           chain link run goes to the team that flies through fabric. The profile turns crew dispatch

@@ -33,7 +33,7 @@ export default function Page() {
 
         <h2>Schedule the Two-Stage Build and Dispatch the Crew</h2>
         <p>
-          Most ornamental and aluminum projects split into two visits: a dig-and-set day for posts and concrete, then a hang day once the footings cure. FenceBossPro lets you schedule both stages on the calendar, post them to the Job Board, and dispatch the crew with the full material spec, gate locations, and property notes already attached. Crews pull up the takeoff on their phones &mdash; panel count, which posts are corners, where the gates land, how many bags of concrete to load &mdash; instead of waiting on a phone call from the office. Crew routing keeps install days tight so trucks are not crossing town between footings, and the office sees at a glance which jobs are set, hanging, or done.
+          Most ornamental and aluminum projects split into two visits: a dig-and-set day for posts and concrete, then a hang day once the footings cure. FenceBossPro lets you schedule both stages on the calendar, post them to the Pending Jobs board, and dispatch the crew with the full material spec, gate locations, and property notes already attached. Crews pull up the takeoff on their phones &mdash; panel count, which posts are corners, where the gates land, how many bags of concrete to load &mdash; instead of waiting on a phone call from the office. Crew routing keeps install days tight so trucks are not crossing town between footings, and the office sees at a glance which jobs are set, hanging, or done.
         </p>
 
         <h2>Bill Deposits, Progress, and the Final Payment</h2>

@@ -38,7 +38,7 @@ export default function Page() {
 
         <h2>Scheduling and Dispatch Are Part of the Cost</h2>
         <p>
-          Material is only half the job cost; the other half is labor and windshield time. A crew that makes three trips to a single property because the gate hardware was wrong or the post holes were not staked is burning margin you will never see on a parts list. FenceBossPro keeps the schedule, the Job Board, and crew dispatch tied to the same project, so you can route efficiently, batch nearby jobs, and keep an installation moving in one mobilization instead of three. Fewer return trips means lower real cost per linear foot, and that shows up directly in the per-job profit number. Texting customers their install window and a heads-up before the crew rolls also cuts the no-access delays that quietly pad every job.
+          Material is only half the job cost; the other half is labor and windshield time. A crew that makes three trips to a single property because the gate hardware was wrong or the post holes were not staked is burning margin you will never see on a parts list. FenceBossPro keeps the schedule, the Pending Jobs board, and crew dispatch tied to the same project, so you can route efficiently, batch nearby jobs, and keep an installation moving in one mobilization instead of three. Fewer return trips means lower real cost per linear foot, and that shows up directly in the per-job profit number. Texting customers their install window and a heads-up before the crew rolls also cuts the no-access delays that quietly pad every job.
         </p>
 
         <h2>Build a Pricing Book You Can Trust</h2>

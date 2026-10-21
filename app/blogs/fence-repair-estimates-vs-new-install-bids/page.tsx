@@ -38,7 +38,7 @@ export default function Page() {
 
         <h2>Scheduling and Dispatch Built for Both</h2>
         <p>
-          A full install is a multi-day project: dig and set posts, hang panels, hang gates, walk the job. A repair is often a one-hour stop you want to wedge into a crew&apos;s route between bigger work. In one system, both land on the Job Board the moment the estimate is approved. The install gets blocked out across the days it needs and assigned to a crew. The repair drops in as a quick service call your dispatch can route efficiently, so a tech swings by on the way to the next install instead of burning a half-day on a single post. Customer texts go out for both &mdash; an arrival window for the repair, milestone updates for the install &mdash; so clients stay informed no matter the job size.
+          A full install is a multi-day project: dig and set posts, hang panels, hang gates, walk the job. A repair is often a one-hour stop you want to wedge into a crew&apos;s route between bigger work. In one system, both land on the Pending Jobs board the moment the estimate is approved. The install gets blocked out across the days it needs and assigned to a crew. The repair drops in as a quick service call your dispatch can route efficiently, so a tech swings by on the way to the next install instead of burning a half-day on a single post. Customer texts go out for both &mdash; an arrival window for the repair, milestone updates for the install &mdash; so clients stay informed no matter the job size.
         </p>
 
         <h2>One Customer History, Every Job Type Together</h2>

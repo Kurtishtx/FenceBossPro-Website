@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Scheduling and Dispatch That Keep Crews Cutting</h2>
         <p>
-          A crew sitting idle because the next job is not staged is the most expensive thing in fencing. The Job Board lays out every project on one screen, so you can see what is bid, what is sold, what is dug, and what is ready to set panels. Crew dispatch and routing put your installers on the most efficient path between jobs instead of crisscrossing town, and job scheduling makes sure materials and labor line up on the same day. Squeeze one extra install into the week because nobody is waiting around, and that recovered day alone outpaces what the software costs. If you are still juggling this on a whiteboard, the jump in throughput is the first thing you will feel.
+          A crew sitting idle because the next job is not staged is the most expensive thing in fencing. The Pending Jobs board lays out every project on one screen, so you can see what is bid, what is sold, what is dug, and what is ready to set panels. Crew dispatch and routing put your installers on the most efficient path between jobs instead of crisscrossing town, and job scheduling makes sure materials and labor line up on the same day. Squeeze one extra install into the week because nobody is waiting around, and that recovered day alone outpaces what the software costs. If you are still juggling this on a whiteboard, the jump in throughput is the first thing you will feel.
         </p>
 
         <h2>Invoicing and Payments You Stop Chasing</h2>

@@ -64,7 +64,7 @@ export default function Page() {
         <h2>Scheduling and Dispatch That Keep Promises</h2>
         <p>
           Nothing kills goodwill faster than a no-show. A homeowner who took a day off work to
-          meet the crew remembers it. FenceBossPro&apos;s job scheduling and Job Board put every
+          meet the crew remembers it. FenceBossPro&apos;s job scheduling and Pending Jobs Board put every
           install, repair, and gate replacement on one calendar, so you can see at a glance which
           crews are booked and where the gaps are. When you dispatch a crew, the software routes
           them efficiently across the day&apos;s jobs, cutting windshield time so they arrive on

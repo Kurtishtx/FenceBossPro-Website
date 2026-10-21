@@ -53,7 +53,7 @@ export default function Page() {
           don&apos;t fit that. A bigger build runs two or three days &mdash; set posts and concrete
           one day, hang panels the next, hang gates and walk it the third &mdash; and the schedule
           has to respect that. It also has to wait on material delivery before a crew rolls out.
-          FenceBossPro handles multi-day fence projects, material lead times, and a Job Board where
+          FenceBossPro handles multi-day fence projects, material lead times, and a Pending Jobs Board where
           every project moves through clear stages instead of disappearing into a calendar square.
           You can see what is bid, what is sold and waiting on materials, what is scheduled, and
           what is in progress &mdash; the kind of project view a one-size-fits-all tool simply

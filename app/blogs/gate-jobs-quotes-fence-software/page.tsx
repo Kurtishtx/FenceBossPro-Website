@@ -60,11 +60,11 @@ export default function Page() {
           way, the gate is its own task on the calendar, not an afterthought tacked onto the last hour of the fence job.
           FenceBossPro lets you schedule the gate build on the project timeline and dispatch it to the crew that can handle
           it &mdash; the welder for steel, your finish carpenter for a custom wood gate, a two-person team for a heavy double
-          drive gate that one installer can not hang alone. The job board shows the whole project, fence and gates together,
+          drive gate that one installer can not hang alone. The Pending Jobs board shows the whole project, fence and gates together,
           and routing keeps the crew moving efficiently between sites. If a gate needs a second visit because the opener
           back-ordered, you reschedule that piece without touching the rest of the project. Gates are also where repair work
           piles up, since hardware wears and posts shift &mdash; the same scheduling tools handle{' '}
-          <a href="/blogs/fence-repair-jobs-software-scheduling">Managing Fence Repair Calls Between Your Big Install Jobs</a>{' '}
+          <a href="/blogs/fence-repair-job-management-software">Managing Fence Repair Calls Between Your Big Install Jobs</a>{' '}
           so a sagging gate call does not blow up your install week.
         </p>
 

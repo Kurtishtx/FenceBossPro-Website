@@ -32,9 +32,9 @@ export default function Page() {
           planned it&mdash;no re-keying, no guesswork.
         </p>
 
-        <h2>Reassign a Crew Straight From the Job Board</h2>
+        <h2>Reassign a Crew Straight From the Pending Jobs board</h2>
         <p>
-          When you need to move work, you open the Job Board, grab the job card, and reassign it to another crew or another
+          When you need to move work, you open the Pending Jobs board, grab the job card, and reassign it to another crew or another
           slot. Everything travels with the card: the line-item estimate, the materials and parts list, the linear-foot takeoff,
           the property profile, and the customer&apos;s contact info. If your panel crew is suddenly free because a job got bumped,
           you drag a waiting install onto their afternoon and they have the full bid in hand the moment they arrive. If a lead
@@ -94,7 +94,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
-        <div className="blog-keywords">Keywords: fence crew dispatch software, reassigning fence crews, fence job board, fence scheduling software, fence crew routing, fence installation software</div>
+        <div className="blog-keywords">Keywords: fence crew dispatch software, reassigning fence crews, fence Pending Jobs board, fence scheduling software, fence crew routing, fence installation software</div>
       </article>
     </BlogShell>
   );

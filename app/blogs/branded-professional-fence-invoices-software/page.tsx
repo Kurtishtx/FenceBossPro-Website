@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Bill Like the Reputation You Want</h2>
         <p>
-          Polished invoicing is not cosmetic; it is how a fencing company protects margin and earns trust at the same time. As your shop grows you will want this same discipline on every truck, and our guide to <a href="/blogs/scaling-fence-billing-across-multiple-crews-software">Scaling Fence Billing Across Multiple Crews Without Drowning the Office</a> shows how to keep branded billing consistent as you add crews. For the full picture of estimates, deposits, payments, and dispatch tied together, explore our <a href="/fence-invoicing-software">fence invoicing &amp; billing</a> tools. When the estimate, the job board, the schedule, and the invoice all live in one system, the document that lands in your customer&apos;s inbox reflects exactly the company you have worked hard to build.
+          Polished invoicing is not cosmetic; it is how a fencing company protects margin and earns trust at the same time. As your shop grows you will want this same discipline on every truck, and our guide to <a href="/blogs/scaling-fence-billing-across-multiple-crews-software">Scaling Fence Billing Across Multiple Crews Without Drowning the Office</a> shows how to keep branded billing consistent as you add crews. For the full picture of estimates, deposits, payments, and dispatch tied together, explore our <a href="/fence-invoicing-software">fence invoicing &amp; billing</a> tools. When the estimate, the Pending Jobs board, the schedule, and the invoice all live in one system, the document that lands in your customer&apos;s inbox reflects exactly the company you have worked hard to build.
         </p>
 
         <div className="blog-cta-box">

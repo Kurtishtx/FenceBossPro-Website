@@ -33,7 +33,7 @@ export default function Page() {
 
         <h2>From Won Bid to Scheduled Job in One Click</h2>
         <p>
-          Here is where spreadsheets really fall apart: the handoff. You win the job, and now the estimate has to become a scheduled install, a materials order, and a crew assignment &mdash; usually by re-typing everything into a calendar and a separate to-do list. Every re-entry is a chance to drop a detail. In FenceBossPro the approved estimate flows straight onto the Job Board. The materials list is already attached, the linear footage is already there, and you assign the project to a crew with the right crew size and day. Dispatch and routing put your installers on an efficient path between jobs instead of crisscrossing town. The bid you built becomes the work order without anyone copying a thing.
+          Here is where spreadsheets really fall apart: the handoff. You win the job, and now the estimate has to become a scheduled install, a materials order, and a crew assignment &mdash; usually by re-typing everything into a calendar and a separate to-do list. Every re-entry is a chance to drop a detail. In FenceBossPro the approved estimate flows straight onto the Pending Jobs board. The materials list is already attached, the linear footage is already there, and you assign the project to a crew with the right crew size and day. Dispatch and routing put your installers on an efficient path between jobs instead of crisscrossing town. The bid you built becomes the work order without anyone copying a thing.
         </p>
 
         <h2>Deposits, Progress Billing, and Getting Paid</h2>

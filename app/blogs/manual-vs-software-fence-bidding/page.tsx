@@ -33,7 +33,7 @@ export default function Page() {
 
         <h2>From Quote to Scheduled Job Without Re-Typing</h2>
         <p>
-          On paper, an approved quote means you now re-write everything: copy the address into a calendar, hand-write a work order, call the crew. Every re-entry is a chance to drop a detail. In FenceBossPro the accepted estimate becomes the job. The materials list, the linear footage, the gate specs, and the customer notes all carry forward. From there it lands on the Job Board where you schedule the install, batch nearby jobs, and dispatch the crew with routing so they are not crossing town between a chain link repair and a vinyl install. The client and property profile holds the gate code, the dog, the &quot;call before you dig&quot; notes, and photos from the bid &mdash; so the crew shows up knowing the job, not guessing.
+          On paper, an approved quote means you now re-write everything: copy the address into a calendar, hand-write a work order, call the crew. Every re-entry is a chance to drop a detail. In FenceBossPro the accepted estimate becomes the job. The materials list, the linear footage, the gate specs, and the customer notes all carry forward. From there it lands on the Pending Jobs board where you schedule the install, batch nearby jobs, and dispatch the crew with routing so they are not crossing town between a chain link repair and a vinyl install. The client and property profile holds the gate code, the dog, the &quot;call before you dig&quot; notes, and photos from the bid &mdash; so the crew shows up knowing the job, not guessing.
         </p>
 
         <h2>Deposits, Progress Billing, and Getting Paid</h2>

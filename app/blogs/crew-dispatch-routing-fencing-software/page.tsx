@@ -41,16 +41,16 @@ export default function Page() {
           several short stops, all from the same board.
         </p>
 
-        <h2>The Job Board Is Mission Control</h2>
+        <h2>The Pending Jobs board Is Mission Control</h2>
         <p>
-          Most dispatch happens visually. The Job Board shows every approved project as a card you can move between crews and
+          Most dispatch happens visually. The Pending Jobs board shows every approved project as a card you can move between crews and
           days, so when a material delivery slips or a customer reschedules a gate install, you drag the card and the whole
           route reflows. New work flows in as deposits clear, and you assign it without rekeying anything. If you want the
           full walkthrough of staging projects from sold to installed, read{' '}
           <a href="/blogs/fencing-software-job-board-keep-every-fence-project-moving">
-            Using the Job Board in Fencing Software to Keep Every Fence Project Moving
+            Using the Pending Jobs board in Fencing Software to Keep Every Fence Project Moving
           </a>
-          , which covers how the board keeps multi-day installs from stalling. Dispatch and the Job Board are two views of
+          , which covers how the board keeps multi-day installs from stalling. Dispatch and the Pending Jobs board are two views of
           the same data, so a change in one shows up in the other.
         </p>
 
@@ -94,7 +94,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="blog-keywords">
-          Keywords: fencing software, fence crew dispatch, fence install routing, fence job board, fence estimating
+          Keywords: fencing software, fence crew dispatch, fence install routing, fence Pending Jobs board, fence estimating
           software, fence invoicing software
         </div>
       </article>

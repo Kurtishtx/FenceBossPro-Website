@@ -34,7 +34,7 @@ export default function Page() {
         <p>
           Inside the software, you split a multi-day fence build into the phases your crews actually work: layout
           and locate, dig and set posts, pour concrete and cure, hang rails and panels or pickets, then install
-          gates and hardware. Each phase becomes its own block on the Job Board with its own date, duration, and
+          gates and hardware. Each phase becomes its own block on the Pending Jobs board with its own date, duration, and
           assigned crew. Cure time is scheduled as a real gap, not a guess, so nobody books framing work before
           the posts are solid. When you build the estimate, the line-item bid and your linear-foot takeoff already
           tell you how much fence is going up, so the software can suggest realistic day counts instead of you
@@ -84,7 +84,7 @@ export default function Page() {
           deposit when the job is booked, then bill progress payments as phases complete &mdash; for example,
           a draw after posts are set and concrete is poured, and the balance once panels and gates are finished.
           Invoices go out by text, and with a card on file you can charge each step the moment the crew marks the
-          phase done on the Job Board. That keeps cash flowing through a week-long build instead of floating
+          phase done on the Pending Jobs board. That keeps cash flowing through a week-long build instead of floating
           thousands of dollars in materials on your own dime. The same project record that scheduled the work
           tracks every payment against it.
         </p>
@@ -107,7 +107,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence project scheduling software, multi-day fence build scheduling, fencing crew dispatch software, fence job board, fencing materials scheduling, fence progress billing software</div>
+        <div className="blog-keywords">Keywords: fence project scheduling software, multi-day fence build scheduling, fencing crew dispatch software, fence Pending Jobs board, fencing materials scheduling, fence progress billing software</div>
       </article>
     </BlogShell>
   );

@@ -243,7 +243,7 @@ export default function FencingSoftware() {
           height={800}
           fetchPriority="high"
           decoding="async"
-          alt="FenceBossPro fencing software dashboard on laptop showing line-item estimate, materials list, and the job board, with mobile app on phone"
+          alt="FenceBossPro fencing software dashboard on laptop showing line-item estimate, materials list, and the Pending Jobs board, with mobile app on phone"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
       </div>
@@ -262,13 +262,13 @@ export default function FencingSoftware() {
         </div>
       </div>
 
-      {/* JOB BOARD */}
+      {/* PENDING JOBS BOARD */}
       <section className="dark-section">
         <div className="highlight-row">
           <div className="highlight-text">
-            <span className="section-label">The Job Board — Project Pipeline</span>
+            <span className="section-label">The Pending Jobs board — Project Pipeline</span>
             <h2 style={{color:'#fff'}}>Every Fence Job, From Signed Bid to Final Payment, on One Board.</h2>
-            <p style={{color:'rgba(255,255,255,.65)'}}>The Job Board is the fastest way to run a fence shop we&apos;ve ever seen. Every signed project lives in a single pipeline &mdash; deposit collected, materials ordered, scheduled, crew dispatched, installed, and invoiced. You see exactly where every job stands and what&apos;s blocking the next install before you ever pick up the phone.</p>
+            <p style={{color:'rgba(255,255,255,.65)'}}>The Pending Jobs board is the fastest way to run a fence shop we&apos;ve ever seen. Every signed project lives in a single pipeline &mdash; deposit collected, materials ordered, scheduled, crew dispatched, installed, and invoiced. You see exactly where every job stands and what&apos;s blocking the next install before you ever pick up the phone.</p>
             <ul className="check-list" style={{marginTop:'20px'}}>
               <li style={{color:'rgba(255,255,255,.75)'}}>Drag a job from &quot;Bid Accepted&quot; to &quot;Scheduled&quot; in one move</li>
               <li style={{color:'rgba(255,255,255,.75)'}}>See deposit status and materials-ordered status at a glance</li>
@@ -281,7 +281,7 @@ export default function FencingSoftware() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Job Board — Install Pipeline</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'12px'}}>Pending Jobs Board — Install Pipeline</div>
             <div style={{background:'rgba(255,255,255,.04)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'10px', padding:'20px', marginBottom:'14px', position:'relative', minHeight:'130px', display:'flex', alignItems:'center', justifyContent:'center', overflow:'hidden'}}>
               <div style={{position:'absolute', top:'14px', left:'18px', right:'18px', bottom:'14px', border:'2.5px dashed #2b6ca3', borderRadius:'14px', opacity:.6}}></div>
               <div style={{display:'flex', gap:'12px', flexWrap:'wrap', justifyContent:'center', position:'relative', zIndex:1}}>
@@ -326,7 +326,7 @@ export default function FencingSoftware() {
         <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(240px, 1fr))', gap:'24px', maxWidth:'1100px', margin:'0 auto'}}>
           {[
             {n:'01', title:'Set Up in One Afternoon', body:'Add your fence types and materials, import your clients and properties, set up your automated alerts, and connect Stripe — most owners are fully operational the same day they sign up. No implementation consultant, no onboarding call, no 90-day setup timeline.'},
-            {n:'02', title:'One Screen Does Everything', body:'Estimating, the job board, scheduling, dispatch, and materials lists are all connected. You\'re not jumping between five different modules or browser tabs. Pull up the job board and everything you need for the day is right there in a single view.'},
+            {n:'02', title:'One Screen Does Everything', body:'Estimating, the Pending Jobs board, scheduling, dispatch, and materials lists are all connected. You\'re not jumping between five different modules or browser tabs. Pull up the Pending Jobs board and everything you need for the day is right there in a single view.'},
             {n:'03', title:'Your Crews Learn It in Minutes', body:'The mobile app your crews use shows them exactly what they need and nothing they don\'t. Their jobs for the day, the property info, the materials list, the job notes, and the complete button. No training videos, no IT ticket, no frustrated crew members.'},
             {n:'04', title:'Automation Runs Without You', body:'Set up your SMS alerts, estimate follow-ups, and payment reminders once. After that, FenceBossPro handles every notification, every follow-up, and every review request automatically — whether you\'re on a job site, at home, or on vacation.'},
           ].map(({n, title, body}) => (
@@ -366,7 +366,7 @@ export default function FencingSoftware() {
           {[
             {icon:'📐', title:'Linear-Foot Estimating', body:'Bid wood, vinyl, chain link, aluminum, and ornamental fence by the linear foot. Set per-foot pricing by style and height, add gates and tear-out, and FenceBossPro prices the whole bid out as you build it.'},
             {icon:'📦', title:'Materials &amp; Parts Lists', body:'Every estimate generates a materials list — posts, panels, pickets, rails, concrete, gate hardware, and fasteners. Know exactly what to order and what to load before the crew rolls out.'},
-            {icon:'📋', title:'The Job Board', body:'Every signed project moves through one pipeline: deposit collected, materials ordered, scheduled, installed, invoiced. See where every job stands and what&apos;s blocking the next install at a glance.'},
+            {icon:'📋', title:'The Pending Jobs board', body:'Every signed project moves through one pipeline: deposit collected, materials ordered, scheduled, installed, invoiced. See where every job stands and what&apos;s blocking the next install at a glance.'},
             {icon:'🗓️', title:'Install Scheduling', body:'Schedule single-day repairs and multi-day install projects on one calendar. Assign the date, the crew, and the truck, and FenceBossPro keeps the whole shop on the same page.'},
             {icon:'🚚', title:'Crew Dispatch &amp; Routing', body:'Dispatch each crew their jobs for the day with the address, materials list, and job notes attached. Build tight routes so crews aren&apos;t crossing town between installs.'},
             {icon:'💬', title:'Automated Job Alerts', body:'Automatically text customers when their install is scheduled, when the crew is on the way, and when the fence is finished. Set it once — FenceBossPro handles the communication for every project.'},
@@ -404,7 +404,7 @@ export default function FencingSoftware() {
           <div className="highlight-text">
             <span className="section-label">Fence Estimating</span>
             <h2>Price an Entire Fence Bid Before You Leave the Driveway</h2>
-            <p>This is the feature no other field service software gets right for fencing. FenceBossPro&apos;s estimator builds your bid by the linear foot &mdash; pick the style and height, add gates, tear-out, and hardware, and every post, panel, and rail prices itself out in real time. For a closer look at how estimating, materials, and the job board tie a fence business together, read <a href="/blogs/fencing-software-complete-guide" style={{color:'var(--orange)', fontWeight:600}}>Fencing Software: The Complete Guide for Fence Installation &amp; Repair Companies</a>.</p>
+            <p>This is the feature no other field service software gets right for fencing. FenceBossPro&apos;s estimator builds your bid by the linear foot &mdash; pick the style and height, add gates, tear-out, and hardware, and every post, panel, and rail prices itself out in real time. For a closer look at how estimating, materials, and the Pending Jobs board tie a fence business together, read <a href="/blogs/fencing-software-complete-guide" style={{color:'var(--orange)', fontWeight:600}}>Fencing Software: The Complete Guide for Fence Installation &amp; Repair Companies</a>.</p>
             <ul className="check-list">
               <li>Per-foot pricing by fence style and height</li>
               <li>Add gates, posts, panels, rails &amp; hardware as line items</li>
@@ -458,7 +458,7 @@ export default function FencingSoftware() {
               <li>Posts, panels, pickets, rails, concrete &amp; hardware counted</li>
               <li>Gate hardware broken out per gate on the job</li>
               <li>Know what to order and what to load on the truck</li>
-              <li>Materials-ordered status shown on the job board</li>
+              <li>Materials-ordered status shown on the Pending Jobs board</li>
               <li>Flags jobs not ready to schedule short of materials</li>
               <li>Full materials catalog with your costs stored in the system</li>
             </ul>
@@ -508,14 +508,14 @@ export default function FencingSoftware() {
           <div className="lc-price-card featured">
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>59</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
-            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, projects, employees, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, projects, employees, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
               <li>Line-Item Estimating &amp; Materials Lists</li>
-              <li>The Job Board &amp; Install Scheduling</li>
+              <li>The Pending Jobs board &amp; Install Scheduling</li>
               <li>Crew Dispatch &amp; Routing</li>
               <li>Deposits, Progress Billing &amp; Stripe Payments</li>
               <li>Two-Way SMS &amp; Automated Alerts</li>
@@ -536,12 +536,12 @@ export default function FencingSoftware() {
           <span className="section-label">FAQ</span>
           <h2 className="section-title" style={{marginBottom:'48px'}}>Fencing Software — Common Questions</h2>
           {[
-            {q:'Is FenceBossPro built for fence companies?', a:'Yes. FenceBossPro handles the full fencing operation: line-item linear-foot estimating, materials and parts lists, the job board, install scheduling, crew dispatch, deposit and progress billing, automated customer SMS, and card-on-file payments. It\'s designed for companies installing and repairing fence, not general service businesses.'},
+            {q:'Is FenceBossPro built for fence companies?', a:'Yes. FenceBossPro handles the full fencing operation: line-item linear-foot estimating, materials and parts lists, the Pending Jobs board, install scheduling, crew dispatch, deposit and progress billing, automated customer SMS, and card-on-file payments. It\'s designed for companies installing and repairing fence, not general service businesses.'},
             {q:'Can I bid wood, vinyl, chain link, aluminum, and ornamental fence in one platform?', a:'Yes. FenceBossPro supports every fence type from one account. Set per-foot pricing by style and height, add gates, posts, panels, rails, and hardware as line items, and the bid prices itself out. Each accepted bid generates its own materials list for ordering.'},
             {q:'How does estimating work for fencing?', a:'You pick the fence style and height, enter the linear footage, and add gates, tear-out, and hardware as line items. FenceBossPro prices the whole bid in real time, emails it to the customer for one-click acceptance, and builds the materials list automatically. A bid that took 30 minutes on paper takes 5 minutes on the platform.'},
-            {q:'Does FenceBossPro track materials and parts for each job?', a:'Yes. Every accepted bid builds a materials list — posts, panels, pickets, rails, concrete, gate hardware, and fasteners. You know exactly what to order and what to load on the truck, and the job board flags any job that isn\'t ready to schedule because materials are still on order.'},
+            {q:'Does FenceBossPro track materials and parts for each job?', a:'Yes. Every accepted bid builds a materials list — posts, panels, pickets, rails, concrete, gate hardware, and fasteners. You know exactly what to order and what to load on the truck, and the Pending Jobs board flags any job that isn\'t ready to schedule because materials are still on order.'},
             {q:'Can I collect deposits and bill progress payments?', a:'Yes. Collect a deposit the moment a bid is accepted, bill progress payments on multi-day projects, and send the final invoice on completion. Cards on file via Stripe mean customers pay instantly and every dollar is tracked in one place.'},
-            {q:'How much does FenceBossPro cost?', a:'from $59/month, all features included. No hidden fees, no add-ons for SMS or the job board, no setup fees. 14-day free trial with no credit card required.'},
+            {q:'How much does FenceBossPro cost?', a:'from $59/month, all features included. No hidden fees, no add-ons for SMS or the Pending Jobs board, no setup fees. 14-day free trial with no credit card required.'},
           ].map(({q, a}, i, arr) => (
             <div key={i} style={{padding:'28px 0', borderBottom: i < arr.length - 1 ? '1px solid var(--border)' : 'none'}}>
               <h3 style={{fontWeight:700, fontSize:'17px', color:'var(--text)', marginBottom:'10px', lineHeight:1.4}}>{q}</h3>

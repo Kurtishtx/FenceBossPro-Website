@@ -85,7 +85,7 @@ export default function Page() {
         <h2>Tying Billing to the Rest of the Job</h2>
         <p>
           Invoicing doesn&apos;t happen in a vacuum. The same platform that bills the job also schedules it,
-          puts it on the Job Board, and dispatches and routes the crew that builds it. That connection
+          puts it on the Pending Jobs board, and dispatches and routes the crew that builds it. That connection
           matters for billing: when a crew marks a job complete in the field, the invoice is ready to go out
           immediately, and the deposit you collected at signing is already credited against the total. There
           &apos;s no gap between the work and the money. To see how all of these pieces&mdash;estimates,

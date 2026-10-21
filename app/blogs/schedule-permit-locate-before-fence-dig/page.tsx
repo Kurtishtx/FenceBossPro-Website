@@ -27,7 +27,7 @@ export default function Page() {
           When you sell a fence, the install date feels like the only date that matters. But behind
           it sit two non-negotiables: an 811 utility locate that has to be requested days ahead, and
           a permit that may take a week or more to issue. FenceBossPro lets you schedule backward from
-          the dig date. You enter the install day on the Job Board, and the software flags the latest
+          the dig date. You enter the install day on the Pending Jobs board, and the software flags the latest
           day you can still request a locate and submit the permit and stay on time. If those upstream
           tasks slip, the dig date turns red on the calendar before a crew ever leaves the yard.
         </p>
@@ -95,7 +95,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, utility locate scheduling, fence permit tracking, fence crew dispatch, fence job board, dig date scheduling</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, utility locate scheduling, fence permit tracking, fence crew dispatch, fence Pending Jobs board, dig date scheduling</div>
       </article>
     </BlogShell>
   );

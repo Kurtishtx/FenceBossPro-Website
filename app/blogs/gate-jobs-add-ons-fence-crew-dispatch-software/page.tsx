@@ -26,9 +26,9 @@ export default function Page() {
           In FenceBossPro, gate and add-on work starts as a line-item estimate, not a verbal promise. You add the gate frame, the hinges, the latch, the drop rod, the concrete, and the labor as separate lines, each with quantity and price. That does two things at once. First, the customer sees an itemized bid and approves a real number instead of a hand-wave, so there&apos;s no fight when the invoice lands. Second, the materials and parts list rolls straight into the job, so the crew that gets dispatched knows exactly which gate hardware to load. A $40 latch the truck doesn&apos;t carry is the difference between finishing the stop and a second trip, and the line-item build is what surfaces it before the wheels roll.
         </p>
 
-        <h2>Slot it on the Job Board with honest duration</h2>
+        <h2>Slot it on the Pending Jobs board with honest duration</h2>
         <p>
-          Once the add-on is priced, it goes onto the Job Board with the duration the estimate implies &mdash; not a guess. When a gate install is tagged as a three-hour block on the calendar, the dispatcher can see that dropping it into a crew&apos;s morning means the afternoon fence run shrinks by that much. FenceBossPro shows the whole day as scheduled blocks, so you can drag the gate onto the crew that has slack, push it to a smaller two-man add-on crew, or batch three nearby gate swaps into a single dedicated route. The point is that the add-on stops being invisible. It occupies space on the board, and the linear-foot install that follows it gets scheduled around it instead of getting silently squeezed.
+          Once the add-on is priced, it goes onto the Pending Jobs board with the duration the estimate implies &mdash; not a guess. When a gate install is tagged as a three-hour block on the calendar, the dispatcher can see that dropping it into a crew&apos;s morning means the afternoon fence run shrinks by that much. FenceBossPro shows the whole day as scheduled blocks, so you can drag the gate onto the crew that has slack, push it to a smaller two-man add-on crew, or batch three nearby gate swaps into a single dedicated route. The point is that the add-on stops being invisible. It occupies space on the board, and the linear-foot install that follows it gets scheduled around it instead of getting silently squeezed.
         </p>
 
         <h2>Route the small jobs so they don&apos;t cost a half-day</h2>
@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Make add-ons a profit center, not a disruption</h2>
         <p>
-          Gate and add-on work has higher margin than bulk fence footage when it&apos;s priced and dispatched correctly &mdash; and it quietly destroys your week when it isn&apos;t. The difference is whether the small job exists as a real, priced, scheduled block in your system or as a favor scribbled on a clipboard. When every gate is an itemized estimate, every add-on owns a slot on the Job Board, every repair gets routed with its neighbors, and every completed job invoices itself, the chaos turns into a steady, profitable stream. To see how this connects to the rest of your operation, explore the full <a href="/fence-dispatch-software">fence crew &amp; dispatch software</a> built for fencing companies.
+          Gate and add-on work has higher margin than bulk fence footage when it&apos;s priced and dispatched correctly &mdash; and it quietly destroys your week when it isn&apos;t. The difference is whether the small job exists as a real, priced, scheduled block in your system or as a favor scribbled on a clipboard. When every gate is an itemized estimate, every add-on owns a slot on the Pending Jobs board, every repair gets routed with its neighbors, and every completed job invoices itself, the chaos turns into a steady, profitable stream. To see how this connects to the rest of your operation, explore the full <a href="/fence-dispatch-software">fence crew &amp; dispatch software</a> built for fencing companies.
         </p>
 
         <div className="blog-cta-box">
@@ -53,7 +53,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
-        <div className="blog-keywords">Keywords: fence crew dispatch software, gate install scheduling, fence add-on job board, fence repair dispatch, line-item gate estimates, fence routing software</div>
+        <div className="blog-keywords">Keywords: fence crew dispatch software, gate install scheduling, fence add-on Pending Jobs board, fence repair dispatch, line-item gate estimates, fence routing software</div>
       </article>
     </BlogShell>
   );

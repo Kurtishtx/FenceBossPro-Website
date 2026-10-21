@@ -76,7 +76,7 @@ export default function Page() {
         <p>
           A section-based estimate is not just cleaner&mdash;it is more useful after the
           signature. Because FenceBossPro knows the exact panel and post counts, an approved
-          vinyl bid turns straight into a job on the Job Board with the materials already
+          vinyl bid turns straight into a job on the Pending Jobs board with the materials already
           attached. You can collect a deposit with card-on-file the moment the customer accepts,
           schedule the dig and set day, then the panel install, and dispatch the crew with the
           route and the parts pull list on their phones. Progress billing draws from the same

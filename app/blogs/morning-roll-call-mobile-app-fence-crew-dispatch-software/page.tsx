@@ -59,7 +59,7 @@ export default function Page() {
           affected crew&apos;s day rearranges on their screen in real time. We dig into exactly how that works in{' '}
           <a href="/blogs/reassigning-crews-on-the-fly-fence-dispatch-software">Reassigning Fence Crews On the Fly When Plans Change Mid-Day</a>,
           but the short version is that the schedule the crew sees at noon is always the current one, not the version you read aloud
-          before sunrise. The Job Board stays the single source of truth, and the field follows it.
+          before sunrise. The Pending Jobs board stays the single source of truth, and the field follows it.
         </p>
 
         <h2>Notes, Gate Codes, and Customer Texts Built In</h2>
@@ -98,7 +98,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence crew mobile app, fence crew dispatch software, fence job board, fence install scheduling, fence crew routing, fence company field app</div>
+        <div className="blog-keywords">Keywords: fence crew mobile app, fence crew dispatch software, fence Pending Jobs board, fence install scheduling, fence crew routing, fence company field app</div>
       </article>
     </BlogShell>
   );

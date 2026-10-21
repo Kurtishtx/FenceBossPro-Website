@@ -73,7 +73,7 @@ export default function Page() {
         <h2>Approved estimates flow straight to scheduling and materials</h2>
         <p>
           The real payoff of fast digital approvals is what happens automatically afterward. The moment
-          a fence estimate is approved, FenceBossPro pushes it onto the Job Board so it&apos;s ready to
+          a fence estimate is approved, FenceBossPro pushes it onto the Pending Jobs board so it&apos;s ready to
           schedule, and the line-item materials roll into your parts list &mdash; the exact count of
           posts, rails, pickets, bags of concrete, gates, and hardware for that run. You&apos;re not
           re-typing the bid into a work order or guessing how many panels to pull from the yard.

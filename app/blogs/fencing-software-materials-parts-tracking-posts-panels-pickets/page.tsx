@@ -58,7 +58,7 @@ export default function Page() {
         <h2>Materials Stay Attached Through Scheduling and Dispatch</h2>
         <p>
           A materials list only helps if the crew in the field can see it. In FenceBossPro the parts ride along
-          with the job onto the Job Board and into crew dispatch. When you schedule the install and route the
+          with the job onto the Pending Jobs board and into crew dispatch. When you schedule the install and route the
           crew for the day, the lead can open the job and see the full breakdown&mdash;post type and depth,
           panel style, picket count, rail layout, gate location and swing. That means fewer phone calls back to
           the office and fewer wrong materials loaded on the trailer. Tie that to client and property profiles,

@@ -48,10 +48,10 @@ export default function Page() {
           , which walks through the whole posts-to-hardware breakdown.
         </p>
 
-        <h2>Scheduling: a Job Board beats a calendar tab</h2>
+        <h2>Scheduling: a Pending Jobs Board beats a calendar tab</h2>
         <p>
           A calendar tab in a spreadsheet has no idea your crew is already booked. It will happily let you type two
-          installs into the same Tuesday because cells do not push back. FenceBossPro runs a real Job Board where
+          installs into the same Tuesday because cells do not push back. FenceBossPro runs a real Pending Jobs Board where
           every approved job lands on a schedule tied to a crew. You can see who is installing where, drag a job to a
           new day when concrete needs an extra cure, and dispatch the crew with the address and the job details on
           their phone. Routing keeps drive time down so a crew is not crossing town between two jobs that should have

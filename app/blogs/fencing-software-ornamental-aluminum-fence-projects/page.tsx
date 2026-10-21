@@ -33,7 +33,7 @@ export default function Page() {
 
         <h2>Scheduling the Job and Dispatching the Crew</h2>
         <p>
-          Once the customer signs, an ornamental aluminum project usually splits into two visits: a dig-and-set day for the posts and concrete, then a hang day after the footings cure. FenceBossPro lets you schedule both stages on the calendar, post the work to the Job Board, and dispatch the crew with the full materials list, gate locations, and property notes already attached. Crews see the takeoff on their phones &mdash; how many panels, which posts are corners, where the gates go &mdash; instead of waiting on a phone call. Map-based routing keeps install days tight so your trucks are not crossing town between footings, and the office can see at a glance which jobs are set, hanging, or done.
+          Once the customer signs, an ornamental aluminum project usually splits into two visits: a dig-and-set day for the posts and concrete, then a hang day after the footings cure. FenceBossPro lets you schedule both stages on the calendar, post the work to the Pending Jobs board, and dispatch the crew with the full materials list, gate locations, and property notes already attached. Crews see the takeoff on their phones &mdash; how many panels, which posts are corners, where the gates go &mdash; instead of waiting on a phone call. Map-based routing keeps install days tight so your trucks are not crossing town between footings, and the office can see at a glance which jobs are set, hanging, or done.
         </p>
 
         <h2>Deposits, Progress Billing, and Card-on-File Payments</h2>

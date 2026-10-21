@@ -53,9 +53,9 @@ export default function Page() {
           step kills the most common reason fence crews show up and stand around &mdash; missing parts.
         </p>
 
-        <h2>From the Job Board to the Right Crew</h2>
+        <h2>From the Pending Jobs board to the Right Crew</h2>
         <p>
-          Once the deposit is in and materials are accounted for, the job lands on the Job Board as ready to
+          Once the deposit is in and materials are accounted for, the job lands on the Pending Jobs board as ready to
           schedule. From there you drag it onto a day and assign a crew. The software knows which jobs are wood,
           vinyl, aluminum ornamental, or chain link, and which need an excavator versus a hand auger, so you can
           dispatch the right team instead of whoever is free. Routing groups nearby installs together so your

@@ -52,7 +52,7 @@ export default function Page() {
         <p>
           The longest silence on a fence job is usually the wait between &quot;you&apos;re approved&quot;
           and &quot;we&apos;re digging.&quot; That gap is where materials get ordered and the crew gets
-          slotted on the Job Board. It&apos;s also where homeowners get antsy. Status-driven texts fill
+          slotted on the Pending Jobs board. It&apos;s also where homeowners get antsy. Status-driven texts fill
           that silence. When the aluminum sections and gate hardware land at your yard, the client
           gets a &quot;your materials are in &mdash; we&apos;re scheduling your install&quot; note. When
           dispatch drops the job onto a calendar day and assigns a crew, an automatic

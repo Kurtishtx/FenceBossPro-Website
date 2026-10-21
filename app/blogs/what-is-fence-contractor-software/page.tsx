@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>It Should Schedule Jobs and Dispatch Crews Without the Phone Tag</h2>
         <p>
-          Fence projects do not all run a single day. You have measures, installs that span two or three days, repair calls, and gate swaps, all competing for the same crews. The software should give you a Job Board where every project sits in a clear pipeline &mdash; quoted, scheduled, in progress, done &mdash; so nothing slips. From there you schedule the work and dispatch crews with routing that keeps drive time down, grouping jobs by area instead of bouncing a truck across town. Your lead foreman opens the app, sees the day, sees the job notes, and rolls. No morning huddle around a paper calendar, no &quot;wait, which yard are we at?&quot;
+          Fence projects do not all run a single day. You have measures, installs that span two or three days, repair calls, and gate swaps, all competing for the same crews. The software should give you a Pending Jobs Board where every project sits in a clear pipeline &mdash; quoted, scheduled, in progress, done &mdash; so nothing slips. From there you schedule the work and dispatch crews with routing that keeps drive time down, grouping jobs by area instead of bouncing a truck across town. Your lead foreman opens the app, sees the day, sees the job notes, and rolls. No morning huddle around a paper calendar, no &quot;wait, which yard are we at?&quot;
         </p>
 
         <h2>It Should Handle Invoicing, Deposits, and Card-on-File Payments</h2>

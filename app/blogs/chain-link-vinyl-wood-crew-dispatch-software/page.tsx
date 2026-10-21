@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Dispatching Chain Link, Vinyl, and Wood Fence Crews From One Board | FenceBossPro',
-  description: 'See how FenceBossPro dispatches chain link, vinyl, and wood fence crews from one Job Board with routing, materials, and progress billing built in.',
+  description: 'See how FenceBossPro dispatches chain link, vinyl, and wood fence crews from one Pending Jobs Board with routing, materials, and progress billing built in.',
 };
 
 export default function Page() {
@@ -16,9 +16,9 @@ export default function Page() {
           A fence company rarely runs one kind of job. On any given Monday you might have a chain link crew fencing a ball field, a vinyl crew setting privacy panels behind a new build, and a wood crew rebuilding a storm-damaged backyard. Each job needs different materials, different skills, and a different pace &mdash; and if you are tracking all of it on a whiteboard or a group text, somebody is going to show up to a hole with no posts. FenceBossPro puts every crew and every job on a single dispatch board so you can see the whole week at a glance and move work around without dropping a single dig.
         </p>
 
-        <h2>One Job Board for Every Fence Type</h2>
+        <h2>One Pending Jobs Board for Every Fence Type</h2>
         <p>
-          The Job Board is the heart of FenceBossPro. Every project &mdash; chain link, vinyl, wood, aluminum, ornamental, repair, or gate install &mdash; lives as a card you can read in two seconds: customer name, address, fence type, linear footage, and which crew owns it. Color-coding by service type means you can scan the board and instantly tell the chain link work from the vinyl and wood. Instead of mentally juggling who is doing what, you drag a card onto a crew and a day, and the assignment is locked in for everyone to see.
+          The Pending Jobs board is the heart of FenceBossPro. Every project &mdash; chain link, vinyl, wood, aluminum, ornamental, repair, or gate install &mdash; lives as a card you can read in two seconds: customer name, address, fence type, linear footage, and which crew owns it. Color-coding by service type means you can scan the board and instantly tell the chain link work from the vinyl and wood. Instead of mentally juggling who is doing what, you drag a card onto a crew and a day, and the assignment is locked in for everyone to see.
         </p>
         <p>
           Because all three fence types share one board, you stop double-booking your best installer and you stop letting a crew sit idle while another is buried. When a chain link job finishes early, you can see at a glance which nearby vinyl or wood job could use a second set of hands and reassign on the spot.
@@ -65,7 +65,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
-        <div className="blog-keywords">Keywords: fence crew dispatch software, fence job board, fence scheduling software, fence estimate software, fence materials takeoff, fence invoicing software</div>
+        <div className="blog-keywords">Keywords: fence crew dispatch software, fence Pending Jobs board, fence scheduling software, fence estimate software, fence materials takeoff, fence invoicing software</div>
       </article>
     </BlogShell>
   );

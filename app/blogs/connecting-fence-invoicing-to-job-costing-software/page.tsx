@@ -45,7 +45,7 @@ export default function Page() {
 
         <h2>Tracking Real Costs as the Job Runs</h2>
         <p>
-          The bid is the plan; the job is reality. As the project moves across the Job Board and crews get
+          The bid is the plan; the job is reality. As the project moves across the Pending Jobs board and crews get
           dispatched, FenceBossPro lets you log what actually happened. Materials that got swapped or
           added &mdash; an extra run of chain link, a heavier aluminum gate, ten more bags of concrete than
           the takeoff called for &mdash; get recorded against the job. Crew hours captured in the field roll

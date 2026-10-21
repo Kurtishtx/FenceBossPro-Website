@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Managing a Full Fence Installation Backlog Without Losing Jobs | FenceBossPro',
-  description: 'See how fence installation software keeps a packed backlog organized with the Job Board, scheduling, deposits, and customer texts so no signed job slips away.',
+  description: 'See how fence installation software keeps a packed backlog organized with the Pending Jobs board, scheduling, deposits, and customer texts so no signed job slips away.',
 };
 
 export default function Page() {
@@ -21,9 +21,9 @@ export default function Page() {
           Most fence contractors lose backlog jobs the same way: through cracks no one is watching. A wood privacy job gets verbally approved but the deposit never gets invoiced, so it never officially enters the schedule. A chain link repair sits on a sticky note that falls off the truck dashboard. A vinyl install gets scheduled, but nobody confirmed the post count or the gate hardware, so the crew rolls up short and burns a half day. When your backlog lives in your head, a text thread, and three spreadsheets, the system itself is leaking. Software replaces all of that with a single record per job that follows the work from signed bid to final payment.
         </p>
 
-        <h2>The Job Board: One View of Everything Booked</h2>
+        <h2>The Pending Jobs board: One View of Everything Booked</h2>
         <p>
-          The Job Board is where a deep backlog stops feeling overwhelming. Every signed job &mdash; aluminum, ornamental, chain link, or cedar privacy &mdash; sits as a card you can sort by status: awaiting deposit, materials pending, ready to schedule, scheduled, and in progress. Instead of guessing what is next, you look at one screen and see exactly which jobs are cleared to go and which are stuck. Cards that need a deposit or a material order stand out, so the bottleneck is obvious before it costs you a week. When a customer calls asking where their fence stands, you pull their card and answer in seconds instead of digging through your phone.
+          The Pending Jobs board is where a deep backlog stops feeling overwhelming. Every signed job &mdash; aluminum, ornamental, chain link, or cedar privacy &mdash; sits as a card you can sort by status: awaiting deposit, materials pending, ready to schedule, scheduled, and in progress. Instead of guessing what is next, you look at one screen and see exactly which jobs are cleared to go and which are stuck. Cards that need a deposit or a material order stand out, so the bottleneck is obvious before it costs you a week. When a customer calls asking where their fence stands, you pull their card and answer in seconds instead of digging through your phone.
         </p>
 
         <h2>Schedule and Dispatch So Crews Never Collide</h2>
@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Feed the Backlog Without Drowning In It</h2>
         <p>
-          A backlog only stays healthy if new bids keep flowing in and converting cleanly. The speed at which you turn around estimates decides how many of those leads become signed jobs &mdash; which is exactly why <a href="/blogs/reduce-fence-bid-turnaround-time-software">Faster Bids, More Closed Jobs: Cutting Fence Estimate Turnaround With Software</a> pairs so closely with backlog management. Fast bids fill the pipeline; the Job Board, scheduling, and deposits make sure none of those jobs fall out the bottom. Run both sides in one system and your fence business stops losing the work it already won. For the full picture of how these pieces fit together, see our <a href="/fence-installation-software">fence installation software</a> overview.
+          A backlog only stays healthy if new bids keep flowing in and converting cleanly. The speed at which you turn around estimates decides how many of those leads become signed jobs &mdash; which is exactly why <a href="/blogs/reduce-fence-bid-turnaround-time-software">Faster Bids, More Closed Jobs: Cutting Fence Estimate Turnaround With Software</a> pairs so closely with backlog management. Fast bids fill the pipeline; the Pending Jobs board, scheduling, and deposits make sure none of those jobs fall out the bottom. Run both sides in one system and your fence business stops losing the work it already won. For the full picture of how these pieces fit together, see our <a href="/fence-installation-software">fence installation software</a> overview.
         </p>
 
         <div className="blog-cta-box">
@@ -52,7 +52,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence installation software, fence Job Board, fence job scheduling software, fence crew dispatch, fence deposit and progress billing, fence materials tracking</div>
+        <div className="blog-keywords">Keywords: fence installation software, fence Pending Jobs Board, fence job scheduling software, fence crew dispatch, fence deposit and progress billing, fence materials tracking</div>
       </article>
     </BlogShell>
   );

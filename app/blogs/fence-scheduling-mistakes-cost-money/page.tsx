@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Five Fence Scheduling Mistakes That Quietly Cost You Jobs | FenceBossPro',
-  description: 'Five fence scheduling mistakes that quietly cost you jobs, and how FenceBossPro ties materials, crews, dispatch, and customer texts to one live Job Board.',
+  description: 'Five fence scheduling mistakes that quietly cost you jobs, and how FenceBossPro ties materials, crews, dispatch, and customer texts to one live Pending Jobs Board.',
 };
 
 export default function Page() {
@@ -23,7 +23,7 @@ export default function Page() {
 
         <h2>Mistake 2: Treating a Multi-Day Build as a Single Box</h2>
         <p>
-          A paper calendar and most generic schedulers treat every job as one square on one day. Fencing rarely works that way. A vinyl install might be dig and set posts Monday, cure Tuesday, hang panels Wednesday, hang gates Thursday. Cram all of that into one calendar block and the second a step slips, the whole plan falls apart and you start erasing. FenceBossPro schedules a project across the days it truly takes and holds the crew on it, so the Job Board shows the real span. When weather pushes the post-set, you slide the job and the rest of the sequence shifts with it instead of collapsing. You can see at a glance what is bid, what is scheduled, what is in progress, and what is waiting on a material delivery.
+          A paper calendar and most generic schedulers treat every job as one square on one day. Fencing rarely works that way. A vinyl install might be dig and set posts Monday, cure Tuesday, hang panels Wednesday, hang gates Thursday. Cram all of that into one calendar block and the second a step slips, the whole plan falls apart and you start erasing. FenceBossPro schedules a project across the days it truly takes and holds the crew on it, so the Pending Jobs board shows the real span. When weather pushes the post-set, you slide the job and the rest of the sequence shifts with it instead of collapsing. You can see at a glance what is bid, what is scheduled, what is in progress, and what is waiting on a material delivery.
         </p>
 
         <h2>Mistake 3: Dispatching Without Knowing the Day&apos;s Revenue</h2>
@@ -43,16 +43,16 @@ export default function Page() {
 
         <h2>The Mistake Underneath All Five: A Schedule That Doesn&apos;t Connect</h2>
         <p>
-          Notice the pattern: every mistake is a disconnect. The schedule doesn&apos;t know the materials, the days, the revenue, the route, or the customer. Fix the connections and the mistakes disappear on their own. FenceBossPro keeps the estimate, the materials, the crew, the dispatch, the customer profile, and the invoice as one live record on a single Job Board &mdash; and because the money rides along, the deposit captured at approval, the progress billing, and the card-on-file balance all stay tied to the work. When you are ready to see how it fits together, the <a href="/fence-scheduling-software">fence scheduling software</a> hub walks through it. Stop losing jobs an hour and a day at a time, and put the whole operation on one board that actually talks to itself.
+          Notice the pattern: every mistake is a disconnect. The schedule doesn&apos;t know the materials, the days, the revenue, the route, or the customer. Fix the connections and the mistakes disappear on their own. FenceBossPro keeps the estimate, the materials, the crew, the dispatch, the customer profile, and the invoice as one live record on a single Pending Jobs Board &mdash; and because the money rides along, the deposit captured at approval, the progress billing, and the card-on-file balance all stay tied to the work. When you are ready to see how it fits together, the <a href="/fence-scheduling-software">fence scheduling software</a> hub walks through it. Stop losing jobs an hour and a day at a time, and put the whole operation on one board that actually talks to itself.
         </p>
 
         <div className="blog-cta-box">
           <h3>Stop letting scheduling gaps cost you fence jobs</h3>
-          <p>FenceBossPro ties materials, crews, dispatch, customer texts, and payments to one live Job Board for every fence project.</p>
+          <p>FenceBossPro ties materials, crews, dispatch, customer texts, and payments to one live Pending Jobs Board for every fence project.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, fence job board, crew dispatch and routing, multi-day fence build scheduling, fence materials list, fence customer texts</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, fence Pending Jobs board, crew dispatch and routing, multi-day fence build scheduling, fence materials list, fence customer texts</div>
       </article>
     </BlogShell>
   );

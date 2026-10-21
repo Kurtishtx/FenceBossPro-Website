@@ -33,7 +33,7 @@ export default function Page() {
 
         <h2>It Protects Your Schedule and Your Materials</h2>
         <p>
-          A deposit is not just cash flow &mdash; it is a filter. When a homeowner has put real money down, they are a committed job, not a maybe. That matters when you are loading the Job Board and dispatching crews. The jobs with deposits collected are the ones you schedule and route with confidence, because you know they will not evaporate the morning your truck is loaded with their specific panels and gate. FenceBossPro pushes the approved, deposit-paid bid straight onto the schedule as a real job, with the same line items the crew works from on site. You stop ordering custom ornamental sections for a customer who never quite committed, because the deposit sorted the tire-kickers from the buyers before you spent a dime at the supply yard.
+          A deposit is not just cash flow &mdash; it is a filter. When a homeowner has put real money down, they are a committed job, not a maybe. That matters when you are loading the Pending Jobs board and dispatching crews. The jobs with deposits collected are the ones you schedule and route with confidence, because you know they will not evaporate the morning your truck is loaded with their specific panels and gate. FenceBossPro pushes the approved, deposit-paid bid straight onto the schedule as a real job, with the same line items the crew works from on site. You stop ordering custom ornamental sections for a customer who never quite committed, because the deposit sorted the tire-kickers from the buyers before you spent a dime at the supply yard.
         </p>
 
         <h2>The Customer Experience Wins You the Next Job</h2>

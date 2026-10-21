@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'How to Manage Multiple Fence Crews From One Schedule | FenceBossPro',
-  description: 'See how FenceBossPro lets you run multiple fence crews from one schedule and Job Board so installs, repairs, and gate jobs all stay on track.',
+  description: 'See how FenceBossPro lets you run multiple fence crews from one schedule and Pending Jobs Board so installs, repairs, and gate jobs all stay on track.',
 };
 
 export default function Page() {
@@ -22,9 +22,9 @@ export default function Page() {
           you can see and move the whole operation from a single screen.
         </p>
 
-        <h2>One Job Board, Every Crew, Every Job</h2>
+        <h2>One Pending Jobs Board, Every Crew, Every Job</h2>
         <p>
-          The center of multi-crew fence management is the Job Board. Instead of a separate calendar per
+          The center of multi-crew fence management is the Pending Jobs board. Instead of a separate calendar per
           crew, every estimate you approve drops onto one board, and you assign each job to a crew with a
           tap. Wood privacy install for Crew A, ornamental aluminum job for Crew B, a gate repair service
           call squeezed into Crew C&apos;s afternoon &mdash; it all sits in one view, color-coded by crew
@@ -52,7 +52,7 @@ export default function Page() {
           schedule and the materials list are connected in FenceBossPro, so you can stage a job for the
           day the posts, panels, and concrete actually arrive instead of guessing. For multi-day builds
           you can block a crew across several days &mdash; set posts and pour concrete on day one, return
-          to hang panels and set gates once the concrete cures &mdash; and the Job Board holds that crew on
+          to hang panels and set gates once the concrete cures &mdash; and the Pending Jobs board holds that crew on
           the project so nobody double-books them. When a delivery slips, you reschedule the job and the
           rest of the board stays intact.
         </p>
@@ -95,11 +95,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Run every fence crew from one schedule</h3>
-          <p>FenceBossPro puts all your crews, jobs, materials, and invoices on one Job Board so installs, repairs, and gates stay on track as you grow.</p>
+          <p>FenceBossPro puts all your crews, jobs, materials, and invoices on one Pending Jobs Board so installs, repairs, and gates stay on track as you grow.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: manage multiple fence crews, fence crew scheduling software, fence job board, fence crew dispatch, fence business software, multi-crew fence scheduling</div>
+        <div className="blog-keywords">Keywords: manage multiple fence crews, fence crew scheduling software, fence Pending Jobs board, fence crew dispatch, fence business software, multi-crew fence scheduling</div>
       </article>
     </BlogShell>
   );

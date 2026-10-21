@@ -33,9 +33,9 @@ export default function Page() {
           three days later when they finally call to check.
         </p>
 
-        <h2>Texts that fire off your schedule and Job Board</h2>
+        <h2>Texts that fire off your schedule and Pending Jobs Board</h2>
         <p>
-          The power of automated texts is that they read from the same schedule and Job Board your crews
+          The power of automated texts is that they read from the same schedule and Pending Jobs Board your crews
           already work from. When a fence install gets booked, FenceBossPro can send an appointment
           confirmation with the date and arrival window. The night before, a reminder goes out so the
           customer clears the dogs from the yard and unlocks the gate. When the crew is dispatched and
@@ -110,7 +110,7 @@ export default function Page() {
 
         <div className="blog-keywords">
           Keywords: fence crew dispatch software, automated customer texts, fence install scheduling
-          software, fence job board, card-on-file fence payments, fence estimating software
+          software, fence Pending Jobs board, card-on-file fence payments, fence estimating software
         </div>
       </article>
     </BlogShell>

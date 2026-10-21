@@ -187,7 +187,7 @@ export default function VsServiceAutopilot() {
               <tr><td className="feature-name">No Sign-Up Fee</td><td className="sbp-col"><span className="chk">✓ $0</span></td><td><span className="crs">✗ Sign-up fee required</span></td></tr>
               <tr><td className="feature-name">Unlimited Users at Flat Price</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Per-user pricing applies</span></td></tr>
               <tr><td className="feature-name">Deposits &amp; Progress Billing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited — no progress billing</span></td></tr>
-              <tr><td className="feature-name">Job Board for Fence Projects</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Pending Jobs Board for Fence Projects</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Gate &amp; Hardware Line Items</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
               <tr><td className="feature-name">Card-on-File Payments</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
@@ -330,14 +330,14 @@ export default function VsServiceAutopilot() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included — No Tiers</div>
             <div className="price-tier">One Plan. One Price. No Sign-Up Fee.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>59</div>
             <div className="price-period">per month — cancel anytime, no sign-up fee</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
               <li>Materials &amp; Parts Catalog (posts, panels, pickets, gates)</li>
               <li>Linear-Foot Takeoffs &amp; Line-Item Estimates</li>
-              <li>Job Board &amp; Project Scheduling</li>
+              <li>Pending Jobs Board &amp; Project Scheduling</li>
               <li>Crew Dispatch &amp; Routing Included (not a $199 add-on)</li>
               <li>Automations Included (not a $499 add-on)</li>
               <li>Two-Way SMS Included (not a custom-quote add-on)</li>

@@ -57,10 +57,10 @@ export default function Page() {
           is usually faster than the paper quote you used to hand-write in the truck.
         </p>
 
-        <h2>Day 4: Set Up Scheduling and the Job Board</h2>
+        <h2>Day 4: Set Up Scheduling and the Pending Jobs board</h2>
         <p>
           Once an estimate is approved, it should flow straight onto your calendar. Spend day four
-          learning the Job Board &mdash; the single screen where every approved fence project lives as
+          learning the Pending Jobs board &mdash; the single screen where every approved fence project lives as
           a card you can drag onto a day and assign to a crew. Add your installers, set their working
           hours, and practice dispatching a job so the right two-person crew gets the address, the
           material list, and the scope on their phone. Because routing is built in, you can group jobs

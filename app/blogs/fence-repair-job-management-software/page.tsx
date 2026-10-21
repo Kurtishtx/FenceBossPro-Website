@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Fence Repair Software: Managing Small Jobs, Service Calls, and Quick Estimates | FenceBossPro',
-  description: 'How fence repair software handles small service calls&mdash;quick line-item estimates, parts tracking, the Job Board, crew dispatch, and card-on-file payments.',
+  description: 'How fence repair software handles small service calls&mdash;quick line-item estimates, parts tracking, the Pending Jobs board, crew dispatch, and card-on-file payments.',
 };
 
 export default function Page() {
@@ -26,9 +26,9 @@ export default function Page() {
           Repairs are deceptively easy to underprice. Swapping a few pickets is nothing like resetting a corner post in fresh concrete or rehanging a heavy ornamental gate. Line-item estimating lets you build a clean bid in minutes: add the labor, then drop in the exact materials&mdash;posts, panels, pickets, rails, concrete, hinges, latches, and gate hardware&mdash;each with its own quantity and price. For a damaged run, a linear-foot takeoff figures the panels and posts so you are not doing fence math on the tailgate. Saved line items mean a common chain link, wood, or vinyl repair can be quoted from your truck in a couple of taps and texted over for a one-tap approval&mdash;no trip back to the office required.
         </p>
 
-        <h2>Slot Small Jobs Into the Schedule With the Job Board</h2>
+        <h2>Slot Small Jobs Into the Schedule With the Pending Jobs board</h2>
         <p>
-          This is where repair work either gets handled or gets buried under installs. The Job Board shows every open repair, gate call, and project in one view, so you can see exactly where the gaps are. An install that wraps up at noon, a half-day a weather delay freed up, a crew finishing early on the east side of town&mdash;those are the slots you fill with service work. Instead of quoting a homeowner &quot;three weeks out&quot; on a ten-minute latch adjustment, you slot it into Thursday afternoon when a crew is already nearby. Many of those small repairs are gate jobs, and gates live and die by their parts, which is why it helps to read <a href="/blogs/gate-hardware-tracking-fence-software">Gates and Hardware: How Fence Software Stops the Parts From Falling Through the Cracks</a> before you start batching them onto the board.
+          This is where repair work either gets handled or gets buried under installs. The Pending Jobs board shows every open repair, gate call, and project in one view, so you can see exactly where the gaps are. An install that wraps up at noon, a half-day a weather delay freed up, a crew finishing early on the east side of town&mdash;those are the slots you fill with service work. Instead of quoting a homeowner &quot;three weeks out&quot; on a ten-minute latch adjustment, you slot it into Thursday afternoon when a crew is already nearby. Many of those small repairs are gate jobs, and gates live and die by their parts, which is why it helps to read <a href="/blogs/gate-hardware-tracking-fence-software">Gates and Hardware: How Fence Software Stops the Parts From Falling Through the Cracks</a> before you start batching them onto the board.
         </p>
 
         <h2>Dispatch and Route So Small Jobs Stay Profitable</h2>
@@ -43,16 +43,16 @@ export default function Page() {
 
         <h2>Invoice and Collect Before You Leave the Driveway</h2>
         <p>
-          Small jobs should mean fast money, but too many shops let repair invoices age for weeks. With fence repair software, the crew turns the approved estimate into an invoice the second the work is done and collects on the spot with a card on file&mdash;one tap and the gate fix is paid. Larger repairs can take a deposit up front and bill the balance on completion, or run progress billing on multi-day work. Automated customer texts confirm the appointment, announce the crew is on the way, and send a receipt afterward, so the homeowner feels looked after and you are not chasing checks. Every repair also lands on the property profile, giving you a warm lead for the next gate or the new back fence down the road. To see how estimates, the Job Board, dispatch, materials, and payments connect, explore our <a href="/fence-installation-software">fence installation software</a>.
+          Small jobs should mean fast money, but too many shops let repair invoices age for weeks. With fence repair software, the crew turns the approved estimate into an invoice the second the work is done and collects on the spot with a card on file&mdash;one tap and the gate fix is paid. Larger repairs can take a deposit up front and bill the balance on completion, or run progress billing on multi-day work. Automated customer texts confirm the appointment, announce the crew is on the way, and send a receipt afterward, so the homeowner feels looked after and you are not chasing checks. Every repair also lands on the property profile, giving you a warm lead for the next gate or the new back fence down the road. To see how estimates, the Pending Jobs board, dispatch, materials, and payments connect, explore our <a href="/fence-installation-software">fence installation software</a>.
         </p>
 
         <div className="blog-cta-box">
           <h3>Run Fence Repairs Like Real Jobs, Not Afterthoughts</h3>
-          <p>FenceBossPro gives fence pros quick line-item estimates, a live Job Board, smart dispatch, parts tracking, and card-on-file invoicing in one simple platform.</p>
+          <p>FenceBossPro gives fence pros quick line-item estimates, a live Pending Jobs Board, smart dispatch, parts tracking, and card-on-file invoicing in one simple platform.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence repair software, fence service call software, fence repair estimating software, fence Job Board software, fence crew dispatch software, fence invoicing software</div>
+        <div className="blog-keywords">Keywords: fence repair software, fence service call software, fence repair estimating software, fence Pending Jobs Board software, fence crew dispatch software, fence invoicing software</div>
       </article>
     </BlogShell>
   );

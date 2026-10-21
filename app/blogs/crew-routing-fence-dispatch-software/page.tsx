@@ -36,9 +36,9 @@ export default function Page() {
           automatically.
         </p>
 
-        <h2>The Job Board is your dispatch command center</h2>
+        <h2>The Pending Jobs board is your dispatch command center</h2>
         <p>
-          Everything starts on the Job Board. Each fence job &mdash; tied to a client and
+          Everything starts on the Pending Jobs board. Each fence job &mdash; tied to a client and
           property profile with the gate count, linear-foot takeoff, and material list
           already attached &mdash; sits as a card you can drag onto a crew and a date. When
           you assign a backyard vinyl install to Crew 2 on Thursday, the system already
@@ -105,7 +105,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence dispatch software, fence crew routing, fence job board, fence scheduling software, fence crew dispatch, fence install routing software</div>
+        <div className="blog-keywords">Keywords: fence dispatch software, fence crew routing, fence Pending Jobs board, fence scheduling software, fence crew dispatch, fence install routing software</div>
       </article>
     </BlogShell>
   );

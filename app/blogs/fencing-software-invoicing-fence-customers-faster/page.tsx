@@ -76,7 +76,7 @@ export default function Page() {
           invoice, deposit, and payment attached. When a customer calls asking what they paid or what materials
           went into their fence, the answer is right there. That history also makes re-quoting easy: a previous
           line-item bid becomes the starting point for the next phase of fence, and a new invoice flows straight
-          out of it. The job board, crew dispatch, and billing all reference the same record, so the office and
+          out of it. The Pending Jobs board, crew dispatch, and billing all reference the same record, so the office and
           the field are never working off different numbers.
         </p>
 

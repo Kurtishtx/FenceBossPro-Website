@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>One System, Start to Finish</h2>
         <p>
-          The deposit-to-final workflow only works when the estimate, the job board, the crew schedule, dispatch, and the invoice all share the same data. That is exactly what FenceBossPro is built for: a bid signed in the morning can have a deposit collected by lunch, the job scheduled and dispatched to a crew, progress billed as posts and panels go in, and the balance charged to a card on file the day it wraps. To see how the estimating, deposits, payments, and tracking fit together, explore our <a href="/fence-invoicing-software">fence invoicing &amp; billing</a> tools. Run the whole money side of your fence business in one place, and you stop floating materials, stop chasing checks, and start getting paid like the professional outfit you are.
+          The deposit-to-final workflow only works when the estimate, the Pending Jobs board, the crew schedule, dispatch, and the invoice all share the same data. That is exactly what FenceBossPro is built for: a bid signed in the morning can have a deposit collected by lunch, the job scheduled and dispatched to a crew, progress billed as posts and panels go in, and the balance charged to a card on file the day it wraps. To see how the estimating, deposits, payments, and tracking fit together, explore our <a href="/fence-invoicing-software">fence invoicing &amp; billing</a> tools. Run the whole money side of your fence business in one place, and you stop floating materials, stop chasing checks, and start getting paid like the professional outfit you are.
         </p>
 
         <div className="blog-cta-box">

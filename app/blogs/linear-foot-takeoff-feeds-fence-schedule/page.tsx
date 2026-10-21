@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Scheduling by Duration Instead of by Slot</h2>
         <p>
-          When a job carries a real duration, the Job Board stops lying to you. Instead of dropping every install into a generic &quot;one-day&quot; slot, you place a block that is as long as the takeoff says it is &mdash; a day and a half, three days, whatever the linear-foot math produced. Multi-day builds span the days they actually need, so you are not promising two customers the same Thursday. This is the heart of turning a signed bid into a real plan; for the full handoff, read <a href="/blogs/estimate-to-scheduled-fence-job">Turning a Signed Fence Estimate Into a Scheduled Job in One Tap</a>. The job lands on the board already sized, materials attached, with a start and end date you can actually defend to the customer.
+          When a job carries a real duration, the Pending Jobs board stops lying to you. Instead of dropping every install into a generic &quot;one-day&quot; slot, you place a block that is as long as the takeoff says it is &mdash; a day and a half, three days, whatever the linear-foot math produced. Multi-day builds span the days they actually need, so you are not promising two customers the same Thursday. This is the heart of turning a signed bid into a real plan; for the full handoff, read <a href="/blogs/estimate-to-scheduled-fence-job">Turning a Signed Fence Estimate Into a Scheduled Job in One Tap</a>. The job lands on the board already sized, materials attached, with a start and end date you can actually defend to the customer.
         </p>
 
         <h2>Material Delivery and Concrete Cure Time Fit the Real Timeline</h2>
@@ -52,7 +52,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, linear-foot takeoffs, crew-day estimating, fence job board, multi-day fence build scheduling, fence crew dispatch and routing</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, linear-foot takeoffs, crew-day estimating, fence Pending Jobs board, multi-day fence build scheduling, fence crew dispatch and routing</div>
       </article>
     </BlogShell>
   );

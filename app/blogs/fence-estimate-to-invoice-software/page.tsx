@@ -23,7 +23,7 @@ export default function Page() {
 
         <h2>The Approved Bid Becomes a Real Job</h2>
         <p>
-          When the customer signs off, that estimate does not get re-keyed into a different program &mdash; it becomes the job. FenceBossPro promotes the approved bid straight onto the Job Board, carrying the materials list, the linear-foot count, the gate spec, and the client and property profile with it. Your crew sees exactly what the office sold: how many panels, which color vinyl, what post depth, where the gates hang. Nothing gets lost in translation between the salesperson and the install crew, which is the single biggest source of callbacks and short-shipped trucks in the fencing trade.
+          When the customer signs off, that estimate does not get re-keyed into a different program &mdash; it becomes the job. FenceBossPro promotes the approved bid straight onto the Pending Jobs board, carrying the materials list, the linear-foot count, the gate spec, and the client and property profile with it. Your crew sees exactly what the office sold: how many panels, which color vinyl, what post depth, where the gates hang. Nothing gets lost in translation between the salesperson and the install crew, which is the single biggest source of callbacks and short-shipped trucks in the fencing trade.
         </p>
 
         <h2>Scheduling and Dispatch Without the Whiteboard</h2>

@@ -1,8 +1,8 @@
 import BlogShell from '../blog-shell';
 
 export const metadata = {
-  title: 'How the Job Board Keeps Every Fence Crew on Schedule | FenceBossPro',
-  description: 'See how the FenceBossPro Job Board centralizes fence jobs, dispatch, and crew scheduling so no install, repair, or gate ever slips through the cracks.',
+  title: 'How the Pending Jobs board Keeps Every Fence Crew on Schedule | FenceBossPro',
+  description: 'See how the FenceBossPro Pending Jobs Board centralizes fence jobs, dispatch, and crew scheduling so no install, repair, or gate ever slips through the cracks.',
 };
 
 export default function Page() {
@@ -11,21 +11,21 @@ export default function Page() {
       <article className="blog-article">
         <p className="blog-meta">FenceBossPro Blog &mdash; Fence Crew & Dispatch Software</p>
         <p className="blog-silo-pill" style={{margin:"2px 0 22px"}}><a href="/fence-dispatch-software" style={{display:"inline-block",background:"#e7eef5",color:"#1f5680",fontWeight:700,fontSize:"13.5px",padding:"8px 16px",borderRadius:"20px",textDecoration:"none",border:"1px solid #c3d4e3"}}>&#128203; More Fence Crew & Dispatch Software guides &rarr;</a></p>
-        <h1>How the Job Board Keeps Every Fence Crew on Schedule</h1>
+        <h1>How the Pending Jobs board Keeps Every Fence Crew on Schedule</h1>
         <p>
           A fence company can win the bid, order the posts and panels, and still drop the ball
           if the right crew doesn&apos;t show up at the right address on the right day. When jobs
           live on sticky notes, group texts, and one overloaded owner&apos;s memory, something
           eventually falls through &mdash; a chain link tear-out gets double-booked, a vinyl
           install crew sits idle waiting on a material drop, or a gate repair never gets
-          assigned at all. The FenceBossPro Job Board exists to make that impossible. It turns
+          assigned at all. The FenceBossPro Pending Jobs Board exists to make that impossible. It turns
           every approved estimate into a scheduled, dispatchable, trackable job that the whole
           team can see in real time.
         </p>
 
         <h2>One Board for Every Job in the Pipeline</h2>
         <p>
-          The Job Board is the single screen where every fence project lives, from a 40-foot
+          The Pending Jobs board is the single screen where every fence project lives, from a 40-foot
           cedar privacy run to a quick post reset and a full ornamental aluminum perimeter. Each
           card carries the details a crew actually needs: the client and property profile, the
           line-item estimate that was sold, the linear-foot takeoff, and the materials list &mdash;
@@ -63,7 +63,7 @@ export default function Page() {
         <h2>Materials and Parts Tied to the Right Job</h2>
         <p>
           Fencing is material-heavy, and a job is only &quot;on schedule&quot; if the parts are
-          staged when the crew arrives. Each Job Board card links to the materials and parts pulled
+          staged when the crew arrives. Each Pending Jobs Board card links to the materials and parts pulled
           straight from the estimate, so your yard or purchaser knows exactly what to load: how many
           posts, how many panels, which gate kit, how many bags of concrete, and what hardware. When
           you mark a job ready, everyone can see the materials are accounted for. That tight link
@@ -88,7 +88,7 @@ export default function Page() {
         <h2>Visibility That Scales With Your Crews</h2>
         <p>
           The real payoff shows up when you grow past one truck. With three or five crews running,
-          the owner can&apos;t personally direct every move &mdash; but the Job Board gives the whole
+          the owner can&apos;t personally direct every move &mdash; but the Pending Jobs board gives the whole
           office a shared, live picture of the day. A dispatcher can rebalance loads, a project
           manager can spot a stalled install, and an estimator can see when capacity opens up before
           promising a start date. Everything ties back to one system, which is exactly the point of
@@ -107,7 +107,7 @@ export default function Page() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
-        <div className="blog-keywords">Keywords: fence job board software, fence crew dispatch, fence scheduling software, fence install routing, fencing project management, fence invoicing software</div>
+        <div className="blog-keywords">Keywords: fence Pending Jobs board software, fence crew dispatch, fence scheduling software, fence install routing, fencing project management, fence invoicing software</div>
       </article>
     </BlogShell>
   );

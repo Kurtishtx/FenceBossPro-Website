@@ -38,7 +38,7 @@ export default function Page() {
 
         <h2>From Approved Estimate to Scheduled Crew</h2>
         <p>
-          Pricing the job is only half the battle &mdash; the template keeps paying off after the customer says yes. An approved estimate in FenceBossPro converts straight into a job with the materials list intact, so your crew leader knows exactly how many posts, pickets, and bags of concrete to load before they ever leave the yard. From there the job lands on the Job Board, gets scheduled and dispatched to a crew with routing built in, and the deposit you set in the template &mdash; say 50% down &mdash; can be collected up front with a card on file. Progress billing and the final invoice flow from the same record, and the customer gets a text when the crew is on the way.
+          Pricing the job is only half the battle &mdash; the template keeps paying off after the customer says yes. An approved estimate in FenceBossPro converts straight into a job with the materials list intact, so your crew leader knows exactly how many posts, pickets, and bags of concrete to load before they ever leave the yard. From there the job lands on the Pending Jobs board, gets scheduled and dispatched to a crew with routing built in, and the deposit you set in the template &mdash; say 50% down &mdash; can be collected up front with a card on file. Progress billing and the final invoice flow from the same record, and the customer gets a text when the crew is on the way.
         </p>
 
         <h2>Build It Once, Win Bids Faster</h2>

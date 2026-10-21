@@ -55,10 +55,10 @@ export default function Page() {
           stop eating the cost of extra supply-house runs in the middle of an install.
         </p>
 
-        <h2>Scheduling and the Job Board Keep Crews Out of Each Other&apos;s Way</h2>
+        <h2>Scheduling and the Pending Jobs board Keep Crews Out of Each Other&apos;s Way</h2>
         <p>
           With one crew, the calendar is simple. With several, scheduling becomes the make-or-break skill. A shared
-          Job Board lets you see every fence project at once and assign it to the right crew, so you never
+          Pending Jobs Board lets you see every fence project at once and assign it to the right crew, so you never
           double-book a Saturday or send two teams to opposite ends of the county on the same day. Drag a wood fence
           install onto Crew A, a chain link repair onto Crew B, and a gate replacement onto whoever is closest. Smart
           dispatch and routing tighten up the day even further, grouping nearby jobs so your crews spend their hours
@@ -109,7 +109,7 @@ export default function Page() {
         </div>
 
         <div className="blog-keywords">
-          Keywords: fencing software, fence estimating software, fence crew scheduling software, fence job board
+          Keywords: fencing software, fence estimating software, fence crew scheduling software, fence Pending Jobs board
           dispatch, fence invoicing and payments, fence materials takeoff software
         </div>
       </article>

@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Schedule and Dispatch the Small Jobs Smartly</h2>
         <p>
-          Service calls are short, so cramming them efficiently is where you win or lose the day. The job scheduling and Job Board let you see open repair and gate calls at a glance, then slot them between bigger installs or batch several into one afternoon. Crew dispatch and routing group nearby calls so a tech is not crisscrossing town for a gate adjustment on one side and a post reset on the other. You assign the job, the crew sees the address, the scope, the photos, and the parts list right on their phone, and routing lines up the stops in a sensible order. That tight scheduling is the difference between knocking out six service calls in a day and limping through three.
+          Service calls are short, so cramming them efficiently is where you win or lose the day. The job scheduling and Pending Jobs Board let you see open repair and gate calls at a glance, then slot them between bigger installs or batch several into one afternoon. Crew dispatch and routing group nearby calls so a tech is not crisscrossing town for a gate adjustment on one side and a post reset on the other. You assign the job, the crew sees the address, the scope, the photos, and the parts list right on their phone, and routing lines up the stops in a sensible order. That tight scheduling is the difference between knocking out six service calls in a day and limping through three.
         </p>
 
         <h2>Track Materials and Parts on Every Visit</h2>
@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Turn Service Calls Into Repeat Revenue</h2>
         <p>
-          Every repair is a doorway to more work. The customer whose gate you just rehung is the same one who will need a new back fence in two years or a matching gate for the side yard. Because each service call is logged on the property profile, your office can follow up with a quick text, send a fresh quote, and keep that relationship warm. As those calls add up, the same system that runs one truck scales to many&mdash;the playbook in <a href="/blogs/fencing-software-scaling-from-one-crew-to-several">Scaling From One Fence Crew to Several Without Chaos Using Fencing Software</a> shows how dispatch, the Job Board, and invoicing hold together as you grow. It all runs on one platform, and you can dig into the rest of our <a href="/fencing-software">fencing software</a> to see how estimates, materials, scheduling, and payments connect.
+          Every repair is a doorway to more work. The customer whose gate you just rehung is the same one who will need a new back fence in two years or a matching gate for the side yard. Because each service call is logged on the property profile, your office can follow up with a quick text, send a fresh quote, and keep that relationship warm. As those calls add up, the same system that runs one truck scales to many&mdash;the playbook in <a href="/blogs/fencing-software-scaling-from-one-crew-to-several">Scaling From One Fence Crew to Several Without Chaos Using Fencing Software</a> shows how dispatch, the Pending Jobs board, and invoicing hold together as you grow. It all runs on one platform, and you can dig into the rest of our <a href="/fencing-software">fencing software</a> to see how estimates, materials, scheduling, and payments connect.
         </p>
 
         <div className="blog-cta-box">

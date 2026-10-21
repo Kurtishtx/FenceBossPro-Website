@@ -23,7 +23,7 @@ export default function Page() {
 
         <h2>One Tap Drops the Job on the Board</h2>
         <p>
-          From the signed estimate you tap once, and the job lands on the Job Board. The board is your live picture of every fence project in motion &mdash; what is bid, what is signed, what is scheduled, what crew is on it today, and what is waiting on a material delivery. The new job arrives with its full line-item takeoff intact, so when you open it you see the exact same linear-foot count and parts list the bid was built on. Drag it onto a day, assign a crew, and it is scheduled. There is no blank &quot;new job&quot; form to fill out, no copying numbers from one screen to another. The estimate already did that work, and the single tap simply lets the data flow forward instead of being keyed in twice.
+          From the signed estimate you tap once, and the job lands on the Pending Jobs board. The board is your live picture of every fence project in motion &mdash; what is bid, what is signed, what is scheduled, what crew is on it today, and what is waiting on a material delivery. The new job arrives with its full line-item takeoff intact, so when you open it you see the exact same linear-foot count and parts list the bid was built on. Drag it onto a day, assign a crew, and it is scheduled. There is no blank &quot;new job&quot; form to fill out, no copying numbers from one screen to another. The estimate already did that work, and the single tap simply lets the data flow forward instead of being keyed in twice.
         </p>
 
         <h2>Materials and Parts Ride Along Automatically</h2>
@@ -52,7 +52,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, signed estimate to scheduled job, fence job board, crew dispatch and routing, fence deposit and progress billing, fence customer texts</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, signed estimate to scheduled job, fence Pending Jobs board, crew dispatch and routing, fence deposit and progress billing, fence customer texts</div>
       </article>
     </BlogShell>
   );

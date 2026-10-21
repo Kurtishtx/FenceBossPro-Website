@@ -149,7 +149,7 @@ export default function VsJobber() {
         <div className="hero-stats">
           <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly vs Jobber&apos;s Per-Tier Pricing</div></div>
           <div><div className="hero-stat-val">Unlimited</div><div className="hero-stat-lbl">Users — No Per-Seat Fees</div></div>
-          <div><div className="hero-stat-val">Linear Ft</div><div className="hero-stat-lbl">Takeoffs &amp; Job Board — Jobber Doesn&apos;t Have This</div></div>
+          <div><div className="hero-stat-val">Linear Ft</div><div className="hero-stat-lbl">Takeoffs &amp; Pending Jobs Board — Jobber Doesn&apos;t Have This</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Industry Since</div></div>
         </div>
       </div>
@@ -175,7 +175,7 @@ export default function VsJobber() {
               <tr><td className="feature-name">Lasso — Draw a Circle on Any Area of the Map, Instantly See Every Job, Linear Ft &amp; Work Due Inside</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗ Not available</span></td></tr>
               <tr><td className="feature-name">Built Specifically for Fence Contractors</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">True Two-Way SMS Inbox (Included)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Grow plan only ($299/mo)</span></td></tr>
-              <tr><td className="feature-name">Job Board &amp; Crew Dispatch</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
+              <tr><td className="feature-name">Pending Jobs Board &amp; Crew Dispatch</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Deposits &amp; Progress Billing</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="prt">Limited</span></td></tr>
               <tr><td className="feature-name">Materials &amp; Parts Catalog (Posts, Rails, Hardware)</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="crs">✗</span></td></tr>
               <tr><td className="feature-name">Line-Item Estimates &amp; Online Acceptance</td><td className="sbp-col"><span className="chk">✓</span></td><td><span className="chk">✓</span></td></tr>
@@ -200,7 +200,7 @@ export default function VsJobber() {
           <div className="premium-card"><div className="premium-card-icon">🧱</div><h4>Materials &amp; Parts Lists</h4><p>Every job builds its own materials list automatically — posts, panels, rails, concrete, gates, hardware, by quantity. Hand the crew an exact pull sheet in 30 seconds. Jobber has job notes. That&apos;s not the same thing as a fence materials takeoff.</p></div>
           <div className="premium-card"><div className="premium-card-icon">🗺️</div><h4>Lasso Map Job Selector</h4><p>Draw a circle on the map, instantly see every job inside with work due. Jobs, fence types, linear ft — all calculated before you schedule anything. Jobber has basic route optimization. Not the same as Lasso.</p></div>
           <div className="premium-card"><div className="premium-card-icon">💬</div><h4>True Two-Way SMS Inbox</h4><p>Send and receive text messages inside FenceBossPro with full conversation history per contact. Jobber has limited client messaging — not a full SMS inbox with inbound/outbound history organized by customer.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Job Board &amp; Dispatch</h4><p>Track every install and repair on the Job Board, see what&apos;s due, and dispatch crews by area. Jobber handles jobs, but not the fence job-board model that shows you all your pending work before you build a crew route.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🔁</div><h4>Pending Jobs Board &amp; Dispatch</h4><p>Track every install and repair on the Pending Jobs board, see what&apos;s due, and dispatch crews by area. Jobber handles jobs, but not the fence job-board model that shows you all your pending work before you build a crew route.</p></div>
           <div className="premium-card"><div className="premium-card-icon">👥</div><h4>Unlimited Users, One Price</h4><p>Every employee — crews, installers, office staff, managers — included at from $59/month. Jobber charges per tier based on user count. Add your 6th employee and your bill goes up. Ours doesn&apos;t.</p></div>
         </div>
       </div>
@@ -216,7 +216,7 @@ export default function VsJobber() {
               <li>Materials &amp; parts lists that hand the crew an exact pull sheet</li>
               <li>Materials catalog — posts, panels, pickets, rails, gates, hardware priced per job</li>
               <li>Lasso circle map selector — build tight geographic crew routes fast</li>
-              <li>Job Board tracking with automatic work-due flags</li>
+              <li>Pending Jobs Board tracking with automatic work-due flags</li>
               <li>Deposits and progress billing tracked per job automatically</li>
               <li>True inbound/outbound SMS inbox organized by customer</li>
               <li>from $59/month flat — add 20 employees, price doesn&apos;t change</li>
@@ -246,7 +246,7 @@ export default function VsJobber() {
             </div>
             <div style={{marginTop:'16px', background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px'}}>
               <div style={{color:'var(--orange)', fontSize:'13px', fontWeight:700, marginBottom:'8px'}}>FenceBossPro also includes things Jobber doesn&apos;t:</div>
-              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Linear-Foot Takeoffs by Fence Type<br />✓ Materials &amp; Parts Lists<br />✓ Lasso Circle Map Job Selector<br />✓ Job Board &amp; Crew Dispatch<br />✓ Deposits &amp; Progress Billing</div>
+              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', lineHeight:2}}>✓ Linear-Foot Takeoffs by Fence Type<br />✓ Materials &amp; Parts Lists<br />✓ Lasso Circle Map Job Selector<br />✓ Pending Jobs Board &amp; Crew Dispatch<br />✓ Deposits &amp; Progress Billing</div>
             </div>
           </div>
         </div>
@@ -298,7 +298,7 @@ export default function VsJobber() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your fence types and materials, import clients and properties, connect payments, set up your SMS alerts — most owners are fully operational the same day. No onboarding call, no implementation consultant, no 90-day timeline to get started.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>Built Around the Dispatch Board</h3><p>Everything flows through the dispatch board — Job Board, scheduling, map, dispatch, materials list. It&apos;s designed the way a fence business thinks about its day. Not the way a plumber or cleaning company would.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>Built Around the Dispatch Board</h3><p>Everything flows through the dispatch board — Pending Jobs Board, scheduling, map, dispatch, materials list. It&apos;s designed the way a fence business thinks about its day. Not the way a plumber or cleaning company would.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Crews Are Up and Running Fast</h3><p>The mobile app shows your crews exactly what they need — today&apos;s jobs, the property notes, the materials list, the complete button. No training videos, no IT ticket, no confused crew. They&apos;re using it on day one.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Automation That Actually Runs</h3><p>SMS alerts, estimate follow-ups, payment reminders, review requests — set them up once and FenceBossPro runs them every time, automatically. You&apos;re not babysitting automations or configuring Zapier workflows.</p></div>
         </div>
@@ -314,9 +314,9 @@ export default function VsJobber() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
-            <div className="price-period">per month — flat</div>
-            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. No tiers, no per-seat fees, no locked features.</div>
+            <div className="price-amount"><sup>$</sup>59</div>
+            <div className="price-period">per month, starting</div>
+            <div className="price-desc">Every feature. Unlimited clients, properties, employees, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>

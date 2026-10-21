@@ -228,7 +228,7 @@ export default function FenceDispatchSoftware() {
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
         <div className="hero-stats">
-          <div><div className="hero-stat-val">Lin Ft</div><div className="hero-stat-lbl">Job Board Totals Per Material</div></div>
+          <div><div className="hero-stat-val">Lin Ft</div><div className="hero-stat-lbl">Pending Jobs Board Totals Per Material</div></div>
           <div><div className="hero-stat-val">$59</div><div className="hero-stat-lbl">Flat Monthly — No Add-Ons</div></div>
           <div><div className="hero-stat-val">500+</div><div className="hero-stat-lbl">SMS Alerts Included Monthly</div></div>
           <div><div className="hero-stat-val">2006</div><div className="hero-stat-lbl">In the Trades Since</div></div>
@@ -243,7 +243,7 @@ export default function FenceDispatchSoftware() {
           height={800}
           fetchPriority="high"
           decoding="async"
-          alt="FenceBossPro fence dispatch software dashboard on laptop showing the job board and linear-foot estimate builder, with the crew mobile app on a phone"
+          alt="FenceBossPro fence dispatch software dashboard on laptop showing the Pending Jobs board and linear-foot estimate builder, with the crew mobile app on a phone"
           style={{maxWidth:'1100px', width:'100%', borderRadius:'16px', boxShadow:'0 32px 80px rgba(0,0,0,.5)', display:'block', margin:'0 auto'}}
         />
       </div>
@@ -326,7 +326,7 @@ export default function FenceDispatchSoftware() {
         <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(240px, 1fr))', gap:'24px', maxWidth:'1100px', margin:'0 auto'}}>
           {[
             {n:'01', title:'Set Up in One Afternoon', body:'Add your fence styles and materials, import your clients and properties, set up your automated alerts, and connect Stripe — most owners are fully operational the same day they sign up. No implementation consultant, no onboarding call, no 90-day setup timeline.'},
-            {n:'02', title:'One Screen Does Everything', body:'Estimates, scheduling, dispatch, the job board, map, and materials list are all connected. You\'re not jumping between five different modules or browser tabs. Pull up the dispatch board and everything you need for the day is right there in a single view.'},
+            {n:'02', title:'One Screen Does Everything', body:'Estimates, scheduling, dispatch, the Pending Jobs board, map, and materials list are all connected. You\'re not jumping between five different modules or browser tabs. Pull up the dispatch board and everything you need for the day is right there in a single view.'},
             {n:'03', title:'Your Crews Learn It in Minutes', body:'The mobile app your crews use shows them exactly what they need and nothing they don\'t. The day\'s installs and repairs, the property info, the material takeoff, the job notes, and the complete button. No training videos, no IT ticket, no frustrated crew members.'},
             {n:'04', title:'Automation Runs Without You', body:'Set up your SMS alerts, estimate follow-ups, deposit requests, and payment reminders once. After that, FenceBossPro handles every notification, every follow-up, and every review request automatically — whether you\'re on a job site, at home, or on vacation.'},
           ].map(({n, title, body}) => (
@@ -367,7 +367,7 @@ export default function FenceDispatchSoftware() {
             {icon:'📐', title:'Linear-Foot Estimates', body:'Build a fence bid by the linear foot with your style catalog — wood, vinyl, chain link, aluminum, ornamental. Itemize posts, panels, pickets, rails, concrete, gates, and hardware, email it from the platform, and let clients accept with one click.'},
             {icon:'📦', title:'Materials &amp; Parts Lists', body:'Every job carries a full takeoff: post count, panel or picket count, rail footage, bags of concrete, gate kits, and hardware. Know exactly what to load before the crew leaves and what to reorder before you run short.'},
             {icon:'🗺️', title:'Live Dispatch Map', body:'See every scheduled install, repair, and gate job pinned on an interactive map. Drag to reorder stops, build tight geographic routes, and cut drive time before your crew ever leaves the yard.'},
-            {icon:'📋', title:'The Job Board', body:'Every open fence job in one board — sold, scheduled, in progress, and complete. Filter by job type, crew, or status, and see total linear footage and contract value waiting before you plan a single day.'},
+            {icon:'📋', title:'The Pending Jobs board', body:'Every open fence job in one board — sold, scheduled, in progress, and complete. Filter by job type, crew, or status, and see total linear footage and contract value waiting before you plan a single day.'},
             {icon:'🚪', title:'Gate &amp; Repair Tracking', body:'Track gate builds and fence repairs as their own job types, with the specific posts, hinges, latches, and hardware each one needs. Nothing about a gate call gets buried inside a full install record.'},
             {icon:'💬', title:'Automated Job Alerts', body:'Automatically text customers when an install is scheduled, when your crew is on the way, and when the job is done. Set it once — FenceBossPro handles the communication for every single job.'},
             {icon:'💰', title:'Estimates That Close', body:'Build a fence estimate in minutes, email it directly from the platform, and let clients accept and sign off with one click. Auto-follow-ups go out if they don\'t respond.'},
@@ -404,9 +404,9 @@ export default function FenceDispatchSoftware() {
           <div className="highlight-text">
             <span className="section-label">Fence Scheduling &amp; Dispatch</span>
             <h2>Know Exactly How Much Work Is Waiting Before You Dispatch a Single Crew</h2>
-            <p>This is the feature no other fence software has. FenceBossPro&apos;s job board doesn&apos;t just show you which jobs are sold &mdash; it shows you the total linear footage broken down by fence type and the materials each job needs, so you know exactly how much you can install in a day before you start planning. For a closer look at how the job board runs the daily operation for a fence contractor, read <a href="/blogs/fence-crew-dispatch-software-complete-guide" style={{color:'var(--orange)', fontWeight:600}}>Fence Crew and Dispatch Software: The Complete Guide for Fence Contractors</a>.</p>
+            <p>This is the feature no other fence software has. FenceBossPro&apos;s Pending Jobs board doesn&apos;t just show you which jobs are sold &mdash; it shows you the total linear footage broken down by fence type and the materials each job needs, so you know exactly how much you can install in a day before you start planning. For a closer look at how the Pending Jobs board runs the daily operation for a fence contractor, read <a href="/blogs/fence-crew-dispatch-software-complete-guide" style={{color:'var(--orange)', fontWeight:600}}>Fence Crew and Dispatch Software: The Complete Guide for Fence Contractors</a>.</p>
             <ul className="check-list">
-              <li>Job board grouped by fence type with linear-ft totals</li>
+              <li>Pending Jobs board grouped by fence type with linear-ft totals</li>
               <li>Dispatch directly from the board in one click</li>
               <li>Assign date, crew, and truck at scheduling time</li>
               <li>Full dispatch board for the day&apos;s scheduled installs</li>
@@ -417,7 +417,7 @@ export default function FenceDispatchSoftware() {
             </ul>
           </div>
           <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Job Board — By Fence Type</div>
+            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Pending Jobs Board — By Fence Type</div>
             <div style={{background:'rgba(255,255,255,.07)', border:'1px solid rgba(255,255,255,.1)', borderRadius:'8px', padding:'12px 14px', marginBottom:'10px', display:'flex', alignItems:'center', gap:'12px'}}>
               <div style={{width:'10px', height:'10px', borderRadius:'50%', background:'#22c55e', flexShrink:0}}></div>
               <div style={{flex:1}}><div style={{color:'rgba(255,255,255,.85)', fontSize:'13px', fontWeight:600}}>Wood Privacy</div><div style={{color:'rgba(255,255,255,.45)', fontSize:'11px', marginTop:'1px'}}>12 jobs waiting</div></div>
@@ -508,14 +508,14 @@ export default function FenceDispatchSoftware() {
           <div className="lc-price-card featured">
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>59</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
-            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, employees, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Employees &amp; Users</li>
               <li>Full Scheduling, Dispatch &amp; Route Map</li>
-              <li>Job Board by Fence Type with Linear-Ft Totals</li>
+              <li>Pending Jobs Board by Fence Type with Linear-Ft Totals</li>
               <li>Line-Item Estimates, Invoices &amp; Stripe Payments</li>
               <li>Deposits &amp; Progress Billing</li>
               <li>Two-Way SMS &amp; Automated Alerts</li>
@@ -536,8 +536,8 @@ export default function FenceDispatchSoftware() {
           <span className="section-label">FAQ</span>
           <h2 className="section-title" style={{marginBottom:'48px'}}>Fence Crew &amp; Dispatch Software — Common Questions</h2>
           {[
-            {q:'Is FenceBossPro built for fence businesses?', a:'Yes. FenceBossPro handles the full fence operation: linear-foot estimates, material takeoffs, install and repair scheduling, crew dispatch, the job board, estimate-to-job conversion, automated customer SMS, deposits, and card-on-file payments. It\'s designed for fence contractors, not general service businesses.'},
-            {q:'Can I manage wood, vinyl, chain link, aluminum, and ornamental fence in one platform?', a:'Yes. FenceBossPro supports every fence type from one account, with the job board grouped by style. You can run wood privacy, vinyl, chain link, aluminum, ornamental, gate builds, and repair jobs side by side, each with its own materials and pricing.'},
+            {q:'Is FenceBossPro built for fence businesses?', a:'Yes. FenceBossPro handles the full fence operation: linear-foot estimates, material takeoffs, install and repair scheduling, crew dispatch, the Pending Jobs board, estimate-to-job conversion, automated customer SMS, deposits, and card-on-file payments. It\'s designed for fence contractors, not general service businesses.'},
+            {q:'Can I manage wood, vinyl, chain link, aluminum, and ornamental fence in one platform?', a:'Yes. FenceBossPro supports every fence type from one account, with the Pending Jobs board grouped by style. You can run wood privacy, vinyl, chain link, aluminum, ornamental, gate builds, and repair jobs side by side, each with its own materials and pricing.'},
             {q:'How does crew dispatch work for fence jobs?', a:'You open the circle-map lasso tool, draw a circle around an area, and every open install, repair, and gate job inside is selected and added to a crew\'s day. Linear-foot totals, stop count, and contract value update in real time. Crew planning that takes 30 minutes in a spreadsheet takes 5 minutes on the map.'},
             {q:'Does FenceBossPro track materials and parts?', a:'Yes. Every job carries a full takeoff — posts, panels, pickets, rails, concrete, gate kits, and hardware — generated from the linear-foot estimate. You can mark items ordered, received, and loaded, and print a load sheet for each crew and trailer.'},
             {q:'Can I collect deposits and bill in stages?', a:'Yes. Collect a deposit before you order materials, bill progress draws on larger jobs, and charge the balance the day the fence is finished. The full Stripe integration stores cards on file and tracks what\'s collected and owed on every contract.'},

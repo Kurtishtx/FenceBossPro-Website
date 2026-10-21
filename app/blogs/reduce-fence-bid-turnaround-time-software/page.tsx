@@ -65,7 +65,7 @@ export default function Page() {
           A fast estimate only helps if the rest of the workflow keeps pace. The moment a customer
           approves the bid, FenceBossPro turns it into a scheduled job &mdash; no retyping the
           materials, no rebuilding the line items. The accepted estimate flows straight onto the
-          Job Board, where you assign a crew, set the install date, and dispatch and route the team
+          Pending Jobs Board, where you assign a crew, set the install date, and dispatch and route the team
           to the property with the address and job details already attached. Your office is not
           copying numbers between a quote and a work order; it is one record from first measurement
           to final invoice. That continuity is what lets a small fence company quote more jobs per
@@ -92,7 +92,7 @@ export default function Page() {
           day to day, read{' '}
           <a href="/blogs/fence-installation-crew-mobile-app">In the Field: How Crews Use Fence Software on Their Phones at the Job Site</a>,
           which walks through measuring, pricing, and updating jobs without ever returning to the
-          office. When the takeoff, the materials catalog, the Job Board, and payments all live in
+          office. When the takeoff, the materials catalog, the Pending Jobs board, and payments all live in
           one connected{' '}
           <a href="/fence-installation-software">fence installation software</a> platform, your bid
           turnaround stops being a bottleneck and starts being a competitive advantage. The company

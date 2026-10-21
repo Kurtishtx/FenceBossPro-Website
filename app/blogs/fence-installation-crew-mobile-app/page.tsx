@@ -21,9 +21,9 @@ export default function Page() {
           actually looks like on a normal install day.
         </p>
 
-        <h2>The Day Starts on the Job Board, Not in the Parking Lot</h2>
+        <h2>The Day Starts on the Pending Jobs board, Not in the Parking Lot</h2>
         <p>
-          Before the truck rolls, the lead opens FenceBossPro on their phone and sees the day laid out on the Job Board: which
+          Before the truck rolls, the lead opens FenceBossPro on their phone and sees the day laid out on the Pending Jobs board: which
           properties, in what order, and what kind of work each one is&mdash;a full cedar privacy install, a chain link repair, a
           gate swap. The route is already built, so nobody is standing in the lot arguing about whether to hit the north-side job
           first. Tapping a job opens everything tied to it: the address with a one-tap map link, the gate code, the &quot;watch the
@@ -90,7 +90,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence installation software, fence crew mobile app, fence field service software, fence job board, fence material list software, fence invoicing software</div>
+        <div className="blog-keywords">Keywords: fence installation software, fence crew mobile app, fence field service software, fence Pending Jobs board, fence material list software, fence invoicing software</div>
       </article>
     </BlogShell>
   );

@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Tracking Post-Setting and Concrete on Multi-Day Fence Jobs | FenceBossPro',
-  description: 'See how FenceBossPro tracks post-setting, concrete cure days, and material across multi-day fence jobs with the Job Board, dispatch, and progress billing.',
+  description: 'See how FenceBossPro tracks post-setting, concrete cure days, and material across multi-day fence jobs with the Pending Jobs board, dispatch, and progress billing.',
 };
 
 export default function Page() {
@@ -26,7 +26,7 @@ export default function Page() {
         <p>
           A fence install is not a single visit, so FenceBossPro does not treat it like one. When an approved estimate
           becomes a job, you break it into the stages your crews actually work&mdash;layout and post-setting, the
-          concrete cure window, then panel or fabric installation and gate hangs. Each stage lands on the Job Board as
+          concrete cure window, then panel or fabric installation and gate hangs. Each stage lands on the Pending Jobs board as
           its own dated block tied to the same property and customer profile. Your crew sees &quot;Day 1: set 38
           posts, pour concrete&quot; and &quot;Day 3: hang 6 sections, install drive gate&quot; as separate cards,
           not one vague all-day entry. That structure is what makes the cure day visible instead of something a
@@ -38,7 +38,7 @@ export default function Page() {
           Concrete is the part of the job software usually ignores, and it is the part that wrecks calendars. Most
           crews want a post mix to set up before they hang weight on a fence, and on a big run that is a real day on
           the calendar. In FenceBossPro you schedule the finish stage with a gap after the post-setting day, so the
-          Job Board physically holds that space open. The cure window shows on the calendar as a blocked period on
+          Pending Jobs Board physically holds that space open. The cure window shows on the calendar as a blocked period on
           that job, which means a dispatcher trying to slot the next install can see the property is mid-cure and
           route the crew somewhere else. You stop relying on memory and start letting the schedule enforce the wait.
         </p>
@@ -95,7 +95,7 @@ export default function Page() {
         <div className="blog-cta-box">
           <h3>Run multi-day fence jobs without the cure-day chaos</h3>
           <p>
-            FenceBossPro stages your post-setting, concrete cure, and finish work on the Job Board, dispatches the
+            FenceBossPro stages your post-setting, concrete cure, and finish work on the Pending Jobs board, dispatches the
             right crew to each day, and bills the deposit and progress against a card on file.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>

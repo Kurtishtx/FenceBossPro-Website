@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'How to Keep Fence Repair Calls From Blowing Up Your Install Schedule | FenceBossPro',
-  description: 'Use FenceBossPro to slot fence repair calls into your install schedule with the Job Board, crew dispatch, and routing&mdash;without wrecking your big projects.',
+  description: 'Use FenceBossPro to slot fence repair calls into your install schedule with the Pending Jobs board, crew dispatch, and routing&mdash;without wrecking your big projects.',
 };
 
 export default function Page() {
@@ -32,9 +32,9 @@ export default function Page() {
           bring the right panels&quot; trip back to the yard that quietly eats an afternoon.
         </p>
 
-        <h2>Use the Job Board to See Real Capacity</h2>
+        <h2>Use the Pending Jobs board to See Real Capacity</h2>
         <p>
-          The reason repairs blow up an install schedule is that nobody can see the whole week at once. The Job Board
+          The reason repairs blow up an install schedule is that nobody can see the whole week at once. The Pending Jobs board
           lays out every install, repair, and gate call across your crews and days so open gaps are obvious. When a
           repair comes in, you drag it onto the board into a real slot instead of promising &quot;sometime this
           week&quot; and hoping. You can color-code installs separately from service calls, so at a glance you know
@@ -88,11 +88,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Run Repairs and Installs on One Schedule</h3>
-          <p>FenceBossPro gives fence contractors estimates, materials, the Job Board, crew dispatch, and card-on-file payments so repair calls fit in&mdash;without blowing up your installs.</p>
+          <p>FenceBossPro gives fence contractors estimates, materials, the Pending Jobs board, crew dispatch, and card-on-file payments so repair calls fit in&mdash;without blowing up your installs.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, fence repair scheduling, fence job board software, fence crew dispatch, fence estimating software, fence invoicing software</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, fence repair scheduling, fence Pending Jobs board software, fence crew dispatch, fence estimating software, fence invoicing software</div>
       </article>
     </BlogShell>
   );

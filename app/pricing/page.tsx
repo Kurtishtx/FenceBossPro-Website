@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import PlanCompare from '../components/PlanCompare';
 import Navbar from '../components/Navbar';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
@@ -126,7 +127,7 @@ const tableRows = [
   ['Linear-Foot Takeoffs', 'Measure fence runs and total linear feet before you build a bid'],
   ['Live Route Map', 'Interactive map with all jobs pinned — drag to reorder'],
   ['Materials & Parts Tracking', 'Log posts, panels, pickets, rails, concrete, gates, and hardware per job'],
-  ['Job Board', 'See every job at a glance — measured, bid, scheduled, in progress, done'],
+  ['Pending Jobs Board', 'See every job at a glance — measured, bid, scheduled, in progress, done'],
   ['Line-Item Estimates', 'Build, email, and track fence bids with a materials catalog'],
   ['Invoices & Payments', 'Stripe card-on-file billing, payment history, partial payments'],
   ['Two-Way SMS Inbox', 'Send and receive texts with customers inside the app'],
@@ -185,7 +186,7 @@ export default function Pricing() {
       <div className="hero">
         <div className="hero-badge">Simple, Honest Pricing</div>
         <h1>From $59/Month.<br /><span>Every Feature Included.</span></h1>
-        <p>One flat price covers your entire operation — unlimited users, unlimited clients, every feature. No tiers, no add-ons, no surprises.</p>
+        <p>One flat price covers your entire operation — unlimited users, unlimited clients, every feature. Three plans, from $59. No add-ons, no surprises.</p>
         <p style={{color:'rgba(255,255,255,.45)',fontSize:'14px',marginBottom:'10px'}}>14-day free trial · No credit card required · Cancel anytime</p>
         <p style={{color:'rgba(255,255,255,.7)',fontSize:'14px',marginBottom:'40px'}}>Works in the US, Canada, Australia, New Zealand and the UK — bills your customers in your own currency.</p>
         <div className="hero-btns">
@@ -193,29 +194,11 @@ export default function Pricing() {
         </div>
       </div>
 
-      {/* PRICE CARD */}
-      <section>
-        <div style={{background:'#fff',border:'3px solid var(--orange)',borderRadius:'20px',padding:'52px 48px',maxWidth:'620px',margin:'0 auto',position:'relative',boxShadow:'0 0 0 6px rgba(43,108,163,.1), 0 24px 80px rgba(15,23,32,.12)'}}>
-          <div style={{position:'absolute',top:'-16px',left:'50%',transform:'translateX(-50%)',background:'var(--orange)',color:'#fff',fontSize:'12px',fontWeight:700,letterSpacing:'1px',textTransform:'uppercase',padding:'5px 20px',borderRadius:'20px',whiteSpace:'nowrap'}}>One Plan — No Surprises</div>
-          <div style={{fontSize:'13px',fontWeight:700,color:'var(--muted)',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'10px'}}>FenceBossPro</div>
-          <div style={{fontSize:'72px',fontWeight:800,color:'var(--text)',lineHeight:1}}><sup style={{fontSize:'30px',verticalAlign:'super'}}>$</sup>129</div>
-          <div style={{color:'var(--muted)',fontSize:'15px',marginBottom:'8px',marginTop:'6px'}}>per month</div>
-          <div style={{fontSize:'16px',color:'var(--text)',fontWeight:600,marginBottom:'32px'}}>Your entire fence contracting operation. One price.</div>
-          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:'10px 24px',marginBottom:'36px',textAlign:'left'}}>
-            {['Unlimited Users','Unlimited Clients','Unlimited Properties','Unlimited Leads','Scheduling & Dispatch','Live Route Map','Linear-Foot Takeoffs','Materials & Parts Tracking','Estimates & Invoices','Stripe Payments','Two-Way SMS Inbox','Automated Alerts','Deposits & Progress Billing','Mobile App for Installers','Job Board','Role-Based Access','Truck Management','Hour Tracking','Review Requests','Dashboard & Reports'].map((item,i) => (
-              <div key={i} style={{display:'flex',alignItems:'center',gap:'8px',fontSize:'14px',color:'var(--text)'}}>
-                <span style={{color:'var(--orange)',fontWeight:700,flexShrink:0,fontSize:'15px'}}>✓</span>{item}
-              </div>
-            ))}
-          </div>
-          <hr style={{border:'none',borderTop:'1.5px solid var(--border)',margin:'28px 0'}} />
-          <div style={{background:'var(--light-bg)',border:'1.5px solid var(--border)',borderRadius:'10px',padding:'16px 20px',fontSize:'14px',color:'var(--muted)',marginBottom:'28px',lineHeight:1.6}}>
-            <strong style={{color:'var(--text)'}}>500 texts/month included, sent and received (US &amp; Canada).</strong> Need more? Add blocks of 500 for <strong style={{color:'var(--text)'}}>$15 each</strong>. Most businesses never exceed the included 500. The SMS credit rolls month to month — you only pay when you actually use it.
-          </div>
-          <button className="btn-primary" style={{width:'100%',fontSize:'16px',padding:'16px'}} onClick={(e) => openSignupModal(1, e.currentTarget as HTMLElement)}>Start Your 14-Day Free Trial</button>
-          <p style={{textAlign:'center',color:'var(--muted)',fontSize:'13px',marginTop:'14px'}}>No credit card required. No contracts. Cancel anytime.</p>
-        </div>
-      </section>
+      {/* PLANS - the shared three-plan table, same component the other sites use.
+          It replaced a single "$129 flat, no tiers" card that outlived the move to three
+          plans on 2026-09-02, while the FAQ and schema on this same page already said
+          $59-$199. */}
+      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
 
       {/* PAIN BAND */}
       <div style={{background:'linear-gradient(135deg,#0f1720 0%,#1f2d3d 100%)',padding:'80px 40px',textAlign:'center'}}>

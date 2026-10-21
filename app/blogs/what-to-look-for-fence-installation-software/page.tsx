@@ -45,11 +45,11 @@ export default function Page() {
           wasn&apos;t built for contractors who buy by the bundle.
         </p>
 
-        <h2>3. Job and Project Scheduling With a Job Board</h2>
+        <h2>3. Job and Project Scheduling With a Pending Jobs Board</h2>
         <p>
           A fence job isn&apos;t one visit&mdash;it&apos;s often a measure, a dig-and-set day for posts and
           concrete, then a return trip to hang panels and gates once the concrete cures. Your software needs
-          scheduling that respects that sequence. Look for a visual Job Board where every project sits in a
+          scheduling that respects that sequence. Look for a visual Pending Jobs Board where every project sits in a
           column you can drag from &quot;to be scheduled&quot; to &quot;posts set&quot; to &quot;ready to
           finish&quot; to &quot;complete.&quot; That board is how you keep a busy backlog moving without anything
           slipping through the cracks. If you want to go deeper on that, our post on{' '}

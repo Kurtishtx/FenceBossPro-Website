@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Setting Up Fence Scheduling Software in Your First Week: A Step-by-Step Start | FenceBossPro',
-  description: 'A first-week setup plan for fence scheduling software: load crews, jobs, and materials into FenceBossPro so your Job Board runs your fencing business by Friday.',
+  description: 'A first-week setup plan for fence scheduling software: load crews, jobs, and materials into FenceBossPro so your Pending Jobs Board runs your fencing business by Friday.',
 };
 
 export default function Page() {
@@ -17,7 +17,7 @@ export default function Page() {
           truly using a tool is where most fence contractors stall. The good news is that you do not need a month
           of setup to get value out of FenceBossPro. With a focused first week &mdash; an hour or so a day &mdash;
           you can have your crews, your open fence projects, your materials list, and your customer texts all live
-          on one Job Board. Here is a day-by-day plan to go from empty account to a schedule that runs itself.
+          on one Pending Jobs Board. Here is a day-by-day plan to go from empty account to a schedule that runs itself.
         </p>
 
         <h2>Day 1: Set Up Your Company and Crews</h2>
@@ -27,7 +27,7 @@ export default function Page() {
           a post-setting team plus a finish team, build each crew now and give it the people who actually ride on
           it. This is what makes crew dispatch and routing work later: when you assign a wood, vinyl, chain link,
           or ornamental aluminum job to a crew, the software already knows who is on it and where they start the
-          day. Spend ten extra minutes setting realistic daily capacity per crew so the Job Board does not let you
+          day. Spend ten extra minutes setting realistic daily capacity per crew so the Pending Jobs board does not let you
           overbook a single team across three jobs.
         </p>
 
@@ -53,7 +53,7 @@ export default function Page() {
           knows what each job consumes before a crew ever loads the truck.
         </p>
 
-        <h2>Day 4: Load Your Open Jobs onto the Job Board</h2>
+        <h2>Day 4: Load Your Open Jobs onto the Pending Jobs board</h2>
         <p>
           Now put your real work into the system. Take every signed and in-progress fence project and create it in
           FenceBossPro, attaching the estimate and materials you set up the day before. Drop each one on the Job
@@ -80,7 +80,7 @@ export default function Page() {
         <h2>Weekend: Run a Test Job and Go Live</h2>
         <p>
           Before you lean on the system for real, walk one job all the way through. Build a sample estimate from a
-          template, drop it on the Job Board, assign a crew, fire the customer text to your own phone, and run a
+          template, drop it on the Pending Jobs board, assign a crew, fire the customer text to your own phone, and run a
           test invoice. Seeing the full path &mdash; bid, schedule, dispatch, text, payment &mdash; gives you and
           your crew the confidence to trust it Monday morning. After that, the daily habit is simple: open the Job
           Board, confirm the day&apos;s fence work, and let the software handle the reminders and routing. To see
@@ -91,11 +91,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Get Your Fence Business Running on FenceBossPro This Week</h3>
-          <p>FenceBossPro puts your estimates, materials, crews, scheduling, customer texts, and payments on one Job Board so your fencing business runs without the whiteboard.</p>
+          <p>FenceBossPro puts your estimates, materials, crews, scheduling, customer texts, and payments on one Pending Jobs Board so your fencing business runs without the whiteboard.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software setup, fencing software first week, fence job board, fence crew dispatch software, fence estimate templates, fencing software onboarding</div>
+        <div className="blog-keywords">Keywords: fence scheduling software setup, fencing software first week, fence Pending Jobs board, fence crew dispatch software, fence estimate templates, fencing software onboarding</div>
       </article>
     </BlogShell>
   );

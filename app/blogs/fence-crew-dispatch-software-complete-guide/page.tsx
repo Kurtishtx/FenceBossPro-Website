@@ -47,10 +47,10 @@ export default function Page() {
           when you reconcile the job cost at the end.
         </p>
 
-        <h2>Schedule Projects and Run the Job Board</h2>
+        <h2>Schedule Projects and Run the Pending Jobs board</h2>
         <p>
           A fence install isn&apos;t a single visit. There&apos;s often a dig day, a set day, and a
-          panel or gate day, sometimes with a concrete cure in between. The software&apos;s Job Board
+          panel or gate day, sometimes with a concrete cure in between. The software&apos;s Pending Jobs Board
           gives you a clear view of every project and its stage, so you can see which jobs are ready
           to set, which are waiting on materials, and which are buttoned up and ready to invoice.
           You drag a multi-day install across the calendar, block out the cure time, and the

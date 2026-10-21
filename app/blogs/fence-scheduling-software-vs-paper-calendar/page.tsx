@@ -13,7 +13,7 @@ export default function Page() {
         <p className="blog-silo-pill" style={{margin:"2px 0 22px"}}><a href="/fence-scheduling-software" style={{display:"inline-block",background:"#e7eef5",color:"#1f5680",fontWeight:700,fontSize:"13.5px",padding:"8px 16px",borderRadius:"20px",textDecoration:"none",border:"1px solid #c3d4e3"}}>&#128203; More Fence Scheduling Software guides &rarr;</a></p>
         <h1>Fence Scheduling Software vs. the Whiteboard: Why Fence Crews Outgrow Paper Calendars</h1>
         <p>
-          Almost every fence company starts the same way: a whiteboard on the shop wall, a wall calendar by the phone, or a notebook in the truck. For one crew and a handful of jobs, it works. But fencing is project work &mdash; multi-day wood and vinyl builds, chain link runs waiting on fabric, ornamental aluminum sections on backorder, gate repairs squeezed between installs. The minute you run two crews and a backlog, the whiteboard stops being a schedule and starts being a guess. FenceBossPro replaces that wall with a live Job Board that knows your materials, your crews, and your customers. Here is why fence crews outgrow paper and what they gain when they move.
+          Almost every fence company starts the same way: a whiteboard on the shop wall, a wall calendar by the phone, or a notebook in the truck. For one crew and a handful of jobs, it works. But fencing is project work &mdash; multi-day wood and vinyl builds, chain link runs waiting on fabric, ornamental aluminum sections on backorder, gate repairs squeezed between installs. The minute you run two crews and a backlog, the whiteboard stops being a schedule and starts being a guess. FenceBossPro replaces that wall with a live Pending Jobs Board that knows your materials, your crews, and your customers. Here is why fence crews outgrow paper and what they gain when they move.
         </p>
 
         <h2>A Whiteboard Doesn&apos;t Know What&apos;s on the Trailer</h2>
@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Multi-Day Builds the Whiteboard Can&apos;t Hold</h2>
         <p>
-          A wall calendar treats every job as a single box on a single day. Fencing rarely works that way. A 300-foot vinyl install might be dig and set posts on Monday, cure Tuesday, hang panels Wednesday, and hang gates Thursday &mdash; weather permitting. Try drawing that on a whiteboard and you end up with arrows and erased squares nobody trusts. FenceBossPro schedules a project across the days it actually takes, holds the crew on it, and shows the whole span on the Job Board. When rain pushes the post-set a day, you slide the job and the rest of the sequence shifts with it. You can see at a glance what is bid, what is scheduled, what is in progress, and what is waiting on material delivery &mdash; not just what is &quot;on Tuesday.&quot;
+          A wall calendar treats every job as a single box on a single day. Fencing rarely works that way. A 300-foot vinyl install might be dig and set posts on Monday, cure Tuesday, hang panels Wednesday, and hang gates Thursday &mdash; weather permitting. Try drawing that on a whiteboard and you end up with arrows and erased squares nobody trusts. FenceBossPro schedules a project across the days it actually takes, holds the crew on it, and shows the whole span on the Pending Jobs board. When rain pushes the post-set a day, you slide the job and the rest of the sequence shifts with it. You can see at a glance what is bid, what is scheduled, what is in progress, and what is waiting on material delivery &mdash; not just what is &quot;on Tuesday.&quot;
         </p>
 
         <h2>Crew Dispatch and Routing Fall Out of the Schedule</h2>
@@ -47,12 +47,12 @@ export default function Page() {
         </p>
 
         <div className="blog-cta-box">
-          <h3>Trade the whiteboard for a live fence Job Board</h3>
+          <h3>Trade the whiteboard for a live fence Pending Jobs Board</h3>
           <p>FenceBossPro schedules your fence jobs with materials, crews, dispatch, and customer texts attached to every one.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, fence job board, crew dispatch and routing, multi-day fence build scheduling, fence materials list, fence customer texts</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, fence Pending Jobs board, crew dispatch and routing, multi-day fence build scheduling, fence materials list, fence customer texts</div>
       </article>
     </BlogShell>
   );

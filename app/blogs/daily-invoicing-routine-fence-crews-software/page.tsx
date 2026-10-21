@@ -34,7 +34,7 @@ export default function Page() {
 
         <h2>Step One: Open the Job Card From the Field</h2>
         <p>
-          Every job your crew works that day already lives on the Job Board, dispatched and routed to the right address with
+          Every job your crew works that day already lives on the Pending Jobs board, dispatched and routed to the right address with
           the property profile attached. The first move in the routine is to open that job card on a phone before the tools
           get loaded. Inside it you&apos;ll find the original bid &mdash; the linear-foot takeoff, the material list, and the labor
           line you quoted. Because the estimate and the invoice share the same record, the lead installer isn&apos;t guessing

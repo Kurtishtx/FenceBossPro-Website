@@ -67,7 +67,7 @@ export default function Page() {
         <h2>From Consistent Bid to Scheduled Job</h2>
         <p>
           A consistent estimate is only valuable if it carries cleanly into the field. When a customer approves a bid,
-          that same record &mdash; with its takeoff, parts list, and pricing &mdash; moves onto the Job Board and gets
+          that same record &mdash; with its takeoff, parts list, and pricing &mdash; moves onto the Pending Jobs board and gets
           assigned to a crew. Dispatch and routing group the day&apos;s installs so crews spend their time setting posts
           instead of crossing the county, and the materials you bid are the materials that get staged and loaded. Nobody
           rebuilds the job from scratch, because the estimate already did the work. That hand-off from a standardized bid

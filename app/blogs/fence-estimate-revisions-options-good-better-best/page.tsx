@@ -75,7 +75,7 @@ export default function Page() {
           A signed tiered estimate is also a complete build sheet. Because the materials list lives inside the
           approved option, FenceBossPro knows precisely what to order: 22 line posts, 4 corner posts, 11 sections of
           6-foot vinyl privacy, two 4-foot walk gates, and the concrete to set it all. When the deposit clears, the
-          job moves to your Job Board, where you can drop it onto the schedule, assign a crew, and dispatch the route
+          job moves to your Pending Jobs Board, where you can drop it onto the schedule, assign a crew, and dispatch the route
           for install day. The estimator, the material order, and the crew assignment all point back to the same
           tier, so the team that shows up builds the fence the customer paid for &mdash; not the &quot;good&quot;
           version when they bought the &quot;best.&quot; Automated customer texts keep the homeowner posted on the

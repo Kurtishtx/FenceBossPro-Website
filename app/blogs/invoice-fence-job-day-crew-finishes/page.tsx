@@ -31,7 +31,7 @@ export default function Page() {
         <p>For the invoices that do not clear on the spot, automated text reminders go out on a schedule, so your office is not making awkward follow-up calls a week later. The reminders do the chasing for you.</p>
 
         <h2>Build the Same-Day Habit Into the Workflow</h2>
-        <p>Same-day invoicing is not about working harder at the end of the day &mdash; it is about wiring it into how the job already moves. When a crew marks a fence complete on the Job Board, that completion can be the trigger that surfaces the invoice for your review. You glance at the line items, confirm the field changes the crew logged, check the deposit math, and send. The job that just left the board becomes a sent invoice before the truck reaches the next stop.</p>
+        <p>Same-day invoicing is not about working harder at the end of the day &mdash; it is about wiring it into how the job already moves. When a crew marks a fence complete on the Pending Jobs board, that completion can be the trigger that surfaces the invoice for your review. You glance at the line items, confirm the field changes the crew logged, check the deposit math, and send. The job that just left the board becomes a sent invoice before the truck reaches the next stop.</p>
         <p>Tie that to client and property profiles and it gets even faster: the customer&apos;s contact info, billing history, and the card on file are all attached to the same record, so there is no hunting for a phone number or an email address. Everything you need to invoice lives in one place, which is the whole point of running on real <a href="/fence-business-software">fence business software</a> instead of a stack of spreadsheets and a shoebox of receipts.</p>
 
         <h2>Get Paid While the Fence Is Still Fresh</h2>
@@ -43,7 +43,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence invoicing software, same-day fence invoice, fence estimate to invoice, card-on-file fence payments, fence deposit and progress billing, fence job board invoicing</div>
+        <div className="blog-keywords">Keywords: fence invoicing software, same-day fence invoice, fence estimate to invoice, card-on-file fence payments, fence deposit and progress billing, fence Pending Jobs board invoicing</div>
       </article>
     </BlogShell>
   );

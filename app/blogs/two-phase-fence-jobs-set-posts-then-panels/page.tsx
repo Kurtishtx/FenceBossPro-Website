@@ -60,7 +60,7 @@ export default function Page() {
         <h2>Dispatching the right crew to each phase</h2>
         <p>
           The two phases often want different crews. Setting posts and pouring concrete is heavy, dig-and-pour
-          work; hanging panels and squaring gates is finish work. With the Job Board and crew dispatch in
+          work; hanging panels and squaring gates is finish work. With the Pending Jobs board and crew dispatch in
           FenceBossPro you can assign your auger-and-concrete crew to every Phase 1 visit for the week and
           your panel-and-gate crew to the Phase 2 visits, then route each crew so their stops line up
           geographically. Both crews see the same job file, the same site photos from the post-set, and the
@@ -105,7 +105,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, two-phase fence jobs, fence crew dispatch, fence project scheduling, fence job board, fence progress billing</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, two-phase fence jobs, fence crew dispatch, fence project scheduling, fence Pending Jobs board, fence progress billing</div>
       </article>
     </BlogShell>
   );

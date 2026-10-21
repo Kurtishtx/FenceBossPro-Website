@@ -41,9 +41,9 @@ export default function Page() {
           between what the customer agreed to and what the office books.
         </p>
 
-        <h2>The Job Board Keeps Approved Work Moving</h2>
+        <h2>The Pending Jobs board Keeps Approved Work Moving</h2>
         <p>
-          Once a fence job is scheduled, it lands on the Job Board, where your whole pipeline of approved work is visible
+          Once a fence job is scheduled, it lands on the Pending Jobs board, where your whole pipeline of approved work is visible
           at a glance. You can see what&apos;s ready to dispatch, what&apos;s waiting on a material delivery, what&apos;s in
           progress, and what&apos;s ready to invoice. For a fence company juggling tear-outs, new installs, and repairs in
           the same week, that single view is the difference between a smooth schedule and a crew sitting idle because the

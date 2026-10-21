@@ -16,9 +16,9 @@ export default function Page() {
           A backlog is a good problem to have &mdash; until it turns into a giant pile of approved estimates you cannot keep straight. You sold a 200-foot cedar privacy fence in March, the homeowner paid a deposit, and now it is June and they are calling to ask where they are in line. Meanwhile a chain link job cancels for Thursday, your crew has an open day, and the next-best job is buried somewhere in your inbox. Fencing runs on weather, material lead times, and deposits, so the backlog is never a simple first-come list. FenceBossPro turns that pile into a working waiting list &mdash; one that fills your open days from real, deposit-paid jobs without you digging through paperwork every morning.
         </p>
 
-        <h2>Your Backlog Lives on the Job Board, Not in Your Inbox</h2>
+        <h2>Your Backlog Lives on the Pending Jobs board, Not in Your Inbox</h2>
         <p>
-          The first fix is having the backlog in one place that actually means something. Every estimate you send in FenceBossPro becomes a record, and the moment a customer approves it and pays a deposit, that job moves into a ready-to-schedule state on the Job Board. It carries its full line-item detail with it: the linear-foot takeoff, the post and panel counts, the concrete, the gates, and the hardware. So your backlog is not a stack of PDFs &mdash; it is a list of buildable jobs, each one already priced and stocked out on paper. You can see at a glance what is approved and waiting, what is scheduled, and what is in progress, instead of guessing from memory who is next.
+          The first fix is having the backlog in one place that actually means something. Every estimate you send in FenceBossPro becomes a record, and the moment a customer approves it and pays a deposit, that job moves into a ready-to-schedule state on the Pending Jobs board. It carries its full line-item detail with it: the linear-foot takeoff, the post and panel counts, the concrete, the gates, and the hardware. So your backlog is not a stack of PDFs &mdash; it is a list of buildable jobs, each one already priced and stocked out on paper. You can see at a glance what is approved and waiting, what is scheduled, and what is in progress, instead of guessing from memory who is next.
         </p>
 
         <h2>A Waiting List That Sorts Itself</h2>
@@ -52,7 +52,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence install backlog, fence waiting list software, fence scheduling software, fill cancellations fence schedule, fence job board, fence deposit scheduling</div>
+        <div className="blog-keywords">Keywords: fence install backlog, fence waiting list software, fence scheduling software, fill cancellations fence schedule, fence Pending Jobs board, fence deposit scheduling</div>
       </article>
     </BlogShell>
   );

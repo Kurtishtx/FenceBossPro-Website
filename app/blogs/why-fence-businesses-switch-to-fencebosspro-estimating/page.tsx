@@ -56,7 +56,7 @@ export default function Page() {
         <h2>From Approved Bid to Scheduled Job</h2>
         <p>
           Generic estimating tools stop the moment the customer says yes &mdash; then you are back to texting crews and juggling a
-          paper calendar. FenceBossPro carries the approved estimate straight onto the Job Board. The materials list is already
+          paper calendar. FenceBossPro carries the approved estimate straight onto the Pending Jobs board. The materials list is already
           attached, so your crew lead knows the panel count and gate hardware before they load the trailer. You schedule the install,
           assign the crew, and dispatch them with routing that keeps drive time down across the day&apos;s stops. Tear-out, post
           setting, and panel hang can all live on the project timeline, so a multi-day fence build does not fall through the cracks

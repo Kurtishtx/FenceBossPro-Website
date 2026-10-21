@@ -48,7 +48,7 @@ export default function Page() {
         <h2>Scheduling and Dispatch Cut Dead Miles</h2>
         <p>
           A truck idling between job sites is the most expensive thing on your books&mdash;you are paying
-          crew wages and fuel for zero production. A shared job board and smart dispatch fix that. You see
+          crew wages and fuel for zero production. A shared Pending Jobs board and smart dispatch fix that. You see
           every install, repair, and gate call on one schedule, assign crews by skill and location, and
           route the day so the trucks aren&apos;t crossing town twice. Tighter routing means more billable
           fence in the ground per crew per day without hiring anyone. Squeezing one extra small job into

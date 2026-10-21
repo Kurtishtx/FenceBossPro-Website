@@ -18,12 +18,12 @@ export default function Page() {
 
         <h2>Bill the Job the Way You Actually Schedule It</h2>
         <p>
-          A multi-day fence build is already a sequence of distinct phases on your calendar: post-setting day, concrete cure window, then panel and gate installation. FenceBossPro lets you mirror that exact sequence in the billing schedule attached to the job. You break the bid into phases that match how the work is scheduled &mdash; a deposit at approval to cover the material order, a draw when posts are set, and the balance at completion &mdash; and each phase carries its own amount or percentage. Because the billing stages line up one-to-one with the install stages on your Job Board, there is no guessing about what to invoice or when. The schedule itself tells you which phase is up next, and the matching draw is already defined and ready to release.
+          A multi-day fence build is already a sequence of distinct phases on your calendar: post-setting day, concrete cure window, then panel and gate installation. FenceBossPro lets you mirror that exact sequence in the billing schedule attached to the job. You break the bid into phases that match how the work is scheduled &mdash; a deposit at approval to cover the material order, a draw when posts are set, and the balance at completion &mdash; and each phase carries its own amount or percentage. Because the billing stages line up one-to-one with the install stages on your Pending Jobs Board, there is no guessing about what to invoice or when. The schedule itself tells you which phase is up next, and the matching draw is already defined and ready to release.
         </p>
 
         <h2>Release Each Draw When the Phase Hits the Schedule</h2>
         <p>
-          The trigger for a progress draw is simple: a phase moves on the Job Board. When you dispatch your crew to set posts and that phase shows complete, FenceBossPro surfaces the draw tied to it so you can release the invoice the same day. There is no waiting until the whole job wraps to remember what was owed at the halfway point. As crew dispatch and routing move the project from one scheduled phase to the next, the software keeps the billing in lockstep &mdash; the posts-set draw fires when posts are done, the panel draw when panels go up. You are not reconstructing the timeline from memory at the end of the month. Each completed phase is a paid phase, and the schedule is the record of what happened and what it cost.
+          The trigger for a progress draw is simple: a phase moves on the Pending Jobs board. When you dispatch your crew to set posts and that phase shows complete, FenceBossPro surfaces the draw tied to it so you can release the invoice the same day. There is no waiting until the whole job wraps to remember what was owed at the halfway point. As crew dispatch and routing move the project from one scheduled phase to the next, the software keeps the billing in lockstep &mdash; the posts-set draw fires when posts are done, the panel draw when panels go up. You are not reconstructing the timeline from memory at the end of the month. Each completed phase is a paid phase, and the schedule is the record of what happened and what it cost.
         </p>
 
         <h2>Deposit First, Then the Phases Follow</h2>
@@ -33,7 +33,7 @@ export default function Page() {
 
         <h2>One Record Holds the Estimate, the Schedule, and Every Draw</h2>
         <p>
-          The reason this does not turn into a bookkeeping mess is that it all lives on a single job record. The line-item estimate, the linear-foot takeoff, the materials list, the phases on the Job Board, and every progress invoice are tied to the same client and property profile. When you open the job, you see exactly which phases are scheduled, which are done, which draws have been collected, and what balance remains &mdash; on one screen. No cross-referencing a paper calendar against a separate invoicing app and a texting thread. If a homeowner calls asking what they have paid and what is left, the answer is right there next to the schedule. The estimate, the work, and the money are never out of sync because they are never stored apart.
+          The reason this does not turn into a bookkeeping mess is that it all lives on a single job record. The line-item estimate, the linear-foot takeoff, the materials list, the phases on the Pending Jobs board, and every progress invoice are tied to the same client and property profile. When you open the job, you see exactly which phases are scheduled, which are done, which draws have been collected, and what balance remains &mdash; on one screen. No cross-referencing a paper calendar against a separate invoicing app and a texting thread. If a homeowner calls asking what they have paid and what is left, the answer is right there next to the schedule. The estimate, the work, and the money are never out of sync because they are never stored apart.
         </p>
 
         <h2>Customer Texts Keep Each Phase Payment Clean</h2>
@@ -48,11 +48,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Bill every fence phase as your crew completes it</h3>
-          <p>FenceBossPro ties progress draws to your Job Board, releasing each invoice against a card on file the moment a scheduled phase is done.</p>
+          <p>FenceBossPro ties progress draws to your Pending Jobs Board, releasing each invoice against a card on file the moment a scheduled phase is done.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, progress billing fence jobs, multi-day fence install scheduling, fence job board, card-on-file payments, fence phase billing</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, progress billing fence jobs, multi-day fence install scheduling, fence Pending Jobs board, card-on-file payments, fence phase billing</div>
       </article>
     </BlogShell>
   );

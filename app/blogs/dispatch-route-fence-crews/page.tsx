@@ -73,7 +73,7 @@ export default function Page() {
           property corners. Fewer locked gates and no-shows mean your routed day actually runs
           on the timeline you planned. If you want to move your whole operation off the wall and
           onto a live board, read{' '}
-          <a href="/blogs/run-fence-jobs-from-job-board">How to Run Your Fence Jobs From a Job Board Instead of a Whiteboard</a>{' '}
+          <a href="/blogs/run-fence-jobs-from-job-board">How to Run Your Fence Jobs From a Pending Jobs Board Instead of a Whiteboard</a>{' '}
           for the dispatch view that makes this possible.
         </p>
 
@@ -111,7 +111,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence crew dispatch software, fence job routing, fence scheduling software, fence business software, fence job board, fence crew management</div>
+        <div className="blog-keywords">Keywords: fence crew dispatch software, fence job routing, fence scheduling software, fence business software, fence Pending Jobs board, fence crew management</div>
       </article>
     </BlogShell>
   );

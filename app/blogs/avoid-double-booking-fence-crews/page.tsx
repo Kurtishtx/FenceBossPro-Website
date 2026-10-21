@@ -34,7 +34,7 @@ export default function Page() {
         <h2>One Shared Schedule for Both Kinds of Work</h2>
         <p>
           The fix starts with putting estimates and installs on the same calendar so they compete for the same crew hours in plain
-          sight. In FenceBossPro, an estimate appointment and an install both consume a block on the Job Board, tied to a specific
+          sight. In FenceBossPro, an estimate appointment and an install both consume a block on the Pending Jobs board, tied to a specific
           crew and a specific window. When you try to drop a measure on a morning that already has a footing-and-post job booked,
           the conflict is obvious before you commit it. You are no longer guessing whether the crew is free&mdash;you are looking
           at their actual day. The same view shows you the half-day gap where a quick gate repair could slide in without bumping a
@@ -91,7 +91,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, fence crew dispatch, fence estimate software, fence install scheduling, fencing job board, fence company routing software</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, fence crew dispatch, fence estimate software, fence install scheduling, fencing Pending Jobs board, fence company routing software</div>
       </article>
     </BlogShell>
   );

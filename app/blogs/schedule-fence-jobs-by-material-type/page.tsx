@@ -28,7 +28,7 @@ export default function Page() {
           The foundation is a crew profile that knows what each team is good at. In FenceBossPro
           you tag crews by material specialty &mdash; wood, vinyl, chain link, aluminum, ornamental,
           and gates &mdash; right alongside their certifications and equipment. When a wood
-          privacy install hits the Job Board, the software already knows which crews can dig and
+          privacy install hits the Pending Jobs board, the software already knows which crews can dig and
           set posts, rack pickets on grade, and hang a heavy double drive gate. Your vinyl
           specialists get matched to vinyl, your chain link crew to chain link, and nobody gets
           handed a job that fights their skill set. That single layer of structure is what turns a

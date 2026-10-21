@@ -31,9 +31,9 @@ export default function Page() {
           The first draw is the one that protects you most, because it lands before you spend a dime at the supplier. The cleanest setup captures a deposit the moment the estimate is approved and keeps a card on file from that point forward, which is exactly the workflow covered in <a href="/blogs/collect-deposit-before-ordering-fence-materials">How to Collect a Deposit Before You Order Fence Materials</a>. That deposit pays for the posts, panels, and hardware you are about to order, so your own cash never funds the material run. Just as important, the card on file means every later draw is a charge you can run or send as a pay link without chasing anyone &mdash; the homeowner already authorized it at signing, so the rest of the schedule collects itself.
         </p>
 
-        <h2>Tie Each Draw to the Schedule and Job Board</h2>
+        <h2>Tie Each Draw to the Schedule and Pending Jobs Board</h2>
         <p>
-          The trigger for a progress draw should be a real event, not a date on a wall calendar. In FenceBossPro the install lives on the Job Board as a sequence of scheduled phases, and you attach each draw to the phase that earns it. When you dispatch the crew to set posts and that phase shows complete, the software surfaces the posts-set draw so you can release it the same day &mdash; not three weeks later when you are trying to reconstruct what happened. As crew dispatch and routing push the project from one stage to the next, the billing stays in lockstep with the work. Every finished phase is a phase you can bill, and the schedule itself is the record of what was done and what it is worth.
+          The trigger for a progress draw should be a real event, not a date on a wall calendar. In FenceBossPro the install lives on the Pending Jobs board as a sequence of scheduled phases, and you attach each draw to the phase that earns it. When you dispatch the crew to set posts and that phase shows complete, the software surfaces the posts-set draw so you can release it the same day &mdash; not three weeks later when you are trying to reconstruct what happened. As crew dispatch and routing push the project from one stage to the next, the billing stays in lockstep with the work. Every finished phase is a phase you can bill, and the schedule itself is the record of what was done and what it is worth.
         </p>
 
         <h2>Send the Draw and Let Customer Texts Do the Rest</h2>
@@ -52,7 +52,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence business software, progress billing large fence installs, milestone draws fence jobs, fence job board scheduling, card-on-file payments, line-item fence estimates</div>
+        <div className="blog-keywords">Keywords: fence business software, progress billing large fence installs, milestone draws fence jobs, fence Pending Jobs board scheduling, card-on-file payments, line-item fence estimates</div>
       </article>
     </BlogShell>
   );

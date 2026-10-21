@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>The whole job stays connected</h2>
         <p>
-          Tracking materials isn&apos;t a standalone trick &mdash; it plugs into how the rest of the work runs. The same bid that carries your post and picket counts also drives scheduling, so the job hits the Job Board with its materials attached and your crew dispatch routes the right team with the right truckload. It feeds invoicing too: collect a deposit when the bid is accepted, bill progress as the line goes in, and take card-on-file payments without chasing checks. Customer texts keep the homeowner posted on delivery and install day. Every piece pulls from one accurate material record. That&apos;s the difference between guessing and running a real operation, and it&apos;s the core of good <a href="/fence-business-software">fence business software</a>.
+          Tracking materials isn&apos;t a standalone trick &mdash; it plugs into how the rest of the work runs. The same bid that carries your post and picket counts also drives scheduling, so the job hits the Pending Jobs board with its materials attached and your crew dispatch routes the right team with the right truckload. It feeds invoicing too: collect a deposit when the bid is accepted, bill progress as the line goes in, and take card-on-file payments without chasing checks. Customer texts keep the homeowner posted on delivery and install day. Every piece pulls from one accurate material record. That&apos;s the difference between guessing and running a real operation, and it&apos;s the core of good <a href="/fence-business-software">fence business software</a>.
         </p>
 
         <div className="blog-cta-box">

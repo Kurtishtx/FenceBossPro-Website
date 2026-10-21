@@ -65,7 +65,7 @@ export default function Page() {
           ornamental section or a second gate, FenceBossPro updates the job&apos;s material list so you know to
           pull the extra panels, posts, and hardware before the truck rolls. It also reflects the added labor
           on the job&apos;s schedule, so a half-day add does not silently turn into a missed start on tomorrow&apos;s
-          install. From the Job Board, your office can see which jobs grew, re-sequence the day, and handle
+          install. From the Pending Jobs board, your office can see which jobs grew, re-sequence the day, and handle
           crew dispatch and routing around the longer build &mdash; instead of finding out at 4 p.m. that the crew
           is two hours behind because of a gate nobody scheduled. The change order stays attached to the
           property profile, so the next time you service or repair that fence, the full as-built history is

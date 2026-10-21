@@ -28,7 +28,7 @@ export default function Page() {
 
         <h2>Get the Sign-Off in Writing</h2>
         <p>A handshake at the walkthrough feels like agreement, but it does not hold up when a check is late. FenceBossPro lets you capture customer sign-off on the completed work and the final figure right from a phone or tablet at the job site. The customer reviews the itemized fence work, confirms the gates and hardware are correct, and approves the total. That approval is timestamped and attached to the job record.</p>
-        <p>Sign-off at the fence, before your crew loads up and drives to the next job on the Job Board, dramatically shortens your collection cycle. You are no longer chasing an invoice into a void &mdash; you are confirming a number the customer already agreed to with the finished fence right in front of them.</p>
+        <p>Sign-off at the fence, before your crew loads up and drives to the next job on the Pending Jobs board, dramatically shortens your collection cycle. You are no longer chasing an invoice into a void &mdash; you are confirming a number the customer already agreed to with the finished fence right in front of them.</p>
 
         <h2>Send It and Get Paid On the Spot</h2>
         <p>Once the final invoice is approved, FenceBossPro sends it by text and email in seconds. The customer taps the link and pays by card right there. If you collected a card on file when you booked the deposit, you can charge the balance to that same card the moment the walkthrough wraps &mdash; no waiting for a mailed check, no second trip to pick one up.</p>

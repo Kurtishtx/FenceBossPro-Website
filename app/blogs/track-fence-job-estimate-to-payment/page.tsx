@@ -47,7 +47,7 @@ export default function Page() {
         <p>
           Most fence shops run two kinds of work at once: multi-day installs and quick repair calls &mdash; a leaning
           post, a blown-down section, a gate that will not latch. Stack them carelessly and a half-day repair eats the
-          morning your install crew needed for digging. FenceBossPro&apos;s Job Board lays every project and service
+          morning your install crew needed for digging. FenceBossPro&apos;s Pending Jobs Board lays every project and service
           call on a calendar so you can see the whole week, slot repairs into the gaps around installs, and dispatch
           the right crew with the right materials to the right address. If you want a deeper playbook on protecting
           your build days, read <a href="/blogs/schedule-fence-repair-calls-around-installs">How to Keep Fence Repair

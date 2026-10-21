@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import PlanCompare from './components/PlanCompare';
 import Navbar from './components/Navbar';
 import HeroDemo from './components/HeroDemo';
 
@@ -270,11 +271,11 @@ export default function Home() {
           <a href="/fencing-software" className="feature-card hub-card"><span className="feature-icon">🛠️</span><h3>Fencing Software</h3><p>The complete all-in-one platform for fence companies &mdash; estimates, materials, scheduling, dispatch, and billing under one roof.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-estimating-software" className="feature-card hub-card"><span className="feature-icon">📐</span><h3>Fence Estimating Software</h3><p>Build line-item bids with linear-foot takeoffs, posts, panels, pickets, rails, concrete, gates, and hardware priced in minutes.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-scheduling-software" className="feature-card hub-card"><span className="feature-icon">📅</span><h3>Fence Scheduling Software</h3><p>Schedule installs and multi-day builds around material delivery, keep the calendar full, and never double-book a crew.</p><span className="hub-go">Explore &rarr;</span></a>
-          <a href="/fence-dispatch-software" className="feature-card hub-card"><span className="feature-icon">🚚</span><h3>Fence Crew &amp; Dispatch Software</h3><p>Dispatch crews, build tight routes between jobs, and give every lead a clear day on the job board from their phone.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-dispatch-software" className="feature-card hub-card"><span className="feature-icon">🚚</span><h3>Fence Crew &amp; Dispatch Software</h3><p>Dispatch crews, build tight routes between jobs, and give every lead a clear day on the Pending Jobs board from their phone.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-invoicing-software" className="feature-card hub-card"><span className="feature-icon">💳</span><h3>Fence Invoicing &amp; Billing</h3><p>Turn accepted bids into invoices, collect deposits and progress payments, and store cards on file with Stripe.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-business-software" className="feature-card hub-card"><span className="feature-icon">📊</span><h3>Fence Business Software</h3><p>Run the whole operation &mdash; clients, properties, pipeline, reporting, and team management &mdash; from one dashboard.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-contractor-software" className="feature-card hub-card"><span className="feature-icon">👷</span><h3>Fence Contractor Software</h3><p>Built for the way fence contractors actually work &mdash; on-site bids, supplier orders, change orders, and crew coordination.</p><span className="hub-go">Explore &rarr;</span></a>
-          <a href="/fence-installation-software" className="feature-card hub-card"><span className="feature-icon">🧱</span><h3>Fence Installation Software</h3><p>Take a job from estimate to scheduled install to final walk &mdash; with the materials list, job board, and customer texts all connected.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-installation-software" className="feature-card hub-card"><span className="feature-icon">🧱</span><h3>Fence Installation Software</h3><p>Take a job from estimate to scheduled install to final walk &mdash; with the materials list, Pending Jobs board, and customer texts all connected.</p><span className="hub-go">Explore &rarr;</span></a>
         </div>
       </section>
 
@@ -293,7 +294,7 @@ export default function Home() {
               <li>Good / Better / Best options on a single bid so customers choose up</li>
               <li>Material cost and margin shown on every line before you send the price</li>
               <li>Every fence type and part is fully customizable to match how you build</li>
-              <li>Accepted bids drop straight onto the job board with a full materials list</li>
+              <li>Accepted bids drop straight onto the Pending Jobs board with a full materials list</li>
               <li>Know your number before you quote. Stop guessing. Stop losing margin.</li>
             </ul>
           </div>
@@ -324,7 +325,7 @@ export default function Home() {
               <div className="stat-cell"><div className="stat-val">1</div><div className="stat-lbl">Gate</div></div>
             </div>
             <button style={{width:'100%', marginTop:'12px', background:'var(--orange)', color:'#fff', border:'none', borderRadius:'8px', padding:'13px', fontSize:'14px', fontWeight:700, cursor:'pointer', fontFamily:'inherit'}}>Send Bid to Customer →</button>
-            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Accepted bids drop to the job board with a full materials list</div>
+            <div style={{marginTop:'10px', textAlign:'center', color:'rgba(255,255,255,.35)', fontSize:'11px'}}>Accepted bids drop to the Pending Jobs board with a full materials list</div>
           </div>
         </div>
       </section>
@@ -362,7 +363,7 @@ export default function Home() {
         </div>
         <div className="simple-grid">
           <div className="simple-card"><div className="simple-num">01</div><h3>Set Up in One Afternoon</h3><p>Add your fence types, load your material and parts catalog with your real costs, import your clients and properties, and set up your text templates. Most fence companies are sending real bids the same day they sign up. No implementation fee. No onboarding consultant.</p></div>
-          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The job board shows your open bids, your scheduled installs, your crew assignments, and the materials needed for each job all in one place. Your crews get their jobs on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
+          <div className="simple-card"><div className="simple-num">02</div><h3>One Screen Does Everything</h3><p>The Pending Jobs board shows your open bids, your scheduled installs, your crew assignments, and the materials needed for each job all in one place. Your crews get their jobs on their phone. You&apos;re not switching between six different apps to run your day.</p></div>
           <div className="simple-card"><div className="simple-num">03</div><h3>Your Crews Learn It in Minutes</h3><p>The mobile crew view is built for people at the fence line, not office managers at desks. Big buttons, clear job phases, one tap to mark a section complete, add a photo, or capture customer sign-off. Crews learn it in the truck before the first post hole.</p></div>
           <div className="simple-card"><div className="simple-num">04</div><h3>Automation Runs Without You</h3><p>Set your text templates once &mdash; bid sent, bid follow-ups, install reminders, payment follow-ups, review requests. After that, FenceBossPro keeps your fence customers updated automatically on every job, every day, without you having to think about it.</p></div>
         </div>
@@ -380,7 +381,7 @@ export default function Home() {
           <div className="feature-card"><span className="feature-icon">🧱</span><h3>Materials &amp; Parts List</h3><p>A full parts catalog with your costs and margins. Every accepted bid rolls up the exact materials needed for the job, so you know what to order from your supplier and what to load on the truck.</p></div>
           <div className="feature-card"><span className="feature-icon">📅</span><h3>Project Scheduling</h3><p>Schedule single-day repairs and multi-day fence builds around material delivery. See your whole calendar, assign crews, and keep every install on track.</p></div>
           <div className="feature-card"><span className="feature-icon">🚚</span><h3>Crew Dispatch &amp; Routing</h3><p>Assign jobs to crews, order stops to cut drive time, and give every crew lead a clear route and job list for the day &mdash; right on their phone.</p></div>
-          <div className="feature-card"><span className="feature-icon">📋</span><h3>The Job Board</h3><p>Every fence project lives on one board, moving from bid to scheduled to in-progress to complete. Nothing slips through the cracks between the sale and the final walk.</p></div>
+          <div className="feature-card"><span className="feature-icon">📋</span><h3>The Pending Jobs board</h3><p>Every fence project lives on one board, moving from bid to scheduled to in-progress to complete. Nothing slips through the cracks between the sale and the final walk.</p></div>
           <div className="feature-card"><span className="feature-icon">💳</span><h3>Invoicing &amp; Stripe Payments</h3><p>Convert accepted bids to invoices, store cards on file, and collect payment through the platform. Track unpaid, partial, paid, and overdue at a glance.</p></div>
           <div className="feature-card"><span className="feature-icon">💰</span><h3>Deposits &amp; Progress Billing</h3><p>Collect a deposit before you order materials, bill in stages on big multi-day builds, and take the balance at the final walk &mdash; all tracked automatically.</p></div>
           <div className="feature-card"><span className="feature-icon">💬</span><h3>Customer Texts</h3><p>Send and receive texts from fence customers right inside the app. Full conversation history by contact, plus automated bid and install updates &mdash; no more using your personal phone.</p></div>
@@ -407,15 +408,15 @@ export default function Home() {
           <div className="price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="price-amount"><sup>$</sup>129</div>
+            <div className="price-amount"><sup>$</sup>59</div>
             <div className="price-period">per month</div>
-            <div className="price-desc">Every feature. Unlimited clients, properties, crews, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div className="price-desc">Every feature. Unlimited clients, properties, crews, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Crews &amp; Users</li>
               <li>Line-Item Estimating &amp; Linear-Foot Takeoffs</li>
               <li>Materials &amp; Parts Catalog</li>
-              <li>Project Scheduling &amp; Job Board</li>
+              <li>Project Scheduling &amp; Pending Jobs Board</li>
               <li>Crew Dispatch &amp; Routing</li>
               <li>Invoicing, Deposits &amp; Stripe Payments</li>
               <li>Two-Way Customer Texts &amp; Automated Alerts</li>
@@ -429,15 +430,17 @@ export default function Home() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees &mdash; ever.</p>
       </section>
 
+      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
+
       {/* ═══ SCHEDULING DEEP DIVE ═══ */}
       <section id="scheduling">
         <div className="highlight-row">
           <div className="highlight-text">
             <span className="section-label">Scheduling &amp; Dispatch</span>
             <h2>From Accepted Bid to Crew on Site</h2>
-            <p>FenceBossPro gives you a job board of every project not yet scheduled, a full calendar for booked installs, and crew dispatch so you can build tight days and keep every fence job moving from sale to final walk.</p>
+            <p>FenceBossPro gives you a Pending Jobs board of every project not yet scheduled, a full calendar for booked installs, and crew dispatch so you can build tight days and keep every fence job moving from sale to final walk.</p>
             <ul className="check-list">
-              <li>Job board with every project from bid to complete</li>
+              <li>Pending Jobs board with every project from bid to complete</li>
               <li>One-click scheduling with date picker and crew assignment</li>
               <li>Schedule multi-day builds around material delivery dates</li>
               <li>Drag-and-drop route ordering between jobs to cut drive time</li>
@@ -672,7 +675,7 @@ export default function Home() {
           </div>
           <div className="testimonial-card">
             <div className="testimonial-stars">★★★★★</div>
-            <p className="testimonial-body">&ldquo;The job board changed how I run my crews. I can see every project from bid to final walk, dispatch the right crew, and collect the deposit before we ever order materials. Nothing falls through the cracks now.&rdquo;</p>
+            <p className="testimonial-body">&ldquo;The Pending Jobs board changed how I run my crews. I can see every project from bid to final walk, dispatch the right crew, and collect the deposit before we ever order materials. Nothing falls through the cracks now.&rdquo;</p>
             <div className="testimonial-author">Fence &amp; Gate Contractor</div>
             <div className="testimonial-role">Charlotte, NC</div>
           </div>

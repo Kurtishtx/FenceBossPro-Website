@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Rescheduling a Fence Job From the Truck in One Tap | FenceBossPro',
-  description: 'Learn how FenceBossPro lets fence crews reschedule an install or repair from the truck in one tap, with auto customer texts and a live Job Board.',
+  description: 'Learn how FenceBossPro lets fence crews reschedule an install or repair from the truck in one tap, with auto customer texts and a live Pending Jobs Board.',
 };
 
 export default function Page() {
@@ -24,7 +24,7 @@ export default function Page() {
         <p>The part homeowners actually care about is being told. With FenceBossPro, the moment you move a fence install, an automatic customer text goes out with the new date so nobody is sitting home waiting on a crew that isn&apos;t coming. You can let the default message ride or add a quick line &mdash; &quot;Ground&apos;s too wet to set posts safely, we&apos;ll be back Thursday.&quot; Homeowners forgive a weather delay every time. What they don&apos;t forgive is silence and a no-show. Automating that text turns a frustrating reschedule into a reason they trust you, and it kills the angry voicemail before it starts.</p>
 
         <h2>Your Whole Day Reshuffles Cleanly</h2>
-        <p>Moving one job is rarely just one job. If your morning privacy fence slides to Thursday, your afternoon gate repair and tomorrow&apos;s aluminum ornamental run all shift in the queue. FenceBossPro&apos;s Job Board shows every scheduled job and open slot in one live view, so you can drag the bumped install into the right opening instead of double-booking a crew. Dispatch and routing update with it, keeping each crew&apos;s stops in a sensible driving order across town. The reschedule that used to ripple into chaos becomes a few seconds of cleanup on a board everyone in the office can see in real time.</p>
+        <p>Moving one job is rarely just one job. If your morning privacy fence slides to Thursday, your afternoon gate repair and tomorrow&apos;s aluminum ornamental run all shift in the queue. FenceBossPro&apos;s Pending Jobs Board shows every scheduled job and open slot in one live view, so you can drag the bumped install into the right opening instead of double-booking a crew. Dispatch and routing update with it, keeping each crew&apos;s stops in a sensible driving order across town. The reschedule that used to ripple into chaos becomes a few seconds of cleanup on a board everyone in the office can see in real time.</p>
 
         <h2>Reschedules That Actually Fill the Gap</h2>
         <p>A canceled or moved fence job leaves a hole in the day, and an empty crew is lost money. This is where a good scheduling system earns its keep. When a slot opens up, you want it filled with the next job that&apos;s ready &mdash; deposit paid, materials in, locate cleared. We wrote a whole walkthrough on this in <a href="/blogs/backlog-waiting-list-fence-installs">Managing a Fence Install Backlog: A Waiting List That Books Itself</a>, and it pairs directly with one-tap rescheduling: when one job moves out, the system surfaces the ready job that should move in. Instead of your foreman texting around to find filler work, the gap closes itself, and a $4,000 vinyl install doesn&apos;t cost you an idle afternoon.</p>
@@ -33,7 +33,7 @@ export default function Page() {
         <p>The danger with rescheduling on paper is that the details get stranded. The reschedule note lives on a sticky in one truck, the materials get staged for the wrong day, and the invoice never catches up. In FenceBossPro everything stays attached to the job. The materials and parts list &mdash; posts, rails, pickets, concrete, gates, and hardware &mdash; moves with the new date, so the warehouse stages it correctly. The deposit and any progress billing stay tied to the project. When the work finally wraps, you invoice and take a card-on-file payment from the same record, with no re-keying. The client and property profile keeps the full history, so the next time you bid a gate or a repair on that lot, you already know the layout and the post spacing.</p>
 
         <h2>Built for the Truck, Not the Office</h2>
-        <p>The whole point is that rescheduling shouldn&apos;t require you to drive back to the office or wait for the dispatcher to pick up. Fence work happens in yards, alleys, and along property lines, and that&apos;s where the decisions get made. FenceBossPro is built so the foreman with muddy boots can move a job, notify the homeowner, and reshuffle the crew&apos;s route before he&apos;s even back in the cab. If you want to see how the calendar, Job Board, and automated texts fit together, our <a href="/fence-scheduling-software">fence scheduling software</a> overview lays out the full picture for fence and gate contractors.</p>
+        <p>The whole point is that rescheduling shouldn&apos;t require you to drive back to the office or wait for the dispatcher to pick up. Fence work happens in yards, alleys, and along property lines, and that&apos;s where the decisions get made. FenceBossPro is built so the foreman with muddy boots can move a job, notify the homeowner, and reshuffle the crew&apos;s route before he&apos;s even back in the cab. If you want to see how the calendar, Pending Jobs Board, and automated texts fit together, our <a href="/fence-scheduling-software">fence scheduling software</a> overview lays out the full picture for fence and gate contractors.</p>
 
         <div className="blog-cta-box">
           <h3>Move a Fence Job Without Moving an Inch</h3>
@@ -41,7 +41,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, reschedule fence job, fence crew dispatch, fence Job Board, fence install scheduling app, fence contractor customer texts</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, reschedule fence job, fence crew dispatch, fence Pending Jobs Board, fence install scheduling app, fence contractor customer texts</div>
       </article>
     </BlogShell>
   );

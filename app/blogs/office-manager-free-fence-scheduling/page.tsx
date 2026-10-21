@@ -22,10 +22,10 @@ export default function Page() {
           ornamental fence work, plus repairs and gates.
         </p>
 
-        <h2>The job board replaces the whiteboard and the sticky notes</h2>
+        <h2>The Pending Jobs board replaces the whiteboard and the sticky notes</h2>
         <p>
           A full-time office manager mostly exists to answer one question all day: who is going where,
-          and when? FenceBossPro answers it with a shared Job Board. Every install, repair, and gate
+          and when? FenceBossPro answers it with a shared Pending Jobs Board. Every install, repair, and gate
           job lives on one screen as a card, color-coded by status &mdash; estimate sent, deposit
           paid, scheduled, in progress, done. You drag a job onto a day, assign a crew, and the whole
           team sees it instantly on their phones. No one calls the office to ask what&apos;s next because
@@ -43,7 +43,7 @@ export default function Page() {
           with its own price. You can save common assemblies, like a 6-foot cedar privacy section or a
           4-foot aluminum ornamental run, so the next bid is mostly pre-filled. The customer gets a
           clean, itemized estimate by text or email and can approve it from their phone. That approval
-          flips the card on the job board to ready-to-schedule, with zero phone tag in between.
+          flips the card on the Pending Jobs board to ready-to-schedule, with zero phone tag in between.
         </p>
 
         <h2>Dispatch and routing the crew can follow on their own</h2>
@@ -101,7 +101,7 @@ export default function Page() {
         <div className="blog-cta-box">
           <h3>Schedule more fence jobs with fewer headaches</h3>
           <p>
-            FenceBossPro handles your estimates, job board, crew dispatch, customer texts, and invoicing
+            FenceBossPro handles your estimates, Pending Jobs board, crew dispatch, customer texts, and invoicing
             so you can run the schedule without a full-time office manager.
           </p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
@@ -109,7 +109,7 @@ export default function Page() {
         </div>
 
         <div className="blog-keywords">
-          Keywords: fence scheduling software, fence job board, fence dispatch software, fence estimate
+          Keywords: fence scheduling software, fence Pending Jobs board, fence dispatch software, fence estimate
           software, fence invoicing app, fencing business management software
         </div>
       </article>

@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Less Office Time, More Fence in the Ground</h2>
         <p>
-          The point of all of this is to get you out of the office and back on the job board scheduling crews. When invoicing flows straight from your bids, payments collect themselves on stored cards, and reminders run on autopilot, the administrative drag on your week shrinks to almost nothing. You spend your evenings dispatching tomorrow&apos;s crew and pricing new takeoffs instead of typing invoices and reconciling checks. That is the whole idea behind purpose-built <a href="/fence-contractor-software">fence contractor software</a> &mdash; the back office runs itself so the people swinging post-hole diggers stay productive and paid.
+          The point of all of this is to get you out of the office and back on the Pending Jobs board scheduling crews. When invoicing flows straight from your bids, payments collect themselves on stored cards, and reminders run on autopilot, the administrative drag on your week shrinks to almost nothing. You spend your evenings dispatching tomorrow&apos;s crew and pricing new takeoffs instead of typing invoices and reconciling checks. That is the whole idea behind purpose-built <a href="/fence-contractor-software">fence contractor software</a> &mdash; the back office runs itself so the people swinging post-hole diggers stay productive and paid.
         </p>
 
         <div className="blog-cta-box">

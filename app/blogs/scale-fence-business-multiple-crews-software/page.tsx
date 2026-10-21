@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'Scaling From One Truck to Multiple Crews With Fence Installation Software | FenceBossPro',
-  description: 'See how fence installation software lets you run multiple crews with a shared Job Board, crew dispatch, line-item bids, materials tracking, and invoicing.',
+  description: 'See how fence installation software lets you run multiple crews with a shared Pending Jobs Board, crew dispatch, line-item bids, materials tracking, and invoicing.',
 };
 
 export default function Page() {
@@ -33,9 +33,9 @@ export default function Page() {
           grow, you need a single source of truth that every crew sees the same way, every day.
         </p>
 
-        <h2>One Job Board Every Crew Can See</h2>
+        <h2>One Pending Jobs Board Every Crew Can See</h2>
         <p>
-          The center of a multi-crew operation is the Job Board. Instead of a yard living in your
+          The center of a multi-crew operation is the Pending Jobs board. Instead of a yard living in your
           memory, every signed job sits on a shared board with its status &mdash; bid accepted,
           materials ordered, scheduled, in progress, or ready to invoice. You assign each job to a
           crew, and that crew sees exactly what is theirs for the day: the property address, the
@@ -110,7 +110,7 @@ export default function Page() {
         </div>
 
         <div className="blog-keywords">
-          Keywords: fence installation software, multiple crew dispatch software, fence Job Board,
+          Keywords: fence installation software, multiple crew dispatch software, fence Pending Jobs Board,
           line-item fence estimating, fence materials tracking, fence contractor invoicing
         </div>
       </article>

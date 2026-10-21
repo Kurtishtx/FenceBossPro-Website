@@ -71,7 +71,7 @@ export default function Page() {
         <p>
           A perfectly priced bid still loses money if a crew drives across town for one gate
           repair, or sits idle because the post-setting day and the panel-hanging day were not
-          sequenced right. The Job Board and scheduling tools in FenceBossPro let you slot each
+          sequenced right. The Pending Jobs board and scheduling tools in FenceBossPro let you slot each
           phase of a fence project, batch nearby jobs, and dispatch and route crews so windshield
           time does not eat the margin you priced. When you can see the whole week of projects on
           one board, you keep trucks full and keep your labor cost inside the number you bid.

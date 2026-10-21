@@ -2,7 +2,7 @@ import BlogShell from '../blog-shell';
 
 export const metadata = {
   title: 'How to Schedule Fence Installs Around Material Lead Times and Crew Availability | FenceBossPro',
-  description: 'Use FenceBossPro to schedule fence installs around post, panel, and gate lead times plus crew availability so your job board never stalls.',
+  description: 'Use FenceBossPro to schedule fence installs around post, panel, and gate lead times plus crew availability so your Pending Jobs board never stalls.',
 };
 
 export default function Page() {
@@ -26,9 +26,9 @@ export default function Page() {
           Inside each job&apos;s materials and parts list, FenceBossPro lets you mark items as ordered and track when they are expected. When you place the purchase order with your supplier for those special-order gates or that vinyl in a non-stock color, record the expected delivery date right on the job. Now the job carries its own &quot;materials ready&quot; date that everyone can see &mdash; not a sticky note on your truck dash. If the supplier slips a week, you update one field and the job&apos;s readiness shifts with it. This is what keeps you from scheduling a crew against material that is not in the building. The rule is simple: a job is not eligible to be dispatched until its long-lead items show as received. The software makes that status visible instead of relying on your memory of a phone call from last Thursday.
         </p>
 
-        <h2>Work the Job Board by Readiness</h2>
+        <h2>Work the Pending Jobs board by Readiness</h2>
         <p>
-          The Job Board is where lead times and crews finally meet. Instead of forcing every sold job onto a fixed date, treat the board as a staging area sorted by readiness. Jobs with all materials in stock are ready to schedule immediately. Jobs waiting on posts, panels, or gates sit in a pending lane until their delivery date clears. When material lands, the job moves into the ready column and you slot it into the next open crew day. This pull-based approach means your crews are always working installs that are fully kitted, and you are never sending a truck to a job that is missing its hardware. It also gives you a clear backlog view so you can tell a customer a believable start window based on where their material sits, not on wishful thinking.
+          The Pending Jobs board is where lead times and crews finally meet. Instead of forcing every sold job onto a fixed date, treat the board as a staging area sorted by readiness. Jobs with all materials in stock are ready to schedule immediately. Jobs waiting on posts, panels, or gates sit in a pending lane until their delivery date clears. When material lands, the job moves into the ready column and you slot it into the next open crew day. This pull-based approach means your crews are always working installs that are fully kitted, and you are never sending a truck to a job that is missing its hardware. It also gives you a clear backlog view so you can tell a customer a believable start window based on where their material sits, not on wishful thinking.
         </p>
 
         <h2>Match Ready Jobs to Crew Availability and Routing</h2>
@@ -43,7 +43,7 @@ export default function Page() {
 
         <h2>Build the Habit and Let the Software Carry It</h2>
         <p>
-          The contractors who never miss a start date are not lucky &mdash; they have a system. Itemize the takeoff, tag the lead times, stage the Job Board by readiness, then drop ready jobs onto crew days and route them tight. FenceBossPro keeps estimates, materials, scheduling, dispatch, invoicing, and customer updates in one place, which is the whole point: you are not stitching together a spreadsheet, a supplier email, and a wall calendar that disagree with each other. Run your whole operation on connected fence business software and the install schedule starts taking care of itself, even in a season where every special-order gate seems to be on backorder.
+          The contractors who never miss a start date are not lucky &mdash; they have a system. Itemize the takeoff, tag the lead times, stage the Pending Jobs board by readiness, then drop ready jobs onto crew days and route them tight. FenceBossPro keeps estimates, materials, scheduling, dispatch, invoicing, and customer updates in one place, which is the whole point: you are not stitching together a spreadsheet, a supplier email, and a wall calendar that disagree with each other. Run your whole operation on connected fence business software and the install schedule starts taking care of itself, even in a season where every special-order gate seems to be on backorder.
         </p>
 
         <div className="blog-cta-box">
@@ -52,7 +52,7 @@ export default function Page() {
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence install scheduling software, fence job board, material lead time tracking, crew dispatch and routing, fence linear-foot takeoff, fence business software</div>
+        <div className="blog-keywords">Keywords: fence install scheduling software, fence Pending Jobs board, material lead time tracking, crew dispatch and routing, fence linear-foot takeoff, fence business software</div>
       </article>
     </BlogShell>
   );

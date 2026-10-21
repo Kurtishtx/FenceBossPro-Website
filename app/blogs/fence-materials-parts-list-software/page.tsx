@@ -73,7 +73,7 @@ export default function Page() {
         <p>
           A parts list is only useful if it reaches the right people at the right time. Once an estimate is approved,
           FenceBossPro carries the materials straight onto the scheduled job, so the crew lead opens the work order and
-          sees exactly what should be on the trailer before they leave the yard. The same job lands on the Job Board,
+          sees exactly what should be on the trailer before they leave the yard. The same job lands on the Pending Jobs board,
           where you can dispatch the install crew, route them to the property, and keep the customer in the loop with
           automatic texts about arrival windows and progress. The client and property profile holds the approved scope,
           the materials, and the history, so a repair callout or a future section addition starts from real numbers

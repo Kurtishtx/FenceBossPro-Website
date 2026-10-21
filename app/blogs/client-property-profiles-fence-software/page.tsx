@@ -59,7 +59,7 @@ export default function Page() {
 
         <h2>Smarter Scheduling and Crew Dispatch</h2>
         <p>
-          When a job is ready, the property profile travels with it onto the Job Board. Crews pull
+          When a job is ready, the property profile travels with it onto the Pending Jobs board. Crews pull
           up the address and see gate locations, access notes (&quot;backyard gate code is
           1-9-8-4,&quot; &quot;park on the gravel pad, not the lawn&quot;), the material list, and
           photos of the work area before they roll out. Dispatch and routing get easier too, since

@@ -38,7 +38,7 @@ export default function Page() {
 
         <h2>From accurate bid to paid invoice without re-keying</h2>
         <p>
-          Catching hidden costs at the bid stage only pays off if those numbers carry through the whole job. When a customer approves the estimate, FenceBossPro turns it into a scheduled project and drops it on the Job Board so you can dispatch and route the right crew. The same line items that built the bid become the invoice, so you bill for everything you priced &mdash; including that gate hardware and concrete you used to eat. You can collect a deposit up front with card-on-file payments, send progress billing as phases finish, and text the customer updates along the way, all tied to their property profile. Nothing falls through the cracks between &quot;sold&quot; and &quot;paid&quot; because it&apos;s the same record from start to finish.
+          Catching hidden costs at the bid stage only pays off if those numbers carry through the whole job. When a customer approves the estimate, FenceBossPro turns it into a scheduled project and drops it on the Pending Jobs board so you can dispatch and route the right crew. The same line items that built the bid become the invoice, so you bill for everything you priced &mdash; including that gate hardware and concrete you used to eat. You can collect a deposit up front with card-on-file payments, send progress billing as phases finish, and text the customer updates along the way, all tied to their property profile. Nothing falls through the cracks between &quot;sold&quot; and &quot;paid&quot; because it&apos;s the same record from start to finish.
         </p>
 
         <h2>Bid tight, protect the margin</h2>

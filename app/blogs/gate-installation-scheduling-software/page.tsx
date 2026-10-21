@@ -20,8 +20,8 @@ export default function Page() {
         <h2>Build the Gate Job From Its Own Line Items</h2>
         <p>Every gate visit in FenceBossPro carries its own materials and parts list. A single-swing walk gate pulls in the gate leaf, two gate posts, hinges, a latch, and a bag of concrete for the footings. A 12-foot double-drive gate adds the second leaf, a drop rod, and a heavier post. Because each component is a line item priced from your catalog, the visit shows the crew the exact hardware to load and shows the office the exact cost to bill. A hardware-only job &mdash; say, replacing a worn latch and adding a self-closing hinge &mdash; is just a short visit with two parts on it. No guessing, no &quot;grab whatever is on the truck.&quot;</p>
 
-        <h2>Put Every Gate Visit on the Job Board</h2>
-        <p>Once a gate or hardware job exists as its own visit, it lands on the Job Board with every other scheduled stop. You can slot the gate hang for the morning after the main fence crew tears out and sets posts, then drop a separate hardware call into an open afternoon two days later. The Job Board shows the address, the line-item parts, and the assigned crew, so a quick latch swap does not get forgotten just because it is small. Short visits are exactly the work that falls through the cracks on a paper schedule &mdash; on the board, they are as visible as a full install.</p>
+        <h2>Put Every Gate Visit on the Pending Jobs board</h2>
+        <p>Once a gate or hardware job exists as its own visit, it lands on the Pending Jobs board with every other scheduled stop. You can slot the gate hang for the morning after the main fence crew tears out and sets posts, then drop a separate hardware call into an open afternoon two days later. The Pending Jobs board shows the address, the line-item parts, and the assigned crew, so a quick latch swap does not get forgotten just because it is small. Short visits are exactly the work that falls through the cracks on a paper schedule &mdash; on the board, they are as visible as a full install.</p>
 
         <h2>Dispatch and Route the Short Stops Efficiently</h2>
         <p>Hardware jobs and gate adjustments are perfect filler work, but only if you can route them. FenceBossPro lets you dispatch a single tech to a cluster of short visits &mdash; a gate re-hang here, a latch replacement there, a hinge upgrade across town &mdash; and order them by location so the truck is not crisscrossing the county for 45-minute stops. Instead of sending a full crew back out for one gate, you assign the right person, hand them a routed list, and keep the big crews on the big projects. That separation between project work and quick service work is what keeps a fence shop profitable on the small jobs.</p>
@@ -37,11 +37,11 @@ export default function Page() {
 
         <div className="blog-cta-box">
           <h3>Stop Losing Gate and Hardware Jobs on the Schedule</h3>
-          <p>FenceBossPro schedules gate installs and hardware swaps as their own line-item visits &mdash; tracked on the Job Board, routed to the right tech, and invoiced on site.</p>
+          <p>FenceBossPro schedules gate installs and hardware swaps as their own line-item visits &mdash; tracked on the Pending Jobs board, routed to the right tech, and invoiced on site.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
-        <div className="blog-keywords">Keywords: fence scheduling software, gate installation scheduling, fence job board, fence crew dispatch, hardware job invoicing, gate install line items</div>
+        <div className="blog-keywords">Keywords: fence scheduling software, gate installation scheduling, fence Pending Jobs board, fence crew dispatch, hardware job invoicing, gate install line items</div>
       </article>
     </BlogShell>
   );

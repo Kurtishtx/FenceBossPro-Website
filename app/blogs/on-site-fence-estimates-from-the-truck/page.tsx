@@ -60,7 +60,7 @@ export default function Page() {
           The estimate that closes is the one the customer can approve on the spot. FenceBossPro lets you
           text or email the bid from the truck, complete with line items and a clear total. When the
           homeowner says yes, you collect a deposit right there with card-on-file payments, then drop the job
-          straight onto the Job Board and the schedule. Progress billing is built in too, so you can stage
+          straight onto the Pending Jobs board and the schedule. Progress billing is built in too, so you can stage
           payments &mdash; deposit at signing, a draw when the posts are set, and the balance at the final
           walk &mdash; without chasing checks. Invoicing flows from the same estimate, so nobody re-keys
           numbers and nothing falls through the cracks between the sale and the install.

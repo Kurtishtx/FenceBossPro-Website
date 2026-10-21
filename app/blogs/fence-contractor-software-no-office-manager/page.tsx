@@ -21,8 +21,8 @@ export default function Page() {
         <h2>Materials and Parts Lists Build Themselves</h2>
         <p>An office manager often spends hours translating a signed bid into a supplier order. The software skips that step. When the customer approves the estimate, the materials and parts list is already itemized &mdash; every post, rail, panel, picket, bag of concrete, gate, and piece of hardware is listed with quantities pulled straight from the takeoff. You hand that list to your supplier as-is. There is no re-counting, no &quot;how many terminal posts did we say,&quot; and no second person re-keying numbers that the estimate already produced. Fewer hands on the data means fewer ordering errors, and that protects your margin more reliably than a careful clerk ever could.</p>
 
-        <h2>The Job Board Replaces the Scheduling Desk</h2>
-        <p>Scheduling is the function owners most associate with needing an office manager, and it is the one software handles most completely. The Job Board shows every approved project, every repair call, and every gate install in one view. You drag jobs onto crew days, the system flags conflicts so you don&apos;t double-book a crew, and multi-day installs &mdash; set posts and concrete one day, hang panels later &mdash; stay linked so nothing falls through the cracks. When a material delivery slips or weather rolls in, you slide the job to a new day in one tap and the affected customer gets notified automatically. That coordination is the heart of an office manager&apos;s day, and it now happens on a screen you can run from a job site.</p>
+        <h2>The Pending Jobs board Replaces the Scheduling Desk</h2>
+        <p>Scheduling is the function owners most associate with needing an office manager, and it is the one software handles most completely. The Pending Jobs board shows every approved project, every repair call, and every gate install in one view. You drag jobs onto crew days, the system flags conflicts so you don&apos;t double-book a crew, and multi-day installs &mdash; set posts and concrete one day, hang panels later &mdash; stay linked so nothing falls through the cracks. When a material delivery slips or weather rolls in, you slide the job to a new day in one tap and the affected customer gets notified automatically. That coordination is the heart of an office manager&apos;s day, and it now happens on a screen you can run from a job site.</p>
 
         <h2>Dispatch and Crew Routing on Autopilot</h2>
         <p>Once the schedule is set, crews need to know where to go and in what order. Instead of a morning of phone calls, digital dispatch pushes each crew&apos;s day to their phones &mdash; addresses, scope, materials staged, and gate details included. Routing keeps drive time down so a crew can fit one more repair call between installs. The crew checks in, logs progress, and you can see from anywhere whether the posts went in on schedule. None of that requires a person sitting at a desk relaying information. For the detail of tracking each phase on longer builds, see <a href="/blogs/concrete-post-setting-job-tracking-software">Tracking Post-Setting and Concrete on Multi-Day Fence Jobs</a>, which walks through how the software keeps two-phase jobs moving without anyone babysitting the calendar.</p>
@@ -44,7 +44,7 @@ export default function Page() {
         </div>
 
         <div className="blog-keywords">
-          Keywords: fence contractor software, run fence company without office manager, fence business scheduling software, fence job board dispatch, fence estimating and invoicing software, fence materials list software
+          Keywords: fence contractor software, run fence company without office manager, fence business scheduling software, fence Pending Jobs board dispatch, fence estimating and invoicing software, fence materials list software
         </div>
       </article>
     </BlogShell>

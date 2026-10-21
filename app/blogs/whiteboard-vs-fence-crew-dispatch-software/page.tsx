@@ -16,7 +16,7 @@ export default function Page() {
         <p>Walk into almost any fence shop and you will find the whiteboard. It hangs by the back door, covered in crew names down the left side and days across the top, with job addresses crammed into each box in three different marker colors. For a one-truck wood fence operation, it works. But the moment you run two or three crews installing vinyl, chain link, and ornamental aluminum across a county, the whiteboard stops being a planning tool and becomes a liability. It cannot travel with the crew, it cannot hold a materials list, and it gets erased every Friday whether the jobs are done or not. This is where dispatch software earns its keep.</p>
 
         <h2>The Whiteboard Lives in One Building</h2>
-        <p>The fundamental problem with the board is location. It hangs on a wall in the shop, which means the only people who can read it are the people standing in the shop. The lead installer who left at 6:30 AM for a 200-foot cedar privacy fence cannot see it. The crew that finished early and could swing by a repair call across town cannot see it. When a homeowner calls asking when their gate gets hung, the office stares at a box that says &quot;Smith &mdash; gate&quot; and nothing else. With <a href="/fence-dispatch-software">fence crew &amp; dispatch software</a>, the schedule lives on every phone in the field. The same job board the office builds is the job board the crew opens in the truck, updated the instant anything changes.</p>
+        <p>The fundamental problem with the board is location. It hangs on a wall in the shop, which means the only people who can read it are the people standing in the shop. The lead installer who left at 6:30 AM for a 200-foot cedar privacy fence cannot see it. The crew that finished early and could swing by a repair call across town cannot see it. When a homeowner calls asking when their gate gets hung, the office stares at a box that says &quot;Smith &mdash; gate&quot; and nothing else. With <a href="/fence-dispatch-software">fence crew &amp; dispatch software</a>, the schedule lives on every phone in the field. The same Pending Jobs board the office builds is the Pending Jobs board the crew opens in the truck, updated the instant anything changes.</p>
 
         <h2>A Box on a Board Cannot Hold a Materials List</h2>
         <p>Fencing is material-heavy in a way the whiteboard was never built to handle. A single backyard job might require forty-two pressure-treated posts, sixty-eight panels, three bags of concrete per hole, two walk gates, a double drive gate, and a box of self-closing hinges and latches. None of that fits in a marker box. So the materials live somewhere else &mdash; a clipboard, a text thread, the lead&apos;s memory &mdash; and the disconnect is where jobs go sideways. The crew arrives with posts but no gate hardware, or loads panels for the wrong style. In software, every dispatched job carries its full line-item materials and parts list: posts, panels, pickets, rails, concrete, gates, and hardware, each tied to the bid the customer already approved. The crew sees exactly what to pull from the yard before they leave.</p>
@@ -34,14 +34,14 @@ export default function Page() {
         <p>Gate codes, the dog in the backyard, the buried sprinkler line the homeowner mentioned, the HOA color requirement, the corner where the property line is in dispute &mdash; none of that survives on a whiteboard. It lives in the client and property profile in the software, attached to the address, visible to whichever crew gets dispatched there this year or three years from now on a repair call. Customer texts go out automatically when the crew is on the way and again when the job is done, so the homeowner is not calling the office for a status the board could never have given them anyway. The board was a snapshot. The software is the whole record.</p>
 
         <div className="blog-cta-box">
-          <h3>Trade the whiteboard for a job board your whole crew can see</h3>
+          <h3>Trade the whiteboard for a Pending Jobs board your whole crew can see</h3>
           <p>FenceBossPro puts every fence job, its full materials list, the crew route, and the invoice in one place &mdash; so nothing gets erased and nothing gets forgotten.</p>
           <a href="https://my.fencebosspro.com">Start Free Trial</a>
           <div className="hero-trust">No credit card required &nbsp;&middot;&nbsp; 14-day free trial &nbsp;&middot;&nbsp; <b>from $59/mo</b> after</div>
         </div>
 
         <div className="blog-keywords">
-          Keywords: fence dispatch software, fence crew scheduling software, fence job board software, fence crew routing software, fence materials list software, fence business software
+          Keywords: fence dispatch software, fence crew scheduling software, fence Pending Jobs board software, fence crew routing software, fence materials list software, fence business software
         </div>
       </article>
     </BlogShell>

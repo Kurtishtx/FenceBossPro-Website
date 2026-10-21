@@ -63,7 +63,7 @@ export default function Page() {
           drops to zero automatically. If a customer disputes a charge, you scroll their history and read off the
           dates, amounts, and what each payment covered. When the crew wraps a job, the loop closes fast &mdash;
           the approach in{' '}
-          <a href="/blogs/invoicing-from-the-job-board-fence-software">Invoicing Straight From the Job Board: Closing the Loop on Completed Fence Jobs</a>{' '}
+          <a href="/blogs/invoicing-from-the-job-board-fence-software">Invoicing Straight From the Pending Jobs board: Closing the Loop on Completed Fence Jobs</a>{' '}
           turns a finished install into a billed, paid line on the profile the same day, so the customer&apos;s
           record is never lagging behind the work.
         </p>

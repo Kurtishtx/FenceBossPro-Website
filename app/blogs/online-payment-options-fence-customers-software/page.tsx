@@ -23,7 +23,7 @@ export default function Page() {
 
         <h2>Card-on-File for the Money That Matters Most</h2>
         <p>
-          The biggest collection headaches on a fence job are the deposit up front and the final balance after the gates are hung. FenceBossPro lets you store a card on file the moment a bid is approved, so the deposit that covers your materials &mdash; the concrete, the pickets, the terminal posts &mdash; is captured before the crew ever loads the trailer. When the job is marked complete on the job board, the remaining balance can be charged automatically to that same card. The customer agreed to it when they signed, so there is no awkward call and no &quot;the check is in the mail.&quot; Card-on-file turns your slowest payments into your fastest.
+          The biggest collection headaches on a fence job are the deposit up front and the final balance after the gates are hung. FenceBossPro lets you store a card on file the moment a bid is approved, so the deposit that covers your materials &mdash; the concrete, the pickets, the terminal posts &mdash; is captured before the crew ever loads the trailer. When the job is marked complete on the Pending Jobs board, the remaining balance can be charged automatically to that same card. The customer agreed to it when they signed, so there is no awkward call and no &quot;the check is in the mail.&quot; Card-on-file turns your slowest payments into your fastest.
         </p>
 
         <h2>Deposits and Progress Billing Without the Awkward Ask</h2>

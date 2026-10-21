@@ -156,7 +156,7 @@ export default function Features() {
           <div className="spotlight-text">
             <div className="spotlight-label">Only in FenceBossPro</div>
             <div className="spotlight-title">Circle an Area on the Map.<br /><span>Instantly Know Everything Inside It.</span></div>
-            <div className="spotlight-desc">On the job board map, draw a circle around any geographic area. FenceBossPro instantly shows you the total linear feet, job count, number of jobs by type, and a breakdown of every fence type inside that circle — before you dispatch a single crew.</div>
+            <div className="spotlight-desc">On the Pending Jobs board map, draw a circle around any geographic area. FenceBossPro instantly shows you the total linear feet, job count, number of jobs by type, and a breakdown of every fence type inside that circle — before you dispatch a single crew.</div>
             <ul className="spotlight-checks">
               <li>Draw a lasso around any area on the map</li>
               <li>See total linear feet for every job inside</li>
@@ -168,7 +168,7 @@ export default function Features() {
             </ul>
           </div>
           <div className="spotlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)',fontSize:'11px',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'12px'}}>Job Board Map — Circle Selection</div>
+            <div style={{color:'rgba(255,255,255,.5)',fontSize:'11px',textTransform:'uppercase',letterSpacing:'1px',marginBottom:'12px'}}>Pending Jobs Board Map — Circle Selection</div>
             <div className="mock-map">
               <div className="mock-lasso"></div>
               <div className="mock-pins">
@@ -199,12 +199,12 @@ export default function Features() {
           </div>
           <div className="feat-grid">
             {[
-              {t:'Linear-Foot Job Board by Fence Type',d:'See total linear feet waiting for each fence type before you build a route. Know what you have before you make a call.'},
-              {t:'Circle-to-Dispatch Map Tool',d:'Draw a circle on the job board map. Get instant totals — linear feet, jobs, fence types — then dispatch them all at once.'},
-              {t:'One-Click Schedule from Job Board',d:'Click any job and assign a date, crew, and truck in seconds. No extra screens, no copy-paste.'},
+              {t:'Linear-Foot Pending Jobs Board by Fence Type',d:'See total linear feet waiting for each fence type before you build a route. Know what you have before you make a call.'},
+              {t:'Circle-to-Dispatch Map Tool',d:'Draw a circle on the Pending Jobs board map. Get instant totals — linear feet, jobs, fence types — then dispatch them all at once.'},
+              {t:'One-Click Schedule from Pending Jobs Board',d:'Click any job and assign a date, crew, and truck in seconds. No extra screens, no copy-paste.'},
               {t:'Daily Dispatch Board',d:'All scheduled jobs for any day in one view. Filter by crew, truck, or fence type. Print dispatch sheets for drivers.'},
               {t:'Crew & Truck Assignment',d:'Assign a crew and truck to every job at scheduling time. Track who handled what and with which vehicle.'},
-              {t:'Mark Complete, Skip, or Reschedule',d:'Update job status from the board or mobile app. Skipped jobs return to the job board automatically.'},
+              {t:'Mark Complete, Skip, or Reschedule',d:'Update job status from the board or mobile app. Skipped jobs return to the Pending Jobs board automatically.'},
               {t:'Day Summary Bar',d:'Total jobs, total linear feet, and total revenue for the day shown at the top of the dispatch board at a glance.'},
               {t:'Full Job History per Property',d:'Every completed job logged to the property record with date, crew, notes, and materials used.'},
             ].map((f,i) => (

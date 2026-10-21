@@ -51,7 +51,7 @@ export default function Page() {
           Fence jobs are multi-day projects, not one-and-done stops. You set posts and pour concrete
           one day, then come back to hang panels and gates after it cures. A generic calendar can put
           a name on a date; it can&apos;t handle a two-phase install or rebalance when rain pushes
-          everything. Fence software gives you a real job board where projects move through stages,
+          everything. Fence software gives you a real Pending Jobs board where projects move through stages,
           and a scheduling view that assigns crews to days. Dispatch and routing group nearby jobs so
           a crew installing in one subdivision isn&apos;t crossing the county for the next stop. When
           you give your installers a phone app, the day&apos;s stops, the material list, and the

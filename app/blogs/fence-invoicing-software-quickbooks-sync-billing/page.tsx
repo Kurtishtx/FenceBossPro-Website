@@ -84,10 +84,10 @@ export default function Page() {
           slightly different versions of the same customer cluttering your accounting file.
         </p>
 
-        <h2>One Source of Truth From the Job Board to the Books</h2>
+        <h2>One Source of Truth From the Pending Jobs board to the Books</h2>
         <p>
           The real payoff is that nothing has to be entered twice. A job starts as a takeoff and a
-          bid, gets scheduled on the Job Board, runs through crew dispatch, becomes an invoice when
+          bid, gets scheduled on the Pending Jobs board, runs through crew dispatch, becomes an invoice when
           the crew finishes, collects a card-on-file payment, and lands in QuickBooks &mdash; all
           carrying the same numbers from the first keystroke. When your field records and your
           accounting records come from one source, you stop spending evenings reconciling them and

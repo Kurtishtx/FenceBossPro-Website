@@ -77,7 +77,7 @@ export default function Page() {
           jobs tie up real money in posts, panels, and gates the day they hit the trailer, so
           FenceBossPro lets you collect a deposit the moment the customer approves the bid and bill
           progress payments and a final invoice as the job moves &mdash; with card-on-file payments
-          so the customer funds the materials, not your credit line. The Job Board and crew dispatch
+          so the customer funds the materials, not your credit line. The Pending Jobs board and crew dispatch
           tools keep your labor inside the number you bid by sequencing post-setting and
           panel-hanging days and routing crews so windshield time does not erase the margin. The
           markup you priced only counts if labor and cash stay inside the plan.

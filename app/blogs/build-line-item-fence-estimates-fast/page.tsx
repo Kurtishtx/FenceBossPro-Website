@@ -66,14 +66,14 @@ export default function Page() {
         <h2>Turn approved bids into scheduled jobs and invoices</h2>
         <p>
           The estimate is the spine of the entire job. When a customer signs off, FenceBossPro carries the line items
-          forward into the Job Board so your crew sees the materials list and footage for the dispatch. Your
+          forward into the Pending Jobs board so your crew sees the materials list and footage for the dispatch. Your
           purchasing is already done&mdash;you know exactly how many posts and panels to pull from the yard. When the
           fence is finished, the same line items become the invoice, so what you billed matches what you quoted down
           to the last bag of concrete. For larger projects you can split the bid into a deposit, a progress
           milestone, and a final payment, all billed against the card on file. If you are just getting started, our
           guide on{' '}
           <a href="/blogs/set-up-fence-business-software-clients-properties">
-            How to Set Up Your Fence Business in FenceBossPro: Clients, Properties, and the Job Board
+            How to Set Up Your Fence Business in FenceBossPro: Clients, Properties, and the Pending Jobs board
           </a>{' '}
           walks through wiring those pieces together before your first estimate goes out.
         </p>

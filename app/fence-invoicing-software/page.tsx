@@ -326,7 +326,7 @@ export default function FenceInvoicingSoftware() {
         <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(240px, 1fr))', gap:'24px', maxWidth:'1100px', margin:'0 auto'}}>
           {[
             {n:'01', title:'Set Up in One Afternoon', body:'Add your fence types and material pricing, import your clients and properties, set up your automated alerts, and connect Stripe — most owners are writing bids the same day they sign up. No implementation consultant, no onboarding call, no 90-day setup timeline.'},
-            {n:'02', title:'One Screen Does Everything', body:'Estimates, materials, scheduling, the job board, and invoicing are all connected. You\'re not jumping between five different modules or browser tabs. Pull up a job and the bid, the materials list, the deposit, and the balance owed are right there in one view.'},
+            {n:'02', title:'One Screen Does Everything', body:'Estimates, materials, scheduling, the Pending Jobs board, and invoicing are all connected. You\'re not jumping between five different modules or browser tabs. Pull up a job and the bid, the materials list, the deposit, and the balance owed are right there in one view.'},
             {n:'03', title:'Your Crew Learns It in Minutes', body:'The mobile app your installers use shows them exactly what they need and nothing they don\'t. Their jobs for the day, the property info, the materials, and job photos. No training videos, no IT ticket, no frustrated crew members.'},
             {n:'04', title:'Automation Runs Without You', body:'Set up your SMS alerts, estimate follow-ups, and payment reminders once. After that, FenceBossPro handles every notification, every follow-up, and every review request automatically — whether you\'re on a job site, at the supply yard, or at home.'},
           ].map(({n, title, body}) => (
@@ -374,7 +374,7 @@ export default function FenceInvoicingSoftware() {
             {icon:'📱', title:'Mobile App for Crews', body:'Your installers get a mobile-optimized view of their jobs for the day. Mark jobs complete, add photos, and capture a deposit on site — right from the truck.'},
             {icon:'🏠', title:'Property Profiles', body:'Every property has its own record — fence type, run lengths, gate locations, job history, notes, GPS coordinates, and photos. Everything tied to the address, not just the customer.'},
             {icon:'🗓️', title:'Job &amp; Install Scheduling', body:'Schedule installs and repairs onto a calendar, assign a crew and a truck, and see the whole week at a glance. Reschedule with a drag and the customer gets a text automatically.'},
-            {icon:'📌', title:'The Job Board', body:'Every job in one board — bid sent, accepted, scheduled, in progress, and complete. See exactly what stage every fence project is in and what needs to happen next.'},
+            {icon:'📌', title:'The Pending Jobs board', body:'Every job in one board — bid sent, accepted, scheduled, in progress, and complete. See exactly what stage every fence project is in and what needs to happen next.'},
             {icon:'🚚', title:'Crew Dispatch &amp; Routing', body:'Dispatch crews to the right job in the right order. Build tight routes between job sites and supply runs so your trucks aren\'t crossing town twice in a day.'},
             {icon:'⭐', title:'Automated Review Requests', body:'After every completed install, FenceBossPro automatically sends a Google review request to the customer — on your schedule, every time, without you lifting a finger.'},
             {icon:'🔁', title:'Estimate Follow-Up Sequences', body:'3 automated follow-up texts go out if a client doesn\'t respond to your fence bid. Let FenceBossPro chase the deal so you don\'t have to.'},
@@ -504,14 +504,14 @@ export default function FenceInvoicingSoftware() {
           <div className="lc-price-card featured">
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>129</div>
+            <div style={{fontSize:'48px', fontWeight:800, color:'var(--text)', lineHeight:1}}><sup style={{fontSize:'22px', verticalAlign:'super'}}>$</sup>59</div>
             <div style={{color:'var(--muted)', fontSize:'13px', marginBottom:'24px', marginTop:'4px'}}>per month</div>
-            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, jobs, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div style={{color:'var(--muted)', fontSize:'14px', marginBottom:'24px', lineHeight:1.5}}>Every feature. Unlimited clients, properties, jobs, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Unlimited Clients, Properties &amp; Leads</li>
               <li>Unlimited Crew Members &amp; Users</li>
               <li>Line-Item Estimates &amp; Material Takeoffs</li>
-              <li>Job Board, Scheduling &amp; Crew Dispatch</li>
+              <li>Pending Jobs Board, Scheduling &amp; Crew Dispatch</li>
               <li>Deposits, Progress Billing &amp; Final Invoices</li>
               <li>Stripe Card-on-File Payments</li>
               <li>Two-Way SMS &amp; Automated Alerts</li>

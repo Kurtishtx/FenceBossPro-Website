@@ -171,7 +171,7 @@ export default function FenceContractorSoftwareCanada() {
             <span className="section-label">Estimates That Win the Season</span>
             <h2>The Quote That Goes Out Today<br />Beats the Better Quote Next Week.</h2>
             <p>In a compressed season, quote speed is a competitive weapon. The homeowner who calls in April is calling three other companies too &mdash; and the first professional, line-item bid in their inbox usually wins. FenceBossPro builds fence bids from your saved parts catalog: drop in the run length, pick the fence type, and posts, panels, pickets, rails, concrete, gates, and hardware roll up into a priced bid with your real costs and margins behind every line.</p>
-            <p style={{marginTop:'12px'}}>When the customer taps Accept, the job doesn&apos;t sit in an inbox &mdash; it lands on the job board with its full materials list, ready to take a deposit and a date. Estimate to scheduled install, without anything getting retyped.</p>
+            <p style={{marginTop:'12px'}}>When the customer taps Accept, the job doesn&apos;t sit in an inbox &mdash; it lands on the Pending Jobs board with its full materials list, ready to take a deposit and a date. Estimate to scheduled install, without anything getting retyped.</p>
             <ul className="check-list">
               <li>Linear-foot takeoffs by fence type &mdash; wood, vinyl, chain link, aluminum, ornamental</li>
               <li>Post counts and concrete figured from the run length</li>
@@ -191,7 +191,7 @@ export default function FenceContractorSoftwareCanada() {
             </div>
             <div className="mock-item"><div className="mock-dot green"></div><div><div className="mock-label">Bid sent &mdash; 9:40 AM</div><div className="mock-sub">Texted + emailed, same morning as the site visit</div></div><div className="mock-badge green-badge">Sent</div></div>
             <div className="mock-item"><div className="mock-dot orange"></div><div><div className="mock-label">Customer accepted &mdash; 6:12 PM</div><div className="mock-sub">One tap on their phone</div></div><div className="mock-badge">Accepted</div></div>
-            <div className="mock-item"><div className="mock-dot blue"></div><div><div className="mock-label">Dropped to job board</div><div className="mock-sub">Full materials list attached &mdash; ready to schedule</div></div><div className="mock-badge blue-badge">Job</div></div>
+            <div className="mock-item"><div className="mock-dot blue"></div><div><div className="mock-label">Dropped to Pending Jobs board</div><div className="mock-sub">Full materials list attached &mdash; ready to schedule</div></div><div className="mock-badge blue-badge">Job</div></div>
           </div>
         </div>
       </section>
@@ -232,7 +232,7 @@ export default function FenceContractorSoftwareCanada() {
             <p>When the build window runs roughly thaw to freeze-up, an install that slips through the cracks isn&apos;t an inconvenience &mdash; it can be revenue that rolls to next year. FenceBossPro keeps every sold job on one board and every crew on a planned day, so the backlog burns down on purpose instead of by memory.</p>
             <p style={{marginTop:'12px'}}>And when the forecast wrecks a day &mdash; because it will &mdash; you reshuffle on the screen, not in a panic of phone calls. Rescheduled jobs keep their crew notes and materials lists, customers can be alerted automatically, and nothing silently disappears from the plan.</p>
             <ul className="check-list">
-              <li>Job board from measured &rarr; bid &rarr; deposit paid &rarr; scheduled &rarr; in progress &rarr; done</li>
+              <li>Pending Jobs board from measured &rarr; bid &rarr; deposit paid &rarr; scheduled &rarr; in progress &rarr; done</li>
               <li>One-click scheduling with date picker and crew assignment</li>
               <li>Multi-day builds scheduled around material delivery &mdash; set posts one day, hang panels the next</li>
               <li>Drag-and-drop route ordering between jobs to cut windshield time</li>
@@ -358,14 +358,14 @@ export default function FenceContractorSoftwareCanada() {
           <div className="lc-price-card featured" style={{width:'100%'}}>
             <div className="featured-badge">Everything Included</div>
             <div className="price-tier">One Plan. No Surprises.</div>
-            <div className="silo-price-amount"><sup>$</sup>129</div>
+            <div className="silo-price-amount"><sup>$</sup>59</div>
             <div className="silo-price-period">per month &middot; 14-day free trial first</div>
-            <div className="price-desc">Every feature. Unlimited clients, properties, crews, and users. No tiers, no locked features, no per-seat fees.</div>
+            <div className="price-desc">Every feature. Unlimited clients, properties, crews, and users. Three plans, from $59. No per-seat fees.</div>
             <ul className="price-features">
               <li>Customer invoicing &amp; payments in CAD</li>
               <li>Line-Item Estimating &amp; Linear-Foot Takeoffs</li>
               <li>Materials &amp; Parts Catalog</li>
-              <li>Job Board, Scheduling &amp; Crew Dispatch</li>
+              <li>Pending Jobs Board, Scheduling &amp; Crew Dispatch</li>
               <li>Deposits, Progress Billing &amp; Card-on-File</li>
               <li>Crew App &amp; Customer App</li>
               <li>Automated Alerts &amp; Two-Way Texting</li>
