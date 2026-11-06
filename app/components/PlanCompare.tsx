@@ -72,12 +72,38 @@ const ROWS: { label: string; note?: string; cells: [Cell, Cell, Cell] }[] = [
   /* On Start the operator IS the crew, so the field app is the half they use most — routing the
      day, starting and finishing jobs from the truck. Holding it back would leave the cheapest
      plan as an office tool for someone who is not in an office. */
-  { label: 'Crew app', note: 'Route the day, start and complete jobs, before/after photos, area treated',
+  { label: 'Crew app', note: 'Route the day, start and complete jobs, before/after photos, area treated, plus write and email estimates, send invoices and collect payment on the spot',
                                                      cells: [true, true, true] },
   { label: 'Schedule alerts',                        cells: [true, true, true] },
   { label: 'Estimate alerts',                        cells: [true, true, true] },
   { label: 'Receive customer replies',               cells: [true, true, true] },
   { label: 'Web lead forms',                         cells: [true, true, true] },
+  { label: 'AI Assistant', note: 'Ask anything about your business or tell it what to do: schedule visits, add plans and customers, text customers, send invoices. Nothing changes until you press Confirm. Need more? [[250 more questions for $15]].',
+                                                     cells: ['50 questions/mo', '100 questions/mo', '250 questions/mo'] },
+  { label: 'AI answering service', note: 'Add-on: a human-sounding AI receptionist that knows your customers & CRM. [[49¢ a minute]], no monthly fee.',
+                                                     cells: ['49¢/min', '49¢/min', '49¢/min'] },
+  { label: 'Free website + domain', note: 'Or use your own domain. Built for Google SEO, with forms that go straight into FenceBossPro.',
+                                                     cells: [true, true, true] },
+  { label: 'Card processing rate', note: 'Already getting a better rate from another processor? [[We’ll meet or beat it.]]',
+                                                     cells: ['2.85% + 25¢', '2.85% + 25¢', '2.85% + 25¢'] },
+  { label: 'Zapier & Make integrations', note: 'Send new leads, jobs, invoices and payments to thousands of apps like Google Sheets, Mailchimp and Slack, or bring leads in. Instant webhooks and an API key.',
+                                                     cells: [true, true, true] },
+  { label: 'Facebook & Instagram', note: 'Messages, comments and lead forms in one inbox, plus posting. [[Launching soon]]',
+                                                     cells: ['Soon', 'Soon', 'Soon'] },
+  { label: 'Google Business reviews & posts', note: 'Read and reply to Google reviews and post updates from the software. [[Launching soon]]',
+                                                     cells: ['Soon', 'Soon', 'Soon'] },
+  { label: 'TikTok posting', note: 'Post videos and photos to TikTok right from the software, along with Facebook, Instagram and Google. [[Launching soon]]',
+                                                     cells: ['Soon', 'Soon', 'Soon'] },
+  { label: 'Tech reviews & tips', note: 'Customers rate the tech after each job and can tip. Tips tracked per employee, minus processing.',
+                                                     cells: [true, true, true] },
+  { label: 'Crew splits & bonus goals', note: 'Tip and gross splits per truck, a bigger share for drivers, and bonuses techs track in the crew app.',
+                                                     cells: [true, true, true] },
+  { label: 'Payroll: Gusto, QuickBooks, ADP, Paychex', note: 'Hours, overtime, tips and bonuses ready for Gusto, QuickBooks, ADP or Paychex, manually or on a schedule.',
+                                                     cells: [true, true, true] },
+  { label: 'Meet your tech', note: 'Customers see who is coming: photo, rating, reviews and an about-me.',
+                                                     cells: [true, true, true] },
+  { label: 'Fast Setup', note: 'Trucks, crew, products, services, pricing and packages in about 10 minutes. Upload what you have.',
+                                                     cells: [true, true, true] },
   { label: 'Sales tax & reporting',                  cells: [true, true, true] },
   { label: 'QuickBooks export',                      cells: [true, true, true] },
   { label: 'Import your existing customers', note: 'Including Real Green and Service Autopilot exports',
@@ -127,7 +153,7 @@ const RESPONSIVE_CSS = `
     .pc-wrap  { overflow-x: visible; }
     .pc-table { min-width: 0; }
     .pc-label { width: 46% !important; padding: 8px 6px !important; font-size: 12px !important; }
-    .pc-note  { display: none; }
+    .pc-note  { font-size: 10.5px !important; line-height: 1.35 !important; }
     .pc-cell  { padding: 8px 2px !important; font-size: 12px !important; }
     .pc-head  { padding: 10px 2px 12px !important; }
     .pc-name  { font-size: 12px !important; }
@@ -214,12 +240,12 @@ export default function PlanCompare({ onTrial }: { onTrial?: (el: HTMLElement) =
             <tbody>
               {ROWS.map((r, i) => (
                 <tr key={r.label} style={{ background: i % 2 ? 'rgba(0,0,0,.02)' : 'transparent' }}>
-                  <td className="pc-label" style={{ padding: '11px 12px', fontSize: 14, borderTop: '1px solid var(--border)' }}>
+                  <th scope="row" className="pc-label" style={{ textAlign: 'left', fontWeight: 'inherit', padding: '11px 12px', fontSize: 14, borderTop: '1px solid var(--border)' }}>
                     <div style={{ fontWeight: 600 }}>{r.label}</div>
                     {r.note && (
                       <div className="pc-note" style={{ fontSize: 11.5, color: 'var(--muted)', marginTop: 2, lineHeight: 1.45 }}><NoteText text={r.note} /></div>
                     )}
-                  </td>
+                  </th>
                   {r.cells.map((c, ci) => (
                     <td key={ci} className="pc-cell" style={{
                       padding: '11px 12px', textAlign: 'center', fontSize: 13.5,
@@ -240,7 +266,7 @@ export default function PlanCompare({ onTrial }: { onTrial?: (el: HTMLElement) =
         <p style={{ textAlign: 'center', color: 'var(--muted)', fontSize: 13, marginTop: 18, lineHeight: 1.7 }}>
           14-day free trial on every plan &middot; no card to start &middot; cancel anytime &middot; move up or down whenever you like.
           <br />
-          Need more? <b style={{ color: 'var(--orange)' }}>500 extra texts for $15</b> on any plan &middot; counted sent and received, 160 characters per text.
+          Need more? <b style={{ color: 'var(--orange)' }}>500 extra texts for $15</b>{' '}on any plan &middot; counted sent and received, 160 characters per text.
         </p>
       </div>
     </section>
