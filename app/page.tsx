@@ -2,7 +2,8 @@
 import { useEffect } from 'react';
 import PlanCompare from './components/PlanCompare';
 import Navbar from './components/Navbar';
-import HeroDemo from './components/HeroDemo';
+import SiteScore from './components/SiteScore';
+import { pixelDemoStarted } from './components/MetaPixel';
 
 const SBP_URL  = 'https://knjdbgroiyhvqwrpqzcx.supabase.co';
 const SBP_ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtuamRiZ3JvaXlodnF3cnBxemN4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk0OTczMDMsImV4cCI6MjA5NTA3MzMwM30.zoExtkem-XZqU86S4yJjA_xOOaS1G0IPU2M9OAAza2g';
@@ -129,8 +130,8 @@ export default function Home() {
         .mock-label { color: rgba(255,255,255,.85); font-size: 13px; font-weight: 600; }
         .mock-sub { color: rgba(255,255,255,.45); font-size: 11px; margin-top: 1px; }
         .mock-badge { margin-left: auto; background: var(--orange); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 10px; flex-shrink: 0; }
-        .mock-badge.green-badge { background: #16a34a; }
-        .mock-badge.blue-badge { background: #2272c3; }
+        .mock-badge.green-badge { background: #15803d; }
+        .mock-badge.blue-badge { background: #2272c3; color: #fff; }
         .alert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; max-width: 1100px; margin: 0 auto; }
         .alert-pill { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.12); border-radius: 10px; padding: 16px 18px; display: flex; align-items: center; gap: 12px; }
         .alert-pill .ap-icon { font-size: 22px; flex-shrink: 0; }
@@ -188,7 +189,7 @@ export default function Home() {
         .premium-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: 12px; padding: 28px 24px; text-align: left; transition: border-color .2s; }
         .premium-card:hover { border-color: var(--orange); }
         .premium-card-icon { font-size: 28px; margin-bottom: 14px; }
-        .premium-card h4 { color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+        .premium-card h4, .premium-card h3 { color: #fff; font-size: 16px; font-weight: 700; margin-bottom: 8px; }
         .premium-card p { color: rgba(255,255,255,.52); font-size: 13px; line-height: 1.6; }
         .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
         .stat-cell { background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); border-radius: 8px; padding: 12px 14px; }
@@ -199,7 +200,7 @@ export default function Home() {
         .simple-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; max-width: 1100px; margin: 0 auto; }
         .simple-card { background: #fff; border: 1.5px solid var(--border); border-radius: 12px; padding: 30px 26px; transition: border-color .2s, box-shadow .2s, transform .15s; }
         .simple-card:hover { border-color: var(--orange); box-shadow: 0 6px 24px rgba(43,108,163,.1); transform: translateY(-2px); }
-        .simple-num { font-size: 40px; font-weight: 800; color: var(--orange); opacity: .25; line-height: 1; margin-bottom: 12px; }
+        .simple-num { font-size: 40px; font-weight: 800; color: var(--orange); opacity: .72; line-height: 1; margin-bottom: 12px; }
         .simple-card h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
         .simple-card p { color: var(--muted); font-size: 14px; line-height: 1.6; }
         @media (max-width: 700px) {
@@ -214,17 +215,268 @@ export default function Home() {
 
       {/* ═══ PRICE + LIVE DEMO ═══ */}
       <div style={{background:'linear-gradient(135deg, #0f1720 0%, #16202b 60%, #1f2d3d 100%)', padding:'clamp(76px,7vw,80px) clamp(14px,4vw,40px) 0', textAlign:'center'}}>
+        {/* ═══ AI ANSWERING — headline feature ═══ */}
+        <style>{`
+          @keyframes aiGlow { 0%,100% { box-shadow: 0 0 0 1px rgba(43,108,163,.55), 0 12px 40px rgba(43,108,163,.25); } 50% { box-shadow: 0 0 0 1px rgba(255,190,90,.9), 0 14px 56px rgba(43,108,163,.45); } }
+          @keyframes aiStar { 0%,100% { transform: rotate(0deg) scale(1); } 50% { transform: rotate(18deg) scale(1.15); } }
+          .ai-card { max-width: 900px; margin: 0 auto clamp(28px,4vw,40px); text-align: left; border-radius: 18px; padding: clamp(20px,3vw,30px) clamp(18px,3.4vw,34px); background: linear-gradient(135deg, rgba(43,108,163,.16) 0%, rgba(30,10,53,.9) 55%, rgba(43,108,163,.10) 100%); animation: aiGlow 3.2s ease-in-out infinite; position: relative; }
+          .ai-top { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+          .ai-star { font-size: 26px; display: inline-block; animation: aiStar 2.4s ease-in-out infinite; filter: drop-shadow(0 0 8px rgba(255,190,90,.8)); }
+          .ai-tag { font-size: 11px; font-weight: 800; letter-spacing: 1.4px; text-transform: uppercase; color: #fff; background: #2b6ca3; border-radius: 20px; padding: 4px 11px; }
+          .ai-soon { font-size: 11px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: #ffd28a; border: 1px solid rgba(255,210,138,.5); border-radius: 20px; padding: 3px 10px; }
+          .ai-h { color: #fff; font-size: clamp(24px,3.6vw,38px); font-weight: 800; line-height: 1.15; margin: 0 0 8px; }
+          .ai-h b { color: #2b6ca3; }
+          .ai-p { color: rgba(255,255,255,.82); font-size: clamp(15px,1.8vw,17px); line-height: 1.55; margin: 0 0 16px; max-width: 760px; }
+          .ai-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+          .ai-chip { color: #fff; font-size: 13px; font-weight: 700; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16); border-radius: 20px; padding: 6px 12px; }
+          .top-h { color: #fff; font-size: clamp(24px,3.6vw,40px); font-weight: 800; line-height: 1.15; margin: 0 auto clamp(14px,2vw,20px); max-width: 900px; }
+          .top-h span { color: #2b6ca3; }
+          .addons-label { color: #ffffff; font-size: clamp(26px,3.6vw,40px); font-weight: 900; letter-spacing: 3px; text-transform: uppercase; text-align: center; margin: 8px 0 14px; }
+          .top-cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 4px 0 clamp(26px,4vw,40px); }
+          .cta-demo { background: #2b6ca3; color: #fff; font-weight: 800; font-size: 17px; padding: 15px 28px; border-radius: 10px; text-decoration: none; box-shadow: 0 10px 30px rgba(43,108,163,.45); }
+          .cta-trial { background: transparent; color: #fff; font-weight: 800; font-size: 17px; padding: 14px 26px; border-radius: 10px; text-decoration: none; border: 2px solid rgba(255,255,255,.5); }
+          /* Add-ons sit last in the dark band here (the picture is above them), so the grid carries the band's bottom padding. */
+          .addons { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 1200px; margin: 0 auto; padding-bottom: clamp(40px,6vw,80px); align-items: stretch; }
+          .addons .ai-card { margin: 0; max-width: none; }
+          .addons .ai-h { font-size: clamp(22px,2.4vw,28px); }
+          @media (max-width: 900px) { .addons { grid-template-columns: 1fr; } }
+          .ss-btn { margin-top: 4px; background: #2b6ca3; color: #fff; border: none; border-radius: 10px; padding: 12px 18px; font-weight: 800; font-size: 15px; cursor: pointer; box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+          .ss-go { background: #2b6ca3; }
+          .hero-mock { display: block; width: 100%; max-width: 1200px; height: auto; margin: 0 auto; }
+          .ai-pill { display: inline-flex; align-items: center; gap: 10px; flex-wrap: wrap; justify-content: center; max-width: 900px; margin: 0 auto clamp(18px,3vw,26px); padding: 8px 16px 8px 12px; border-radius: 30px; background: rgba(255,255,255,.06); color: rgba(255,255,255,.9); font-size: clamp(13px,1.6vw,15px); line-height: 1.35; animation: aiGlow 3.2s ease-in-out infinite; }
+          .ai-pill .ai-star { font-size: 18px; }
+          .ai-pill b { color: #fff; } .ai-pill .ai-price { color: #2b6ca3; }
+        `}</style>
+        <h2 className="top-h">CRM &amp; Scheduling Software for <span>Fence &amp; Gate Contractors</span></h2>
+
         {/* Price up top, above the demo — same order sprayboss-website uses. */}
         <div style={{textAlign:'center', marginBottom:'clamp(22px,3vw,32px)'}}>
           <div style={{display:'inline-flex', alignItems:'baseline', gap:'12px', flexWrap:'wrap', justifyContent:'center', color:'#fff'}}>
-            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
+            <span style={{fontSize:'clamp(30px,4.6vw,46px)', fontWeight:800, lineHeight:1}}><span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>CRM Software starting at </span>$59<span style={{fontSize:'.46em', fontWeight:700, color:'rgba(255,255,255,.6)'}}>/month</span></span>
             <span style={{fontSize:'clamp(16px,2.2vw,22px)', fontWeight:800, color:'var(--orange)'}}>&middot; 14-Day Free Trial</span>
           </div>
           <div style={{color:'rgba(255,255,255,.6)', fontSize:'13px', fontWeight:600, marginTop:'7px', letterSpacing:'.3px'}}>No credit card required &middot; Cancel anytime</div>
-          <div style={{color:'rgba(255,255,255,.75)', fontSize:'13px', fontWeight:600, marginTop:'6px', letterSpacing:'.3px'}}>Works in the US, Canada, Australia, New Zealand &amp; the UK &middot; bills your customers in your own currency</div>
         </div>
-        <HeroDemo />
+        <div className="top-cta"><a href="https://my.fencebosspro.com/demo.html" target="_blank" rel="noopener" className="cta-demo" onClick={(e) => { if (typeof window !== 'undefined' && screen.availWidth > 900) { e.preventDefault(); window.open((e.currentTarget as HTMLAnchorElement).href, 'bossprodemo', 'width=' + screen.availWidth + ',height=' + screen.availHeight + ',left=0,top=0,resizable=yes,scrollbars=yes'); }  try { if (localStorage.getItem('bp_notrack') !== '1') pixelDemoStarted(); } catch (e) { pixelDemoStarted(); } }}>&#9654; Try the Live Demo</a><a href="#" onClick={(e) => { e.preventDefault(); openSignupModal(1, e.currentTarget as HTMLElement); }} className="cta-trial">Start Free Trial</a></div>
+        <link rel="preload" as="image" href="/hero-mockup.webp" fetchPriority="high" />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        {/* 10/31 owner: highlight offline crew app + QuickBooks auto-sync */}
+        <div className="hl-band" style={{display:'flex', flexWrap:'wrap', justifyContent:'center', gap:16, maxWidth:1000, margin:'0 auto 22px', padding:'0 16px'}}>
+          <div style={{flex:'1 1 300px', maxWidth:480, background:'rgba(255,255,255,.07)', border:'2px solid #facc15', borderRadius:14, padding:'16px 18px', boxShadow:'0 0 24px rgba(250,204,21,.18)'}}>
+            <div style={{display:'flex', alignItems:'center', gap:10, fontWeight:900, fontSize:19, color:'#fff', marginBottom:6}}><span style={{fontSize:26}}>&#128246;</span>Works even when you&apos;re offline</div>
+            <p style={{margin:0, color:'#e5e7eb', fontSize:15, lineHeight:1.55}}>No signal? No problem. The crew app keeps working: jobs, notes, photos and estimates save on the phone and sync the moment you&apos;re back online.</p>
+          </div>
+          <div style={{flex:'1 1 300px', maxWidth:480, background:'rgba(255,255,255,.07)', border:'2px solid #facc15', borderRadius:14, padding:'16px 18px', boxShadow:'0 0 24px rgba(250,204,21,.18)'}}>
+            <div style={{display:'flex', alignItems:'center', gap:10, fontWeight:900, fontSize:19, color:'#fff', marginBottom:6}}><span style={{fontSize:26}}>&#128260;</span>QuickBooks syncs automatically every 5 minutes</div>
+            <p style={{margin:0, color:'#e5e7eb', fontSize:15, lineHeight:1.55}}>Connect QuickBooks Online with one click. Your customers, invoices and payments sync to QuickBooks every 5 minutes, so there&apos;s no double entry.</p>
+          </div>
+        </div>
+        <div className="integ-strip" style={{display:'flex', flexWrap:'wrap', alignItems:'center', justifyContent:'center', gap:'10px 14px', maxWidth:1000, margin:'0 auto clamp(26px,4vw,40px)', color:'rgba(255,255,255,.82)', fontSize:'clamp(14px,1.7vw,16px)', textAlign:'center'}}>
+          <span style={{fontWeight:800, color:'#fff'}}>Integrates with</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#ff4f00'}}></span>Zapier</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#6d00cc'}}></span>Make</span>
+          <span style={{fontWeight:800, color:'#fff', marginLeft:6}}>Payroll</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#f45d48'}}></span>Gusto</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#2ca01c'}}></span>QuickBooks</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#d0271d'}}></span>ADP</span>
+          <span style={{display:'inline-flex', alignItems:'center', gap:7, background:'#fff', color:'#1f1f1f', borderRadius:20, padding:'6px 14px', fontWeight:800}}><span aria-hidden="true" style={{width:10, height:10, borderRadius:'50%', background:'#004b8d'}}></span>Paychex</span>
+          <span>Connect to thousands of apps, and run payroll: hours, overtime, tips &amp; bonuses</span>
+        </div>
+        <img src="/hero-mockup.webp" srcSet="/hero-mockup-640.webp 640w, /hero-mockup.webp 1200w" sizes="(max-width: 700px) 100vw, 1200px" fetchPriority="high" decoding="async" alt="FenceBossPro software on a laptop with the AI Assistant button and a hand-drawn map lasso, plus the client app and crew app on phones" className="hero-mock" width={1600} height={880} />
+        <div className="addons-label" style={{marginTop:'clamp(28px,4vw,44px)'}}>Add-ons</div>
+        <p style={{ textAlign: 'center', color: 'rgba(255,255,255,.82)', fontSize: 'clamp(14px,1.7vw,16px)', lineHeight: 1.55, margin: '-6px auto 18px', maxWidth: 720 }}>All optional &mdash; use the ones you want, skip the ones you don&apos;t. Everything else in FenceBossPro works the same either way, and you can turn any of them on or off anytime.</p>
+        <div className="addons">
+        <div className="ai-card">
+          <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#11088;</span>
+            <span className="ai-tag">AI Answering</span>
+            <span className="ai-soon">New Add-On</span>
+          </div>
+          <h2 className="ai-h">An AI receptionist for only <b>49&cent; a minute</b></h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Answering 100+ calls a day? Email <a href="mailto:Support@bossprohq.com" style={{ color: 'inherit', textDecoration: 'underline' }}>Support@bossprohq.com</a> for our 29&cent; volume rate.</p>
+          <p className="ai-p">The most real, human-sounding AI on the market &mdash; and it&apos;s built into FenceBossPro, so it doesn&apos;t just take messages. It knows your customers and your CRM, tells them when you&apos;re coming, skips and reschedules services, tells existing customers your pricing and adds new services, sends a secure form to update their card, and takes down new customers for you. 24/7. You only pay when it answers.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#128222; Answers every call, 24/7</span>
+            <span className="ai-chip">&#129504; Knows your customers &amp; CRM</span>
+            <span className="ai-chip">&#128197; Skips &amp; reschedules</span>
+            <span className="ai-chip">&#128178; Quotes &amp; adds services</span>
+            <span className="ai-chip">&#128179; Sends card-update form</span>
+            <span className="ai-chip">&#128221; Takes new leads</span>
+            <span className="ai-chip">&#9989; No monthly fee</span>
+          </div>
+        </div>
+        <div className="ai-card">
+          <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#10024;</span>
+            <span className="ai-tag">AI Assistant</span>
+            <span className="ai-soon">Included on every plan</span>
+          </div>
+          <h2 className="ai-h">An AI office assistant that <b>does the work</b></h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Included on every plan &mdash; see the plans below for how many questions each one comes with.</p>
+          <p className="ai-p">Just tell it what to do &mdash; like you&apos;d tell your office manager. It&apos;s built into FenceBossPro, so it knows your customers, your schedule and your money. It schedules and moves visits, adds plans at your price-table prices, texts customers, sends invoices and card forms, runs reports like your sales tax, and opens any page you ask for. It shows you every change first, and nothing happens until you press Confirm.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#128197; Schedules &amp; moves visits</span>
+            <span className="ai-chip">&#10133; Adds plans &amp; customers</span>
+            <span className="ai-chip">&#128172; Texts customers</span>
+            <span className="ai-chip">&#128196; Sends invoices</span>
+            <span className="ai-chip">&#128202; Reports in seconds</span>
+            <span className="ai-chip">&#129517; Opens any page</span>
+            <a className="ai-chip" href="#ai-assistant" style={{ textDecoration: 'none' }}>&#128064; See it work &rarr;</a>
+          </div>
+        </div>
+        <div className="ai-card" style={{ gridColumn: '1 / -1' }}>
+          <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#128236;</span>
+            <span className="ai-tag">Neighbor Postcards</span>
+            <span className="ai-soon">New Add-On</span>
+          </div>
+          <h2 className="ai-h">Every finished job mails <b>your neighbors</b></h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>$1.59 a postcard, printing and postage included. No monthly fee.</p>
+          <p className="ai-p">When your crew finishes a job, FenceBossPro automatically mails your postcard to the closest homes on that street &mdash; 5, 10, 20 or as many as you want &mdash; and skips anyone who&apos;s already your customer. Pick a template or make it 100% your own with the drag-and-drop designer, set a monthly budget, and see every card that went out. Or pick properties on your list and mail around all of them at once.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#128236; Mails after every job</span>
+            <span className="ai-chip">&#127969; Closest neighbors, not random</span>
+            <span className="ai-chip">&#128683; Skips current customers</span>
+            <span className="ai-chip">&#127912; Templates or fully custom</span>
+            <span className="ai-chip">&#128207; QR code to book</span>
+            <span className="ai-chip">&#128176; Monthly budget cap</span>
+          </div>
+        </div>
+        <div className="ai-card" style={{ gridColumn: '1 / -1' }}>
+          <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#127760;</span>
+            <span className="ai-tag">Free Website</span>
+            <span className="ai-soon">Included</span>
+          </div>
+          <h2 className="ai-h">A professional website, <b>free</b> with any paid plan</h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Websites like this often cost $5,000&ndash;$15,000 to have built. Yours is free.</p>
+          <p className="ai-p">We build it for you &mdash; a perfectly built 200&ndash;300 page website with a free domain, or use your own. Built to score 90+ on Google, and 100 on SEO, and we send you the score report once it&apos;s built. Fast on every phone, and every form on it goes straight into FenceBossPro as a new lead.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#127760; Free domain (or use yours)</span>
+            <span className="ai-chip">&#128196; 200&ndash;300 pages</span>
+            <span className="ai-chip">&#128200; 90+ and 100 on SEO</span>
+            <span className="ai-chip">&#128221; Forms flow into your CRM</span>
+            <span className="ai-chip">&#128241; Mobile-perfect</span>
+            <span className="ai-chip">&#128736; We build it for you</span>
+          </div>
+          <p className="ai-p" style={{margin:'14px 0 10px'}}>Compare our score to any other website you&apos;ve been quoted &mdash; or the one you have now.</p>
+          <SiteScore />
+        </div>
+        </div>
       </div>
+
+      {/* The 3 plans, right after the top picture and before the real-picture sections (owner, 10/30). */}
+      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
+
+      {/* ═══ BILLING DEEP DIVE ═══ */}
+      <section id="billing" style={{background:'var(--light-bg)'}}>
+        <div className="highlight-row reverse">
+          <div className="highlight-text">
+            <span className="section-label">Invoicing &amp; Billing</span>
+            <h2>Get Paid Faster. Chase Less.</h2>
+            <p>Build a bid in minutes, text or email it straight from the platform, and let customers accept with a single tap. The moment they accept, collect a deposit, schedule the install, and convert the bid to an invoice &mdash; all without leaving FenceBossPro.</p>
+            <p><strong>Fully customizable, top to bottom.</strong> Change every color, choose exactly what shows and what doesn&apos;t, and pick from over 100 preloaded header photos &mdash; or upload your own photos and logos.</p>
+            <ul className="check-list">
+              <li>Estimate builder with your full fence material catalog and line items</li>
+              <li>Email and text bids with custom branded templates</li>
+              <li>Customer-facing bid page with Accept / Decline buttons</li>
+              <li>Collect deposits up front before you order materials</li>
+              <li>Progress billing in stages on multi-day fence builds</li>
+              <li>Automatic status tracking: Draft &rarr; Sent &rarr; Accepted &rarr; Invoiced</li>
+              <li>Card-on-file for fast, secure payment collection</li>
+              <li>Sales tax management by jurisdiction with tax reports</li>
+              <li>Full payment history with method, date, and reference tracking</li>
+            </ul>
+          </div>
+          <div className="highlight-visual" style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:'16px', alignItems:'start', padding:'24px', background:'#7d838c', border:'none'}}>
+              <figure style={{margin:0}}>
+                <figcaption style={{color:'#ffffff', fontWeight:700, fontSize:'12px', textAlign:'center', marginBottom:'10px', textTransform:'uppercase', letterSpacing:'1px'}}>Branded Estimate</figcaption>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/branded-estimate-v5.webp" width={900} height={2397} loading="lazy" decoding="async" alt="Branded estimate email with the company logo, a header photo, service badges and an Approve Estimate button" style={{display:'block', width:'100%', height:'auto', borderRadius:'8px', boxShadow:'0 10px 30px rgba(0,0,0,.35)', border:'3px solid #ffffff'}} />
+              </figure>
+              <figure style={{margin:0}}>
+                <figcaption style={{color:'#ffffff', fontWeight:700, fontSize:'12px', textAlign:'center', marginBottom:'10px', textTransform:'uppercase', letterSpacing:'1px'}}>Branded Invoice</figcaption>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/branded-invoice-v5.webp" width={900} height={1681} loading="lazy" decoding="async" alt="Branded invoice email with line items, sales tax, amount due and a Pay Now button" style={{display:'block', width:'100%', height:'auto', borderRadius:'8px', boxShadow:'0 10px 30px rgba(0,0,0,.35)', border:'3px solid #ffffff'}} />
+              </figure>
+          </div>
+        </div>
+      </section>
+
+      {/* ═══ MEETINGS: real screenshots of the Meetings page and Meeting Alerts (10/29) ═══ */}
+      <section id="ai-assistant" aria-label="AI office assistant" style={{ background: '#ffffff', padding: 'clamp(44px,7vw,80px) 20px' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 380px), 1fr))', gap: 'clamp(24px,4vw,48px)', alignItems: 'center' }}>
+          <figure style={{ margin: 0, background: '#7d838c', borderRadius: 16, padding: 'clamp(14px,2.5vw,24px)' }}>
+            <figcaption style={{ color: '#ffffff', fontWeight: 700, fontSize: 12, textAlign: 'center', marginBottom: 10, textTransform: 'uppercase', letterSpacing: 1 }}>A Real Task, Start to Finish</figcaption>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/ai-assistant.webp" width={720} height={938} loading="lazy" decoding="async" alt="AI Assistant scheduling a Mosquito Control visit for Tuesday, with a Confirm card" style={{ display: 'block', width: '100%', maxWidth: 420, margin: '0 auto', height: 'auto', borderRadius: 10, boxShadow: '0 10px 30px rgba(0,0,0,.35)', border: '3px solid #ffffff' }} />
+          </figure>
+          <div>
+            <span style={{ display: 'inline-block', color: '#ff6a00', fontWeight: 900, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: 10 }}>AI Assistant</span>
+            <h2 style={{ color: '#111827', fontSize: 'clamp(26px,3.8vw,42px)', fontWeight: 900, lineHeight: 1.12, margin: '0 0 12px' }}>Your AI Office Assistant. Just Tell It What To Do.</h2>
+            <p style={{ color: '#4b5563', fontSize: 'clamp(15px,1.9vw,18px)', lineHeight: 1.7, margin: '0 0 14px' }}>It&apos;s built right into FenceBossPro and knows your customers, your schedule and your money. Type "Schedule Mary Jones&apos;s Mosquito Control for this Tuesday" and it finds the job, picks the date and shows you a card. Nothing changes until you press Confirm.</p>
+            <p style={{ color: '#111827', fontSize: 15.5, fontWeight: 800, margin: '0 0 10px' }}>Talk to it like you&apos;d talk to your office manager:</p>
+            <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 16px', display: 'grid', gap: '8px' }}>
+              {[
+                ['"Schedule the Smiths for Tuesday"', 'Done'],
+                ['"Add a plan for Dirk at $50 a visit"', 'Done'],
+                ['"Text Mary we\'re running late"', 'Sent'],
+                ['"Take me to unpaid invoices"', 'Opens the page'],
+                ['"How much sales tax did I collect last month?"', 'Answered in seconds'],
+                ['"How do I set up auto-billing?"', 'Explains it, with an Open button'],
+              ].map(([say, did]) => (
+                <li key={say} style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'baseline', gap: '4px 10px', background: '#f3f4f6', borderRadius: 10, padding: '9px 12px', fontSize: 15, lineHeight: 1.45 }}>
+                  <span style={{ color: '#111827', fontStyle: 'italic', fontWeight: 600 }}>{say}</span>
+                  <span style={{ color: '#16a34a', fontWeight: 900, whiteSpace: 'nowrap' }}>&rarr; {did}</span>
+                </li>
+              ))}
+            </ul>
+            <p style={{ color: '#4b5563', fontSize: 15, lineHeight: 1.6, margin: '0 0 12px' }}>It shows you every change first. Nothing happens until you press <b>Confirm</b>.</p>
+            <p style={{ color: '#111827', fontSize: 15.5, lineHeight: 1.6, margin: 0, fontWeight: 700 }}>Included on every plan: 50, 100 or 250 questions a month. Need more? 250 more for $15.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="meetings" aria-label="Meetings and booking link" style={{ background: '#f6f7f9', padding: 'clamp(44px,7vw,80px) 20px' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', maxWidth: 800, margin: '0 auto clamp(22px,3.5vw,36px)' }}>
+            <span style={{ display: 'inline-block', color: '#ff6a00', fontWeight: 900, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', marginBottom: 10 }}>Meetings</span>
+            <h2 style={{ color: '#111827', fontSize: 'clamp(26px,3.8vw,42px)', fontWeight: 900, lineHeight: 1.12, margin: '0 0 12px' }}>Book Meetings. Get a YES Back by Text.</h2>
+            <p style={{ color: '#4b5563', fontSize: 'clamp(15px,1.9vw,18px)', lineHeight: 1.7, margin: 0 }}>Estimate walkthroughs, phone calls or video meetings &mdash; your customers pick a day and time from your booking link, or you and your staff set it up for them. FenceBossPro texts them right away and sends reminders before, and when they reply YES or NO the meeting marks itself Confirmed or Can&apos;t make it.</p>
+          </div>
+          <div style={{ background: '#7d838c', borderRadius: 16, padding: 'clamp(14px,2.5vw,24px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 420px), 1fr))', gap: 18, alignItems: 'start' }}>
+            <figure style={{ margin: 0 }}>
+              <figcaption style={{ color: '#ffffff', fontWeight: 700, fontSize: 12, textAlign: 'center', marginBottom: 10, textTransform: 'uppercase', letterSpacing: 1 }}>Your Meetings Page</figcaption>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/meetings-list.webp" width={1200} height={617} loading="lazy" decoding="async" alt="Meetings page: upcoming meetings by day with Confirmed, Waiting on reply and Booked online tags, a Copy booking link button and New Meeting" style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 8, boxShadow: '0 10px 30px rgba(0,0,0,.35)', border: '3px solid #ffffff' }} />
+            </figure>
+            <figure style={{ margin: 0 }}>
+              <figcaption style={{ color: '#ffffff', fontWeight: 700, fontSize: 12, textAlign: 'center', marginBottom: 10, textTransform: 'uppercase', letterSpacing: 1 }}>The Texts They Get</figcaption>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/meetings-alerts.webp" width={1000} height={921} loading="lazy" decoding="async" alt="Meeting Alerts: reminders 1 day and 1 hour before, a Reply YES to confirm option, and the booked text with a live preview" style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 8, boxShadow: '0 10px 30px rgba(0,0,0,.35)', border: '3px solid #ffffff' }} />
+            </figure>
+            <figure style={{ margin: 0, gridColumn: '1 / -1' }}>
+              <figcaption style={{ color: '#ffffff', fontWeight: 700, fontSize: 12, textAlign: 'center', marginBottom: 10, textTransform: 'uppercase', letterSpacing: 1 }}>Turn Each One On or Off Under Alerts</figcaption>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/meetings-toggles.webp" width={1400} height={439} loading="lazy" decoding="async" alt="Alerts page, Client Meeting Alerts: Meeting Booked, Reminder, Moved and Canceled, each with its own Text and Email switch" style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 8, boxShadow: '0 10px 30px rgba(0,0,0,.35)', border: '3px solid #ffffff' }} />
+            </figure>
+          </div>
+          <ul style={{ listStyle: 'none', padding: 0, margin: 'clamp(20px,3vw,30px) auto 0', maxWidth: 1000, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '10px 28px' }}>
+            {[
+              'Customers book themselves from your link',
+              'Or you and your staff book it for them',
+              'In person, phone or video',
+              'Booked, moved and canceled texts',
+              'Reminders whenever you want them',
+              'YES / NO replies confirm on their own',
+              'Assign each meeting to someone on your team',
+              'Turn it on any time in Settings › Add-ons',
+            ].map((t) => (
+              <li key={t} style={{ display: 'flex', gap: 10, color: '#374151', fontSize: 15.5, lineHeight: 1.5 }}><span style={{ color: '#16a34a', fontWeight: 900 }}>✓</span>{t}</li>
+            ))}
+          </ul>
+        </div>
+      </section>
 
       {/* ═══ HERO ═══ */}
       <div className="hero" style={{paddingTop:'60px'}}>
@@ -249,14 +501,14 @@ export default function Home() {
       {/* ═══ PREMIUM BAND ═══ */}
       <div className="premium-band">
         <h2>Affordable Doesn&apos;t Mean Cheap.<br /><span>This Is Enterprise-Level Software.</span></h2>
-        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean fence bid. FenceBossPro does everything the big platforms do &mdash; line-item estimates, materials and parts tracking, project scheduling, crew dispatch, Stripe payments, role-based access, and a mobile app &mdash; built specifically for fence contractors, and priced for the real world. $59 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
+        <p>We charged less because we&apos;ve been the customer. We know what it feels like to pay $600 a month for software that still can&apos;t build a clean fence bid. FenceBossPro does everything the big platforms do &mdash; line-item estimates, materials and parts tracking, project scheduling, crew dispatch, card payments, role-based access, and a mobile app &mdash; built specifically for fence contractors, and priced for the real world. $59 a month isn&apos;t a cheap price. It&apos;s a fair price. The big platforms aren&apos;t charging $500 because they&apos;re better. They&apos;re charging $500 because they can &mdash; and because their customers don&apos;t have a better option. Now you do.</p>
         <div className="premium-grid">
-          <div className="premium-card"><div className="premium-card-icon">📐</div><h4>Line-Item Estimating &amp; Bids</h4><p>Build detailed fence bids from saved line items &mdash; posts, panels, pickets, rails, concrete, gates, and hardware &mdash; with linear-foot takeoffs that price a job in minutes instead of an hour at the kitchen table.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">🧱</div><h4>Materials &amp; Parts Tracking</h4><p>A full parts catalog with your real costs and margins. Every estimate rolls up the exact materials list for the job, so you know what to order and what to load before the crew rolls out.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💬</div><h4>Automated Customer Texts</h4><p>Estimate-sent alerts, follow-up sequences, install reminders, and a two-way texting inbox &mdash; all running on their own so your fence customers always know what&apos;s happening.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">💳</div><h4>Stripe Payments &amp; Deposits</h4><p>Card-on-file storage, collect deposits up front, progress billing on multi-day builds, partial payments, and full payment history. The same billing the big guys use &mdash; included in your $59.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">👑</div><h4>Role-Based Access Control</h4><p>Owner, Manager, Office, Crew Lead, and Mobile roles &mdash; the same granular permissions as platforms charging 5&times; more. Your office sees the books; your crews see only their jobs.</p></div>
-          <div className="premium-card"><div className="premium-card-icon">📱</div><h4>Full Mobile App for Crews</h4><p>Your crews pull up the job, see the materials list, mark phases complete, add photos and notes, and capture sign-off &mdash; all in a mobile view built for someone standing at the fence line.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📐</div><h3>Line-Item Estimating &amp; Bids</h3><p>Build detailed fence bids from saved line items &mdash; posts, panels, pickets, rails, concrete, gates, and hardware &mdash; with linear-foot takeoffs that price a job in minutes instead of an hour at the kitchen table.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">🧱</div><h3>Materials &amp; Parts Tracking</h3><p>A full parts catalog with your real costs and margins. Every estimate rolls up the exact materials list for the job, so you know what to order and what to load before the crew rolls out.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💬</div><h3>Automated Customer Texts</h3><p>Estimate-sent alerts, follow-up sequences, install reminders, and a two-way texting inbox &mdash; all running on their own so your fence customers always know what&apos;s happening.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">💳</div><h3>Card Payments &amp; Deposits</h3><p>Card-on-file storage, collect deposits up front, progress billing on multi-day builds, partial payments, and full payment history. The same billing the big guys use &mdash; included in your $59.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">👑</div><h3>Role-Based Access Control</h3><p>Owner, Manager, Office, Crew Lead, and Mobile roles &mdash; the same granular permissions as platforms charging 5&times; more. Your office sees the books; your crews see only their jobs.</p></div>
+          <div className="premium-card"><div className="premium-card-icon">📱</div><h3>Full Mobile App for Crews</h3><p>Your crews pull up the job, see the materials list, mark phases complete, add photos and notes, and capture sign-off &mdash; all in a mobile view built for someone standing at the fence line.</p></div>
         </div>
       </div>
 
@@ -268,11 +520,24 @@ export default function Home() {
           <p className="section-sub">From the first on-site bid to the final invoice, FenceBossPro covers every part of running a fence and gate business. Dig into each area below.</p>
         </div>
         <div className="feature-grid">
+          <div className="feature-card"><span className="feature-icon">📞</span><h3>AI Receptionist</h3><p>A human-sounding AI answers your phone 24/7, knows your customers, books and reschedules, and takes new leads. 49¢ a minute, only when it answers.</p></div>
+          <div className="feature-card"><span className="feature-icon">📬</span><h3>Neighbor Postcards</h3><p>Every finished job mails your postcard to the closest neighbors, skipping current customers. Design it yourself, set a budget. $1.59 a card, postage included.</p></div>
+          <div className="feature-card"><span className="feature-icon">⭐</span><h3>Tech Reviews &amp; Tips</h3><p>After every job, customers rate the tech who did it and can leave a tip. Every tip is tracked per employee.</p></div>
+          <div className="feature-card"><span className="feature-icon">🎯</span><h3>Crew Bonuses &amp; Splits</h3><p>Set bonus goals by gross, jobs or rating. Give drivers a bigger share. Techs see &ldquo;You&rsquo;re $200 away from your bonus&rdquo; in the crew app.</p></div>
+          <div className="feature-card"><span className="feature-icon">💸</span><h3>One-Click Payroll</h3><p>Hours and overtime from the time clock, plus tips and bonuses, ready for Gusto, QuickBooks, ADP or Paychex. By hand or on a schedule.</p></div>
+          <div className="feature-card"><span className="feature-icon">👋</span><h3>Meet Your Tech</h3><p>Customers see who is coming before the visit, with a photo, star rating, reviews and an &ldquo;about me.&rdquo;</p></div>
+          <div className="feature-card"><span className="feature-icon">🔗</span><h3>Zapier &amp; Make</h3><p>Connect FenceBossPro to thousands of apps like Google Sheets, Mailchimp and Slack with instant webhooks and an API key.</p></div>
+          <div className="feature-card"><span className="feature-icon">📱</span><h3>Social Inbox (Soon)</h3><p>Facebook and Instagram messages, comments and lead forms plus Google reviews in one inbox, and post to all of them plus TikTok. Launching soon.</p></div>
+          <div className="feature-card"><span className="feature-icon">⚡</span><h3>Fast Setup</h3><p>Trucks, crew, products, services, pricing and packages in about 10 minutes. Upload what you already have.</p></div>
+          <div className="feature-card"><span className="feature-icon">🌐</span><h3>Free Website</h3><p>A 200–300 page website built for Google, with a free domain. Every form goes straight into FenceBossPro as a new lead.</p></div>
+          <div className="feature-card"><span className="feature-icon">🎨</span><h3>Make It Yours</h3><p>Pick any colors for your software and choose exactly what shows in your sidebar, in any order.</p></div>
+          <div className="feature-card"><span className="feature-icon">📝</span><h3>Estimates from the Field</h3><p>Techs write and send estimates from the crew app on the spot, even with no signal.</p></div>
+          <div className="feature-card"><span className="feature-icon">🔒</span><h3>Your Data Is Yours</h3><p>Never sold, never shared. Export anytime. Bigger companies get a signed data protection agreement.</p></div>
           <a href="/fencing-software" className="feature-card hub-card"><span className="feature-icon">🛠️</span><h3>Fencing Software</h3><p>The complete all-in-one platform for fence companies &mdash; estimates, materials, scheduling, dispatch, and billing under one roof.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-estimating-software" className="feature-card hub-card"><span className="feature-icon">📐</span><h3>Fence Estimating Software</h3><p>Build line-item bids with linear-foot takeoffs, posts, panels, pickets, rails, concrete, gates, and hardware priced in minutes.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-scheduling-software" className="feature-card hub-card"><span className="feature-icon">📅</span><h3>Fence Scheduling Software</h3><p>Schedule installs and multi-day builds around material delivery, keep the calendar full, and never double-book a crew.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-dispatch-software" className="feature-card hub-card"><span className="feature-icon">🚚</span><h3>Fence Crew &amp; Dispatch Software</h3><p>Dispatch crews, build tight routes between jobs, and give every lead a clear day on the Pending Jobs board from their phone.</p><span className="hub-go">Explore &rarr;</span></a>
-          <a href="/fence-invoicing-software" className="feature-card hub-card"><span className="feature-icon">💳</span><h3>Fence Invoicing &amp; Billing</h3><p>Turn accepted bids into invoices, collect deposits and progress payments, and store cards on file with Stripe.</p><span className="hub-go">Explore &rarr;</span></a>
+          <a href="/fence-invoicing-software" className="feature-card hub-card"><span className="feature-icon">💳</span><h3>Fence Invoicing &amp; Billing</h3><p>Turn accepted bids into invoices, collect deposits and progress payments, and store cards on file.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-business-software" className="feature-card hub-card"><span className="feature-icon">📊</span><h3>Fence Business Software</h3><p>Run the whole operation &mdash; clients, properties, pipeline, reporting, and team management &mdash; from one dashboard.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-contractor-software" className="feature-card hub-card"><span className="feature-icon">👷</span><h3>Fence Contractor Software</h3><p>Built for the way fence contractors actually work &mdash; on-site bids, supplier orders, change orders, and crew coordination.</p><span className="hub-go">Explore &rarr;</span></a>
           <a href="/fence-installation-software" className="feature-card hub-card"><span className="feature-icon">🧱</span><h3>Fence Installation Software</h3><p>Take a job from estimate to scheduled install to final walk &mdash; with the materials list, Pending Jobs board, and customer texts all connected.</p><span className="hub-go">Explore &rarr;</span></a>
@@ -382,7 +647,7 @@ export default function Home() {
           <div className="feature-card"><span className="feature-icon">📅</span><h3>Project Scheduling</h3><p>Schedule single-day repairs and multi-day fence builds around material delivery. See your whole calendar, assign crews, and keep every install on track.</p></div>
           <div className="feature-card"><span className="feature-icon">🚚</span><h3>Crew Dispatch &amp; Routing</h3><p>Assign jobs to crews, order stops to cut drive time, and give every crew lead a clear route and job list for the day &mdash; right on their phone.</p></div>
           <div className="feature-card"><span className="feature-icon">📋</span><h3>The Pending Jobs board</h3><p>Every fence project lives on one board, moving from bid to scheduled to in-progress to complete. Nothing slips through the cracks between the sale and the final walk.</p></div>
-          <div className="feature-card"><span className="feature-icon">💳</span><h3>Invoicing &amp; Stripe Payments</h3><p>Convert accepted bids to invoices, store cards on file, and collect payment through the platform. Track unpaid, partial, paid, and overdue at a glance.</p></div>
+          <div className="feature-card"><span className="feature-icon">💳</span><h3>Invoicing &amp; Card Payments</h3><p>Convert accepted bids to invoices, store cards on file, and collect payment through the platform. Track unpaid, partial, paid, and overdue at a glance.</p></div>
           <div className="feature-card"><span className="feature-icon">💰</span><h3>Deposits &amp; Progress Billing</h3><p>Collect a deposit before you order materials, bill in stages on big multi-day builds, and take the balance at the final walk &mdash; all tracked automatically.</p></div>
           <div className="feature-card"><span className="feature-icon">💬</span><h3>Customer Texts</h3><p>Send and receive texts from fence customers right inside the app. Full conversation history by contact, plus automated bid and install updates &mdash; no more using your personal phone.</p></div>
           <div className="feature-card"><span className="feature-icon">🔔</span><h3>Automated Alerts</h3><p>Auto-text and email customers when a bid is sent, an install is scheduled, or a job is complete. Set it once and let FenceBossPro handle the follow-up.</p></div>
@@ -418,7 +683,7 @@ export default function Home() {
               <li>Materials &amp; Parts Catalog</li>
               <li>Project Scheduling &amp; Pending Jobs Board</li>
               <li>Crew Dispatch &amp; Routing</li>
-              <li>Invoicing, Deposits &amp; Stripe Payments</li>
+              <li>Invoicing, Deposits &amp; Card Payments</li>
               <li>Two-Way Customer Texts &amp; Automated Alerts</li>
               <li>Mobile App for Crews</li>
               <li>500 texts/month included (sent + received, US &amp; Canada)</li>
@@ -430,7 +695,70 @@ export default function Home() {
         <p style={{textAlign:'center', color:'var(--muted)', fontSize:'13px', marginTop:'32px'}}>No contracts. Cancel anytime. No hidden fees &mdash; ever.</p>
       </section>
 
-      <PlanCompare onTrial={(el) => openSignupModal(1, el)} />
+      <section aria-label="Our promise" style={{ background: '#0b0b12', padding: 'clamp(40px,6vw,64px) 20px', textAlign: 'center' }}>
+        <h2 style={{ color: '#fff', fontSize: 'clamp(24px,3.4vw,38px)', fontWeight: 800, lineHeight: 1.2, margin: '0 auto 12px', maxWidth: 900 }}>We give you everything you need to succeed, <span style={{ color: 'var(--orange)' }}>because we want you to win.</span></h2>
+        <p style={{ color: 'rgba(255,255,255,.82)', fontSize: 'clamp(15px,1.8vw,18px)', lineHeight: 1.6, margin: '0 auto', maxWidth: 760 }}>Software, a free website, AI answering, and a real owner who&apos;ll move your data and pick up the phone.</p>
+      </section>
+      <section aria-label="Your data is yours" style={{ background: '#f6f7f9', padding: 'clamp(40px,6vw,70px) 20px' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', textAlign: 'center' }}>
+          <h2 style={{ color: '#111827', fontSize: 'clamp(26px,3.6vw,40px)', fontWeight: 800, lineHeight: 1.15, margin: '0 0 10px' }}>Your data is yours. Period.</h2>
+          <p style={{ color: '#4b5563', fontSize: 'clamp(15px,1.8vw,18px)', lineHeight: 1.6, margin: '0 auto 28px', maxWidth: 720 }}>Moving your business into new software is a big deal. Here is our promise, in writing.</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 14, textAlign: 'left' }}>
+            {[
+              ['\u{1F512}', 'We never sell your data', 'Not your info, not your customers\u2019. Not ever, to anyone.'],
+              ['\u{1F91D}', 'Your customers are yours', 'We never contact, market to, or sell to your customers.'],
+              ['\u{1F6AB}', 'Never used against you', 'We won\u2019t use your data to compete with you or hand it to anyone in your industry.'],
+              ['\u{1F4E4}', 'Take it with you anytime', 'Export your customers, properties, invoices and history whenever you want.'],
+              ['\u{1F5D1}\uFE0F', 'Leave and it\u2019s deleted', 'Cancel and we delete it within 90 days, or sooner if you ask.'],
+              ['\u{1F440}', 'Nobody snoops', 'We only open your account when you ask us for help. Your data never trains AI.'],
+            ].map(([ic, h, t]) => (
+              <div key={h} style={{ background: '#fff', borderRadius: 12, padding: '18px 18px 16px', boxShadow: '0 1px 3px rgba(0,0,0,.07)' }}>
+                <div aria-hidden="true" style={{ fontSize: 24, marginBottom: 6 }}>{ic}</div>
+                <div style={{ fontWeight: 800, fontSize: 16, color: '#111827', marginBottom: 4 }}>{h}</div>
+                <div style={{ fontSize: 14.5, color: '#4b5563', lineHeight: 1.5 }}>{t}</div>
+              </div>
+            ))}
+          </div>
+          <p style={{ color: '#374151', fontSize: 15, margin: '24px 0 0', lineHeight: 1.6 }}>
+            <b>Larger company?</b> We&apos;ll sign a Data Protection Agreement with you, already signed on our side. <a href="mailto:Support@bossprohq.com?subject=Data%20Protection%20Agreement%20request" style={{ color: '#1d4ed8', fontWeight: 700 }}>Request it</a>
+            <span style={{ color: '#6b7280' }}> &middot; <a href="/privacy-policy" style={{ color: '#4b5563' }}>Privacy Policy</a> &middot; <a href="/terms" style={{ color: '#4b5563' }}>Terms</a></span>
+          </p>
+        </div>
+      </section>
+      <section aria-label="Tech reviews, tips and bonuses" style={{ background: '#ffffff', padding: 'clamp(44px,7vw,80px) 20px' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: 'clamp(22px,3.5vw,36px)' }}>
+            <span style={{ display: 'inline-block', background: '#16a34a', color: '#fff', fontWeight: 900, fontSize: 12, letterSpacing: 1.5, borderRadius: 20, padding: '5px 12px', marginBottom: 12 }}>NEW</span>
+            <h2 style={{ color: '#111827', fontSize: 'clamp(26px,3.8vw,42px)', fontWeight: 900, lineHeight: 1.12, margin: '0 0 12px' }}>Tech reviews, tips &amp; crew bonuses</h2>
+            <p style={{ color: '#4b5563', fontSize: 'clamp(15px,1.9vw,19px)', lineHeight: 1.6, margin: '0 auto', maxWidth: 780 }}>Your customers rate the tech who did the job and can leave a tip. Your crew sees their stars, their tips and exactly how close they are to their next bonus. Included on every FenceBossPro plan.</p>
+          </div>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 'clamp(20px,3vw,36px)', alignItems: 'center', justifyContent: 'center' }}>
+          <figure style={{ flex: '0 0 auto', width: 'min(290px, 82vw)', margin: 0, textAlign: 'center' }}>
+            <div style={{ background: '#0b0b0f', borderRadius: 38, padding: 10, boxShadow: '0 24px 60px rgba(15,23,42,.28), 0 0 0 2px #26262c' }}>
+              <img src="/crew-bonus.webp" width={600} height={1055} loading="lazy" decoding="async" alt="Crew app Bonus &amp; Tips screen: the tech's star rating, tips owed, how close they are to their bonus, and what customers said" style={{ display: 'block', width: '100%', height: 'auto', borderRadius: 29 }} />
+            </div>
+            <figcaption style={{ color: '#4b5563', fontSize: 13.5, fontWeight: 600, marginTop: 10 }}>What your tech sees in the crew app</figcaption>
+          </figure>
+          <div style={{ flex: '1 1 520px', minWidth: 0, display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: 14 }}>
+            {[
+              ['\u2B50', 'Customers rate their tech', 'After every job, a text, email or app alert asks \u201cHow did Jake do?\u201d One tap for stars and a comment.'],
+              ['\u{1F49A}', 'Tips go to the crew', 'Customers tip on their card on file or a new card. Every tip is tracked per employee, minus processing.'],
+              ['\u{1F69A}', 'Fair crew splits', 'Set the split per truck, give drivers a bigger share, or change any single job. Drag your crew between trucks.'],
+              ['\u{1F3AF}', 'Bonuses they can see', 'Set goals by gross, jobs or rating. Techs see \u201cYou\u2019re $200 away from your bonus\u201d in the crew app.'],
+              ['\u{1F44B}', 'Meet your tech', 'Customers see who\u2019s coming, with a photo, rating, reviews and an \u201cabout me\u201d before the visit.'],
+              ['\u{1F4B8}', 'Run payroll in one click', 'Hours and overtime from the crew time clock, plus tips and bonuses, ready for Gusto, QuickBooks, ADP or Paychex. By hand or automatically.'],
+            ].map(([ic, h, t]) => (
+              <div key={h} style={{ background: '#f8fafc', border: '1px solid #e5e7eb', borderRadius: 14, padding: '18px 18px 16px' }}>
+                <div aria-hidden="true" style={{ fontSize: 26, marginBottom: 6 }}>{ic}</div>
+                <div style={{ fontWeight: 800, fontSize: 16.5, color: '#111827', marginBottom: 4 }}>{h}</div>
+                <div style={{ fontSize: 14.5, color: '#4b5563', lineHeight: 1.5 }}>{t}</div>
+              </div>
+            ))}
+          </div>
+          </div>
+          <p style={{ textAlign: 'center', color: '#374151', fontSize: 15, margin: '22px 0 0', lineHeight: 1.6 }}>Happy customers can share it on Google or Facebook too, and private feedback comes straight to you.</p>
+        </div>
+      </section>
 
       {/* ═══ SCHEDULING DEEP DIVE ═══ */}
       <section id="scheduling">
@@ -507,53 +835,6 @@ export default function Home() {
                   <span style={{color:'var(--orange)', fontSize:'12px', fontWeight:700}}>1 gate</span>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══ BILLING DEEP DIVE ═══ */}
-      <section id="billing" style={{background:'var(--light-bg)'}}>
-        <div className="highlight-row reverse">
-          <div className="highlight-text">
-            <span className="section-label">Invoicing &amp; Billing</span>
-            <h2>Get Paid Faster. Chase Less.</h2>
-            <p>Build a bid in minutes, text or email it straight from the platform, and let customers accept with a single tap. The moment they accept, collect a deposit, schedule the install, and convert the bid to an invoice &mdash; all without leaving FenceBossPro.</p>
-            <ul className="check-list">
-              <li>Estimate builder with your full fence material catalog and line items</li>
-              <li>Email and text bids with custom branded templates</li>
-              <li>Customer-facing bid page with Accept / Decline buttons</li>
-              <li>Collect deposits up front before you order materials</li>
-              <li>Progress billing in stages on multi-day fence builds</li>
-              <li>Automatic status tracking: Draft &rarr; Sent &rarr; Accepted &rarr; Invoiced</li>
-              <li>Stripe card-on-file for fast, secure payment collection</li>
-              <li>Sales tax management by jurisdiction with tax reports</li>
-              <li>Full payment history with method, date, and reference tracking</li>
-            </ul>
-          </div>
-          <div className="highlight-visual">
-            <div style={{color:'rgba(255,255,255,.5)', fontSize:'11px', textTransform:'uppercase', letterSpacing:'1px', marginBottom:'14px'}}>Bid #0042 &mdash; Pending Acceptance</div>
-            <div style={{background:'rgba(255,255,255,.07)', borderRadius:'8px', padding:'14px 16px', marginBottom:'10px'}}>
-              <div style={{color:'rgba(255,255,255,.6)', fontSize:'12px', marginBottom:'6px'}}>Line Items</div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Vinyl Privacy (120 linear ft)</span><span>$5,400.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>4 ft Walk Gate + Hardware</span><span>$420.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.85)', fontSize:'13px', padding:'4px 0', borderBottom:'1px solid rgba(255,255,255,.08)'}}>
-                <span>Old Fence Tear-Out</span><span>$600.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'#fff', fontSize:'14px', fontWeight:700, paddingTop:'8px', marginTop:'4px'}}>
-                <span>Total</span><span style={{color:'var(--orange)'}}>$6,420.00</span>
-              </div>
-              <div style={{display:'flex', justifyContent:'space-between', color:'rgba(255,255,255,.6)', fontSize:'12px', paddingTop:'6px'}}>
-                <span>Deposit Due (30%)</span><span>$1,926.00</span>
-              </div>
-            </div>
-            <div style={{display:'flex', gap:'8px', marginTop:'4px'}}>
-              <div style={{flex:1, background:'#16a34a', borderRadius:'6px', padding:'10px', textAlign:'center', color:'#fff', fontSize:'13px', fontWeight:700}}>✓ Accept</div>
-              <div style={{flex:1, background:'rgba(255,255,255,.08)', borderRadius:'6px', padding:'10px', textAlign:'center', color:'rgba(255,255,255,.5)', fontSize:'13px'}}>✕ Decline</div>
             </div>
           </div>
         </div>
