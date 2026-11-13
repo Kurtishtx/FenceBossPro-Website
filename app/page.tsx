@@ -332,6 +332,7 @@ export default function Home() {
           </div>
           <h2 className="ai-h">Every finished job mails <b>your neighbors</b></h2>
           <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>$1.59 a postcard, printing and postage included. No monthly fee.</p>
+          <p className="ai-p" style={{ marginTop: -6 }}>Mailed within 1&ndash;2 business days of the job, First Class. Usually arrives 5&ndash;10 business days after that.</p>
           <p className="ai-p">When your crew finishes a job, FenceBossPro automatically mails your postcard to the closest homes on that street &mdash; 5, 10, 20 or as many as you want &mdash; and skips anyone who&apos;s already your customer. Pick a template or make it 100% your own with the drag-and-drop designer, set a monthly budget, and see every card that went out. Or pick properties on your list and mail around all of them at once.</p>
           <div className="ai-chips">
             <span className="ai-chip">&#128236; Mails after every job</span>
@@ -521,7 +522,7 @@ export default function Home() {
         </div>
         <div className="feature-grid">
           <div className="feature-card"><span className="feature-icon">📞</span><h3>AI Receptionist</h3><p>A human-sounding AI answers your phone 24/7, knows your customers, books and reschedules, and takes new leads. 49¢ a minute, only when it answers.</p></div>
-          <div className="feature-card"><span className="feature-icon">📬</span><h3>Neighbor Postcards</h3><p>Every finished job mails your postcard to the closest neighbors, skipping current customers. Design it yourself, set a budget. $1.59 a card, postage included.</p></div>
+          <div className="feature-card"><span className="feature-icon">📬</span><h3>Neighbor Postcards</h3><p>Every finished job mails your postcard to the closest neighbors, skipping current customers. Design it yourself, set a budget. $1.59 a card, First Class postage included.</p></div>
           <div className="feature-card"><span className="feature-icon">⭐</span><h3>Tech Reviews &amp; Tips</h3><p>After every job, customers rate the tech who did it and can leave a tip. Every tip is tracked per employee.</p></div>
           <div className="feature-card"><span className="feature-icon">🎯</span><h3>Crew Bonuses &amp; Splits</h3><p>Set bonus goals by gross, jobs or rating. Give drivers a bigger share. Techs see &ldquo;You&rsquo;re $200 away from your bonus&rdquo; in the crew app.</p></div>
           <div className="feature-card"><span className="feature-icon">💸</span><h3>One-Click Payroll</h3><p>Hours and overtime from the time clock, plus tips and bonuses, ready for Gusto, QuickBooks, ADP or Paychex. By hand or on a schedule.</p></div>
