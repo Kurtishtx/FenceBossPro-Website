@@ -345,6 +345,25 @@ export default function Home() {
         </div>
         <div className="ai-card" style={{ gridColumn: '1 / -1' }}>
           <div className="ai-top">
+            <span className="ai-star" aria-hidden="true">&#129534;</span>
+            <span className="ai-tag">Costs &amp; Receipts</span>
+            <span className="ai-soon">New &middot; Included</span>
+          </div>
+          <h2 className="ai-h">Snap a receipt. <b>See where the money goes.</b></h2>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Included on every plan. Each AI receipt read uses 1 AI question from your plan.</p>
+          <p className="ai-p">In the FenceBossPro crew app, your techs tap Menu &gt; Receipts and take a picture. AI reads the amount, store and date and picks the cost type, then they pick the truck and the job. No signal? It saves on the phone and uploads later. In the office, Costs &amp; Receipts adds it all up by type, truck, employee, job and month for any dates. Make your own cost types like Gas, Parts, Supplies and Repairs, add costs with no receipt like insurance or software, and export it for your bookkeeper. Receipts tied to a job count as materials in job costing, so every job shows its real profit.</p>
+          <div className="ai-chips">
+            <span className="ai-chip">&#128248; Snap a receipt</span>
+            <span className="ai-chip">&#129302; AI fills it in</span>
+            <span className="ai-chip">&#127991;&#65039; Your own cost types</span>
+            <span className="ai-chip">&#128666; By truck &amp; job</span>
+            <span className="ai-chip">&#128202; Totals by type &amp; month</span>
+            <span className="ai-chip">&#128246; Works offline</span>
+            <span className="ai-chip">&#128176; Real profit per job</span>
+          </div>
+        </div>
+        <div className="ai-card" style={{ gridColumn: '1 / -1' }}>
+          <div className="ai-top">
             <span className="ai-star" aria-hidden="true">&#127760;</span>
             <span className="ai-tag">Free Website</span>
             <span className="ai-soon">Included</span>
@@ -523,6 +542,7 @@ export default function Home() {
         <div className="feature-grid">
           <div className="feature-card"><span className="feature-icon">📞</span><h3>AI Receptionist</h3><p>A human-sounding AI answers your phone 24/7, knows your customers, books and reschedules, and takes new leads. 49¢ a minute, only when it answers.</p></div>
           <div className="feature-card"><span className="feature-icon">📬</span><h3>Neighbor Postcards</h3><p>Every finished job mails your postcard to the closest neighbors, skipping current customers. Design it yourself, set a budget. $1.59 a card, First Class postage included.</p></div>
+          <div className="feature-card"><span className="feature-icon">🧾</span><h3>Costs &amp; Receipts</h3><p>Crews snap receipts in the app and AI fills in the amount, store and date. Job receipts count in job costing, so you see real profit.</p></div>
           <div className="feature-card"><span className="feature-icon">⭐</span><h3>Tech Reviews &amp; Tips</h3><p>After every job, customers rate the tech who did it and can leave a tip. Every tip is tracked per employee.</p></div>
           <div className="feature-card"><span className="feature-icon">🎯</span><h3>Crew Bonuses &amp; Splits</h3><p>Set bonus goals by gross, jobs or rating. Give drivers a bigger share. Techs see &ldquo;You&rsquo;re $200 away from your bonus&rdquo; in the crew app.</p></div>
           <div className="feature-card"><span className="feature-icon">💸</span><h3>One-Click Payroll</h3><p>Hours and overtime from the time clock, plus tips and bonuses, ready for Gusto, QuickBooks, ADP or Paychex. By hand or on a schedule.</p></div>
