@@ -312,7 +312,7 @@ export default function Home() {
             <span className="ai-soon">Included on every plan</span>
           </div>
           <h2 className="ai-h">An AI office assistant that <b>does the work</b></h2>
-          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Included on every plan &mdash; see the plans below for how many questions each one comes with.</p>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Included on every plan &mdash; see the plans below for how many AI tokens each one comes with.</p>
           <p className="ai-p">Just tell it what to do &mdash; like you&apos;d tell your office manager. It&apos;s built into FenceBossPro, so it knows your customers, your schedule and your money. It schedules and moves visits, adds plans at your price-table prices, texts customers, sends invoices and card forms, runs reports like your sales tax, and opens any page you ask for. It shows you every change first, and nothing happens until you press Confirm.</p>
           <div className="ai-chips">
             <span className="ai-chip">&#128197; Schedules &amp; moves visits</span>
@@ -453,7 +453,7 @@ export default function Home() {
               ))}
             </ul>
             <p style={{ color: '#4b5563', fontSize: 15, lineHeight: 1.6, margin: '0 0 12px' }}>It shows you every change first. Nothing happens until you press <b>Confirm</b>.</p>
-            <p style={{ color: '#111827', fontSize: 15.5, lineHeight: 1.6, margin: 0, fontWeight: 700 }}>Included on every plan: 50, 100 or 250 questions a month. Need more? 250 more for $15.</p>
+            <p style={{ color: '#111827', fontSize: 15.5, lineHeight: 1.6, margin: 0, fontWeight: 700 }}>Included on every plan: 50, 100 or 250 AI tokens a month. More any time: 250 for $25.</p>
           </div>
         </div>
       </section>
