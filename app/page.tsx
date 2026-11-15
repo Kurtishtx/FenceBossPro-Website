@@ -350,9 +350,10 @@ export default function Home() {
             <span className="ai-soon">New &middot; Included</span>
           </div>
           <h2 className="ai-h">Snap a receipt. <b>See where the money goes.</b></h2>
-          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Included on every plan. Each AI receipt read uses 1 AI question from your plan.</p>
+          <p className="ai-p ai-vol" style={{ fontWeight: 700, marginTop: 4 }}>Keeps track of all your costs. Included on every plan.</p>
           <p className="ai-p">In the FenceBossPro crew app, your techs tap Menu &gt; Receipts and take a picture. AI reads the amount, store and date and picks the cost type, then they pick the truck and the job. No signal? It saves on the phone and uploads later. In the office, Costs &amp; Receipts adds it all up by type, truck, employee, job and month for any dates. Make your own cost types like Gas, Parts, Supplies and Repairs, add costs with no receipt like insurance or software, and export it for your bookkeeper. Receipts tied to a job count as materials in job costing, so every job shows its real profit.</p>
           <div className="ai-chips">
+            <span className="ai-chip">&#128181; Tracks every cost</span>
             <span className="ai-chip">&#128248; Snap a receipt</span>
             <span className="ai-chip">&#129302; AI fills it in</span>
             <span className="ai-chip">&#127991;&#65039; Your own cost types</span>
