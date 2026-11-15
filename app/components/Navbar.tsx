@@ -33,6 +33,8 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
     <>
       <nav className="navbar">
         <div className="navbar-inner">
+          {/* Desktop: two rows like SprayBossPro (owner 11/15). Row 1 = name + Log In + phone. */}
+          <div className="navbar-top">
           <div className="navbar-brand">
             <a href="/" style={{textDecoration:'none', display:'flex', alignItems:'center', gap:'8px'}}>
               {/* The BossPro crown in FenceBossPro's own colours, rather than a stock emoji. */}
@@ -40,6 +42,28 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
               <span className="navbar-name">FenceBossPro</span>
             </a>
           </div>
+            <div className="navbar-util">
+            <a href="https://my.fencebosspro.com" target="_blank" rel="noreferrer" className="navbar-login">Log In</a>
+            <a href="tel:+16827273802" className="navbar-phone" title="Call us">📞 Call (682) 727-3802</a>
+            </div>
+          {/* Live Demo — mobile only, sits in the bar next to the hamburger */}
+          <a
+            href="https://my.fencebosspro.com/demo.html"
+            className="nav-demo-mobile"
+          >
+            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#4ade80', boxShadow: '0 0 0 3px rgba(74,222,128,.22)', flexShrink: 0 }} />
+            Live Demo
+          </a>
+
+          {/* Hamburger — mobile only */}
+          <button className="nav-hamburger" onClick={() => toggleMenu(!open)} aria-label="Menu">
+            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'transform .2s', transform: open ? 'rotate(45deg) translate(5px,5px)' : 'none'}}></span>
+            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'opacity .2s', opacity: open ? 0 : 1}}></span>
+            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', transition:'transform .2s', transform: open ? 'rotate(-45deg) translate(5px,-5px)' : 'none'}}></span>
+          </button>
+          </div>
+          {/* Row 2 (desktop only): pages on the left, demo + trial on the right */}
+          <div className="navbar-row2">
           <div className="navbar-links">
             <div className="nav-dropdown">
               <span className="nav-dropdown-trigger">Solutions ▾</span>
@@ -63,8 +87,8 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
             </div>
             <a href="/features">Features</a>
             <a href="/pricing">Pricing</a>
-            <a href="tel:+16827273802" style={{display:'inline-flex', alignItems:'center', gap:'6px', color:'#fff', textDecoration:'none', fontWeight:800, fontSize:'14px', whiteSpace:'nowrap'}} title="Call us">📞 Call (682) 727-3802</a>
-            <a href="https://my.fencebosspro.com" target="_blank" rel="noreferrer">Log In</a>
+          </div>
+          <div className="navbar-links navbar-actions">
             <a href="https://my.fencebosspro.com/demo.html" className="navbar-demo" style={{display:'inline-flex', alignItems:'center', gap:'7px', border:'1.5px solid rgba(255,255,255,.35)', borderRadius:'6px', padding:'9px 16px', fontSize:'14px', fontWeight:700, color:'#fff', textDecoration:'none', whiteSpace:'nowrap'}}>
               <span style={{width:'7px', height:'7px', borderRadius:'50%', background:'#4ade80', boxShadow:'0 0 0 3px rgba(74,222,128,.22)'}} />
               Live Demo
@@ -77,21 +101,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
               Start Free Trial
             </button>
           </div>
-          {/* Live Demo — mobile only, sits in the bar next to the hamburger */}
-          <a
-            href="https://my.fencebosspro.com/demo.html"
-            className="nav-demo-mobile"
-          >
-            <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#4ade80', boxShadow: '0 0 0 3px rgba(74,222,128,.22)', flexShrink: 0 }} />
-            Live Demo
-          </a>
-
-          {/* Hamburger — mobile only */}
-          <button className="nav-hamburger" onClick={() => toggleMenu(!open)} aria-label="Menu">
-            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'transform .2s', transform: open ? 'rotate(45deg) translate(5px,5px)' : 'none'}}></span>
-            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', marginBottom:'5px', transition:'opacity .2s', opacity: open ? 0 : 1}}></span>
-            <span style={{display:'block', width:'22px', height:'2px', background:'#fff', transition:'transform .2s', transform: open ? 'rotate(-45deg) translate(5px,-5px)' : 'none'}}></span>
-          </button>
+          </div>
         </div>
       </nav>
 
