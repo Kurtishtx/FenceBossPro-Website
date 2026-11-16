@@ -256,7 +256,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   const lm = new Date('2026-06-28');
   entries.push({ url: BASE, lastModified: lm, changeFrequency: 'weekly', priority: 1 });
-  for (const p of ['/features','/pricing','/blogs']) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.9 });
+  for (const p of ['/features','/pricing','/videos','/blogs']) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.9 });
   for (const p of hubPages) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.9 });
   for (const p of canadaPages) entries.push({ url: `${BASE}${p}`, lastModified: new Date('2026-09-06'), changeFrequency: 'monthly', priority: 0.9 });
   for (const p of vsPages) entries.push({ url: `${BASE}${p}`, lastModified: lm, changeFrequency: 'monthly', priority: 0.8 });

@@ -87,6 +87,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
             </div>
             <a href="/features">Features</a>
             <a href="/pricing">Pricing</a>
+            <a href="/videos">Videos</a>
           </div>
           <div className="navbar-links navbar-actions">
             <a href="https://my.fencebosspro.com/demo.html" className="navbar-demo" style={{display:'inline-flex', alignItems:'center', gap:'7px', border:'1.5px solid rgba(255,255,255,.35)', borderRadius:'6px', padding:'9px 16px', fontSize:'14px', fontWeight:700, color:'#fff', textDecoration:'none', whiteSpace:'nowrap'}}>
@@ -127,6 +128,7 @@ export default function Navbar({ onTrialClick }: { onTrialClick: (el: HTMLElemen
           </div>
           <a href="/features" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Features</a>
           <a href="/pricing" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Pricing</a>
+          <a href="/videos" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Videos</a>
           <a href="https://my.fencebosspro.com" target="_blank" rel="noreferrer" className="nav-mobile-link" onClick={() => toggleMenu(false)}>Log In</a>
           <a href="https://my.fencebosspro.com/demo.html" className="nav-mobile-link" onClick={() => toggleMenu(false)}>▶ Try the Live Demo — no signup</a>
           <button
