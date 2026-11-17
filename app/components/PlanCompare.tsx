@@ -8,9 +8,8 @@
  * Three plans, compared side by side.
  *
  * The point of the table is that a solo operator can see a door in at $59 without the $199 plan
- * looking padded — so what Start LACKS is shown, greyed and struck, rather than hidden. Someone
- * comparing wants to know what they give up, and a feature list that only ever says "yes" reads
- * as marketing.
+ * looking padded — every feature is on every plan (owner decision 2026-11-16), so the columns
+ * differ only in the size rows at the top: users, trucks, texts and auto-routes.
  *
  * Only OUTBOUND is metered. Inbound replies cost us a fraction of a cent and are the whole
  * point of the product - charging for them would train people not to use it. Extra blocks are
@@ -41,7 +40,7 @@ const PLANS = [
  *
  *   1. the numbers — what each plan lets you have
  *   2. everything on ALL THREE plans — Start's column is an unbroken run of ticks
- *   3. everything Solo and up — an unbroken run of dashes beneath it
+ *   3. the rows that were Pro-and-up until 2026-11-16 - every plan has every feature now
  *
  * A reader can then see where Start stops by looking for the line, instead of tracking a
  * checkerboard down twenty rows. */
@@ -120,12 +119,12 @@ const ROWS: { label: string; note?: string; cells: [Cell, Cell, Cell] }[] = [
   { label: '"On the way" text', note: 'Your crew sends it from the truck when the customer is next up',
                                                      cells: [true, true, true] },
 
-  /* ── Solo and up ── */
-  { label: 'Reply back to customers',                cells: [false, true, true] },
+  /* ── Also on every plan: these were Pro-and-up until 2026-11-16, when every feature went on every plan ── */
+  { label: 'Reply back to customers',                cells: [true, true, true] },
   { label: 'All other automated alerts', note: 'Arrived, completed, follow-up, review request and the rest',
-                                                     cells: [false, true, true] },
-  { label: 'Automated invoice sending',              cells: [false, true, true] },
-  { label: 'Automatic card charging',                cells: [false, true, true] },
+                                                     cells: [true, true, true] },
+  { label: 'Automated invoice sending',              cells: [true, true, true] },
+  { label: 'Automatic card charging',                cells: [true, true, true] },
 
 ];
 
@@ -201,8 +200,7 @@ export default function PlanCompare({ onTrial }: { onTrial?: (el: HTMLElement) =
             Pick the size you actually are
           </h2>
           <p style={{ color: 'var(--muted)', fontSize: 16, maxWidth: 620, margin: '0 auto', lineHeight: 1.6 }}>
-            Every plan is the same software. The bigger plans lift the limits and turn on the
-            automation — you are never paying for seats you do not have.
+            Every plan includes every feature. Pick the size that fits: plans differ only in office users, trucks, and monthly texts and auto-routes.
           </p>
         </div>
 
