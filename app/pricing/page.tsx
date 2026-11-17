@@ -1,4 +1,5 @@
 'use client';
+import { PromoCodeField, promoCodeFor, promoAfterSignup } from '../components/promo';
 import { useEffect } from 'react';
 import PlanCompare from '../components/PlanCompare';
 import Navbar from '../components/Navbar';
@@ -87,9 +88,9 @@ async function sbpCreateAccount(n: number) {
     const res = await fetch(SBP_URL + '/functions/v1/manage-users', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON, 'apikey': SBP_ANON },
-      body: JSON.stringify({ action: 'create', email, password }),
+      body: JSON.stringify({ action: 'create', email, password, promo_code: promoCodeFor(n) }),
     });
-    const result = await res.json();
+    const result = await res.json(); promoAfterSignup(n, result);
     if (result.error) throw new Error(result.error);
     const sb = getSbpClient();
     const { data: signInData, error: signInErr } = await sb.auth.signInWithPassword({ email, password });
@@ -301,6 +302,7 @@ export default function Pricing() {
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Login Email</label><input id="sbp1-login-email" type="email" readOnly style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',background:'#f8f8f8',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp1-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp1-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
+          <PromoCodeField n={1} />
           <div style={{marginBottom:'18px',display:'flex',alignItems:'flex-start',gap:'10px'}}>
             <input type="checkbox" id="sbp1-agree" style={{width:'16px',height:'16px',accentColor:'#2b6ca3',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
             <label htmlFor="sbp1-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://fencebosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#2b6ca3'}}>Terms of Service</a> and <a href="https://fencebosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#2b6ca3'}}>Privacy Policy</a></label>
@@ -339,6 +341,7 @@ export default function Pricing() {
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Login Email</label><input id="sbp2-login-email" type="email" readOnly style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',background:'#f8f8f8',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Password</label><input id="sbp2-password" type="password" placeholder="At least 8 characters" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
           <div style={{marginBottom:'14px'}}><label style={{fontSize:'11px',fontWeight:700,color:'#555',textTransform:'uppercase',letterSpacing:'.5px',display:'block',marginBottom:'5px'}}>Confirm Password</label><input id="sbp2-confirm" type="password" placeholder="Repeat password" style={{width:'100%',border:'1px solid #ddd',borderRadius:'6px',padding:'10px 12px',fontSize:'14px',fontFamily:'inherit',color:'#333'}} /></div>
+          <PromoCodeField n={2} />
           <div style={{marginBottom:'18px',display:'flex',alignItems:'flex-start',gap:'10px'}}>
             <input type="checkbox" id="sbp2-agree" style={{width:'16px',height:'16px',accentColor:'#2b6ca3',cursor:'pointer',flexShrink:0,marginTop:'3px'}} />
             <label htmlFor="sbp2-agree" style={{fontSize:'13px',color:'#555',cursor:'pointer',lineHeight:1.5}}>I agree to the <a href="https://fencebosspro.com/terms" target="_blank" rel="noreferrer" style={{color:'#2b6ca3'}}>Terms of Service</a> and <a href="https://fencebosspro.com/privacy-policy" target="_blank" rel="noreferrer" style={{color:'#2b6ca3'}}>Privacy Policy</a></label>

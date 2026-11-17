@@ -1,4 +1,5 @@
 'use client';
+import { PromoCodeField, promoCodeFor, promoAfterSignup } from '../components/promo';
 import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 
@@ -88,9 +89,9 @@ async function sbpCreateAccount(n: number) {
     const res = await fetch(SBP_URL + '/functions/v1/manage-users', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + SBP_ANON, 'apikey': SBP_ANON },
-      body: JSON.stringify({ action: 'create', email, password }),
+      body: JSON.stringify({ action: 'create', email, password, promo_code: promoCodeFor(n) }),
     });
-    const result = await res.json();
+    const result = await res.json(); promoAfterSignup(n, result);
     if (result.error) throw new Error(result.error);
     const sb = getSbpClient();
     const { data: signInData, error: signInErr } = await sb.auth.signInWithPassword({ email, password });
@@ -178,6 +179,7 @@ function SignupForm({ n }: { n: number }) {
           <label className="sbp-label">Confirm Password</label>
           <input id={`sbp${n}-confirm`} type="password" placeholder="Repeat password" className="sbp-input" />
         </div>
+        <PromoCodeField n={n} />
         <div className="sbp-agree-row">
           <input type="checkbox" id={`sbp${n}-agree`} className="sbp-agree-check" />
           <label htmlFor={`sbp${n}-agree`} className="sbp-agree-label">
