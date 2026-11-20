@@ -28,7 +28,10 @@ export function prefillCode(): string {
     if (q) return q.trim().toUpperCase().slice(0, 20);
   } catch { /* ignore */ }
   const saved = (lsGet(LS_CODE) || '').toUpperCase();
-  return CODE_RE.test(saved) ? saved : '';
+  if (CODE_RE.test(saved)) return saved;
+  // Group code (GROUP3) remembered by PageBeacon from an earlier page of this visit.
+  const group = (lsGet('sbp_group_code') || '').toUpperCase();
+  return /^GROUP\d+$/.test(group) ? group : '';
 }
 
 // Fill every code box on the page (the popup's "Start your free trial" uses this).

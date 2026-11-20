@@ -19,10 +19,21 @@ function readNoTrack(): boolean {
   } catch { return false; }
 }
 
+// Remember a group offer code (?code=GROUP3 from the Facebook group posts) for the whole visit, so a
+// visitor who lands on /pricing?code=GROUP3 and signs up from another page still gets it.
+const GROUP_CODE_KEY = 'sbp_group_code';
+function rememberGroupCode() {
+  try {
+    const q = (new URLSearchParams(window.location.search).get('code') || '').trim();
+    if (/^GROUP\d+$/i.test(q)) localStorage.setItem(GROUP_CODE_KEY, q.toUpperCase());
+  } catch { /* storage blocked - ignore */ }
+}
+
 export default function PageBeacon() {
   const pathname = usePathname();
   const lastSent = useRef<string | null>(null);
   useEffect(() => {
+    rememberGroupCode();
     if (lastSent.current === pathname) return;
     lastSent.current = pathname;
     try {
